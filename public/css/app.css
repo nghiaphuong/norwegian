@@ -502,3 +502,13 @@ button.sym { color: var(--accent); }
 .toast.ok { background: var(--ok); color: #fff; } .toast.bad { background: var(--bad); color: #fff; }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+/* ===== Chuyển ngôn ngữ ===== */
+.lang-switch { padding: 2px; border-radius: 9px; flex-wrap: nowrap; }
+.lang-switch button { padding: 3px 8px; font-size: .74rem; font-weight: 700; letter-spacing: .03em; border-radius: 7px; }
+.side-lang { padding: 0 10px 8px; }
+.top-stats .lang-switch { margin-right: 2px; }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .side-lang { padding: 0 0 8px; display: flex; justify-content: center; }
+  .side-lang .lang-switch { flex-direction: column; }
+}

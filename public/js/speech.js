@@ -1,5 +1,6 @@
 // Đọc thành tiếng (Web Speech API) và nhận dạng giọng nói tiếng Na Uy.
 import { store } from './store.js';
+import { t } from './i18n.js';
 
 const synth = window.speechSynthesis || null;
 let voices = [];
@@ -100,10 +101,10 @@ export const stt = {
   abort() { if (active) { try { active.abort(); } catch (e) { /* */ } } },
   errorText(err) {
     const m = err?.message;
-    if (m === 'unsupported') return 'Trình duyệt chưa hỗ trợ nhận dạng giọng nói. Dùng Chrome hoặc Edge trên máy tính, Chrome trên Android, hoặc Safari trên iPhone.';
-    if (m === 'not-allowed' || m === 'service-not-allowed') return 'Trang chưa được phép dùng micro. Hãy cho phép micro trong trình duyệt.';
-    if (m === 'no-speech') return 'Chưa nghe thấy gì. Bấm micro và nói to, rõ hơn nhé.';
+    if (m === 'unsupported') return t('Trình duyệt chưa hỗ trợ nhận dạng giọng nói. Dùng Chrome hoặc Edge trên máy tính, Chrome trên Android, hoặc Safari trên iPhone.');
+    if (m === 'not-allowed' || m === 'service-not-allowed') return t('Trang chưa được phép dùng micro. Hãy cho phép micro trong trình duyệt.');
+    if (m === 'no-speech') return t('Chưa nghe thấy gì. Bấm micro và nói to, rõ hơn nhé.');
     if (m === 'aborted') return '';
-    return 'Không nhận dạng được lần này, thử lại sau giây lát.';
+    return t('Không nhận dạng được lần này, thử lại sau giây lát.');
   },
 };

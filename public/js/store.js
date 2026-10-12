@@ -8,7 +8,7 @@ function fresh() {
   return {
     v: 1,
     updatedAt: 0,
-    settings: { dailyGoal: 30, rate: 0.9, voice: '', theme: 'auto', sfx: true, autoplay: true, unlockAll: false, showRail: true },
+    settings: { lang: 'en', dailyGoal: 30, rate: 0.9, voice: '', theme: 'auto', sfx: true, autoplay: true, unlockAll: false, showRail: true },
     xpByDay: {},          // { 'YYYY-MM-DD': xp }
     frozen: [],           // các ngày được "đóng băng chuỗi"
     freezes: 1,           // số lượt đóng băng còn lại (tối đa 2)
@@ -96,7 +96,7 @@ export const store = {
     if (!this.user) return;
     try { await api('/state', { method: 'PUT', body: { state: this.s } }); this.lastSync = Date.now(); } catch (e) { console.warn('push', e.message); }
   },
-  reset() { this.s = fresh(); this.save(); },
+  reset() { const l = this.s.settings.lang; this.s = fresh(); this.s.settings.lang = l || 'en'; this.save(); },
   replace(s) { this.s = merge(fresh(), s); this.save(); },
 
   // ---------- XP & chuỗi ngày ----------
@@ -144,7 +144,7 @@ export const store = {
   addCard(item, src = '') {
     const id = this.cardId(item.no);
     if (!id || this.s.cards[id]) return false;
-    this.s.cards[id] = { no: item.no, vi: item.vi || '', pos: item.pos || '', g: item.g || '', src, due: Date.now(), ivl: 0, ease: 2.5, reps: 0, lapses: 0, added: Date.now(), upd: Date.now() };
+    this.s.cards[id] = { no: item.no, vi: item.vi || '', en: item.en || '', pos: item.pos || '', g: item.g || '', src, due: Date.now(), ivl: 0, ease: 2.5, reps: 0, lapses: 0, added: Date.now(), upd: Date.now() };
     this.s.stats.words = Object.keys(this.s.cards).length;
     return true;
   },
@@ -169,7 +169,7 @@ export const store = {
   // ---------- Lỗi sai ----------
   addMistake(item) {
     const k = item.no;
-    const m = this.s.mistakes[k] || { no: item.no, vi: item.vi, n: 0 };
+    const m = this.s.mistakes[k] || { no: item.no, vi: item.vi || '', en: item.en || '', n: 0 };
     m.n++; m.at = Date.now();
     this.s.mistakes[k] = m;
   },

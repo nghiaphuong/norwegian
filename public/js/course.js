@@ -9,7 +9,7 @@ export async function getCourse() {
   const flat = [];
   c.units.forEach((u, ui) => {
     u.lessons.forEach((l, li) => flat.push({ ...l, unit: u, ui, li }));
-    flat.push({ id: `${u.id}-check`, title: 'Kiểm tra chương', checkpoint: true, unit: u, ui, li: u.lessons.length, vocab: u.lessons.flatMap(l => l.vocab), sentences: u.lessons.flatMap(l => l.sentences) });
+    flat.push({ id: `${u.id}-check`, title: 'Kiểm tra chương', title_en: 'Unit checkpoint', checkpoint: true, unit: u, ui, li: u.lessons.length, vocab: u.lessons.flatMap(l => l.vocab), sentences: u.lessons.flatMap(l => l.sentences) });
   });
   cache = { ...c, flat, byId: Object.fromEntries(flat.map(l => [l.id, l])) };
   return cache;

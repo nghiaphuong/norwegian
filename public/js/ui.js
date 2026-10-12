@@ -1,4 +1,5 @@
 // Tiện ích giao diện dùng chung.
+import { t, lang } from './i18n.js';
 export const $ = (sel, root = document) => root.querySelector(sel);
 export const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 export function esc(s) {
@@ -24,13 +25,13 @@ export const asciiNo = s => normNo(s).replace(/æ/g, 'ae').replace(/ø/g, 'o').r
 export async function api(path, opts = {}) {
   const r = await fetch(`/api${path}`, {
     method: opts.method || (opts.body ? 'POST' : 'GET'),
-    headers: opts.body ? { 'Content-Type': 'application/json' } : {},
+    headers: { 'X-Lang': lang(), ...(opts.body ? { 'Content-Type': 'application/json' } : {}) },
     body: opts.body ? JSON.stringify(opts.body) : undefined,
     credentials: 'same-origin',
   });
   let d = {};
   try { d = await r.json(); } catch (e) { /* không phải JSON */ }
-  if (!r.ok) { const err = new Error(d.error || `Lỗi ${r.status}`); err.status = r.status; throw err; }
+  if (!r.ok) { const err = new Error(d.error || `${t('Lỗi')} ${r.status}`); err.status = r.status; throw err; }
   return d;
 }
 
@@ -51,7 +52,7 @@ export function toast(msg, kind = '') {
 
 export function modal(html, { onMount, wide } = {}) {
   const root = $('#modal');
-  root.innerHTML = `<div class="modal-back" data-close></div><div class="modal-card ${wide ? 'wide' : ''}" role="dialog" aria-modal="true"><button class="icon-btn modal-x" data-close aria-label="Đóng">${ICON.x}</button>${html}</div>`;
+  root.innerHTML = `<div class="modal-back" data-close></div><div class="modal-card ${wide ? 'wide' : ''}" role="dialog" aria-modal="true"><button class="icon-btn modal-x" data-close aria-label="${t('Đóng')}">${ICON.x}</button>${html}</div>`;
   root.hidden = false;
   document.body.classList.add('no-scroll');
   const close = () => { root.hidden = true; root.innerHTML = ''; document.body.classList.remove('no-scroll'); document.removeEventListener('keydown', onKey); };

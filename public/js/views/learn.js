@@ -5,9 +5,10 @@ import { go, showNewBadges } from '../app.js';
 import { getCourse, isDone, vocabPool } from '../course.js';
 import { buildExercises, runPlayer } from '../engine.js';
 import { stt } from '../speech.js';
+import { t, L } from '../i18n.js';
 
 function emptyScreen(main, msg) {
-  main.innerHTML = `<div class="player"><div class="done-screen"><div class="big">🌿</div><h2>${msg}</h2><a class="btn primary" href="#/">Về trang chủ</a></div></div>`;
+  main.innerHTML = `<div class="player"><div class="done-screen"><div class="big">🌿</div><h2>${msg}</h2><a class="btn primary" href="#/">${t('Về trang chủ')}</a></div></div>`;
 }
 
 export async function render(main, params) {
@@ -20,30 +21,30 @@ export async function render(main, params) {
 
   if (kind === 'mistakes') {
     const items = Object.values(store.s.mistakes).sort((a, b) => b.n - a.n).slice(0, 12);
-    if (!items.length) return emptyScreen(main, 'Không có lỗi sai nào cần luyện. Tuyệt!');
+    if (!items.length) return emptyScreen(main, t('Không có lỗi sai nào cần luyện. Tuyệt!'));
     const words = items.filter(i => i.no.split(' ').length <= 2);
     const sents = items.filter(i => i.no.split(' ').length > 2);
     exercises = buildExercises({ vocab: words, sentences: sents, pool: vocabPool(course), count: 12 });
-    title = 'Luyện lỗi sai';
+    title = t('Luyện lỗi sai');
   } else if (kind === 'listen' || kind === 'speak') {
     let pool = learnedSentences();
     if (pool.length < 6) pool = course.flat.slice(0, 3).flatMap(l => l.sentences);
     const picked = sample(pool, 8);
-    if (kind === 'speak' && !stt.supported) return emptyScreen(main, 'Trình duyệt này chưa hỗ trợ nhận dạng giọng nói. Hãy dùng Chrome hoặc Edge, hoặc Safari trên iPhone.');
+    if (kind === 'speak' && !stt.supported) return emptyScreen(main, t('Trình duyệt này chưa hỗ trợ nhận dạng giọng nói. Hãy dùng Chrome hoặc Edge, hoặc Safari trên iPhone.'));
     exercises = picked.map(s => ({ type: kind === 'listen' ? 'dictation' : 'speak', item: s }));
-    title = kind === 'listen' ? 'Luyện nghe' : 'Luyện nói';
+    title = kind === 'listen' ? t('Luyện nghe') : t('Luyện nói');
   } else if (kind === 'phrases') {
     const pb = await loadData('phrasebook');
-    const t = pb.topics.find(x => x.id === params[1]);
-    if (!t) return emptyScreen(main, 'Không tìm thấy chủ đề.');
-    const items = t.items.filter(i => !i.no.includes(','));
+    const topic = pb.topics.find(x => x.id === params[1]);
+    if (!topic) return emptyScreen(main, t('Không tìm thấy chủ đề.'));
+    const items = topic.items.filter(i => !i.no.includes(','));
     const short = items.filter(i => i.no.split(' ').length <= 2);
     exercises = buildExercises({ vocab: short.length >= 4 ? short : [], sentences: items, pool: vocabPool(course, 20), count: 12 });
-    title = t.title;
-    after = () => { t.items.forEach(i => store.addCard(i, `phrase:${t.id}`)); };
+    title = L(topic, 'title');
+    after = () => { topic.items.forEach(i => store.addCard(i, `phrase:${topic.id}`)); };
   } else {
     const lesson = course.byId[kind];
-    if (!lesson) return emptyScreen(main, 'Không tìm thấy bài học.');
+    if (!lesson) return emptyScreen(main, t('Không tìm thấy bài học.'));
     const idx = course.flat.indexOf(lesson);
     const isNew = !isDone(lesson.id);
     if (lesson.checkpoint) {
@@ -52,7 +53,7 @@ export async function render(main, params) {
     } else {
       exercises = buildExercises({ vocab: lesson.vocab, sentences: lesson.sentences, pool: vocabPool(course, idx + 6), count: 14, isNew });
     }
-    title = `${lesson.unit.title} · ${lesson.title}`;
+    title = `${L(lesson.unit, 'title')} · ${lesson.checkpoint ? t('Kiểm tra chương') : L(lesson, 'title')}`;
     after = res => {
       const rec = store.s.lessons[lesson.id] || { n: 0, best: 0 };
       rec.n++; rec.best = Math.max(rec.best, res.acc); rec.at = Date.now();

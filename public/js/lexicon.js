@@ -1,26 +1,28 @@
 // Từ vựng tích hợp (glossary + từ trong giáo trình) để tra nhanh offline và tra ngược Việt → Na Uy.
 import { loadData, stripDia, bare } from './ui.js';
+import { isEn } from './i18n.js';
 
 let ready = null;
 const byLemma = new Map();
 let entries = [];
 
+const POS_EN = { n: 'noun', v: 'verb', adj: 'adjective', adv: 'adverb', pron: 'pronoun', prep: 'preposition', conj: 'conjunction', num: 'numeral', interj: 'interjection', det: 'determiner', phrase: 'phrase' };
 const POS_VI = { n: 'danh từ', v: 'động từ', adj: 'tính từ', adv: 'trạng từ', pron: 'đại từ', prep: 'giới từ', conj: 'liên từ', num: 'số từ', interj: 'thán từ', det: 'từ hạn định', phrase: 'cụm từ' };
-export const posVi = p => POS_VI[p] || '';
+export const posVi = p => (isEn() ? POS_EN : POS_VI)[p] || '';
 export const article = g => ({ m: 'en', f: 'ei', n: 'et' }[g] || '');
 
 function add(e) {
   const k = e.no.toLowerCase();
   if (!byLemma.has(k)) { byLemma.set(k, e); entries.push(e); }
-  else if (!byLemma.get(k).vi && e.vi) Object.assign(byLemma.get(k), e);
+  else { const o = byLemma.get(k); if (!o.vi && e.vi) o.vi = e.vi; if (!o.en && e.en) o.en = e.en; }
 }
 
 export function loadLexicon() {
   if (!ready) {
     ready = Promise.all([loadData('glossary').catch(() => []), loadData('course').catch(() => ({ units: [] }))]).then(([g, c]) => {
       for (const r of g) add({ no: r[0], pos: r[1], g: r[2], vi: r[3], en: r[4] });
-      for (const u of c.units || []) for (const l of u.lessons || []) for (const v of l.vocab || []) add({ no: bare(v.no), pos: v.pos, g: v.g || '', vi: v.vi, en: '' });
-      entries.forEach(e => { e._vi = stripDia(e.vi).toLowerCase(); });
+      for (const u of c.units || []) for (const l of u.lessons || []) for (const v of l.vocab || []) add({ no: bare(v.no), pos: v.pos, g: v.g || '', vi: v.vi, en: v.en || '' });
+      entries.forEach(e => { e._vi = stripDia(e.vi).toLowerCase(); e._en = String(e.en || '').toLowerCase(); });
       return true;
     });
   }
@@ -64,6 +66,24 @@ export function searchVi(q, n = 30) {
     else if (re.test(e._vi)) s = 60 - Math.min(30, e.vi.length / 2);
     else if (e._vi.includes(w)) s = 25 - Math.min(20, e.vi.length / 3);
     else if (e.en && e.en.toLowerCase().split(/[,;]\s*/).some(x => x.replace(/^to /, '') === raw)) s = 40;
+    if (s) scored.push([s, e]);
+  }
+  return scored.sort((a, b) => b[0] - a[0]).slice(0, n).map(x => x[1]);
+}
+
+// Tra ngược theo nghĩa tiếng Anh.
+export function searchEn(q, n = 30) {
+  const raw = q.toLowerCase().trim().replace(/^to\s+/, '');
+  if (!raw) return [];
+  const re = new RegExp(`(^|[ ,;(])${raw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}($|[ ,;)])`);
+  const scored = [];
+  for (const e of entries) {
+    if (!e._en) continue;
+    let s = 0;
+    const senses = e._en.split(/[,;]\s*/).map(x => x.trim().replace(/^(to|a|an|the)\s+/, ''));
+    if (senses.includes(raw)) s = 100 - Math.min(20, senses.length * 2);
+    else if (re.test(e._en)) s = 60 - Math.min(30, e._en.length / 2);
+    else if (raw.length > 3 && e._en.includes(raw)) s = 25 - Math.min(20, e._en.length / 3);
     if (s) scored.push([s, e]);
   }
   return scored.sort((a, b) => b[0] - a[0]).slice(0, n).map(x => x[1]);

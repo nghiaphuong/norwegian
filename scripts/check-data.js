@@ -24,6 +24,12 @@ for (const g of load('grammar').lessons) g.quiz.forEach((q, i) => need(q.answer 
 const gl = load('glossary');
 gl.forEach((r, i) => need(Array.isArray(r) && r.length === 5, `glossary dòng ${i}`));
 
+// Bản tiếng Anh của nội dung
+for (const u of course.units) { need(u.title_en, `${u.id} thiếu title_en`); for (const l of u.lessons) { l.vocab.forEach((v, i) => need(v.en, `${l.id} vocab ${i} thiếu en`)); l.sentences.forEach((x, i) => need(x.en && (!x.tip || x.tip_en), `${l.id} câu ${i} thiếu en/tip_en`)); } }
+for (const tp of load('phrasebook').topics) { need(tp.title_en, `phrase ${tp.id} thiếu title_en`); tp.items.forEach((x, i) => need(x.en, `phrase ${tp.id}/${i} thiếu en`)); }
+for (const s of load('stories').stories) { s.lines.forEach((l, i) => need(l.en, `${s.id} dòng ${i} thiếu en`)); s.questions.forEach((q, i) => need(q.q_en && q.options_en?.length === q.options.length, `${s.id} câu hỏi ${i} thiếu bản EN`)); }
+for (const g of load('grammar').lessons) { need(g.title_en, `${g.id} thiếu title_en`); g.sections.forEach((x, i) => need(x.body_en, `${g.id} mục ${i} thiếu body_en`)); g.quiz.forEach((q, i) => need(q.q_en && q.options_en?.length === q.options.length, `${g.id} quiz ${i} thiếu bản EN`)); }
+
 console.log(`Chương: ${course.units.length}, bài: ${ids.size}, từ vựng tích hợp: ${gl.length}`);
 if (errs.length) { console.error(errs.join('\n')); process.exit(1); }
 console.log('Dữ liệu hợp lệ');

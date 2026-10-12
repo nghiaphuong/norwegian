@@ -1,4 +1,6 @@
-# Norsk – Học tiếng Na Uy cho người Việt
+# Norsk – Learn Norwegian / Học tiếng Na Uy
+
+**Song ngữ:** giao diện và toàn bộ nội dung có bản **tiếng Anh (mặc định)** và **tiếng Việt**, chuyển bằng nút EN/VI (thanh bên trái trên desktop, góc trên trên điện thoại, hoặc Hồ sơ → Cài đặt). Lựa chọn được lưu và đồng bộ theo tài khoản.
 
 Ứng dụng web Node.js + MySQL kết hợp hai công cụ "Norsk hver dag" (luyện nghe nói) và "Norsk uttale" (phát âm), mở rộng thành một nền tảng học tiếng Na Uy (Bokmål, chuẩn Oslo) đầy đủ, lấy cảm hứng từ Duolingo, Anki, Memrise và Clozemaster.
 
@@ -35,7 +37,7 @@ Giao diện riêng cho **desktop** (thanh điều hướng trái, cột tổng q
 cp .env.example .env   # có thể để trống DB_NAME
 npm install
 npm start              # http://localhost:3000
-npm run check          # kiểm tra tính hợp lệ của dữ liệu bài học
+npm run check          # kiểm tra dữ liệu bài học (cả bản EN) và độ phủ bảng dịch giao diện
 ```
 
 ## Cấu trúc
@@ -50,7 +52,11 @@ src/ai.js                 Gia sư Claude (tùy chọn)
 src/routes/api.js         REST API
 public/index.html         Khung ứng dụng (SPA, không cần bước build)
 public/css/app.css        Giao diện desktop / tablet / mobile, sáng / tối
-public/js/app.js          Điều hướng, thanh bên, chạm từ xem nghĩa
+public/js/app.js          Điều hướng, thanh bên, chạm từ xem nghĩa, chuyển EN/VI
+public/js/i18n.js         t() dịch giao diện, L()/mean() chọn nội dung theo ngôn ngữ
+public/js/lang/en.js      Bảng dịch tiếng Anh (khóa = câu tiếng Việt)
+public/js/pron-data-en.js Bảng phát âm bản tiếng Anh
+src/i18n.js               Thông báo API theo header X-Lang
 public/js/engine.js       Trình làm bài kiểu Duolingo
 public/js/store.js        Tiến độ, XP, chuỗi ngày, SRS, huy hiệu, đồng bộ
 public/js/speech.js       Đọc thành tiếng và nhận dạng giọng nói

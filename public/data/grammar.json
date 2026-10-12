@@ -4,596 +4,2290 @@
       "id": "g1",
       "title": "Danh từ: giống và mạo từ",
       "title_no": "Substantiv: kjønn og ubestemt artikkel",
+      "title_en": "Nouns: gender and articles",
       "level": "A1",
       "icon": "📦",
       "summary": "Mỗi danh từ tiếng Na Uy có một giống (đực, cái hoặc trung), thể hiện qua mạo từ en, ei hoặc et.",
+      "summary_en": "Every Norwegian noun has a gender (masculine, feminine or neuter), shown by the article en, ei or et.",
       "sections": [
         {
           "h": "Ba giống",
+          "h_en": "Three genders",
           "body": "Tiếng Việt không có giống ngữ pháp, nhưng tiếng Na Uy có ba giống: **giống đực** (hankjønn), **giống cái** (hunkjønn) và **giống trung** (intetkjønn). Giống ngữ pháp hầu như không liên quan đến nghĩa: ngôi nhà là giống trung, chiếc xe là giống đực.\n\n| Giống | Mạo từ | Ví dụ |\n| --- | --- | --- |\n| Đực | en | en bil |\n| Cái | ei | ei jente |\n| Trung | et | et hus |",
+          "body_en": "English nouns have no grammatical gender, but Norwegian has three: **masculine** (hankjønn), **feminine** (hunkjønn) and **neuter** (intetkjønn). Grammatical gender has almost nothing to do with meaning: a house is neuter, a car is masculine.\n\n| Gender | Article | Example |\n| --- | --- | --- |\n| Masculine | en | en bil |\n| Feminine | ei | ei jente |\n| Neuter | et | et hus |",
           "examples": [
-            { "no": "en bil", "vi": "một chiếc xe hơi" },
-            { "no": "ei jente", "vi": "một cô gái" },
-            { "no": "et hus", "vi": "một ngôi nhà" },
-            { "no": "en mann", "vi": "một người đàn ông" }
+            {
+              "no": "en bil",
+              "vi": "một chiếc xe hơi",
+              "en": "a car"
+            },
+            {
+              "no": "ei jente",
+              "vi": "một cô gái",
+              "en": "a girl"
+            },
+            {
+              "no": "et hus",
+              "vi": "một ngôi nhà",
+              "en": "a house"
+            },
+            {
+              "no": "en mann",
+              "vi": "một người đàn ông",
+              "en": "a man"
+            }
           ]
         },
         {
           "h": "Mạo từ không xác định",
+          "h_en": "The indefinite article",
           "body": "**en / ei / et** tương đương với “một” trong tiếng Việt và “a/an” trong tiếng Anh. Dùng khi nhắc đến sự vật lần đầu hoặc không xác định. Tiếng Việt dùng loại từ (cái, con, chiếc, quyển), tiếng Na Uy dùng mạo từ.\n\nLưu ý: trong Bokmål, mọi danh từ giống cái đều có thể dùng **en** thay cho ei. Viết “en bok” hay “ei bok” đều đúng. Nhiều người Oslo nói “ei”, nhưng trong văn bản công sở thường dùng “en”.",
+          "body_en": "**en / ei / et** work just like English “a/an”. You use them when you mention something for the first time or when it is not specific. The only difference from English is that Norwegian has three forms instead of one, depending on the gender of the noun.\n\nNote: in Bokmål, every feminine noun can take **en** instead of ei. Both “en bok” and “ei bok” are correct. Many people in Oslo say “ei”, but official and business writing usually uses “en”.",
           "examples": [
-            { "no": "Jeg har en bil.", "vi": "Tôi có một chiếc xe hơi." },
-            { "no": "Hun har ei datter. / Hun har en datter.", "vi": "Chị ấy có một cô con gái." },
-            { "no": "Vi bor i et hus.", "vi": "Chúng tôi sống trong một ngôi nhà." }
+            {
+              "no": "Jeg har en bil.",
+              "vi": "Tôi có một chiếc xe hơi.",
+              "en": "I have a car."
+            },
+            {
+              "no": "Hun har ei datter. / Hun har en datter.",
+              "vi": "Chị ấy có một cô con gái.",
+              "en": "She has a daughter."
+            },
+            {
+              "no": "Vi bor i et hus.",
+              "vi": "Chúng tôi sống trong một ngôi nhà.",
+              "en": "We live in a house."
+            }
           ]
         },
         {
           "h": "Mẹo học",
+          "h_en": "Study tips",
           "body": "- Phần lớn danh từ là giống đực/cái (en/ei); chỉ khoảng một phần tư là giống trung (et).\n- Luôn học từ mới kèm mạo từ: đừng học “hus”, hãy học “et hus”.\n- Từ chỉ người và nghề nghiệp thường dùng **en**: en lærer, en diplomat, en kollega.\n- Nhiều từ ngắn chỉ đồ vật là **et**: et bord, et rom, et land, et skip.\n- Khi nói nghề nghiệp, không dùng mạo từ: Jeg er diplomat (không nói “en diplomat”).",
+          "body_en": "- Most nouns are masculine/feminine (en/ei); only about a quarter are neuter (et).\n- Always learn new words together with their article: don't learn “hus”, learn “et hus”.\n- Words for people and professions usually take **en**: en lærer, en diplomat, en kollega.\n- Many short words for things are **et**: et bord, et rom, et land, et skip.\n- When you state your profession, leave out the article: Jeg er diplomat (not “en diplomat”), unlike English “I am a diplomat”.",
           "examples": [
-            { "no": "et bord, et rom, et land", "vi": "một cái bàn, một căn phòng, một đất nước" },
-            { "no": "Jeg er økonom.", "vi": "Tôi là nhà kinh tế." }
+            {
+              "no": "et bord, et rom, et land",
+              "vi": "một cái bàn, một căn phòng, một đất nước",
+              "en": "a table, a room, a country"
+            },
+            {
+              "no": "Jeg er økonom.",
+              "vi": "Tôi là nhà kinh tế.",
+              "en": "I am an economist."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Chọn mạo từ đúng: ___ hus", "options": ["en", "ei", "et"], "answer": 2, "explain": "“Hus” là danh từ giống trung: et hus." },
-        { "q": "Chọn mạo từ đúng: ___ bil", "options": ["en", "et", "ei"], "answer": 0, "explain": "“Bil” là danh từ giống đực: en bil." },
-        { "q": "Trong Bokmål, “ei jente” còn có thể viết là:", "options": ["et jente", "en jente", "jente en"], "answer": 1, "explain": "Danh từ giống cái luôn có thể dùng mạo từ en." },
-        { "q": "Mạo từ en/ei/et tương đương với từ nào trong tiếng Anh?", "options": ["the", "a/an", "this"], "answer": 1, "explain": "en/ei/et là mạo từ không xác định, giống a/an." },
-        { "q": "Câu nào đúng?", "options": ["Jeg er en diplomat.", "Jeg er diplomat.", "Jeg er et diplomat."], "answer": 1, "explain": "Khi nói nghề nghiệp sau “er”, tiếng Na Uy không dùng mạo từ." }
+        {
+          "q": "Chọn mạo từ đúng: ___ hus",
+          "q_en": "Choose the correct article: ___ hus",
+          "options": [
+            "en",
+            "ei",
+            "et"
+          ],
+          "options_en": [
+            "en",
+            "ei",
+            "et"
+          ],
+          "answer": 2,
+          "explain": "“Hus” là danh từ giống trung: et hus.",
+          "explain_en": "“Hus” is a neuter noun: et hus."
+        },
+        {
+          "q": "Chọn mạo từ đúng: ___ bil",
+          "q_en": "Choose the correct article: ___ bil",
+          "options": [
+            "en",
+            "et",
+            "ei"
+          ],
+          "options_en": [
+            "en",
+            "et",
+            "ei"
+          ],
+          "answer": 0,
+          "explain": "“Bil” là danh từ giống đực: en bil.",
+          "explain_en": "“Bil” is a masculine noun: en bil."
+        },
+        {
+          "q": "Trong Bokmål, “ei jente” còn có thể viết là:",
+          "q_en": "In Bokmål, “ei jente” can also be written as:",
+          "options": [
+            "et jente",
+            "en jente",
+            "jente en"
+          ],
+          "options_en": [
+            "et jente",
+            "en jente",
+            "jente en"
+          ],
+          "answer": 1,
+          "explain": "Danh từ giống cái luôn có thể dùng mạo từ en.",
+          "explain_en": "Feminine nouns can always take the article en."
+        },
+        {
+          "q": "Mạo từ en/ei/et tương đương với từ nào trong tiếng Anh?",
+          "q_en": "Which English word do the articles en/ei/et correspond to?",
+          "options": [
+            "the",
+            "a/an",
+            "this"
+          ],
+          "options_en": [
+            "the",
+            "a/an",
+            "this"
+          ],
+          "answer": 1,
+          "explain": "en/ei/et là mạo từ không xác định, giống a/an.",
+          "explain_en": "en/ei/et are indefinite articles, like a/an."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Jeg er en diplomat.",
+            "Jeg er diplomat.",
+            "Jeg er et diplomat."
+          ],
+          "options_en": [
+            "Jeg er en diplomat.",
+            "Jeg er diplomat.",
+            "Jeg er et diplomat."
+          ],
+          "answer": 1,
+          "explain": "Khi nói nghề nghiệp sau “er”, tiếng Na Uy không dùng mạo từ.",
+          "explain_en": "When stating a profession after “er”, Norwegian uses no article."
+        }
       ]
     },
     {
       "id": "g2",
       "title": "Dạng xác định và số nhiều",
       "title_no": "Bestemt form og flertall",
+      "title_en": "Definite form and plural",
       "level": "A1",
       "icon": "🔖",
       "summary": "Tiếng Na Uy gắn “the” vào cuối danh từ (bilen, huset) và tạo số nhiều bằng đuôi -er/-ene.",
+      "summary_en": "Norwegian attaches “the” to the end of the noun (bilen, huset) and forms the plural with the endings -er/-ene.",
       "sections": [
         {
           "h": "Dạng xác định: mạo từ gắn vào cuối",
+          "h_en": "Definite form: the article goes at the end",
           "body": "Tiếng Anh nói “the car”, còn tiếng Na Uy gắn “the” vào **cuối** danh từ. Tiếng Việt dùng “này/đó” hoặc ngữ cảnh.\n\n| Giống | Không xác định | Xác định |\n| --- | --- | --- |\n| Đực | en bil | bilen |\n| Cái | ei jente | jenta (hoặc jenten) |\n| Trung | et hus | huset |\n\nNếu danh từ tận cùng bằng -e, chỉ thêm -n hoặc -t: en time → timen, et eple → eplet.",
+          "body_en": "English says “the car”, but Norwegian attaches “the” to the **end** of the noun.\n\n| Gender | Indefinite | Definite |\n| --- | --- | --- |\n| Masculine | en bil | bilen |\n| Feminine | ei jente | jenta (or jenten) |\n| Neuter | et hus | huset |\n\nIf the noun ends in -e, just add -n or -t: en time → timen, et eple → eplet.",
           "examples": [
-            { "no": "Bilen er ny.", "vi": "Chiếc xe (đó) mới." },
-            { "no": "Huset ligger i Bærum.", "vi": "Ngôi nhà (đó) nằm ở Bærum." },
-            { "no": "Jenta heter Mai.", "vi": "Cô bé tên là Mai." }
+            {
+              "no": "Bilen er ny.",
+              "vi": "Chiếc xe (đó) mới.",
+              "en": "The car is new."
+            },
+            {
+              "no": "Huset ligger i Bærum.",
+              "vi": "Ngôi nhà (đó) nằm ở Bærum.",
+              "en": "The house is in Bærum."
+            },
+            {
+              "no": "Jenta heter Mai.",
+              "vi": "Cô bé tên là Mai.",
+              "en": "The girl's name is Mai."
+            }
           ]
         },
         {
           "h": "Số nhiều",
+          "h_en": "Plural",
           "body": "Tiếng Việt dùng “các, những”, danh từ không đổi. Tiếng Na Uy thêm **-er** (không xác định) và **-ene** (xác định).\n\n| Số ít | Xác định | Số nhiều | Số nhiều xác định |\n| --- | --- | --- | --- |\n| en bil | bilen | biler | bilene |\n| ei jente | jenta | jenter | jentene |\n| et hus | huset | hus | husene |\n\n**Danh từ giống trung một âm tiết** không thêm gì ở số nhiều không xác định: et hus → to hus, et land → mange land.",
+          "body_en": "Just like English adds -s, Norwegian adds an ending: **-er** (indefinite) and **-ene** (definite). Think of biler as “cars” and bilene as “the cars”.\n\n| Singular | Definite | Plural | Definite plural |\n| --- | --- | --- | --- |\n| en bil | bilen | biler | bilene |\n| ei jente | jenta | jenter | jentene |\n| et hus | huset | hus | husene |\n\n**One-syllable neuter nouns** add nothing in the indefinite plural, a bit like English “sheep”: et hus → to hus, et land → mange land.",
           "examples": [
-            { "no": "Jeg har to biler.", "vi": "Tôi có hai chiếc xe." },
-            { "no": "Husene er gamle.", "vi": "Những ngôi nhà đó cũ." }
+            {
+              "no": "Jeg har to biler.",
+              "vi": "Tôi có hai chiếc xe.",
+              "en": "I have two cars."
+            },
+            {
+              "no": "Husene er gamle.",
+              "vi": "Những ngôi nhà đó cũ.",
+              "en": "The houses are old."
+            }
           ]
         },
         {
           "h": "Danh từ bất quy tắc thông dụng",
+          "h_en": "Common irregular nouns",
           "body": "Một số từ rất hay gặp thay đổi nguyên âm hoặc có đuôi riêng:\n\n| Số ít | Số nhiều | Số nhiều xác định |\n| --- | --- | --- |\n| en mann | menn | mennene |\n| ei bok | bøker | bøkene |\n| et barn | barn | barna |\n| en bror | brødre | brødrene |\n| ei datter | døtre | døtrene |\n| en far | fedre | fedrene |",
+          "body_en": "Some very common words change their vowel or have special endings, just like English man/men:\n\n| Singular | Plural | Definite plural |\n| --- | --- | --- |\n| en mann | menn | mennene |\n| ei bok | bøker | bøkene |\n| et barn | barn | barna |\n| en bror | brødre | brødrene |\n| ei datter | døtre | døtrene |\n| en far | fedre | fedrene |",
           "examples": [
-            { "no": "Barna leker i parken.", "vi": "Bọn trẻ chơi trong công viên." },
-            { "no": "Bøkene ligger på bordet.", "vi": "Những quyển sách nằm trên bàn." }
+            {
+              "no": "Barna leker i parken.",
+              "vi": "Bọn trẻ chơi trong công viên.",
+              "en": "The children are playing in the park."
+            },
+            {
+              "no": "Bøkene ligger på bordet.",
+              "vi": "Những quyển sách nằm trên bàn.",
+              "en": "The books are on the table."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Dạng xác định của “en bil”:", "options": ["bilet", "bilen", "bila"], "answer": 1, "explain": "Giống đực thêm -en: bilen." },
-        { "q": "Dạng xác định đúng của “et hus”:", "options": ["huset", "husen", "husa"], "answer": 0, "explain": "Danh từ giống trung thêm -et." },
-        { "q": "Số nhiều không xác định của “et hus”:", "options": ["huser", "hus", "husene"], "answer": 1, "explain": "Danh từ giống trung một âm tiết không thêm đuôi ở số nhiều không xác định." },
-        { "q": "Số nhiều của “en mann”:", "options": ["manner", "mannene", "menn"], "answer": 2, "explain": "Mann là từ bất quy tắc: en mann, to menn." },
-        { "q": "Số nhiều xác định của “en bil”:", "options": ["bilerne", "bilene", "bilen"], "answer": 1, "explain": "Số nhiều xác định thêm -ene: bilene." }
+        {
+          "q": "Dạng xác định của “en bil”:",
+          "q_en": "The definite form of “en bil”:",
+          "options": [
+            "bilet",
+            "bilen",
+            "bila"
+          ],
+          "options_en": [
+            "bilet",
+            "bilen",
+            "bila"
+          ],
+          "answer": 1,
+          "explain": "Giống đực thêm -en: bilen.",
+          "explain_en": "Masculine nouns add -en: bilen."
+        },
+        {
+          "q": "Dạng xác định đúng của “et hus”:",
+          "q_en": "The correct definite form of “et hus”:",
+          "options": [
+            "huset",
+            "husen",
+            "husa"
+          ],
+          "options_en": [
+            "huset",
+            "husen",
+            "husa"
+          ],
+          "answer": 0,
+          "explain": "Danh từ giống trung thêm -et.",
+          "explain_en": "Neuter nouns add -et."
+        },
+        {
+          "q": "Số nhiều không xác định của “et hus”:",
+          "q_en": "The indefinite plural of “et hus”:",
+          "options": [
+            "huser",
+            "hus",
+            "husene"
+          ],
+          "options_en": [
+            "huser",
+            "hus",
+            "husene"
+          ],
+          "answer": 1,
+          "explain": "Danh từ giống trung một âm tiết không thêm đuôi ở số nhiều không xác định.",
+          "explain_en": "One-syllable neuter nouns take no ending in the indefinite plural."
+        },
+        {
+          "q": "Số nhiều của “en mann”:",
+          "q_en": "The plural of “en mann”:",
+          "options": [
+            "manner",
+            "mannene",
+            "menn"
+          ],
+          "options_en": [
+            "manner",
+            "mannene",
+            "menn"
+          ],
+          "answer": 2,
+          "explain": "Mann là từ bất quy tắc: en mann, to menn.",
+          "explain_en": "Mann is irregular: en mann, to menn (just like English man, men)."
+        },
+        {
+          "q": "Số nhiều xác định của “en bil”:",
+          "q_en": "The definite plural of “en bil”:",
+          "options": [
+            "bilerne",
+            "bilene",
+            "bilen"
+          ],
+          "options_en": [
+            "bilerne",
+            "bilene",
+            "bilen"
+          ],
+          "answer": 1,
+          "explain": "Số nhiều xác định thêm -ene: bilene.",
+          "explain_en": "The definite plural adds -ene: bilene."
+        }
       ]
     },
     {
       "id": "g3",
       "title": "Đại từ nhân xưng và sở hữu",
       "title_no": "Personlige pronomen og eiendomsord",
+      "title_en": "Personal and possessive pronouns",
       "level": "A1",
       "icon": "👥",
       "summary": "Đại từ đổi dạng khi làm tân ngữ (jeg/meg), và từ sở hữu phải hợp với danh từ (min/mitt/mine); sin dùng khi chủ ngữ là người sở hữu.",
+      "summary_en": "Pronouns change form as objects (jeg/meg), and possessives must agree with the noun (min/mitt/mine); sin is used when the subject is the owner.",
       "sections": [
         {
           "h": "Đại từ nhân xưng",
+          "h_en": "Personal pronouns",
           "body": "Tiếng Việt có rất nhiều cách xưng hô (anh, chị, em, cô, chú...). Tiếng Na Uy đơn giản hơn: gần như ai cũng gọi nhau là **du**, kể cả với sếp hay bác sĩ. Nhưng đại từ **đổi dạng khi làm tân ngữ**, giống I/me trong tiếng Anh.\n\n| Chủ ngữ | Tân ngữ | Nghĩa |\n| --- | --- | --- |\n| jeg | meg | tôi |\n| du | deg | bạn, anh, chị |\n| han | ham / han | anh ấy |\n| hun | henne | chị ấy |\n| den / det | den / det | nó |\n| vi | oss | chúng tôi, chúng ta |\n| dere | dere | các bạn |\n| de | dem | họ |",
+          "body_en": "Like English “you”, Norwegian **du** is used with almost everyone, including your boss or your doctor. And just as in English, pronouns **change form as objects**, like I/me.\n\n| Subject | Object | Meaning |\n| --- | --- | --- |\n| jeg | meg | I / me |\n| du | deg | you (one person) |\n| han | ham / han | he / him |\n| hun | henne | she / her |\n| den / det | den / det | it |\n| vi | oss | we / us |\n| dere | dere | you (several people) |\n| de | dem | they / them |",
           "examples": [
-            { "no": "Jeg ser henne.", "vi": "Tôi nhìn thấy chị ấy." },
-            { "no": "Kan du hjelpe meg?", "vi": "Anh giúp tôi được không?" },
-            { "no": "Vi ringer dem i morgen.", "vi": "Chúng tôi sẽ gọi cho họ ngày mai." }
+            {
+              "no": "Jeg ser henne.",
+              "vi": "Tôi nhìn thấy chị ấy.",
+              "en": "I see her."
+            },
+            {
+              "no": "Kan du hjelpe meg?",
+              "vi": "Anh giúp tôi được không?",
+              "en": "Can you help me?"
+            },
+            {
+              "no": "Vi ringer dem i morgen.",
+              "vi": "Chúng tôi sẽ gọi cho họ ngày mai.",
+              "en": "We'll call them tomorrow."
+            }
           ]
         },
         {
           "h": "Từ sở hữu",
+          "h_en": "Possessives",
           "body": "Từ sở hữu phải hợp với giống và số của **danh từ được sở hữu**, không phải của người sở hữu.\n\n| | en / ei | et | số nhiều |\n| --- | --- | --- | --- |\n| của tôi | min (mi) | mitt | mine |\n| của bạn | din (di) | ditt | dine |\n| của chúng tôi | vår | vårt | våre |\n\n**hans** (của anh ấy), **hennes** (của chị ấy), **deres** (của các bạn, của họ) không đổi.\n\nVị trí thông dụng nhất là **sau danh từ dạng xác định**, giống trật tự tiếng Việt: bilen min (xe của tôi), huset mitt, barna mine. Đặt trước (min bil) là để nhấn mạnh.",
+          "body_en": "Possessives must agree with the gender and number of the **thing owned**, not the owner.\n\n| | en / ei | et | plural |\n| --- | --- | --- | --- |\n| my | min (mi) | mitt | mine |\n| your | din (di) | ditt | dine |\n| our | vår | vårt | våre |\n\n**hans** (his), **hennes** (her), **deres** (your, plural / their) never change.\n\nThe most common position is **after the noun in its definite form**: bilen min (literally “the car my”), huset mitt, barna mine. Putting it first (min bil), as in English, adds emphasis.",
           "examples": [
-            { "no": "Telefonen min er tom for strøm.", "vi": "Điện thoại của tôi hết pin." },
-            { "no": "Huset vårt er lite.", "vi": "Nhà của chúng tôi nhỏ." },
-            { "no": "Kona hans kommer fra Bergen.", "vi": "Vợ của anh ấy đến từ Bergen." }
+            {
+              "no": "Telefonen min er tom for strøm.",
+              "vi": "Điện thoại của tôi hết pin.",
+              "en": "My phone is out of battery."
+            },
+            {
+              "no": "Huset vårt er lite.",
+              "vi": "Nhà của chúng tôi nhỏ.",
+              "en": "Our house is small."
+            },
+            {
+              "no": "Kona hans kommer fra Bergen.",
+              "vi": "Vợ của anh ấy đến từ Bergen.",
+              "en": "His wife is from Bergen."
+            }
           ]
         },
         {
           "h": "Sin / si / sitt / sine",
+          "h_en": "Sin / si / sitt / sine",
           "body": "Khi người sở hữu chính là **chủ ngữ của cùng mệnh đề** (ngôi thứ ba), phải dùng **sin / si / sitt / sine** thay cho hans, hennes, deres. Giống chữ “mình” trong tiếng Việt.\n\nOla ringer kona **si**. = Ola gọi cho vợ mình (vợ của chính Ola).\nOla ringer kona **hans**. = Ola gọi cho vợ của anh ấy (vợ của một người đàn ông khác!).\n\n**Sin không bao giờ nằm trong chủ ngữ**: Kona hans er lege (không nói “kona si er lege”).",
+          "body_en": "When the owner is **the subject of the same clause** (third person), you must use **sin / si / sitt / sine** instead of hans, hennes, deres. It works like English “his own / her own”.\n\nOla ringer kona **si**. = Ola calls his (own) wife.\nOla ringer kona **hans**. = Ola calls his wife (another man's wife!).\n\nEnglish “his” is ambiguous here, but Norwegian is not.\n\n**Sin is never part of the subject**: Kona hans er lege (not “kona si er lege”).",
           "examples": [
-            { "no": "Phương besøker foreldrene sine.", "vi": "Phương đi thăm bố mẹ mình." },
-            { "no": "Linh selger bilen sin.", "vi": "Linh bán xe của mình." }
+            {
+              "no": "Phương besøker foreldrene sine.",
+              "vi": "Phương đi thăm bố mẹ mình.",
+              "en": "Phương visits his (own) parents."
+            },
+            {
+              "no": "Linh selger bilen sin.",
+              "vi": "Linh bán xe của mình.",
+              "en": "Linh is selling her (own) car."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Chọn: Dette er huset ___ (của tôi).", "options": ["min", "mitt", "mine"], "answer": 1, "explain": "Hus là giống trung, nên dùng mitt." },
-        { "q": "Chọn: Jeg ser ___ (chị ấy).", "options": ["hun", "henne", "hennes"], "answer": 1, "explain": "Làm tân ngữ dùng henne. Hennes là “của chị ấy”." },
-        { "q": "Phương ringer moren ___ (mẹ của chính Phương).", "options": ["hans", "sin", "si"], "answer": 1, "explain": "Chủ ngữ Phương là người sở hữu, nên dùng sin (moren là dạng giống đực). Nếu nói “mora” thì dùng “si”." },
-        { "q": "Barna ___ (của chúng tôi) går på skole.", "options": ["vår", "vårt", "våre"], "answer": 2, "explain": "Barna là số nhiều, nên dùng våre." },
-        { "q": "Câu nào đúng?", "options": ["Kona si er lege.", "Kona hans er lege.", "Hans kona er lege."], "answer": 1, "explain": "Sin/si không đứng trong chủ ngữ. Dạng đúng: Kona hans er lege." }
+        {
+          "q": "Chọn: Dette er huset ___ (của tôi).",
+          "q_en": "Choose: Dette er huset ___ (my).",
+          "options": [
+            "min",
+            "mitt",
+            "mine"
+          ],
+          "options_en": [
+            "min",
+            "mitt",
+            "mine"
+          ],
+          "answer": 1,
+          "explain": "Hus là giống trung, nên dùng mitt.",
+          "explain_en": "Hus is neuter, so you use mitt."
+        },
+        {
+          "q": "Chọn: Jeg ser ___ (chị ấy).",
+          "q_en": "Choose: Jeg ser ___ (her).",
+          "options": [
+            "hun",
+            "henne",
+            "hennes"
+          ],
+          "options_en": [
+            "hun",
+            "henne",
+            "hennes"
+          ],
+          "answer": 1,
+          "explain": "Làm tân ngữ dùng henne. Hennes là “của chị ấy”.",
+          "explain_en": "As an object, use henne. Hennes means “her” as a possessive (her car)."
+        },
+        {
+          "q": "Phương ringer moren ___ (mẹ của chính Phương).",
+          "q_en": "Phương ringer moren ___ (Phương's own mother).",
+          "options": [
+            "hans",
+            "sin",
+            "si"
+          ],
+          "options_en": [
+            "hans",
+            "sin",
+            "si"
+          ],
+          "answer": 1,
+          "explain": "Chủ ngữ Phương là người sở hữu, nên dùng sin (moren là dạng giống đực). Nếu nói “mora” thì dùng “si”.",
+          "explain_en": "The subject Phương is the owner, so use sin (moren is the masculine form). With “mora” you would use “si”."
+        },
+        {
+          "q": "Barna ___ (của chúng tôi) går på skole.",
+          "q_en": "Barna ___ (our) går på skole.",
+          "options": [
+            "vår",
+            "vårt",
+            "våre"
+          ],
+          "options_en": [
+            "vår",
+            "vårt",
+            "våre"
+          ],
+          "answer": 2,
+          "explain": "Barna là số nhiều, nên dùng våre.",
+          "explain_en": "Barna is plural, so use våre."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Kona si er lege.",
+            "Kona hans er lege.",
+            "Hans kona er lege."
+          ],
+          "options_en": [
+            "Kona si er lege.",
+            "Kona hans er lege.",
+            "Hans kona er lege."
+          ],
+          "answer": 1,
+          "explain": "Sin/si không đứng trong chủ ngữ. Dạng đúng: Kona hans er lege.",
+          "explain_en": "Sin/si cannot be part of the subject. The correct form is: Kona hans er lege."
+        }
       ]
     },
     {
       "id": "g4",
       "title": "Động từ hiện tại và nguyên mẫu với å",
       "title_no": "Presens og infinitiv",
+      "title_en": "Present tense and the infinitive with å",
       "level": "A1",
       "icon": "🏃",
       "summary": "Thì hiện tại chỉ cần thêm -r vào nguyên mẫu và không đổi theo ngôi; å đứng trước nguyên mẫu giống “to” trong tiếng Anh.",
+      "summary_en": "The present tense just adds -r to the infinitive and never changes with the person; å goes before the infinitive like English “to”.",
       "sections": [
         {
           "h": "Một dạng cho mọi ngôi",
+          "h_en": "One form for every person",
           "body": "Tin vui: giống tiếng Việt, động từ Na Uy **không đổi theo ngôi**. Tiếng Anh có “I speak / she speaks”, còn tiếng Na Uy: jeg snakker, hun snakker, de snakker.\n\nCách tạo thì hiện tại: **nguyên mẫu + -r**.\n\n| Nguyên mẫu | Hiện tại |\n| --- | --- |\n| å snakke | snakker |\n| å bo | bor |\n| å jobbe | jobber |\n| å lese | leser |",
+          "body_en": "Good news: Norwegian verbs **do not change with the person**. English has “I speak / she speaks”, but Norwegian has jeg snakker, hun snakker, de snakker. No -s to remember!\n\nHow to form the present tense: **infinitive + -r**.\n\n| Infinitive | Present |\n| --- | --- |\n| å snakke | snakker |\n| å bo | bor |\n| å jobbe | jobber |\n| å lese | leser |",
           "examples": [
-            { "no": "Jeg bor i Oslo.", "vi": "Tôi sống ở Oslo." },
-            { "no": "Hun jobber på et rederi.", "vi": "Chị ấy làm việc ở một công ty vận tải biển." }
+            {
+              "no": "Jeg bor i Oslo.",
+              "vi": "Tôi sống ở Oslo.",
+              "en": "I live in Oslo."
+            },
+            {
+              "no": "Hun jobber på et rederi.",
+              "vi": "Chị ấy làm việc ở một công ty vận tải biển.",
+              "en": "She works at a shipping company."
+            }
           ]
         },
         {
           "h": "Ngoại lệ thông dụng",
+          "h_en": "Common exceptions",
           "body": "Một vài động từ rất hay dùng có dạng hiện tại riêng, cần học thuộc:\n\n| Nguyên mẫu | Hiện tại | Nghĩa |\n| --- | --- | --- |\n| å være | er | là, thì, ở |\n| å ha | har | có |\n| å gjøre | gjør | làm |\n| å si | sier | nói |\n| å vite | vet | biết |\n| å spørre | spør | hỏi |",
+          "body_en": "A few very common verbs have their own present form that you need to memorise:\n\n| Infinitive | Present | Meaning |\n| --- | --- | --- |\n| å være | er | to be |\n| å ha | har | to have |\n| å gjøre | gjør | to do |\n| å si | sier | to say |\n| å vite | vet | to know |\n| å spørre | spør | to ask |",
           "examples": [
-            { "no": "Jeg er fra Vietnam.", "vi": "Tôi đến từ Việt Nam." },
-            { "no": "Hva gjør du i helgen?", "vi": "Cuối tuần anh làm gì?" }
+            {
+              "no": "Jeg er fra Vietnam.",
+              "vi": "Tôi đến từ Việt Nam.",
+              "en": "I am from Vietnam."
+            },
+            {
+              "no": "Hva gjør du i helgen?",
+              "vi": "Cuối tuần anh làm gì?",
+              "en": "What are you doing this weekend?"
+            }
           ]
         },
         {
           "h": "Nguyên mẫu với å",
+          "h_en": "The infinitive with å",
           "body": "**å** giống “to” trong tiếng Anh. Dùng sau nhiều động từ và cụm từ: liker å, prøver å, begynner å, slutter å, det er vanskelig å...\n\n**Không** dùng å sau động từ khuyết thiếu (kan, vil, skal, må, bør): Jeg kan snakke norsk (không nói “kan å snakke”).\n\nLưu ý phát âm: **å** (to) và **og** (và) đều đọc là /å/, nên chính người Na Uy cũng hay viết nhầm.",
+          "body_en": "**å** is just like English “to”. It is used after many verbs and expressions: liker å, prøver å, begynner å, slutter å, det er vanskelig å...\n\nYou do **not** use å after modal verbs (kan, vil, skal, må, bør), just as you don't say “I can to speak” in English: Jeg kan snakke norsk (not “kan å snakke”).\n\nPronunciation note: **å** (to) and **og** (and) are both pronounced /å/, so even Norwegians often mix them up in writing.",
           "examples": [
-            { "no": "Jeg liker å gå på tur.", "vi": "Tôi thích đi dạo/leo núi." },
-            { "no": "Det er vanskelig å lære norsk.", "vi": "Học tiếng Na Uy thật khó." }
+            {
+              "no": "Jeg liker å gå på tur.",
+              "vi": "Tôi thích đi dạo/leo núi.",
+              "en": "I like going hiking."
+            },
+            {
+              "no": "Det er vanskelig å lære norsk.",
+              "vi": "Học tiếng Na Uy thật khó.",
+              "en": "It is difficult to learn Norwegian."
+            }
           ]
         },
         {
           "h": "Không có thì tiếp diễn",
+          "h_en": "No continuous tense",
           "body": "Tiếng Na Uy không có dạng “I am working”. **Jeg jobber** vừa là “tôi làm việc” vừa là “tôi đang làm việc”. Giống tiếng Việt, khi có trạng từ thời gian, thì hiện tại còn dùng cho tương lai gần.",
+          "body_en": "Norwegian has no form like “I am working”. **Jeg jobber** means both “I work” and “I am working”. As in English, with a time expression the present tense can also refer to the near future (“I'm leaving tomorrow”).",
           "examples": [
-            { "no": "Jeg jobber nå.", "vi": "Bây giờ tôi đang làm việc." },
-            { "no": "Jeg reiser til Bergen i morgen.", "vi": "Ngày mai tôi đi Bergen." }
+            {
+              "no": "Jeg jobber nå.",
+              "vi": "Bây giờ tôi đang làm việc.",
+              "en": "I am working now."
+            },
+            {
+              "no": "Jeg reiser til Bergen i morgen.",
+              "vi": "Ngày mai tôi đi Bergen.",
+              "en": "I'm going to Bergen tomorrow."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Chia động từ: Hun ___ (å bo) i Oslo.", "options": ["bo", "bor", "boer"], "answer": 1, "explain": "Hiện tại = nguyên mẫu + r: bor." },
-        { "q": "Chia động từ: Vi ___ (å være) fra Vietnam.", "options": ["er", "være", "erer"], "answer": 0, "explain": "Å være là bất quy tắc: er." },
-        { "q": "Câu nào đúng?", "options": ["Jeg liker å lese.", "Jeg liker lese.", "Jeg liker å leser."], "answer": 0, "explain": "Sau “liker” dùng å + nguyên mẫu." },
-        { "q": "Câu nào đúng?", "options": ["Jeg kan å svømme.", "Jeg kan svømme.", "Jeg kan svømmer."], "answer": 1, "explain": "Sau động từ khuyết thiếu kan, dùng nguyên mẫu không có å." },
-        { "q": "“Jeg jobber nå” nghĩa là:", "options": ["Tôi đã làm việc", "Tôi đang làm việc", "Tôi sẽ làm việc vào năm sau"], "answer": 1, "explain": "Thì hiện tại cũng diễn tả hành động đang xảy ra." }
+        {
+          "q": "Chia động từ: Hun ___ (å bo) i Oslo.",
+          "q_en": "Conjugate: Hun ___ (å bo) i Oslo.",
+          "options": [
+            "bo",
+            "bor",
+            "boer"
+          ],
+          "options_en": [
+            "bo",
+            "bor",
+            "boer"
+          ],
+          "answer": 1,
+          "explain": "Hiện tại = nguyên mẫu + r: bor.",
+          "explain_en": "Present = infinitive + r: bor."
+        },
+        {
+          "q": "Chia động từ: Vi ___ (å være) fra Vietnam.",
+          "q_en": "Conjugate: Vi ___ (å være) fra Vietnam.",
+          "options": [
+            "er",
+            "være",
+            "erer"
+          ],
+          "options_en": [
+            "er",
+            "være",
+            "erer"
+          ],
+          "answer": 0,
+          "explain": "Å være là bất quy tắc: er.",
+          "explain_en": "Å være is irregular: er."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Jeg liker å lese.",
+            "Jeg liker lese.",
+            "Jeg liker å leser."
+          ],
+          "options_en": [
+            "Jeg liker å lese.",
+            "Jeg liker lese.",
+            "Jeg liker å leser."
+          ],
+          "answer": 0,
+          "explain": "Sau “liker” dùng å + nguyên mẫu.",
+          "explain_en": "After “liker”, use å + infinitive."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Jeg kan å svømme.",
+            "Jeg kan svømme.",
+            "Jeg kan svømmer."
+          ],
+          "options_en": [
+            "Jeg kan å svømme.",
+            "Jeg kan svømme.",
+            "Jeg kan svømmer."
+          ],
+          "answer": 1,
+          "explain": "Sau động từ khuyết thiếu kan, dùng nguyên mẫu không có å.",
+          "explain_en": "After the modal verb kan, use the infinitive without å."
+        },
+        {
+          "q": "“Jeg jobber nå” nghĩa là:",
+          "q_en": "“Jeg jobber nå” means:",
+          "options": [
+            "Tôi đã làm việc",
+            "Tôi đang làm việc",
+            "Tôi sẽ làm việc vào năm sau"
+          ],
+          "options_en": [
+            "I worked",
+            "I am working",
+            "I will work next year"
+          ],
+          "answer": 1,
+          "explain": "Thì hiện tại cũng diễn tả hành động đang xảy ra.",
+          "explain_en": "The present tense also describes something happening right now."
+        }
       ]
     },
     {
       "id": "g5",
       "title": "Trật tự từ V2 và câu hỏi",
       "title_no": "Ordstilling: V2 og spørsmål",
+      "title_en": "V2 word order and questions",
       "level": "A1",
       "icon": "🔀",
       "summary": "Trong câu chính, động từ luôn đứng ở vị trí thứ hai; câu hỏi đưa động từ lên đầu hoặc sau từ để hỏi.",
+      "summary_en": "In a main clause the verb always comes second; questions put the verb first or right after the question word.",
       "sections": [
         {
           "h": "Quy tắc V2",
+          "h_en": "The V2 rule",
           "body": "Trong câu chính, **động từ chia luôn đứng ở vị trí thứ hai**. Vị trí thứ nhất có thể là chủ ngữ, thời gian, nơi chốn... Nếu chủ ngữ không đứng đầu, nó chuyển ra **sau động từ** (đảo ngữ).\n\n| 1 | 2 (động từ) | Chủ ngữ | Phần còn lại |\n| --- | --- | --- | --- |\n| Jeg | spiser | | fisk i dag. |\n| I dag | spiser | jeg | fisk. |\n| I Oslo | bor | vi | i en leilighet. |\n\nTiếng Việt giữ nguyên trật tự (“Hôm nay tôi ăn cá”), vì vậy người Việt hay nói sai thành “I dag jeg spiser”.",
+          "body_en": "In a main clause, **the conjugated verb always comes second**. The first position can be the subject, a time expression, a place... If the subject is not first, it moves to **after the verb** (inversion).\n\n| 1 | 2 (verb) | Subject | The rest |\n| --- | --- | --- | --- |\n| Jeg | spiser | | fisk i dag. |\n| I dag | spiser | jeg | fisk. |\n| I Oslo | bor | vi | i en leilighet. |\n\nEnglish keeps the normal order (“Today I eat fish”), which is why English speakers often wrongly say “I dag jeg spiser”.",
           "examples": [
-            { "no": "Nå bor jeg i Oslo.", "vi": "Bây giờ tôi sống ở Oslo." },
-            { "no": "På mandag begynner kurset.", "vi": "Thứ Hai khóa học bắt đầu." }
+            {
+              "no": "Nå bor jeg i Oslo.",
+              "vi": "Bây giờ tôi sống ở Oslo.",
+              "en": "Now I live in Oslo."
+            },
+            {
+              "no": "På mandag begynner kurset.",
+              "vi": "Thứ Hai khóa học bắt đầu.",
+              "en": "The course starts on Monday."
+            }
           ]
         },
         {
           "h": "Câu hỏi có/không",
+          "h_en": "Yes/no questions",
           "body": "Chỉ cần đưa **động từ lên đầu câu**: Snakker du norsk? Tiếng Việt thêm “có... không”, tiếng Na Uy chỉ đảo động từ.\n\nTrả lời: **Ja** (có) / **Nei** (không). Với câu hỏi phủ định, muốn trả lời “có” thì dùng **Jo**.\n\nSnakker du ikke norsk? → Jo, litt! (Có chứ, một chút!)",
+          "body_en": "Just move **the verb to the front**: Snakker du norsk? English needs “do” (Do you speak Norwegian?), but Norwegian simply inverts the verb, like old-fashioned English “Speak you Norwegian?”.\n\nAnswers: **Ja** (yes) / **Nei** (no). To answer “yes” to a negative question, use **Jo**.\n\nSnakker du ikke norsk? → Jo, litt! (Yes I do, a little!)",
           "examples": [
-            { "no": "Har du barn?", "vi": "Anh có con không?" },
-            { "no": "Liker du ikke kaffe? Jo, veldig!", "vi": "Anh không thích cà phê à? Có chứ, rất thích!" }
+            {
+              "no": "Har du barn?",
+              "vi": "Anh có con không?",
+              "en": "Do you have children?"
+            },
+            {
+              "no": "Liker du ikke kaffe? Jo, veldig!",
+              "vi": "Anh không thích cà phê à? Có chứ, rất thích!",
+              "en": "Don't you like coffee? Yes, I love it!"
+            }
           ]
         },
         {
           "h": "Câu hỏi có từ để hỏi",
+          "h_en": "Questions with a question word",
           "body": "Từ để hỏi ở vị trí 1, động từ ở vị trí 2, rồi đến chủ ngữ.\n\n| Từ để hỏi | Nghĩa |\n| --- | --- |\n| hva | cái gì |\n| hvem | ai |\n| hvor | ở đâu |\n| når | khi nào |\n| hvorfor | tại sao |\n| hvordan | như thế nào |\n| hvor mye / hvor mange | bao nhiêu |",
+          "body_en": "The question word is in position 1, the verb in position 2, then the subject.\n\n| Question word | Meaning |\n| --- | --- |\n| hva | what |\n| hvem | who |\n| hvor | where |\n| når | when |\n| hvorfor | why |\n| hvordan | how |\n| hvor mye / hvor mange | how much / how many |",
           "examples": [
-            { "no": "Hvor bor du?", "vi": "Anh sống ở đâu?" },
-            { "no": "Når begynner møtet?", "vi": "Khi nào cuộc họp bắt đầu?" },
-            { "no": "Hvorfor lærer du norsk?", "vi": "Tại sao anh học tiếng Na Uy?" }
+            {
+              "no": "Hvor bor du?",
+              "vi": "Anh sống ở đâu?",
+              "en": "Where do you live?"
+            },
+            {
+              "no": "Når begynner møtet?",
+              "vi": "Khi nào cuộc họp bắt đầu?",
+              "en": "When does the meeting start?"
+            },
+            {
+              "no": "Hvorfor lærer du norsk?",
+              "vi": "Tại sao anh học tiếng Na Uy?",
+              "en": "Why are you learning Norwegian?"
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Câu nào đúng?", "options": ["I morgen jeg reiser til Bergen.", "I morgen reiser jeg til Bergen.", "I morgen reiser til Bergen jeg."], "answer": 1, "explain": "“I morgen” ở vị trí 1, động từ “reiser” ở vị trí 2, rồi đến chủ ngữ." },
-        { "q": "Dịch: “Anh có thích cá không?”", "options": ["Du liker fisk?", "Liker du fisk?", "Liker fisk du?"], "answer": 1, "explain": "Câu hỏi có/không: động từ đứng đầu, rồi đến chủ ngữ." },
-        { "q": "Chọn từ để hỏi: ___ bor du? (ở đâu)", "options": ["Hva", "Hvor", "Hvem"], "answer": 1, "explain": "Hvor = ở đâu." },
-        { "q": "Trả lời “có” cho câu “Har du ikke bil?”:", "options": ["Ja", "Jo", "Nei"], "answer": 1, "explain": "Câu hỏi phủ định thì trả lời khẳng định bằng Jo." },
-        { "q": "Câu nào đúng?", "options": ["Hvorfor du lærer norsk?", "Hvorfor lærer du norsk?", "Hvorfor lærer norsk du?"], "answer": 1, "explain": "Từ để hỏi + động từ + chủ ngữ." }
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "I morgen jeg reiser til Bergen.",
+            "I morgen reiser jeg til Bergen.",
+            "I morgen reiser til Bergen jeg."
+          ],
+          "options_en": [
+            "I morgen jeg reiser til Bergen.",
+            "I morgen reiser jeg til Bergen.",
+            "I morgen reiser til Bergen jeg."
+          ],
+          "answer": 1,
+          "explain": "“I morgen” ở vị trí 1, động từ “reiser” ở vị trí 2, rồi đến chủ ngữ.",
+          "explain_en": "“I morgen” is in position 1, the verb “reiser” in position 2, then the subject."
+        },
+        {
+          "q": "Dịch: “Anh có thích cá không?”",
+          "q_en": "Translate: “Do you like fish?”",
+          "options": [
+            "Du liker fisk?",
+            "Liker du fisk?",
+            "Liker fisk du?"
+          ],
+          "options_en": [
+            "Du liker fisk?",
+            "Liker du fisk?",
+            "Liker fisk du?"
+          ],
+          "answer": 1,
+          "explain": "Câu hỏi có/không: động từ đứng đầu, rồi đến chủ ngữ.",
+          "explain_en": "Yes/no question: the verb comes first, then the subject."
+        },
+        {
+          "q": "Chọn từ để hỏi: ___ bor du? (ở đâu)",
+          "q_en": "Choose the question word: ___ bor du? (where)",
+          "options": [
+            "Hva",
+            "Hvor",
+            "Hvem"
+          ],
+          "options_en": [
+            "Hva",
+            "Hvor",
+            "Hvem"
+          ],
+          "answer": 1,
+          "explain": "Hvor = ở đâu.",
+          "explain_en": "Hvor = where."
+        },
+        {
+          "q": "Trả lời “có” cho câu “Har du ikke bil?”:",
+          "q_en": "Answer “yes” to “Har du ikke bil?”:",
+          "options": [
+            "Ja",
+            "Jo",
+            "Nei"
+          ],
+          "options_en": [
+            "Ja",
+            "Jo",
+            "Nei"
+          ],
+          "answer": 1,
+          "explain": "Câu hỏi phủ định thì trả lời khẳng định bằng Jo.",
+          "explain_en": "To give a positive answer to a negative question, use Jo."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Hvorfor du lærer norsk?",
+            "Hvorfor lærer du norsk?",
+            "Hvorfor lærer norsk du?"
+          ],
+          "options_en": [
+            "Hvorfor du lærer norsk?",
+            "Hvorfor lærer du norsk?",
+            "Hvorfor lærer norsk du?"
+          ],
+          "answer": 1,
+          "explain": "Từ để hỏi + động từ + chủ ngữ.",
+          "explain_en": "Question word + verb + subject."
+        }
       ]
     },
     {
       "id": "g6",
       "title": "Phủ định ikke và vị trí trạng từ",
       "title_no": "Nektelse og plassering av adverb",
+      "title_en": "Negation with ikke and adverb position",
       "level": "A1",
       "icon": "🚫",
       "summary": "Ikke đứng sau động từ trong câu chính, nhưng đứng trước động từ trong mệnh đề phụ.",
+      "summary_en": "Ikke comes after the verb in a main clause, but before the verb in a subordinate clause.",
       "sections": [
         {
           "h": "Ikke trong câu chính",
+          "h_en": "Ikke in main clauses",
           "body": "**ikke** (không) đứng **sau động từ chia** trong câu chính. Tiếng Việt đặt “không” trước động từ, tiếng Na Uy đặt sau.\n\nJeg **snakker ikke** fransk. (Tôi không nói tiếng Pháp.)\n\nNếu có động từ khuyết thiếu hoặc trợ động từ, ikke đứng sau động từ chia đó: Jeg **kan ikke** komme. Jeg **har ikke** spist.\n\nCác trạng từ ngắn khác đứng cùng vị trí: **alltid** (luôn luôn), **aldri** (không bao giờ), **ofte** (thường), **også** (cũng), **bare** (chỉ), **gjerne** (sẵn lòng), **vanligvis** (thường thường).",
+          "body_en": "**ikke** (not) comes **after the conjugated verb** in a main clause. English needs “do not” before the verb, but Norwegian simply puts ikke after it.\n\nJeg **snakker ikke** fransk. (I don't speak French.)\n\nIf there is a modal or auxiliary verb, ikke comes after that conjugated verb, just like English “can not” and “have not”: Jeg **kan ikke** komme. Jeg **har ikke** spist.\n\nOther short adverbs take the same position: **alltid** (always), **aldri** (never), **ofte** (often), **også** (also), **bare** (only, just), **gjerne** (gladly), **vanligvis** (usually).",
           "examples": [
-            { "no": "Jeg drikker ikke alkohol.", "vi": "Tôi không uống rượu." },
-            { "no": "Hun kommer alltid for sent.", "vi": "Chị ấy luôn đến muộn." },
-            { "no": "Vi kan ikke komme i morgen.", "vi": "Ngày mai chúng tôi không đến được." }
+            {
+              "no": "Jeg drikker ikke alkohol.",
+              "vi": "Tôi không uống rượu.",
+              "en": "I don't drink alcohol."
+            },
+            {
+              "no": "Hun kommer alltid for sent.",
+              "vi": "Chị ấy luôn đến muộn.",
+              "en": "She is always late."
+            },
+            {
+              "no": "Vi kan ikke komme i morgen.",
+              "vi": "Ngày mai chúng tôi không đến được.",
+              "en": "We can't come tomorrow."
+            }
           ]
         },
         {
           "h": "Khi có đảo ngữ",
+          "h_en": "With inversion",
           "body": "Nếu câu bắt đầu bằng trạng từ hoặc cụm thời gian, thứ tự là: **vị trí 1 + động từ + chủ ngữ + ikke**.\n\nI dag **jobber jeg ikke**. (Hôm nay tôi không làm việc.)\n\nĐại từ tân ngữ ngắn thường đứng trước ikke: Jeg ser **deg ikke**. Jeg forstår **det ikke**.",
+          "body_en": "If the sentence starts with an adverb or time expression, the order is: **position 1 + verb + subject + ikke**.\n\nI dag **jobber jeg ikke**. (I'm not working today.)\n\nShort object pronouns usually come before ikke: Jeg ser **deg ikke**. Jeg forstår **det ikke**.",
           "examples": [
-            { "no": "I helgen jobber jeg ikke.", "vi": "Cuối tuần tôi không làm việc." },
-            { "no": "Jeg forstår det ikke.", "vi": "Tôi không hiểu điều đó." }
+            {
+              "no": "I helgen jobber jeg ikke.",
+              "vi": "Cuối tuần tôi không làm việc.",
+              "en": "I don't work at the weekend."
+            },
+            {
+              "no": "Jeg forstår det ikke.",
+              "vi": "Tôi không hiểu điều đó.",
+              "en": "I don't understand it."
+            }
           ]
         },
         {
           "h": "Mệnh đề phụ: ikke đứng TRƯỚC động từ",
+          "h_en": "Subordinate clauses: ikke comes BEFORE the verb",
           "body": "Trong mệnh đề phụ (sau at, fordi, hvis, når, som...), ikke và các trạng từ ngắn **chuyển lên trước động từ**. Đây là lỗi rất hay gặp trong bài thi Norskprøven.\n\n| Câu chính | Mệnh đề phụ |\n| --- | --- |\n| Han kommer ikke. | ...fordi han ikke kommer. |\n| Hun snakker alltid norsk. | ...at hun alltid snakker norsk. |\n| Jeg har ikke tid. | ...hvis jeg ikke har tid. |\n\nMẹo nhớ: trong mệnh đề phụ, thứ tự là **liên từ + chủ ngữ + ikke + động từ**, giống hệt tiếng Việt: “vì anh ấy không đến”.",
+          "body_en": "In a subordinate clause (after at, fordi, hvis, når, som...), ikke and other short adverbs **move in front of the verb**. This is a very common mistake in the Norskprøven exam.\n\n| Main clause | Subordinate clause |\n| --- | --- |\n| Han kommer ikke. | ...fordi han ikke kommer. |\n| Hun snakker alltid norsk. | ...at hun alltid snakker norsk. |\n| Jeg har ikke tid. | ...hvis jeg ikke har tid. |\n\nMemory tip: in a subordinate clause the order is **conjunction + subject + ikke + verb**, just like English with adverbs: “because he never comes”, “that she always speaks Norwegian”.",
           "examples": [
-            { "no": "Jeg blir hjemme fordi jeg ikke er frisk.", "vi": "Tôi ở nhà vì tôi không khỏe." },
-            { "no": "Hun sier at hun aldri drikker kaffe.", "vi": "Chị ấy nói rằng chị ấy không bao giờ uống cà phê." }
+            {
+              "no": "Jeg blir hjemme fordi jeg ikke er frisk.",
+              "vi": "Tôi ở nhà vì tôi không khỏe.",
+              "en": "I'm staying home because I'm not well."
+            },
+            {
+              "no": "Hun sier at hun aldri drikker kaffe.",
+              "vi": "Chị ấy nói rằng chị ấy không bao giờ uống cà phê.",
+              "en": "She says that she never drinks coffee."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Câu nào đúng?", "options": ["Jeg ikke drikker kaffe.", "Jeg drikker ikke kaffe.", "Ikke jeg drikker kaffe."], "answer": 1, "explain": "Trong câu chính, ikke đứng sau động từ." },
-        { "q": "Câu nào đúng?", "options": ["I dag jeg jobber ikke.", "I dag ikke jobber jeg.", "I dag jobber jeg ikke."], "answer": 2, "explain": "Đảo ngữ: I dag + động từ + chủ ngữ + ikke." },
-        { "q": "Hoàn thành: Jeg blir hjemme fordi jeg ___.", "options": ["er ikke frisk", "ikke er frisk", "er frisk ikke"], "answer": 1, "explain": "Trong mệnh đề phụ (sau fordi), ikke đứng trước động từ." },
-        { "q": "Hoàn thành: Hun sier at hun ___ kaffe.", "options": ["drikker aldri", "aldri drikker", "aldri drikke"], "answer": 1, "explain": "Trạng từ aldri đứng trước động từ trong mệnh đề phụ." },
-        { "q": "Câu nào đúng?", "options": ["Jeg kan ikke komme i morgen.", "Jeg ikke kan komme i morgen.", "Jeg kan komme ikke i morgen."], "answer": 0, "explain": "Ikke đứng ngay sau động từ chia (kan)." }
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Jeg ikke drikker kaffe.",
+            "Jeg drikker ikke kaffe.",
+            "Ikke jeg drikker kaffe."
+          ],
+          "options_en": [
+            "Jeg ikke drikker kaffe.",
+            "Jeg drikker ikke kaffe.",
+            "Ikke jeg drikker kaffe."
+          ],
+          "answer": 1,
+          "explain": "Trong câu chính, ikke đứng sau động từ.",
+          "explain_en": "In a main clause, ikke comes after the verb."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "I dag jeg jobber ikke.",
+            "I dag ikke jobber jeg.",
+            "I dag jobber jeg ikke."
+          ],
+          "options_en": [
+            "I dag jeg jobber ikke.",
+            "I dag ikke jobber jeg.",
+            "I dag jobber jeg ikke."
+          ],
+          "answer": 2,
+          "explain": "Đảo ngữ: I dag + động từ + chủ ngữ + ikke.",
+          "explain_en": "Inversion: I dag + verb + subject + ikke."
+        },
+        {
+          "q": "Hoàn thành: Jeg blir hjemme fordi jeg ___.",
+          "q_en": "Complete: Jeg blir hjemme fordi jeg ___.",
+          "options": [
+            "er ikke frisk",
+            "ikke er frisk",
+            "er frisk ikke"
+          ],
+          "options_en": [
+            "er ikke frisk",
+            "ikke er frisk",
+            "er frisk ikke"
+          ],
+          "answer": 1,
+          "explain": "Trong mệnh đề phụ (sau fordi), ikke đứng trước động từ.",
+          "explain_en": "In a subordinate clause (after fordi), ikke comes before the verb."
+        },
+        {
+          "q": "Hoàn thành: Hun sier at hun ___ kaffe.",
+          "q_en": "Complete: Hun sier at hun ___ kaffe.",
+          "options": [
+            "drikker aldri",
+            "aldri drikker",
+            "aldri drikke"
+          ],
+          "options_en": [
+            "drikker aldri",
+            "aldri drikker",
+            "aldri drikke"
+          ],
+          "answer": 1,
+          "explain": "Trạng từ aldri đứng trước động từ trong mệnh đề phụ.",
+          "explain_en": "The adverb aldri comes before the verb in a subordinate clause."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Jeg kan ikke komme i morgen.",
+            "Jeg ikke kan komme i morgen.",
+            "Jeg kan komme ikke i morgen."
+          ],
+          "options_en": [
+            "Jeg kan ikke komme i morgen.",
+            "Jeg ikke kan komme i morgen.",
+            "Jeg kan komme ikke i morgen."
+          ],
+          "answer": 0,
+          "explain": "Ikke đứng ngay sau động từ chia (kan).",
+          "explain_en": "Ikke comes right after the conjugated verb (kan)."
+        }
       ]
     },
     {
       "id": "g7",
       "title": "Tính từ",
       "title_no": "Adjektiv",
+      "title_en": "Adjectives",
       "level": "A1",
       "icon": "🎨",
       "summary": "Tính từ đứng trước danh từ và đổi đuôi theo giống, số và dạng xác định: stor, stort, store.",
+      "summary_en": "Adjectives come before the noun and change their ending for gender, number and definiteness: stor, stort, store.",
       "sections": [
         {
           "h": "Tính từ biến đổi theo danh từ",
+          "h_en": "Adjectives agree with the noun",
           "body": "Tiếng Việt: “ngôi nhà lớn” (tính từ đứng sau, không đổi). Tiếng Na Uy: tính từ đứng **trước** danh từ và **đổi đuôi** theo giống và số.\n\n| | en / ei | et | số nhiều |\n| --- | --- | --- | --- |\n| Không xác định | en stor bil | et stort hus | store biler |\n| Xác định | den store bilen | det store huset | de store bilene |\n\nQuy tắc: giống trung thêm **-t**, số nhiều và dạng xác định thêm **-e**.\n\nTính từ làm vị ngữ (sau er) cũng biến đổi: Bilen er stor. Huset er stort. Bilene er store.",
+          "body_en": "As in English, adjectives come **before** the noun (“a big house”). But in Norwegian they also **change their ending** according to gender and number.\n\n| | en / ei | et | plural |\n| --- | --- | --- | --- |\n| Indefinite | en stor bil | et stort hus | store biler |\n| Definite | den store bilen | det store huset | de store bilene |\n\nRule: neuter adds **-t**, plural and definite forms add **-e**.\n\nAdjectives used after er also agree: Bilen er stor. Huset er stort. Bilene er store.",
           "examples": [
-            { "no": "en fin dag", "vi": "một ngày đẹp" },
-            { "no": "et fint kontor", "vi": "một văn phòng đẹp" },
-            { "no": "Leilighetene er dyre.", "vi": "Các căn hộ đắt." }
+            {
+              "no": "en fin dag",
+              "vi": "một ngày đẹp",
+              "en": "a nice day"
+            },
+            {
+              "no": "et fint kontor",
+              "vi": "một văn phòng đẹp",
+              "en": "a nice office"
+            },
+            {
+              "no": "Leilighetene er dyre.",
+              "vi": "Các căn hộ đắt.",
+              "en": "The flats are expensive."
+            }
           ]
         },
         {
           "h": "Dạng xác định kép",
+          "h_en": "Double definiteness",
           "body": "Khi có tính từ + danh từ xác định, tiếng Na Uy dùng **“the” hai lần**: den/det/de ở trước và -en/-et/-ene ở cuối danh từ, còn tính từ thêm -e.\n\nden **nye** jobben (công việc mới) · det **gamle** huset (ngôi nhà cũ) · de **norske** fjellene (những ngọn núi Na Uy)",
+          "body_en": "With adjective + definite noun, Norwegian uses **“the” twice**: den/det/de in front and -en/-et/-ene at the end of the noun, while the adjective adds -e.\n\nden **nye** jobben (the new job) · det **gamle** huset (the old house) · de **norske** fjellene (the Norwegian mountains)",
           "examples": [
-            { "no": "Den nye kollegaen heter Linh.", "vi": "Đồng nghiệp mới tên là Linh." },
-            { "no": "Det store skipet ligger i havna.", "vi": "Con tàu lớn đang đậu ở cảng." }
+            {
+              "no": "Den nye kollegaen heter Linh.",
+              "vi": "Đồng nghiệp mới tên là Linh.",
+              "en": "The new colleague's name is Linh."
+            },
+            {
+              "no": "Det store skipet ligger i havna.",
+              "vi": "Con tàu lớn đang đậu ở cảng.",
+              "en": "The big ship is in the harbour."
+            }
           ]
         },
         {
           "h": "Ngoại lệ quan trọng",
+          "h_en": "Important exceptions",
           "body": "- Tính từ tận cùng bằng **-ig, -lig** và tính từ chỉ quốc tịch **-sk** không thêm -t: et hyggelig møte, et norsk flagg.\n- Một số tính từ tận cùng bằng -e hoặc từ mượn không đổi: et moderne kontor, et bra forslag.\n- **liten** (nhỏ) rất bất quy tắc:\n\n| en | ei | et | số nhiều | xác định |\n| --- | --- | --- | --- | --- |\n| liten | lita | lite | små | lille (số ít), små (số nhiều) |\n\n- **gammel** → gammelt, gamle. **god** → godt, gode.",
+          "body_en": "- Adjectives ending in **-ig, -lig** and nationality adjectives in **-sk** do not add -t: et hyggelig møte, et norsk flagg.\n- Some adjectives ending in -e and some loanwords never change: et moderne kontor, et bra forslag.\n- **liten** (small) is very irregular:\n\n| en | ei | et | plural | definite |\n| --- | --- | --- | --- | --- |\n| liten | lita | lite | små | lille (singular), små (plural) |\n\n- **gammel** → gammelt, gamle. **god** → godt, gode.",
           "examples": [
-            { "no": "en liten bil, et lite hus, små barn", "vi": "một chiếc xe nhỏ, một ngôi nhà nhỏ, những đứa trẻ nhỏ" },
-            { "no": "den lille hytta", "vi": "căn nhà gỗ nhỏ đó" }
+            {
+              "no": "en liten bil, et lite hus, små barn",
+              "vi": "một chiếc xe nhỏ, một ngôi nhà nhỏ, những đứa trẻ nhỏ",
+              "en": "a small car, a small house, small children"
+            },
+            {
+              "no": "den lille hytta",
+              "vi": "căn nhà gỗ nhỏ đó",
+              "en": "the little cabin"
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Chọn: et ___ hus (lớn)", "options": ["stor", "stort", "store"], "answer": 1, "explain": "Giống trung không xác định thêm -t." },
-        { "q": "Chọn: den ___ bilen (mới)", "options": ["ny", "nytt", "nye"], "answer": 2, "explain": "Dạng xác định: tính từ thêm -e." },
-        { "q": "Chọn: et ___ barn (nhỏ)", "options": ["liten", "lite", "små"], "answer": 1, "explain": "Liten ở giống trung là lite." },
-        { "q": "Chọn: mange ___ hus (nhỏ)", "options": ["lite", "små", "lille"], "answer": 1, "explain": "Số nhiều của liten là små." },
-        { "q": "Chọn: Leiligheten er veldig ___ (đẹp).", "options": ["fin", "fint", "fine"], "answer": 0, "explain": "Leiligheten là giống đực/cái số ít, nên giữ nguyên: fin." },
-        { "q": "Chọn: et ___ møte (dễ chịu)", "options": ["hyggeligt", "hyggelig", "hyggelige"], "answer": 1, "explain": "Tính từ tận cùng -ig/-lig không thêm -t." }
+        {
+          "q": "Chọn: et ___ hus (lớn)",
+          "q_en": "Choose: et ___ hus (big)",
+          "options": [
+            "stor",
+            "stort",
+            "store"
+          ],
+          "options_en": [
+            "stor",
+            "stort",
+            "store"
+          ],
+          "answer": 1,
+          "explain": "Giống trung không xác định thêm -t.",
+          "explain_en": "Indefinite neuter adds -t."
+        },
+        {
+          "q": "Chọn: den ___ bilen (mới)",
+          "q_en": "Choose: den ___ bilen (new)",
+          "options": [
+            "ny",
+            "nytt",
+            "nye"
+          ],
+          "options_en": [
+            "ny",
+            "nytt",
+            "nye"
+          ],
+          "answer": 2,
+          "explain": "Dạng xác định: tính từ thêm -e.",
+          "explain_en": "Definite form: the adjective adds -e."
+        },
+        {
+          "q": "Chọn: et ___ barn (nhỏ)",
+          "q_en": "Choose: et ___ barn (small)",
+          "options": [
+            "liten",
+            "lite",
+            "små"
+          ],
+          "options_en": [
+            "liten",
+            "lite",
+            "små"
+          ],
+          "answer": 1,
+          "explain": "Liten ở giống trung là lite.",
+          "explain_en": "The neuter form of liten is lite."
+        },
+        {
+          "q": "Chọn: mange ___ hus (nhỏ)",
+          "q_en": "Choose: mange ___ hus (small)",
+          "options": [
+            "lite",
+            "små",
+            "lille"
+          ],
+          "options_en": [
+            "lite",
+            "små",
+            "lille"
+          ],
+          "answer": 1,
+          "explain": "Số nhiều của liten là små.",
+          "explain_en": "The plural of liten is små."
+        },
+        {
+          "q": "Chọn: Leiligheten er veldig ___ (đẹp).",
+          "q_en": "Choose: Leiligheten er veldig ___ (nice).",
+          "options": [
+            "fin",
+            "fint",
+            "fine"
+          ],
+          "options_en": [
+            "fin",
+            "fint",
+            "fine"
+          ],
+          "answer": 0,
+          "explain": "Leiligheten là giống đực/cái số ít, nên giữ nguyên: fin.",
+          "explain_en": "Leiligheten is masculine/feminine singular, so the adjective stays unchanged: fin."
+        },
+        {
+          "q": "Chọn: et ___ møte (dễ chịu)",
+          "q_en": "Choose: et ___ møte (pleasant)",
+          "options": [
+            "hyggeligt",
+            "hyggelig",
+            "hyggelige"
+          ],
+          "options_en": [
+            "hyggeligt",
+            "hyggelig",
+            "hyggelige"
+          ],
+          "answer": 1,
+          "explain": "Tính từ tận cùng -ig/-lig không thêm -t.",
+          "explain_en": "Adjectives ending in -ig/-lig do not add -t."
+        }
       ]
     },
     {
       "id": "g8",
       "title": "Động từ khuyết thiếu",
       "title_no": "Modale hjelpeverb",
+      "title_en": "Modal verbs",
       "level": "A1",
       "icon": "🔑",
       "summary": "Kan, vil, skal, må, bør đứng trước động từ chính ở dạng nguyên mẫu không có å.",
+      "summary_en": "Kan, vil, skal, må and bør come before the main verb, which is in the infinitive without å.",
       "sections": [
         {
           "h": "Năm động từ khuyết thiếu",
+          "h_en": "The five modal verbs",
           "body": "Giống “có thể, muốn, sẽ, phải, nên” trong tiếng Việt, động từ khuyết thiếu đứng trước động từ chính.\n\n| Hiện tại | Nghĩa | Quá khứ |\n| --- | --- | --- |\n| kan | có thể, biết (làm gì) | kunne |\n| vil | muốn | ville |\n| skal | sẽ (dự định), phải (theo quy định) | skulle |\n| må | phải | måtte |\n| bør | nên | burde |",
+          "body_en": "Just like English “can, will, shall, must, should”, modal verbs come before the main verb. Several of them even look like their English cousins.\n\n| Present | Meaning | Past |\n| --- | --- | --- |\n| kan | can, be able to, know how to | kunne |\n| vil | want to | ville |\n| skal | will (plan), shall (rule) | skulle |\n| må | must, have to | måtte |\n| bør | should, ought to | burde |\n\nWatch out: **vil** means “want”, not “will”!",
           "examples": [
-            { "no": "Jeg kan snakke engelsk og fransk.", "vi": "Tôi biết nói tiếng Anh và tiếng Pháp." },
-            { "no": "Du bør søke på den jobben.", "vi": "Anh nên nộp đơn vào công việc đó." }
+            {
+              "no": "Jeg kan snakke engelsk og fransk.",
+              "vi": "Tôi biết nói tiếng Anh và tiếng Pháp.",
+              "en": "I can speak English and French."
+            },
+            {
+              "no": "Du bør søke på den jobben.",
+              "vi": "Anh nên nộp đơn vào công việc đó.",
+              "en": "You should apply for that job."
+            }
           ]
         },
         {
           "h": "Cấu trúc và bẫy “må ikke”",
+          "h_en": "Structure and the “må ikke” trap",
           "body": "**Chủ ngữ + modal + (ikke) + động từ nguyên mẫu** (không có å).\n\nJeg kan snakke norsk. Vi må ikke glemme billetten.\n\nCẩn thận: **må ikke** nghĩa là **không được** (cấm), không phải “không cần”. “Không cần” là **trenger ikke**.\n\nDu må ikke røyke her. = Anh không được hút thuốc ở đây.\nDu trenger ikke komme. = Anh không cần đến.",
+          "body_en": "**Subject + modal + (ikke) + infinitive** (without å).\n\nJeg kan snakke norsk. Vi må ikke glemme billetten.\n\nCareful: **må ikke** means **must not** (forbidden), not “don't have to”. “Don't have to” is **trenger ikke**. English has the same trap: “must not” versus “don't need to”.\n\nDu må ikke røyke her. = You must not smoke here.\nDu trenger ikke komme. = You don't need to come.",
           "examples": [
-            { "no": "Du må ikke parkere her.", "vi": "Anh không được đỗ xe ở đây." },
-            { "no": "Du trenger ikke betale.", "vi": "Anh không cần trả tiền." }
+            {
+              "no": "Du må ikke parkere her.",
+              "vi": "Anh không được đỗ xe ở đây.",
+              "en": "You must not park here."
+            },
+            {
+              "no": "Du trenger ikke betale.",
+              "vi": "Anh không cần trả tiền.",
+              "en": "You don't need to pay."
+            }
           ]
         },
         {
           "h": "Nói lịch sự",
+          "h_en": "Being polite",
           "body": "Dùng **vil gjerne** (muốn, rất muốn) thay cho vil một mình, và dạng quá khứ **kunne / ville** để hỏi lịch sự hơn. Rất hữu ích khi phỏng vấn xin việc hoặc viết email.",
+          "body_en": "Use **vil gjerne** (would like) instead of vil on its own, and the past forms **kunne / ville** to ask more politely, just like English “could / would”. Very useful in job interviews and emails.",
           "examples": [
-            { "no": "Jeg vil gjerne ha en kaffe.", "vi": "Tôi muốn một ly cà phê." },
-            { "no": "Kunne du sende meg mer informasjon?", "vi": "Anh/chị có thể gửi cho tôi thêm thông tin được không ạ?" },
-            { "no": "Jeg vil gjerne fortelle litt om meg selv.", "vi": "Tôi xin phép giới thiệu đôi chút về bản thân." }
+            {
+              "no": "Jeg vil gjerne ha en kaffe.",
+              "vi": "Tôi muốn một ly cà phê.",
+              "en": "I would like a coffee."
+            },
+            {
+              "no": "Kunne du sende meg mer informasjon?",
+              "vi": "Anh/chị có thể gửi cho tôi thêm thông tin được không ạ?",
+              "en": "Could you send me more information?"
+            },
+            {
+              "no": "Jeg vil gjerne fortelle litt om meg selv.",
+              "vi": "Tôi xin phép giới thiệu đôi chút về bản thân.",
+              "en": "I would like to tell you a little about myself."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Chọn: Jeg ___ snakke tre språk. (có thể)", "options": ["kan", "må", "bør"], "answer": 0, "explain": "Kan = có thể, biết làm gì." },
-        { "q": "Câu nào đúng?", "options": ["Jeg vil å reise.", "Jeg vil reise.", "Jeg vil reiser."], "answer": 1, "explain": "Sau động từ khuyết thiếu dùng nguyên mẫu không có å." },
-        { "q": "“Du må ikke parkere her” nghĩa là:", "options": ["Anh không cần đỗ xe ở đây", "Anh không được đỗ xe ở đây", "Anh nên đỗ xe ở đây"], "answer": 1, "explain": "Må ikke = không được (cấm). Không cần = trenger ikke." },
-        { "q": "Lời khuyên: Du ___ gå til legen. (nên)", "options": ["bør", "vil", "kan"], "answer": 0, "explain": "Bør = nên." },
-        { "q": "Cách hỏi lịch sự nhất:", "options": ["Hjelp meg!", "Kan du hjelpe meg?", "Kunne du hjelpe meg?"], "answer": 2, "explain": "Dạng quá khứ kunne làm câu hỏi lịch sự hơn, giống “could” trong tiếng Anh." }
+        {
+          "q": "Chọn: Jeg ___ snakke tre språk. (có thể)",
+          "q_en": "Choose: Jeg ___ snakke tre språk. (can)",
+          "options": [
+            "kan",
+            "må",
+            "bør"
+          ],
+          "options_en": [
+            "kan",
+            "må",
+            "bør"
+          ],
+          "answer": 0,
+          "explain": "Kan = có thể, biết làm gì.",
+          "explain_en": "Kan = can, be able to, know how to."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Jeg vil å reise.",
+            "Jeg vil reise.",
+            "Jeg vil reiser."
+          ],
+          "options_en": [
+            "Jeg vil å reise.",
+            "Jeg vil reise.",
+            "Jeg vil reiser."
+          ],
+          "answer": 1,
+          "explain": "Sau động từ khuyết thiếu dùng nguyên mẫu không có å.",
+          "explain_en": "After a modal verb, use the infinitive without å."
+        },
+        {
+          "q": "“Du må ikke parkere her” nghĩa là:",
+          "q_en": "“Du må ikke parkere her” means:",
+          "options": [
+            "Anh không cần đỗ xe ở đây",
+            "Anh không được đỗ xe ở đây",
+            "Anh nên đỗ xe ở đây"
+          ],
+          "options_en": [
+            "You don't need to park here",
+            "You must not park here",
+            "You should park here"
+          ],
+          "answer": 1,
+          "explain": "Må ikke = không được (cấm). Không cần = trenger ikke.",
+          "explain_en": "Må ikke = must not (forbidden). Don't need to = trenger ikke."
+        },
+        {
+          "q": "Lời khuyên: Du ___ gå til legen. (nên)",
+          "q_en": "Advice: Du ___ gå til legen. (should)",
+          "options": [
+            "bør",
+            "vil",
+            "kan"
+          ],
+          "options_en": [
+            "bør",
+            "vil",
+            "kan"
+          ],
+          "answer": 0,
+          "explain": "Bør = nên.",
+          "explain_en": "Bør = should."
+        },
+        {
+          "q": "Cách hỏi lịch sự nhất:",
+          "q_en": "The most polite way to ask:",
+          "options": [
+            "Hjelp meg!",
+            "Kan du hjelpe meg?",
+            "Kunne du hjelpe meg?"
+          ],
+          "options_en": [
+            "Hjelp meg!",
+            "Kan du hjelpe meg?",
+            "Kunne du hjelpe meg?"
+          ],
+          "answer": 2,
+          "explain": "Dạng quá khứ kunne làm câu hỏi lịch sự hơn, giống “could” trong tiếng Anh.",
+          "explain_en": "The past form kunne makes the question more polite, like English “could”."
+        }
       ]
     },
     {
       "id": "g9",
       "title": "Thì quá khứ (preteritum)",
       "title_no": "Preteritum",
+      "title_en": "The past tense (preteritum)",
       "level": "A2",
       "icon": "⏪",
       "summary": "Động từ đổi dạng để chỉ quá khứ: động từ yếu chia thành bốn nhóm (-et, -te, -de, -dde), động từ mạnh phải học thuộc.",
+      "summary_en": "Verbs change form to show the past: weak verbs fall into four groups (-et, -te, -de, -dde), strong verbs must be memorised.",
       "sections": [
         {
           "h": "Khi nào dùng preteritum?",
+          "h_en": "When do you use the preteritum?",
           "body": "Tiếng Việt dùng “đã”, “hôm qua”... còn động từ không đổi. Tiếng Na Uy **đổi dạng động từ**: jobber → jobbet.\n\nPreteritum dùng cho hành động đã kết thúc tại **một thời điểm xác định** trong quá khứ: i går (hôm qua), i fjor (năm ngoái), forrige uke (tuần trước), for to år siden (hai năm trước), da jeg var barn (khi tôi còn nhỏ).",
+          "body_en": "Just like English (work → worked), Norwegian **changes the verb form**: jobber → jobbet.\n\nThe preteritum is used for actions completed at **a specific time** in the past, just like the English simple past: i går (yesterday), i fjor (last year), forrige uke (last week), for to år siden (two years ago), da jeg var barn (when I was a child).",
           "examples": [
-            { "no": "I går jobbet jeg hjemme.", "vi": "Hôm qua tôi làm việc ở nhà." },
-            { "no": "Jeg flyttet til Oslo for to år siden.", "vi": "Tôi chuyển đến Oslo hai năm trước." }
+            {
+              "no": "I går jobbet jeg hjemme.",
+              "vi": "Hôm qua tôi làm việc ở nhà.",
+              "en": "Yesterday I worked from home."
+            },
+            {
+              "no": "Jeg flyttet til Oslo for to år siden.",
+              "vi": "Tôi chuyển đến Oslo hai năm trước.",
+              "en": "I moved to Oslo two years ago."
+            }
           ]
         },
         {
           "h": "Bốn nhóm động từ yếu",
+          "h_en": "Four groups of weak verbs",
           "body": "Không có quy tắc tuyệt đối, nhưng có xu hướng rõ ràng:\n\n| Nhóm | Nguyên mẫu | Preteritum | Perfektum | Thường gặp khi |\n| --- | --- | --- | --- | --- |\n| 1 (-et) | å jobbe | jobbet | har jobbet | hai phụ âm trước -e |\n| 2 (-te) | å lese | leste | har lest | một phụ âm trước -e |\n| 3 (-de) | å prøve | prøvde | har prøvd | gốc tận cùng -v, -g, -ei |\n| 4 (-dde) | å bo | bodde | har bodd | từ một âm tiết tận cùng nguyên âm |\n\nNhóm 1 là nhóm lớn nhất. Khi không chắc, hãy đoán -et.",
+          "body_en": "There is no absolute rule, but there are clear tendencies:\n\n| Group | Infinitive | Preteritum | Perfektum | Typical when |\n| --- | --- | --- | --- | --- |\n| 1 (-et) | å jobbe | jobbet | har jobbet | two consonants before -e |\n| 2 (-te) | å lese | leste | har lest | one consonant before -e |\n| 3 (-de) | å prøve | prøvde | har prøvd | stem ends in -v, -g, -ei |\n| 4 (-dde) | å bo | bodde | har bodd | one-syllable verbs ending in a vowel |\n\nGroup 1 is the largest. If you're not sure, guess -et.",
           "examples": [
-            { "no": "Jeg leste avisen i morges.", "vi": "Sáng nay tôi đã đọc báo." },
-            { "no": "Vi bodde i London i ett år.", "vi": "Chúng tôi đã sống ở London một năm." }
+            {
+              "no": "Jeg leste avisen i morges.",
+              "vi": "Sáng nay tôi đã đọc báo.",
+              "en": "I read the newspaper this morning."
+            },
+            {
+              "no": "Vi bodde i London i ett år.",
+              "vi": "Chúng tôi đã sống ở London một năm.",
+              "en": "We lived in London for a year."
+            }
           ]
         },
         {
           "h": "Động từ mạnh thông dụng",
+          "h_en": "Common strong verbs",
           "body": "Động từ mạnh đổi nguyên âm, phải học thuộc (giống go/went/gone trong tiếng Anh):\n\n| Nguyên mẫu | Preteritum | Perfektum |\n| --- | --- | --- |\n| å være | var | har vært |\n| å ha | hadde | har hatt |\n| å gå | gikk | har gått |\n| å komme | kom | har kommet |\n| å se | så | har sett |\n| å gjøre | gjorde | har gjort |\n| å si | sa | har sagt |\n| å ta | tok | har tatt |\n| å få | fikk | har fått |\n| å skrive | skrev | har skrevet |\n| å drikke | drakk | har drukket |\n| å finne | fant | har funnet |\n| å sove | sov | har sovet |\n| å stå | sto | har stått |\n| å vite | visste | har visst |",
+          "body_en": "Strong verbs change their vowel and must be memorised (like English go/went/gone). Many even resemble English: drikke/drakk/drukket is drink/drank/drunk!\n\n| Infinitive | Preteritum | Perfektum |\n| --- | --- | --- |\n| å være | var | har vært |\n| å ha | hadde | har hatt |\n| å gå | gikk | har gått |\n| å komme | kom | har kommet |\n| å se | så | har sett |\n| å gjøre | gjorde | har gjort |\n| å si | sa | har sagt |\n| å ta | tok | har tatt |\n| å få | fikk | har fått |\n| å skrive | skrev | har skrevet |\n| å drikke | drakk | har drukket |\n| å finne | fant | har funnet |\n| å sove | sov | har sovet |\n| å stå | sto | har stått |\n| å vite | visste | har visst |",
           "examples": [
-            { "no": "I går gikk jeg på kino.", "vi": "Hôm qua tôi đi xem phim." },
-            { "no": "Hun fikk jobben i fjor.", "vi": "Năm ngoái chị ấy đã nhận được công việc." }
+            {
+              "no": "I går gikk jeg på kino.",
+              "vi": "Hôm qua tôi đi xem phim.",
+              "en": "Yesterday I went to the cinema."
+            },
+            {
+              "no": "Hun fikk jobben i fjor.",
+              "vi": "Năm ngoái chị ấy đã nhận được công việc.",
+              "en": "She got the job last year."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Preteritum của “å jobbe”:", "options": ["jobbte", "jobbet", "jobbde"], "answer": 1, "explain": "Hai phụ âm (bb) trước -e: nhóm 1, thêm -et." },
-        { "q": "I går ___ jeg en bok. (å lese)", "options": ["leser", "leste", "lest"], "answer": 1, "explain": "Lese thuộc nhóm 2: leste. “Lest” là phân từ (har lest)." },
-        { "q": "Preteritum của “å bo”:", "options": ["bodde", "boet", "bote"], "answer": 0, "explain": "Từ một âm tiết tận cùng nguyên âm: nhóm 4, thêm -dde." },
-        { "q": "Preteritum của “å gå”:", "options": ["gådde", "gikk", "gått"], "answer": 1, "explain": "Gå là động từ mạnh: gikk, har gått." },
-        { "q": "Jeg ___ i London i 2015. (å være)", "options": ["er", "var", "vært"], "answer": 1, "explain": "Có thời điểm xác định (i 2015) nên dùng preteritum: var." },
-        { "q": "Preteritum của “å ta”:", "options": ["tok", "tatt", "tadde"], "answer": 0, "explain": "Ta là động từ mạnh: tok, har tatt." }
+        {
+          "q": "Preteritum của “å jobbe”:",
+          "q_en": "The preteritum of “å jobbe”:",
+          "options": [
+            "jobbte",
+            "jobbet",
+            "jobbde"
+          ],
+          "options_en": [
+            "jobbte",
+            "jobbet",
+            "jobbde"
+          ],
+          "answer": 1,
+          "explain": "Hai phụ âm (bb) trước -e: nhóm 1, thêm -et.",
+          "explain_en": "Two consonants (bb) before -e: group 1, add -et."
+        },
+        {
+          "q": "I går ___ jeg en bok. (å lese)",
+          "q_en": "I går ___ jeg en bok. (å lese)",
+          "options": [
+            "leser",
+            "leste",
+            "lest"
+          ],
+          "options_en": [
+            "leser",
+            "leste",
+            "lest"
+          ],
+          "answer": 1,
+          "explain": "Lese thuộc nhóm 2: leste. “Lest” là phân từ (har lest).",
+          "explain_en": "Lese is in group 2: leste. “Lest” is the participle (har lest)."
+        },
+        {
+          "q": "Preteritum của “å bo”:",
+          "q_en": "The preteritum of “å bo”:",
+          "options": [
+            "bodde",
+            "boet",
+            "bote"
+          ],
+          "options_en": [
+            "bodde",
+            "boet",
+            "bote"
+          ],
+          "answer": 0,
+          "explain": "Từ một âm tiết tận cùng nguyên âm: nhóm 4, thêm -dde.",
+          "explain_en": "One-syllable verb ending in a vowel: group 4, add -dde."
+        },
+        {
+          "q": "Preteritum của “å gå”:",
+          "q_en": "The preteritum of “å gå”:",
+          "options": [
+            "gådde",
+            "gikk",
+            "gått"
+          ],
+          "options_en": [
+            "gådde",
+            "gikk",
+            "gått"
+          ],
+          "answer": 1,
+          "explain": "Gå là động từ mạnh: gikk, har gått.",
+          "explain_en": "Gå is a strong verb: gikk, har gått."
+        },
+        {
+          "q": "Jeg ___ i London i 2015. (å være)",
+          "q_en": "Jeg ___ i London i 2015. (å være)",
+          "options": [
+            "er",
+            "var",
+            "vært"
+          ],
+          "options_en": [
+            "er",
+            "var",
+            "vært"
+          ],
+          "answer": 1,
+          "explain": "Có thời điểm xác định (i 2015) nên dùng preteritum: var.",
+          "explain_en": "There is a specific time (i 2015), so use the preteritum: var."
+        },
+        {
+          "q": "Preteritum của “å ta”:",
+          "q_en": "The preteritum of “å ta”:",
+          "options": [
+            "tok",
+            "tatt",
+            "tadde"
+          ],
+          "options_en": [
+            "tok",
+            "tatt",
+            "tadde"
+          ],
+          "answer": 0,
+          "explain": "Ta là động từ mạnh: tok, har tatt.",
+          "explain_en": "Ta is a strong verb: tok, har tatt."
+        }
       ]
     },
     {
       "id": "g10",
       "title": "Hiện tại hoàn thành (perfektum)",
       "title_no": "Perfektum",
+      "title_en": "The present perfect (perfektum)",
       "level": "A2",
       "icon": "✅",
       "summary": "Har + phân từ quá khứ, dùng khi không nói rõ thời điểm hoặc khi kết quả còn liên quan đến hiện tại.",
+      "summary_en": "Har + past participle, used when no specific time is given or when the result is still relevant now.",
       "sections": [
         {
           "h": "Cấu trúc har + phân từ",
+          "h_en": "The structure har + participle",
           "body": "**har + phân từ quá khứ** (partisipp), giống “have + past participle” trong tiếng Anh. Har không đổi theo ngôi.\n\n| Động từ | Perfektum |\n| --- | --- |\n| å jobbe | har jobbet |\n| å lese | har lest |\n| å bo | har bodd |\n| å se | har sett |\n| å skrive | har skrevet |\n\nPhủ định: ikke đứng sau har: Jeg **har ikke** sett filmen.",
+          "body_en": "**har + past participle** (partisipp), just like “have + past participle” in English. Har does not change with the person (no “has”).\n\n| Verb | Perfektum |\n| --- | --- |\n| å jobbe | har jobbet |\n| å lese | har lest |\n| å bo | har bodd |\n| å se | har sett |\n| å skrive | har skrevet |\n\nNegation: ikke comes after har: Jeg **har ikke** sett filmen.",
           "examples": [
-            { "no": "Jeg har bodd i Oslo i to år.", "vi": "Tôi đã sống ở Oslo được hai năm (đến giờ vẫn sống)." },
-            { "no": "Har du sett den nye filmen?", "vi": "Anh đã xem bộ phim mới chưa?" }
+            {
+              "no": "Jeg har bodd i Oslo i to år.",
+              "vi": "Tôi đã sống ở Oslo được hai năm (đến giờ vẫn sống).",
+              "en": "I have lived in Oslo for two years (and still do)."
+            },
+            {
+              "no": "Har du sett den nye filmen?",
+              "vi": "Anh đã xem bộ phim mới chưa?",
+              "en": "Have you seen the new film?"
+            }
           ]
         },
         {
           "h": "Perfektum hay preteritum?",
+          "h_en": "Perfektum or preteritum?",
           "body": "| Perfektum | Preteritum |\n| --- | --- |\n| Không nói rõ thời điểm | Có thời điểm xác định |\n| Kết quả còn liên quan đến bây giờ | Câu chuyện đã kết thúc |\n| Jeg har vært i Bergen. | Jeg var i Bergen i fjor. |\n| Har du spist? | Spiste du frokost i dag? |\n\nGiống tiếng Anh: “I have lived here for two years” (vẫn đang sống ở đây) dùng perfektum. Câu hỏi “đã bao giờ... chưa” dùng perfektum với **noen gang**: Har du noen gang vært i Vietnam?",
+          "body_en": "| Perfektum | Preteritum |\n| --- | --- |\n| No specific time | A specific time |\n| The result is still relevant now | The story is over |\n| Jeg har vært i Bergen. | Jeg var i Bergen i fjor. |\n| Har du spist? | Spiste du frokost i dag? |\n\nIt works much like English: “I have lived here for two years” (and still live here) uses perfektum. “Have you ever...?” questions use perfektum with **noen gang**: Har du noen gang vært i Vietnam?",
           "examples": [
-            { "no": "Jeg har aldri smakt brunost.", "vi": "Tôi chưa bao giờ ăn thử pho mát nâu." },
-            { "no": "Jeg smakte brunost i går.", "vi": "Hôm qua tôi đã ăn thử pho mát nâu." }
+            {
+              "no": "Jeg har aldri smakt brunost.",
+              "vi": "Tôi chưa bao giờ ăn thử pho mát nâu.",
+              "en": "I have never tasted brown cheese."
+            },
+            {
+              "no": "Jeg smakte brunost i går.",
+              "vi": "Hôm qua tôi đã ăn thử pho mát nâu.",
+              "en": "I tasted brown cheese yesterday."
+            }
           ]
         },
         {
           "h": "Har hay er?",
+          "h_en": "Har or er?",
           "body": "Với một số động từ chỉ chuyển động hoặc thay đổi (reise, dra, komme, bli), có thể dùng **er** thay cho har để nhấn mạnh trạng thái hiện tại: Han **er** reist (anh ấy đã đi rồi, giờ không có ở đây). Han **har** reist mye (anh ấy đã đi nhiều nơi).\n\nVới người mới học: dùng **har** luôn luôn đúng ngữ pháp.",
+          "body_en": "With some verbs of movement or change (reise, dra, komme, bli), you can use **er** instead of har to stress the present state, a bit like old English “he is gone”: Han **er** reist (he has left, he's not here now). Han **har** reist mye (he has travelled a lot).\n\nFor beginners: **har** is always grammatically correct.",
           "examples": [
-            { "no": "Hun er blitt sjef. / Hun har blitt sjef.", "vi": "Chị ấy đã trở thành sếp." }
+            {
+              "no": "Hun er blitt sjef. / Hun har blitt sjef.",
+              "vi": "Chị ấy đã trở thành sếp.",
+              "en": "She has become the boss."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Jeg ___ bodd i Norge i tre år.", "options": ["er", "har", "hadde vært"], "answer": 1, "explain": "Perfektum: har + phân từ (bodd)." },
-        { "q": "Phân từ của “å skrive”:", "options": ["skrev", "skrevet", "skrivet"], "answer": 1, "explain": "Skrive, skrev, har skrevet." },
-        { "q": "Chọn dạng đúng: Jeg ___ i Tromsø i fjor.", "options": ["har vært", "var", "er"], "answer": 1, "explain": "Có thời điểm xác định (i fjor) nên dùng preteritum." },
-        { "q": "Chọn: ___ du noen gang smakt brunost?", "options": ["Har", "Var", "Er"], "answer": 0, "explain": "“Đã bao giờ... chưa” dùng perfektum với har." },
-        { "q": "Phân từ của “å se”:", "options": ["så", "sett", "seet"], "answer": 1, "explain": "Se, så, har sett." }
+        {
+          "q": "Jeg ___ bodd i Norge i tre år.",
+          "q_en": "Jeg ___ bodd i Norge i tre år.",
+          "options": [
+            "er",
+            "har",
+            "hadde vært"
+          ],
+          "options_en": [
+            "er",
+            "har",
+            "hadde vært"
+          ],
+          "answer": 1,
+          "explain": "Perfektum: har + phân từ (bodd).",
+          "explain_en": "Perfektum: har + participle (bodd)."
+        },
+        {
+          "q": "Phân từ của “å skrive”:",
+          "q_en": "The participle of “å skrive”:",
+          "options": [
+            "skrev",
+            "skrevet",
+            "skrivet"
+          ],
+          "options_en": [
+            "skrev",
+            "skrevet",
+            "skrivet"
+          ],
+          "answer": 1,
+          "explain": "Skrive, skrev, har skrevet.",
+          "explain_en": "Skrive, skrev, har skrevet."
+        },
+        {
+          "q": "Chọn dạng đúng: Jeg ___ i Tromsø i fjor.",
+          "q_en": "Choose the correct form: Jeg ___ i Tromsø i fjor.",
+          "options": [
+            "har vært",
+            "var",
+            "er"
+          ],
+          "options_en": [
+            "har vært",
+            "var",
+            "er"
+          ],
+          "answer": 1,
+          "explain": "Có thời điểm xác định (i fjor) nên dùng preteritum.",
+          "explain_en": "There is a specific time (i fjor), so use the preteritum."
+        },
+        {
+          "q": "Chọn: ___ du noen gang smakt brunost?",
+          "q_en": "Choose: ___ du noen gang smakt brunost?",
+          "options": [
+            "Har",
+            "Var",
+            "Er"
+          ],
+          "options_en": [
+            "Har",
+            "Var",
+            "Er"
+          ],
+          "answer": 0,
+          "explain": "“Đã bao giờ... chưa” dùng perfektum với har.",
+          "explain_en": "“Have you ever...?” uses perfektum with har."
+        },
+        {
+          "q": "Phân từ của “å se”:",
+          "q_en": "The participle of “å se”:",
+          "options": [
+            "så",
+            "sett",
+            "seet"
+          ],
+          "options_en": [
+            "så",
+            "sett",
+            "seet"
+          ],
+          "answer": 1,
+          "explain": "Se, så, har sett.",
+          "explain_en": "Se, så, har sett."
+        }
       ]
     },
     {
       "id": "g11",
       "title": "Thì tương lai",
       "title_no": "Framtid: skal og kommer til å",
+      "title_en": "The future",
       "level": "A2",
       "icon": "🔮",
       "summary": "Skal + nguyên mẫu cho kế hoạch, kommer til å + nguyên mẫu cho dự đoán; thì hiện tại cũng dùng được cho tương lai.",
+      "summary_en": "Skal + infinitive for plans, kommer til å + infinitive for predictions; the present tense can also refer to the future.",
       "sections": [
         {
           "h": "Skal: kế hoạch, dự định",
+          "h_en": "Skal: plans and intentions",
           "body": "**skal + nguyên mẫu** dùng khi đã có kế hoạch hoặc quyết định, giống “sẽ, định” trong tiếng Việt và “be going to” trong tiếng Anh.\n\nSkal còn có nghĩa “phải” theo quy định, thỏa thuận: Du skal betale innen fredag.",
+          "body_en": "**skal + infinitive** is used when something is planned or decided, like English “be going to”.\n\nSkal can also mean “must” because of a rule or agreement, like formal English “shall”: Du skal betale innen fredag.",
           "examples": [
-            { "no": "Jeg skal reise til Vietnam i juli.", "vi": "Tháng Bảy tôi sẽ về Việt Nam." },
-            { "no": "Vi skal ha møte klokka ti.", "vi": "Chúng ta sẽ họp lúc mười giờ." }
+            {
+              "no": "Jeg skal reise til Vietnam i juli.",
+              "vi": "Tháng Bảy tôi sẽ về Việt Nam.",
+              "en": "I'm going to Vietnam in July."
+            },
+            {
+              "no": "Vi skal ha møte klokka ti.",
+              "vi": "Chúng ta sẽ họp lúc mười giờ.",
+              "en": "We're having a meeting at ten o'clock."
+            }
           ]
         },
         {
           "h": "Kommer til å: dự đoán",
+          "h_en": "Kommer til å: predictions",
           "body": "**kommer til å + nguyên mẫu** dùng để dự đoán điều sẽ xảy ra, không phụ thuộc vào ý muốn của ai. Không dùng skal cho thời tiết hay dự báo.\n\n| Kế hoạch (skal) | Dự đoán (kommer til å) |\n| --- | --- |\n| Jeg skal lage middag. | Det kommer til å regne. |\n| Vi skal flytte i mai. | Prisene kommer til å stige. |",
+          "body_en": "**kommer til å + infinitive** is used to predict what will happen, regardless of anyone's will, like English “will” in predictions. Don't use skal for weather or forecasts.\n\n| Plan (skal) | Prediction (kommer til å) |\n| --- | --- |\n| Jeg skal lage middag. | Det kommer til å regne. |\n| Vi skal flytte i mai. | Prisene kommer til å stige. |",
           "examples": [
-            { "no": "Det kommer til å bli kaldt i kveld.", "vi": "Tối nay trời sẽ lạnh." },
-            { "no": "Eksporten til Asia kommer til å vokse.", "vi": "Xuất khẩu sang châu Á sẽ tăng." }
+            {
+              "no": "Det kommer til å bli kaldt i kveld.",
+              "vi": "Tối nay trời sẽ lạnh.",
+              "en": "It's going to be cold tonight."
+            },
+            {
+              "no": "Eksporten til Asia kommer til å vokse.",
+              "vi": "Xuất khẩu sang châu Á sẽ tăng.",
+              "en": "Exports to Asia will grow."
+            }
           ]
         },
         {
           "h": "Vil và thì hiện tại",
+          "h_en": "Vil and the present tense",
           "body": "**vil** đôi khi chỉ tương lai trong văn viết trang trọng: Møtet vil starte klokka ti. Nhưng trong giao tiếp hằng ngày, vil thường nghĩa là **muốn**: Jeg vil reise = tôi muốn đi.\n\nGiống tiếng Việt, **thì hiện tại + trạng từ thời gian** cũng diễn tả tương lai: Jeg begynner i ny jobb på mandag.",
+          "body_en": "**vil** sometimes expresses the future in formal writing: Møtet vil starte klokka ti. But in everyday speech vil usually means **want**: Jeg vil reise = I want to travel. Don't be fooled by English “will”!\n\nAs in English, **present tense + time expression** can also express the future: Jeg begynner i ny jobb på mandag (I start a new job on Monday).",
           "examples": [
-            { "no": "Jeg begynner på kurset neste uke.", "vi": "Tuần sau tôi bắt đầu khóa học." },
-            { "no": "Jeg vil gjerne jobbe med havbruk.", "vi": "Tôi muốn làm việc trong ngành nuôi trồng thủy sản." }
+            {
+              "no": "Jeg begynner på kurset neste uke.",
+              "vi": "Tuần sau tôi bắt đầu khóa học.",
+              "en": "I start the course next week."
+            },
+            {
+              "no": "Jeg vil gjerne jobbe med havbruk.",
+              "vi": "Tôi muốn làm việc trong ngành nuôi trồng thủy sản.",
+              "en": "I would like to work in aquaculture."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Kế hoạch: Vi ___ flytte til Bergen neste år.", "options": ["skal", "kommer", "blir"], "answer": 0, "explain": "Kế hoạch đã quyết định: skal + nguyên mẫu." },
-        { "q": "Dự đoán: Det ___ regne i morgen.", "options": ["skal", "kommer til å", "må"], "answer": 1, "explain": "Thời tiết là dự đoán: kommer til å." },
-        { "q": "“Jeg vil reise til Vietnam” thường nghĩa là:", "options": ["Tôi chắc chắn sẽ đi Việt Nam", "Tôi muốn đi Việt Nam", "Tôi đã đi Việt Nam"], "answer": 1, "explain": "Trong giao tiếp, vil chủ yếu nghĩa là “muốn”." },
-        { "q": "Câu nào đúng?", "options": ["Jeg skal å ringe deg.", "Jeg skal ringe deg.", "Jeg skal ringer deg."], "answer": 1, "explain": "Skal là động từ khuyết thiếu: theo sau là nguyên mẫu không có å." },
-        { "q": "Câu nào là dự đoán?", "options": ["Jeg skal lage middag.", "Hun kommer til å bli en god leder.", "Vi skal møtes klokka tre."], "answer": 1, "explain": "Kommer til å diễn tả dự đoán về tương lai." }
+        {
+          "q": "Kế hoạch: Vi ___ flytte til Bergen neste år.",
+          "q_en": "Plan: Vi ___ flytte til Bergen neste år.",
+          "options": [
+            "skal",
+            "kommer",
+            "blir"
+          ],
+          "options_en": [
+            "skal",
+            "kommer",
+            "blir"
+          ],
+          "answer": 0,
+          "explain": "Kế hoạch đã quyết định: skal + nguyên mẫu.",
+          "explain_en": "A decided plan: skal + infinitive."
+        },
+        {
+          "q": "Dự đoán: Det ___ regne i morgen.",
+          "q_en": "Prediction: Det ___ regne i morgen.",
+          "options": [
+            "skal",
+            "kommer til å",
+            "må"
+          ],
+          "options_en": [
+            "skal",
+            "kommer til å",
+            "må"
+          ],
+          "answer": 1,
+          "explain": "Thời tiết là dự đoán: kommer til å.",
+          "explain_en": "Weather is a prediction: kommer til å."
+        },
+        {
+          "q": "“Jeg vil reise til Vietnam” thường nghĩa là:",
+          "q_en": "“Jeg vil reise til Vietnam” usually means:",
+          "options": [
+            "Tôi chắc chắn sẽ đi Việt Nam",
+            "Tôi muốn đi Việt Nam",
+            "Tôi đã đi Việt Nam"
+          ],
+          "options_en": [
+            "I will definitely go to Vietnam",
+            "I want to go to Vietnam",
+            "I went to Vietnam"
+          ],
+          "answer": 1,
+          "explain": "Trong giao tiếp, vil chủ yếu nghĩa là “muốn”.",
+          "explain_en": "In everyday speech, vil mainly means “want”."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Jeg skal å ringe deg.",
+            "Jeg skal ringe deg.",
+            "Jeg skal ringer deg."
+          ],
+          "options_en": [
+            "Jeg skal å ringe deg.",
+            "Jeg skal ringe deg.",
+            "Jeg skal ringer deg."
+          ],
+          "answer": 1,
+          "explain": "Skal là động từ khuyết thiếu: theo sau là nguyên mẫu không có å.",
+          "explain_en": "Skal is a modal verb: it is followed by the infinitive without å."
+        },
+        {
+          "q": "Câu nào là dự đoán?",
+          "q_en": "Which sentence is a prediction?",
+          "options": [
+            "Jeg skal lage middag.",
+            "Hun kommer til å bli en god leder.",
+            "Vi skal møtes klokka tre."
+          ],
+          "options_en": [
+            "Jeg skal lage middag.",
+            "Hun kommer til å bli en god leder.",
+            "Vi skal møtes klokka tre."
+          ],
+          "answer": 1,
+          "explain": "Kommer til å diễn tả dự đoán về tương lai.",
+          "explain_en": "Kommer til å expresses a prediction about the future."
+        }
       ]
     },
     {
       "id": "g12",
       "title": "Giới từ thông dụng và giờ giấc",
       "title_no": "Preposisjoner og klokka",
+      "title_en": "Common prepositions and telling the time",
       "level": "A2",
       "icon": "📍",
       "summary": "Các giới từ i, på, til, fra, med, om, for và cách nói giờ, đặc biệt là bẫy “halv”.",
+      "summary_en": "The prepositions i, på, til, fra, med, om, for, and how to tell the time, especially the “halv” trap.",
       "sections": [
         {
           "h": "Bảy giới từ quan trọng",
+          "h_en": "Seven important prepositions",
           "body": "| Giới từ | Nghĩa chính | Ví dụ |\n| --- | --- | --- |\n| i | trong, ở (thành phố, nước), tháng, năm | i Oslo, i Norge, i mai |\n| på | trên, ở (nơi chốn, tầng), ngày trong tuần | på bordet, på jobb, på mandag |\n| til | đến, cho | til Bergen, en gave til deg |\n| fra | từ | fra Vietnam, fra klokka ni |\n| med | với, bằng (phương tiện) | med Ola, med buss |\n| om | về; sau (một khoảng thời gian) | om havbruk, om to dager |\n| for | cho, vì; for ... siden = cách đây | takk for maten, for to år siden |",
+          "body_en": "| Preposition | Main meaning | Example |\n| --- | --- | --- |\n| i | in (cities, countries), months, years | i Oslo, i Norge, i mai |\n| på | on, at (places, floors), days of the week | på bordet, på jobb, på mandag |\n| til | to, for | til Bergen, en gave til deg |\n| fra | from | fra Vietnam, fra klokka ni |\n| med | with, by (transport) | med Ola, med buss |\n| om | about; in (a period of time from now) | om havbruk, om to dager |\n| for | for, because; for ... siden = ago | takk for maten, for to år siden |",
           "examples": [
-            { "no": "Jeg kommer fra Vietnam og bor i Oslo.", "vi": "Tôi đến từ Việt Nam và sống ở Oslo." },
-            { "no": "Jeg tar trikken til jobben.", "vi": "Tôi đi tàu điện đến chỗ làm." }
+            {
+              "no": "Jeg kommer fra Vietnam og bor i Oslo.",
+              "vi": "Tôi đến từ Việt Nam và sống ở Oslo.",
+              "en": "I'm from Vietnam and I live in Oslo."
+            },
+            {
+              "no": "Jeg tar trikken til jobben.",
+              "vi": "Tôi đi tàu điện đến chỗ làm.",
+              "en": "I take the tram to work."
+            }
           ]
         },
         {
           "h": "I hay på?",
+          "h_en": "I or på?",
           "body": "Đây là phần khó nhất, cần học dần theo cụm. Một số mẹo:\n- **i** + thành phố, quốc gia, châu lục: i Oslo, i Asia.\n- **på** + đảo và nhiều khu phố ở Oslo: på Grünerløkka, på Majorstuen, på Island.\n- **på** + nơi làm việc, nơi công cộng: på jobb, på kontoret, på skolen, på kino, på butikken.\n- Thời gian: i dag, i morgen, i går; på mandag; i mai, i 2026; om sommeren (vào mùa hè, nói chung).\n- **om** + khoảng thời gian = sau nữa: om en uke (một tuần nữa). **for ... siden** = cách đây: for en uke siden (một tuần trước).",
+          "body_en": "This is the hardest part, and you need to learn it gradually, phrase by phrase. Some tips:\n- **i** + city, country, continent: i Oslo, i Asia.\n- **på** + islands and many Oslo neighbourhoods: på Grünerløkka, på Majorstuen, på Island.\n- **på** + workplaces and public places: på jobb, på kontoret, på skolen, på kino, på butikken.\n- Time: i dag, i morgen, i går; på mandag; i mai, i 2026; om sommeren (in summer, in general).\n- **om** + period of time = in ... from now: om en uke (in a week). **for ... siden** = ago: for en uke siden (a week ago).",
           "examples": [
-            { "no": "Vi ses på fredag.", "vi": "Hẹn gặp vào thứ Sáu." },
-            { "no": "Møtet begynner om ti minutter.", "vi": "Mười phút nữa cuộc họp bắt đầu." }
+            {
+              "no": "Vi ses på fredag.",
+              "vi": "Hẹn gặp vào thứ Sáu.",
+              "en": "See you on Friday."
+            },
+            {
+              "no": "Møtet begynner om ti minutter.",
+              "vi": "Mười phút nữa cuộc họp bắt đầu.",
+              "en": "The meeting starts in ten minutes."
+            }
           ]
         },
         {
           "h": "Nói giờ",
+          "h_en": "Telling the time",
           "body": "Hỏi giờ: **Hva er klokka?** hoặc **Hvor mye er klokka?**\n\n| Giờ | Tiếng Na Uy |\n| --- | --- |\n| 8:00 | klokka åtte |\n| 8:10 | ti over åtte |\n| 8:15 | kvart over åtte |\n| 8:25 | fem på halv ni |\n| 8:30 | halv ni |\n| 8:35 | fem over halv ni |\n| 8:45 | kvart på ni |\n| 8:50 | ti på ni |\n\n**Bẫy lớn:** “halv ni” là **8:30** (nửa đường đến 9 giờ), không phải 9:30! Ở Anh, “half nine” lại là 9:30. Trong lịch hẹn và văn bản chính thức dùng hệ 24 giờ: klokka 14.30.",
+          "body_en": "Asking the time: **Hva er klokka?** or **Hvor mye er klokka?**\n\n| Time | Norwegian |\n| --- | --- |\n| 8:00 | klokka åtte |\n| 8:10 | ti over åtte |\n| 8:15 | kvart over åtte |\n| 8:25 | fem på halv ni |\n| 8:30 | halv ni |\n| 8:35 | fem over halv ni |\n| 8:45 | kvart på ni |\n| 8:50 | ti på ni |\n\n**Big trap:** “halv ni” is **8:30** (halfway to nine), not 9:30! In British English, “half nine” means 9:30, the exact opposite. Appointments and official texts use the 24-hour clock: klokka 14.30.",
           "examples": [
-            { "no": "Toget går klokka halv åtte.", "vi": "Tàu chạy lúc 7:30." },
-            { "no": "Vi møtes kvart over to.", "vi": "Chúng ta gặp nhau lúc 2:15." }
+            {
+              "no": "Toget går klokka halv åtte.",
+              "vi": "Tàu chạy lúc 7:30.",
+              "en": "The train leaves at 7:30."
+            },
+            {
+              "no": "Vi møtes kvart over to.",
+              "vi": "Chúng ta gặp nhau lúc 2:15.",
+              "en": "We're meeting at 2:15."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Jeg bor ___ Oslo.", "options": ["på", "i", "til"], "answer": 1, "explain": "Thành phố dùng i." },
-        { "q": "Vi ses ___ mandag.", "options": ["i", "på", "om"], "answer": 1, "explain": "Ngày trong tuần dùng på." },
-        { "q": "“Halv tre” là mấy giờ?", "options": ["3:30", "2:30", "3:00"], "answer": 1, "explain": "Halv tre = nửa giờ trước 3 giờ = 2:30." },
-        { "q": "“Kvart på fire” là mấy giờ?", "options": ["4:15", "3:45", "4:45"], "answer": 1, "explain": "Kvart på fire = kém 15 phút đến 4 giờ = 3:45." },
-        { "q": "Jeg flyttet til Norge ___ to år siden.", "options": ["for", "om", "i"], "answer": 0, "explain": "For ... siden = cách đây." },
-        { "q": "Jeg reiser ___ buss.", "options": ["på", "med", "i"], "answer": 1, "explain": "Phương tiện đi lại dùng med: med buss, med tog, med fly." }
+        {
+          "q": "Jeg bor ___ Oslo.",
+          "q_en": "Jeg bor ___ Oslo.",
+          "options": [
+            "på",
+            "i",
+            "til"
+          ],
+          "options_en": [
+            "på",
+            "i",
+            "til"
+          ],
+          "answer": 1,
+          "explain": "Thành phố dùng i.",
+          "explain_en": "Cities take i."
+        },
+        {
+          "q": "Vi ses ___ mandag.",
+          "q_en": "Vi ses ___ mandag.",
+          "options": [
+            "i",
+            "på",
+            "om"
+          ],
+          "options_en": [
+            "i",
+            "på",
+            "om"
+          ],
+          "answer": 1,
+          "explain": "Ngày trong tuần dùng på.",
+          "explain_en": "Days of the week take på."
+        },
+        {
+          "q": "“Halv tre” là mấy giờ?",
+          "q_en": "What time is “halv tre”?",
+          "options": [
+            "3:30",
+            "2:30",
+            "3:00"
+          ],
+          "options_en": [
+            "3:30",
+            "2:30",
+            "3:00"
+          ],
+          "answer": 1,
+          "explain": "Halv tre = nửa giờ trước 3 giờ = 2:30.",
+          "explain_en": "Halv tre = half an hour before 3 = 2:30."
+        },
+        {
+          "q": "“Kvart på fire” là mấy giờ?",
+          "q_en": "What time is “kvart på fire”?",
+          "options": [
+            "4:15",
+            "3:45",
+            "4:45"
+          ],
+          "options_en": [
+            "4:15",
+            "3:45",
+            "4:45"
+          ],
+          "answer": 1,
+          "explain": "Kvart på fire = kém 15 phút đến 4 giờ = 3:45.",
+          "explain_en": "Kvart på fire = a quarter to 4 = 3:45."
+        },
+        {
+          "q": "Jeg flyttet til Norge ___ to år siden.",
+          "q_en": "Jeg flyttet til Norge ___ to år siden.",
+          "options": [
+            "for",
+            "om",
+            "i"
+          ],
+          "options_en": [
+            "for",
+            "om",
+            "i"
+          ],
+          "answer": 0,
+          "explain": "For ... siden = cách đây.",
+          "explain_en": "For ... siden = ago."
+        },
+        {
+          "q": "Jeg reiser ___ buss.",
+          "q_en": "Jeg reiser ___ buss.",
+          "options": [
+            "på",
+            "med",
+            "i"
+          ],
+          "options_en": [
+            "på",
+            "med",
+            "i"
+          ],
+          "answer": 1,
+          "explain": "Phương tiện đi lại dùng med: med buss, med tog, med fly.",
+          "explain_en": "Means of transport take med, like English “by”: med buss, med tog, med fly."
+        }
       ]
     },
     {
       "id": "g13",
       "title": "So sánh tính từ",
       "title_no": "Komparasjon av adjektiv",
+      "title_en": "Comparing adjectives",
       "level": "A2",
       "icon": "📈",
       "summary": "So sánh hơn thêm -ere, so sánh nhất thêm -est; tính từ dài dùng mer/mest; một số từ thông dụng bất quy tắc.",
+      "summary_en": "The comparative adds -ere, the superlative adds -est; long adjectives use mer/mest; some common words are irregular.",
       "sections": [
         {
           "h": "Ba bậc so sánh",
+          "h_en": "Three degrees of comparison",
           "body": "Giống tiếng Anh (cheap, cheaper, cheapest): thêm **-ere** và **-est**. Tiếng Việt dùng “hơn” và “nhất”.\n\n| Nguyên dạng | So sánh hơn | So sánh nhất |\n| --- | --- | --- |\n| billig (rẻ) | billigere | billigst |\n| rik (giàu) | rikere | rikest |\n| kald (lạnh) | kaldere | kaldest |\n| fin (đẹp) | finere | finest |\n\nTính từ tận cùng **-ig / -lig** chỉ thêm -st ở bậc nhất: billigst, vanskeligst.\n\n**enn** = hơn (than): Oslo er større enn Bergen.\n**like ... som** = bằng: Hun er like gammel som meg.",
+          "body_en": "Just like English (cheap, cheaper, cheapest): add **-ere** and **-est**.\n\n| Base form | Comparative | Superlative |\n| --- | --- | --- |\n| billig (cheap) | billigere | billigst |\n| rik (rich) | rikere | rikest |\n| kald (cold) | kaldere | kaldest |\n| fin (nice) | finere | finest |\n\nAdjectives ending in **-ig / -lig** only add -st in the superlative: billigst, vanskeligst.\n\n**enn** = than: Oslo er større enn Bergen.\n**like ... som** = as ... as: Hun er like gammel som meg.",
           "examples": [
-            { "no": "Tromsø er kaldere enn Oslo.", "vi": "Tromsø lạnh hơn Oslo." },
-            { "no": "Kiwi er ofte billigst.", "vi": "Kiwi thường rẻ nhất." }
+            {
+              "no": "Tromsø er kaldere enn Oslo.",
+              "vi": "Tromsø lạnh hơn Oslo.",
+              "en": "Tromsø is colder than Oslo."
+            },
+            {
+              "no": "Kiwi er ofte billigst.",
+              "vi": "Kiwi thường rẻ nhất.",
+              "en": "Kiwi is often the cheapest."
+            }
           ]
         },
         {
           "h": "Bất quy tắc thông dụng",
+          "h_en": "Common irregulars",
           "body": "| Nguyên dạng | So sánh hơn | So sánh nhất |\n| --- | --- | --- |\n| god / bra (tốt) | bedre | best |\n| dårlig (tệ) | verre | verst |\n| stor (lớn) | større | størst |\n| liten (nhỏ) | mindre | minst |\n| gammel (già, cũ) | eldre | eldst |\n| ung (trẻ) | yngre | yngst |\n| lang (dài) | lengre | lengst |\n| mange (nhiều, đếm được) | flere | flest |\n| mye (nhiều, không đếm được) | mer | mest |",
+          "body_en": "Many of these look just like their English cousins (god/bedre/best = good/better/best, gammel/eldre/eldst = old/elder/eldest):\n\n| Base form | Comparative | Superlative |\n| --- | --- | --- |\n| god / bra (good) | bedre | best |\n| dårlig (bad) | verre | verst |\n| stor (big) | større | størst |\n| liten (small) | mindre | minst |\n| gammel (old) | eldre | eldst |\n| ung (young) | yngre | yngst |\n| lang (long) | lengre | lengst |\n| mange (many, countable) | flere | flest |\n| mye (much, uncountable) | mer | mest |",
           "examples": [
-            { "no": "Norsken min blir bedre og bedre.", "vi": "Tiếng Na Uy của tôi ngày càng tốt hơn." },
-            { "no": "Broren min er eldre enn meg.", "vi": "Anh trai tôi lớn tuổi hơn tôi." }
+            {
+              "no": "Norsken min blir bedre og bedre.",
+              "vi": "Tiếng Na Uy của tôi ngày càng tốt hơn.",
+              "en": "My Norwegian is getting better and better."
+            },
+            {
+              "no": "Broren min er eldre enn meg.",
+              "vi": "Anh trai tôi lớn tuổi hơn tôi.",
+              "en": "My brother is older than me."
+            }
           ]
         },
         {
           "h": "Mer / mest và dạng xác định",
+          "h_en": "Mer / mest and the definite form",
           "body": "Tính từ dài, từ mượn và tính từ tận cùng **-sk** dùng **mer / mest**: interessant → mer interessant → mest interessant; praktisk → mer praktisk → mest praktisk.\n\nBậc nhất đứng trước danh từ xác định thì thêm **-e**: den beste løsningen, det største markedet, de viktigste kundene.",
+          "body_en": "Long adjectives, loanwords and adjectives ending in **-sk** use **mer / mest**, like English “more / most”: interessant → mer interessant → mest interessant; praktisk → mer praktisk → mest praktisk.\n\nA superlative before a definite noun adds **-e**: den beste løsningen, det største markedet, de viktigste kundene.",
           "examples": [
-            { "no": "Laks er den viktigste eksportvaren i norsk sjømatnæring.", "vi": "Cá hồi là mặt hàng xuất khẩu quan trọng nhất của ngành hải sản Na Uy." },
-            { "no": "Dette er en mer praktisk løsning.", "vi": "Đây là một giải pháp thực tế hơn." }
+            {
+              "no": "Laks er den viktigste eksportvaren i norsk sjømatnæring.",
+              "vi": "Cá hồi là mặt hàng xuất khẩu quan trọng nhất của ngành hải sản Na Uy.",
+              "en": "Salmon is the most important export product of the Norwegian seafood industry."
+            },
+            {
+              "no": "Dette er en mer praktisk løsning.",
+              "vi": "Đây là một giải pháp thực tế hơn.",
+              "en": "This is a more practical solution."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "So sánh hơn của “billig”:", "options": ["billigere", "mer billig", "billigst"], "answer": 0, "explain": "Tính từ ngắn thêm -ere: billigere." },
-        { "q": "So sánh hơn của “god”:", "options": ["godere", "bedre", "best"], "answer": 1, "explain": "God là bất quy tắc: god, bedre, best." },
-        { "q": "Oslo er større ___ Bergen.", "options": ["som", "enn", "enn som"], "answer": 1, "explain": "So sánh hơn dùng enn (than)." },
-        { "q": "So sánh nhất của “liten”:", "options": ["minst", "lillest", "mindre"], "answer": 0, "explain": "Liten, mindre, minst." },
-        { "q": "Chọn: Dette er den ___ løsningen. (tốt nhất)", "options": ["best", "beste", "bedre"], "answer": 1, "explain": "Bậc nhất trước danh từ xác định thêm -e: den beste." },
-        { "q": "So sánh hơn của “interessant”:", "options": ["interessantere", "mer interessant", "interessantest"], "answer": 1, "explain": "Tính từ dài, từ mượn dùng mer: mer interessant." }
+        {
+          "q": "So sánh hơn của “billig”:",
+          "q_en": "The comparative of “billig”:",
+          "options": [
+            "billigere",
+            "mer billig",
+            "billigst"
+          ],
+          "options_en": [
+            "billigere",
+            "mer billig",
+            "billigst"
+          ],
+          "answer": 0,
+          "explain": "Tính từ ngắn thêm -ere: billigere.",
+          "explain_en": "Short adjectives add -ere: billigere."
+        },
+        {
+          "q": "So sánh hơn của “god”:",
+          "q_en": "The comparative of “god”:",
+          "options": [
+            "godere",
+            "bedre",
+            "best"
+          ],
+          "options_en": [
+            "godere",
+            "bedre",
+            "best"
+          ],
+          "answer": 1,
+          "explain": "God là bất quy tắc: god, bedre, best.",
+          "explain_en": "God is irregular: god, bedre, best (good, better, best)."
+        },
+        {
+          "q": "Oslo er større ___ Bergen.",
+          "q_en": "Oslo er større ___ Bergen.",
+          "options": [
+            "som",
+            "enn",
+            "enn som"
+          ],
+          "options_en": [
+            "som",
+            "enn",
+            "enn som"
+          ],
+          "answer": 1,
+          "explain": "So sánh hơn dùng enn (than).",
+          "explain_en": "The comparative uses enn (than)."
+        },
+        {
+          "q": "So sánh nhất của “liten”:",
+          "q_en": "The superlative of “liten”:",
+          "options": [
+            "minst",
+            "lillest",
+            "mindre"
+          ],
+          "options_en": [
+            "minst",
+            "lillest",
+            "mindre"
+          ],
+          "answer": 0,
+          "explain": "Liten, mindre, minst.",
+          "explain_en": "Liten, mindre, minst."
+        },
+        {
+          "q": "Chọn: Dette er den ___ løsningen. (tốt nhất)",
+          "q_en": "Choose: Dette er den ___ løsningen. (best)",
+          "options": [
+            "best",
+            "beste",
+            "bedre"
+          ],
+          "options_en": [
+            "best",
+            "beste",
+            "bedre"
+          ],
+          "answer": 1,
+          "explain": "Bậc nhất trước danh từ xác định thêm -e: den beste.",
+          "explain_en": "A superlative before a definite noun adds -e: den beste."
+        },
+        {
+          "q": "So sánh hơn của “interessant”:",
+          "q_en": "The comparative of “interessant”:",
+          "options": [
+            "interessantere",
+            "mer interessant",
+            "interessantest"
+          ],
+          "options_en": [
+            "interessantere",
+            "mer interessant",
+            "interessantest"
+          ],
+          "answer": 1,
+          "explain": "Tính từ dài, từ mượn dùng mer: mer interessant.",
+          "explain_en": "Long adjectives and loanwords use mer: mer interessant."
+        }
       ]
     },
     {
       "id": "g14",
       "title": "Mệnh đề phụ và liên từ",
       "title_no": "Leddsetninger og subjunksjoner",
+      "title_en": "Subordinate clauses and conjunctions",
       "level": "A2",
       "icon": "🔗",
       "summary": "Mệnh đề phụ bắt đầu bằng at, som, fordi, når, hvis, da; trong đó ikke đứng trước động từ, và khi mệnh đề phụ đứng đầu thì câu chính phải đảo ngữ.",
+      "summary_en": "Subordinate clauses start with at, som, fordi, når, hvis, da; in them ikke comes before the verb, and when the subordinate clause comes first, the main clause must invert.",
       "sections": [
         {
           "h": "Liên từ phụ thuộc thông dụng",
+          "h_en": "Common subordinating conjunctions",
           "body": "| Liên từ | Nghĩa | Ví dụ |\n| --- | --- | --- |\n| at | rằng | Jeg tror at det blir sol. |\n| som | mà, người mà | Mannen som bor her, er lege. |\n| fordi | vì | ...fordi jeg er syk. |\n| når | khi (hiện tại, tương lai, lặp lại) | Når jeg er ferdig, ringer jeg. |\n| hvis | nếu | Hvis det regner, blir vi hjemme. |\n| da | khi (một lần trong quá khứ) | Da jeg kom til Norge, var det vinter. |\n\nPhân biệt với liên từ đẳng lập **og, men, eller, for, så**: chúng nối hai câu chính và không làm thay đổi trật tự từ.",
+          "body_en": "| Conjunction | Meaning | Example |\n| --- | --- | --- |\n| at | that | Jeg tror at det blir sol. |\n| som | who, which, that | Mannen som bor her, er lege. |\n| fordi | because | ...fordi jeg er syk. |\n| når | when (present, future, repeated) | Når jeg er ferdig, ringer jeg. |\n| hvis | if | Hvis det regner, blir vi hjemme. |\n| da | when (once in the past) | Da jeg kom til Norge, var det vinter. |\n\nDon't confuse these with the coordinating conjunctions **og, men, eller, for, så** (and, but, or, for, so): they join two main clauses and do not change the word order.",
           "examples": [
-            { "no": "Jeg vet at du jobber mye.", "vi": "Tôi biết rằng anh làm việc nhiều." },
-            { "no": "Kollegaen som sitter ved vinduet, heter Erik.", "vi": "Người đồng nghiệp ngồi cạnh cửa sổ tên là Erik." }
+            {
+              "no": "Jeg vet at du jobber mye.",
+              "vi": "Tôi biết rằng anh làm việc nhiều.",
+              "en": "I know that you work a lot."
+            },
+            {
+              "no": "Kollegaen som sitter ved vinduet, heter Erik.",
+              "vi": "Người đồng nghiệp ngồi cạnh cửa sổ tên là Erik.",
+              "en": "The colleague who sits by the window is called Erik."
+            }
           ]
         },
         {
           "h": "Trật tự từ trong mệnh đề phụ",
+          "h_en": "Word order in subordinate clauses",
           "body": "Trong mệnh đề phụ **không có V2**. Thứ tự là: **liên từ + chủ ngữ + (ikke / trạng từ) + động từ**.\n\nJeg blir hjemme **fordi jeg ikke føler** meg bra.\n\nKhi mệnh đề phụ đứng **đầu câu**, cả mệnh đề chiếm vị trí 1, nên câu chính phải đảo ngữ: động từ đứng ngay sau dấu phẩy.\n\n**Hvis det regner, blir** vi hjemme.\n**Når jeg kommer hjem, lager** jeg middag.",
+          "body_en": "Subordinate clauses have **no V2**. The order is: **conjunction + subject + (ikke / adverb) + verb**.\n\nJeg blir hjemme **fordi jeg ikke føler** meg bra.\n\nWhen the subordinate clause comes **first**, the whole clause takes position 1, so the main clause must invert: the verb comes right after the comma.\n\n**Hvis det regner, blir** vi hjemme.\n**Når jeg kommer hjem, lager** jeg middag.",
           "examples": [
-            { "no": "Hvis jeg får jobben, flytter jeg til Bergen.", "vi": "Nếu tôi nhận được công việc, tôi sẽ chuyển đến Bergen." },
-            { "no": "Han sier at han ikke har tid.", "vi": "Anh ấy nói rằng anh ấy không có thời gian." }
+            {
+              "no": "Hvis jeg får jobben, flytter jeg til Bergen.",
+              "vi": "Nếu tôi nhận được công việc, tôi sẽ chuyển đến Bergen.",
+              "en": "If I get the job, I'll move to Bergen."
+            },
+            {
+              "no": "Han sier at han ikke har tid.",
+              "vi": "Anh ấy nói rằng anh ấy không có thời gian.",
+              "en": "He says that he doesn't have time."
+            }
           ]
         },
         {
           "h": "Når hay da?",
+          "h_en": "Når or da?",
           "body": "Tiếng Việt chỉ có “khi”, tiếng Na Uy có hai từ:\n\n| | Dùng khi | Ví dụ |\n| --- | --- | --- |\n| da | một lần duy nhất hoặc một giai đoạn trong quá khứ | Da jeg var barn, bodde jeg i Hanoi. |\n| når | hiện tại, tương lai, hoặc việc lặp lại nhiều lần trong quá khứ | Når det regnet, satt vi inne. |\n\nCòn **hvis** là “nếu” (điều kiện, có thể xảy ra hoặc không). Når là điều chắc chắn sẽ xảy ra: Når jeg blir pensjonist... (khi tôi nghỉ hưu), Hvis jeg vinner i Lotto... (nếu tôi trúng xổ số).",
+          "body_en": "English has only “when”, but Norwegian has two words:\n\n| | Used for | Example |\n| --- | --- | --- |\n| da | a single occasion or a period in the past | Da jeg var barn, bodde jeg i Hanoi. |\n| når | present, future, or something repeated in the past | Når det regnet, satt vi inne. |\n\nAnd **hvis** means “if” (a condition that may or may not happen). Når is for something that will certainly happen: Når jeg blir pensjonist... (when I retire), Hvis jeg vinner i Lotto... (if I win the lottery).",
           "examples": [
-            { "no": "Da jeg kom til Oslo, snødde det.", "vi": "Khi tôi đến Oslo, trời đang có tuyết." },
-            { "no": "Når jeg har tid, trener jeg.", "vi": "Mỗi khi có thời gian, tôi tập thể dục." }
+            {
+              "no": "Da jeg kom til Oslo, snødde det.",
+              "vi": "Khi tôi đến Oslo, trời đang có tuyết.",
+              "en": "When I arrived in Oslo, it was snowing."
+            },
+            {
+              "no": "Når jeg har tid, trener jeg.",
+              "vi": "Mỗi khi có thời gian, tôi tập thể dục.",
+              "en": "Whenever I have time, I work out."
+            }
           ]
         }
       ],
       "quiz": [
-        { "q": "Hoàn thành: Jeg vet at han ___.", "options": ["kommer ikke", "ikke kommer", "ikke komme"], "answer": 1, "explain": "Trong mệnh đề phụ, ikke đứng trước động từ." },
-        { "q": "___ jeg kom til Oslo, snødde det. (một lần trong quá khứ)", "options": ["Når", "Da", "Hvis"], "answer": 1, "explain": "Sự kiện xảy ra một lần trong quá khứ dùng da." },
-        { "q": "Câu nào đúng?", "options": ["Hvis det regner, vi blir hjemme.", "Hvis det regner, blir vi hjemme.", "Hvis regner det, blir vi hjemme."], "answer": 1, "explain": "Mệnh đề phụ đứng đầu chiếm vị trí 1, nên câu chính đảo ngữ: blir vi." },
-        { "q": "Hun lærer norsk ___ hun vil få jobb i Norge. (vì)", "options": ["fordi", "som", "at"], "answer": 0, "explain": "Fordi = vì, bởi vì." },
-        { "q": "Kollegaen ___ jobber med eksport, heter Erik.", "options": ["at", "som", "når"], "answer": 1, "explain": "Som nối mệnh đề quan hệ: người mà làm việc với xuất khẩu." },
-        { "q": "___ jeg har tid, trener jeg. (mỗi khi)", "options": ["Da", "Når", "Som"], "answer": 1, "explain": "Việc lặp lại ở hiện tại dùng når." }
+        {
+          "q": "Hoàn thành: Jeg vet at han ___.",
+          "q_en": "Complete: Jeg vet at han ___.",
+          "options": [
+            "kommer ikke",
+            "ikke kommer",
+            "ikke komme"
+          ],
+          "options_en": [
+            "kommer ikke",
+            "ikke kommer",
+            "ikke komme"
+          ],
+          "answer": 1,
+          "explain": "Trong mệnh đề phụ, ikke đứng trước động từ.",
+          "explain_en": "In a subordinate clause, ikke comes before the verb."
+        },
+        {
+          "q": "___ jeg kom til Oslo, snødde det. (một lần trong quá khứ)",
+          "q_en": "___ jeg kom til Oslo, snødde det. (once in the past)",
+          "options": [
+            "Når",
+            "Da",
+            "Hvis"
+          ],
+          "options_en": [
+            "Når",
+            "Da",
+            "Hvis"
+          ],
+          "answer": 1,
+          "explain": "Sự kiện xảy ra một lần trong quá khứ dùng da.",
+          "explain_en": "A single event in the past takes da."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Hvis det regner, vi blir hjemme.",
+            "Hvis det regner, blir vi hjemme.",
+            "Hvis regner det, blir vi hjemme."
+          ],
+          "options_en": [
+            "Hvis det regner, vi blir hjemme.",
+            "Hvis det regner, blir vi hjemme.",
+            "Hvis regner det, blir vi hjemme."
+          ],
+          "answer": 1,
+          "explain": "Mệnh đề phụ đứng đầu chiếm vị trí 1, nên câu chính đảo ngữ: blir vi.",
+          "explain_en": "The subordinate clause first takes position 1, so the main clause inverts: blir vi."
+        },
+        {
+          "q": "Hun lærer norsk ___ hun vil få jobb i Norge. (vì)",
+          "q_en": "Hun lærer norsk ___ hun vil få jobb i Norge. (because)",
+          "options": [
+            "fordi",
+            "som",
+            "at"
+          ],
+          "options_en": [
+            "fordi",
+            "som",
+            "at"
+          ],
+          "answer": 0,
+          "explain": "Fordi = vì, bởi vì.",
+          "explain_en": "Fordi = because."
+        },
+        {
+          "q": "Kollegaen ___ jobber med eksport, heter Erik.",
+          "q_en": "Kollegaen ___ jobber med eksport, heter Erik.",
+          "options": [
+            "at",
+            "som",
+            "når"
+          ],
+          "options_en": [
+            "at",
+            "som",
+            "når"
+          ],
+          "answer": 1,
+          "explain": "Som nối mệnh đề quan hệ: người mà làm việc với xuất khẩu.",
+          "explain_en": "Som introduces a relative clause: the colleague who works with exports."
+        },
+        {
+          "q": "___ jeg har tid, trener jeg. (mỗi khi)",
+          "q_en": "___ jeg har tid, trener jeg. (whenever)",
+          "options": [
+            "Da",
+            "Når",
+            "Som"
+          ],
+          "options_en": [
+            "Da",
+            "Når",
+            "Som"
+          ],
+          "answer": 1,
+          "explain": "Việc lặp lại ở hiện tại dùng når.",
+          "explain_en": "Something repeated in the present takes når."
+        }
       ]
     }
   ]

@@ -1,6 +1,6 @@
 // Service worker: mở được khi ngoại tuyến. Mạng trước, bộ nhớ đệm dự phòng; API không lưu đệm.
-const CACHE = 'norsk-v1';
-const SHELL = ['/', '/css/app.css', '/js/app.js', '/js/ui.js', '/js/store.js', '/js/speech.js', '/js/lexicon.js', '/js/engine.js', '/js/course.js', '/js/pron-data.js',
+const CACHE = 'norsk-v2';
+const SHELL = ['/', '/css/app.css', '/js/app.js', '/js/ui.js', '/js/store.js', '/js/speech.js', '/js/lexicon.js', '/js/engine.js', '/js/course.js', '/js/pron-data.js', '/js/pron-data-en.js', '/js/i18n.js', '/js/lang/en.js',
   '/data/course.json', '/data/glossary.json', '/data/phrasebook.json', '/data/stories.json', '/data/grammar.json', '/icons/icon.svg'];
 
 self.addEventListener('install', e => {

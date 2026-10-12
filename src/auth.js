@@ -1,5 +1,6 @@
 const crypto = require('crypto');
 const config = require('./config');
+const { tr } = require('./i18n');
 
 const COOKIE = 'norsk_session';
 const MAX_AGE = 180 * 24 * 3600 * 1000;
@@ -46,7 +47,7 @@ function attachUser(req, res, next) {
 }
 function requireUser(req, res, next) {
   if (req.userId) return next();
-  return res.status(401).json({ error: 'Cần đăng nhập' });
+  return res.status(401).json({ error: tr(req, 'Cần đăng nhập') });
 }
 
 module.exports = { setSession, clearSession, hashPassword, checkPassword, attachUser, requireUser };

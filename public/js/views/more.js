@@ -1,7 +1,8 @@
 // Menu "Thêm" trên điện thoại.
-import { ICON } from '../ui.js';
+import { ICON, esc } from '../ui.js';
 import { app } from '../app.js';
 import { store } from '../store.js';
+import { t, lang } from '../i18n.js';
 
 export async function render(main) {
   const items = [
@@ -12,8 +13,9 @@ export async function render(main) {
     ['learn/listen', 'ear', 'Luyện nghe', 'Nghe và chép câu đã học'],
     ['learn/speak', 'mic', 'Luyện nói', 'Đọc to, máy chấm điểm'],
     ...(app.config.ai ? [['tutor', 'spark', 'Gia sư AI', 'Hội thoại nhập vai, sửa câu']] : []),
-    ['me', 'user', store.user ? store.user.name : 'Hồ sơ & cài đặt', 'Thống kê, huy hiệu, bảng xếp hạng, cài đặt'],
+    ['me', 'user', store.user ? null : 'Hồ sơ & cài đặt', 'Thống kê, huy hiệu, bảng xếp hạng, cài đặt'],
   ];
-  main.innerHTML = `<div class="page"><h1 style="margin-bottom:16px">Thêm</h1>
-    <div class="list">${items.map(([href, ic, t, d]) => `<a class="row" href="#/${href}" style="text-decoration:none"><span class="tile" style="padding:0;border:0;background:none"><span class="ic">${ICON[ic]}</span></span><div class="grow"><b>${t}</b><div class="vi">${d}</div></div>${ICON.next}</a>`).join('')}</div></div>`;
+  main.innerHTML = `<div class="page"><div class="page-head"><h1>${t('Thêm')}</h1>
+    <div class="seg lang-switch" role="group" aria-label="Language"><button data-lang="en" aria-pressed="${lang() === 'en'}">English</button><button data-lang="vi" aria-pressed="${lang() === 'vi'}">Tiếng Việt</button></div></div>
+    <div class="list">${items.map(([href, ic, ti, d]) => `<a class="row" href="#/${href}" style="text-decoration:none"><span class="tile" style="padding:0;border:0;background:none"><span class="ic">${ICON[ic]}</span></span><div class="grow"><b>${ti === null ? esc(store.user.name) : t(ti)}</b><div class="vi">${t(d)}</div></div>${ICON.next}</a>`).join('')}</div></div>`;
 }
