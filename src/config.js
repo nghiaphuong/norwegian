@@ -9,7 +9,8 @@ module.exports = {
   publicUrl: env('PUBLIC_URL', ''),
   // Bỏ trống DB_NAME → app vẫn chạy, tiến độ chỉ lưu trên trình duyệt (không có tài khoản, bảng xếp hạng, bộ nhớ đệm từ điển).
   db: {
-    host: env('DB_HOST', '127.0.0.1'),
+    // "localhost" có thể phân giải sang IPv6 (::1) mà user MySQL trên Hostinger không được cấp quyền.
+    host: env('DB_HOST', '127.0.0.1').replace(/^localhost$/i, '127.0.0.1'),
     port: parseInt(env('DB_PORT', '3306'), 10),
     database: env('DB_NAME', ''),
     user: env('DB_USER', 'root'),
