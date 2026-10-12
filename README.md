@@ -29,6 +29,16 @@ Chỉ hiện với tài khoản quản trị viên (kiểm tra cả ở máy ch�
 - Người đăng ký đầu tiên tự động là quản trị viên; với CSDL có sẵn, người có id nhỏ nhất được nâng lên quản trị viên.
 - Thử trên máy: chạy MySQL/MariaDB cục bộ, đặt DB_* trong `.env`, rồi `node scripts/seed-local.js` để tạo dữ liệu mẫu.
 
+## Kiểm thử tự động trên nhiều trình duyệt
+`scripts/qa/` chứa bộ kiểm thử chạy trong trang bằng Chrome, Edge, Opera (giao thức DevTools) và Firefox (WebDriver BiDi), chế độ headless với hồ sơ tạm:
+làm hết 56 bài học, ôn thẻ, sổ từ, từ điển (tra xuôi, tra ngược, dịch câu, lưu thẻ), câu giao tiếp, phát âm, 10 truyện, 14 bài ngữ pháp,
+cài đặt, đổi ngôn ngữ, đăng ký/đăng nhập, đồng bộ, bảng xếp hạng, toàn bộ trang quản trị, chống rò rỉ khi chuyển trang; và bản điện thoại (375px):
+không tràn ngang, thanh tab, kích thước nút. Mọi lỗi JavaScript từ lúc tải trang đều bị ghi nhận.
+```bash
+npm start                      # app chạy với CSDL cục bộ trong .env
+bash scripts/qa/run-all.sh     # chạy trên mọi trình duyệt có trên máy
+```
+
 ## Dữ liệu
 - Không đăng nhập: tiến độ lưu trên trình duyệt.
 - Có MySQL + đăng nhập: tiến độ đồng bộ giữa các thiết bị (gộp thông minh, không mất dữ liệu), có bảng xếp hạng tuần, bộ nhớ đệm từ điển và bản dịch (giảm gọi dịch vụ ngoài).

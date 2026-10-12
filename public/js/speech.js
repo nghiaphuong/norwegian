@@ -6,6 +6,8 @@ const synth = window.speechSynthesis || null;
 let voices = [];
 let voice = null;
 let token = 0;
+let lastCancel = 0;
+const cancel = () => { lastCancel = Date.now(); synth.cancel(); };
 
 function loadVoices() {
   if (!synth) return;
@@ -24,11 +26,10 @@ export const tts = {
   current: () => voice,
   hasNorwegian: () => voices.length > 0,
   setVoice(name) { store.s.settings.voice = name; store.save(); loadVoices(); },
-  stop() { token++; if (synth) synth.cancel(); },
+  stop() { token++; if (synth) cancel(); },
   speak(text, rate) {
     return new Promise(res => {
       if (!synth || !String(text || '').trim()) return res();
-      synth.cancel();
       let done = false; const fin = () => { if (!done) { done = true; res(); } };
       const u = new SpeechSynthesisUtterance(text);
       u.lang = voice ? voice.lang : 'nb-NO';
@@ -36,7 +37,10 @@ export const tts = {
       u.rate = rate || store.s.settings.rate || 0.9;
       u.onend = fin; u.onerror = fin;
       setTimeout(fin, 3000 + text.length * 170 / u.rate);
-      setTimeout(() => synth.speak(u), 30);
+      // Safari iOS chỉ cho đọc khi speak() được gọi ngay trong thao tác chạm, nên gọi đồng bộ
+      // nếu không có câu đang đọc; chỉ chờ một nhịp sau cancel() khi phải ngắt câu cũ (lỗi Chrome).
+      if (synth.speaking || synth.pending) cancel();
+      if (Date.now() - lastCancel < 60) setTimeout(() => synth.speak(u), 30); else synth.speak(u);
     });
   },
   // Đọc nhiều lần / nhiều câu, dừng được giữa chừng.
@@ -52,6 +56,17 @@ export const tts = {
   },
   token: () => token,
 };
+
+// Safari iOS: "mở khóa" bộ đọc ở lần chạm đầu tiên để các câu đọc tự động sau đó phát được tiếng.
+if (synth) {
+  const unlock = () => {
+    document.removeEventListener('pointerdown', unlock, true); document.removeEventListener('keydown', unlock, true);
+    if (synth.speaking || synth.pending) return;
+    try { const u = new SpeechSynthesisUtterance(' '); u.volume = 0; synth.speak(u); } catch (e) { /* bỏ qua */ }
+  };
+  document.addEventListener('pointerdown', unlock, true);
+  document.addEventListener('keydown', unlock, true);
+}
 
 // Nút loa dùng chung: mọi phần tử có data-say sẽ đọc to khi bấm.
 document.addEventListener('click', async e => {
@@ -83,7 +98,7 @@ export const stt = {
     return new Promise((resolve, reject) => {
       if (!SR) return reject(new Error('unsupported'));
       if (active) { try { active.abort(); } catch (e) { /* */ } }
-      if (synth) synth.cancel();
+      if (synth) cancel();
       const r = new SR(); active = r;
       r.lang = 'nb-NO'; r.interimResults = false; r.maxAlternatives = 4;
       let got = false;

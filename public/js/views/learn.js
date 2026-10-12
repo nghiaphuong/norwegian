@@ -1,7 +1,7 @@
 // Phiên làm bài toàn màn hình: bài học, kiểm tra chương, luyện lỗi sai, luyện nghe, luyện nói, câu giao tiếp.
 import { esc, sample, shuffle, loadData, today } from '../ui.js';
 import { store } from '../store.js';
-import { go, showNewBadges } from '../app.js';
+import { leavePlayer, showNewBadges } from '../app.js';
 import { getCourse, isDone, vocabPool } from '../course.js';
 import { buildExercises, runPlayer } from '../engine.js';
 import { stt } from '../speech.js';
@@ -14,7 +14,7 @@ function emptyScreen(main, msg) {
 export async function render(main, params) {
   const course = await getCourse();
   const kind = params[0];
-  const back = () => (history.length > 1 ? history.back() : go('path'));
+  const back = leavePlayer;
   let exercises; let title = ''; let after = () => {}; let xpBase = 10;
 
   const learnedSentences = () => course.flat.filter(l => !l.checkpoint && isDone(l.id)).flatMap(l => l.sentences);

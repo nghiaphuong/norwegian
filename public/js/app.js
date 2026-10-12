@@ -46,6 +46,11 @@ function parseHash() {
 
 export const go = path => { location.hash = `#/${path}`; };
 
+// Trang gần nhất ngoài chế độ làm bài, để thoát bài quay về đúng chỗ (không dùng history.back:
+// bất đồng bộ trên Firefox và có thể đưa người dùng ra khỏi trang nếu họ mở thẳng link bài học).
+let lastPage = '#/path';
+export function leavePlayer() { location.replace(lastPage); }
+
 let cleanup = null;
 let renderSeq = 0;
 async function router() {
@@ -58,6 +63,7 @@ async function router() {
   hidePop();
   const main = $('#main');
   const full = route === 'learn' || (route === 'stories' && params[0]);
+  if (!full) lastPage = location.hash || '#/';
   document.body.classList.toggle('in-player', full);
   document.body.classList.toggle('no-rail', route === 'admin');
   try {

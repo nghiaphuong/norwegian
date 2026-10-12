@@ -571,3 +571,17 @@ body.no-rail .main { margin-right: 0; }
 @media (max-width: 767px) {
   .atable td.row-acts { grid-column: 1 / -1; display: flex; justify-content: flex-end; gap: 6px; margin-top: 6px; width: auto; }
 }
+
+/* ===== Dự phòng cho trình duyệt chưa hỗ trợ color-mix() (Safari < 16.2, iOS 15 trở xuống) ===== */
+@supports not (color: color-mix(in srgb, red, blue)) {
+  .topbar { background: var(--bg); }
+  .tag.g-m { background: rgba(37, 99, 166, .14); }
+  .tag.g-f { background: rgba(180, 49, 106, .14); }
+  .tag.g-n { background: rgba(47, 125, 79, .14); }
+  .heat i.l1 { background: #A9D8BE; }
+  .heat i.l2 { background: #5DB487; }
+  .tw { border-bottom-color: rgba(31, 78, 90, .45); }
+  .btn.primary, .btn.accent, .btn.ok, .btn.bad, .node, .p-prompt .icon-btn, .big-listen .icon-btn, .mic-btn { box-shadow: 0 3px 0 rgba(0, 0, 0, .25); }
+  .node.locked { box-shadow: 0 6px 0 rgba(0, 0, 0, .15); }
+  .stat.flame svg, .flame svg { color: var(--line); }
+}
