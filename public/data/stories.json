@@ -1,0 +1,302 @@
+{
+  "stories": [
+    {
+      "id": "s1",
+      "title": "Første dag på jobben",
+      "title_vi": "Ngày đầu đi làm",
+      "level": "A1",
+      "icon": "💼",
+      "characters": { "Linh": "👩🏻", "Ola": "👨🏼" },
+      "lines": [
+        { "who": "narrator", "no": "Det er mandag. Linh begynner i en ny jobb i Oslo.", "vi": "Hôm nay là thứ Hai. Linh bắt đầu công việc mới ở Oslo." },
+        { "who": "Ola", "no": "Hei! Er du den nye kollegaen?", "vi": "Chào! Bạn là đồng nghiệp mới à?" },
+        { "who": "Linh", "no": "Ja, det er meg. Jeg heter Linh.", "vi": "Vâng, là tôi. Tôi tên là Linh." },
+        { "who": "Ola", "no": "Velkommen! Jeg heter Ola. Jeg jobber i salgsavdelingen.", "vi": "Chào mừng! Tôi tên là Ola. Tôi làm ở phòng kinh doanh." },
+        { "who": "Linh", "no": "Hyggelig å møte deg, Ola.", "vi": "Rất vui được gặp anh, Ola." },
+        { "who": "Ola", "no": "Hvor kommer du fra?", "vi": "Bạn đến từ đâu?" },
+        { "who": "Linh", "no": "Jeg kommer fra Vietnam, men nå bor jeg på Grünerløkka.", "vi": "Tôi đến từ Việt Nam, nhưng bây giờ tôi sống ở Grünerløkka." },
+        { "who": "Ola", "no": "Så fint! Kom, jeg viser deg kontoret.", "vi": "Hay quá! Đi nào, tôi dẫn bạn đi xem văn phòng." },
+        { "who": "narrator", "no": "Ola viser Linh kjøkkenet og møterommet.", "vi": "Ola dẫn Linh xem nhà bếp và phòng họp." },
+        { "who": "Ola", "no": "Her er pulten din. Og der er kaffemaskinen.", "vi": "Đây là bàn làm việc của bạn. Còn kia là máy pha cà phê." },
+        { "who": "Linh", "no": "Takk! Når spiser vi lunsj?", "vi": "Cảm ơn! Khi nào chúng ta ăn trưa?" },
+        { "who": "Ola", "no": "Vi spiser lunsj klokka halv tolv. Vi spiser sammen i kantina.", "vi": "Chúng ta ăn trưa lúc mười một giờ rưỡi. Mọi người ăn cùng nhau ở căng tin." },
+        { "who": "Linh", "no": "Flott! Jeg gleder meg.", "vi": "Tuyệt! Tôi rất mong chờ." }
+      ],
+      "questions": [
+        { "after": 3, "q": "Ola làm việc ở đâu?", "options": ["Ở căng tin", "Ở phòng kinh doanh", "Ở Việt Nam"], "answer": 1, "explain": "“Jeg jobber i salgsavdelingen” nghĩa là “Tôi làm ở phòng kinh doanh”." },
+        { "after": 6, "q": "Bây giờ Linh sống ở đâu?", "options": ["Ở Grünerløkka", "Ở Việt Nam", "Ở văn phòng"], "answer": 0, "explain": "Linh đến từ Việt Nam, nhưng “nå bor jeg på Grünerløkka” (bây giờ tôi sống ở Grünerløkka)." },
+        { "after": 11, "q": "Họ ăn trưa lúc mấy giờ?", "options": ["12:30", "10:30", "11:30"], "answer": 2, "explain": "“Halv tolv” nghĩa là còn nửa tiếng nữa đến 12 giờ, tức 11:30." }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "På Kiwi",
+      "title_vi": "Ở siêu thị Kiwi",
+      "level": "A1",
+      "icon": "🛒",
+      "characters": { "Phương": "👨🏻", "Kari": "👩🏼" },
+      "lines": [
+        { "who": "narrator", "no": "Phương er på Kiwi. Han skal kjøpe mat til middag.", "vi": "Phương đang ở Kiwi. Anh ấy định mua đồ ăn cho bữa tối." },
+        { "who": "Phương", "no": "Unnskyld, hvor er melken?", "vi": "Xin lỗi, sữa ở đâu ạ?" },
+        { "who": "Kari", "no": "Melken står der borte, ved siden av osten.", "vi": "Sữa ở đằng kia, bên cạnh pho mát." },
+        { "who": "Phương", "no": "Takk. Har dere fersk laks i dag?", "vi": "Cảm ơn. Hôm nay cửa hàng có cá hồi tươi không?" },
+        { "who": "Kari", "no": "Ja, laksen ligger i kjøledisken. Den er på tilbud i dag.", "vi": "Có, cá hồi nằm trong tủ mát. Hôm nay đang khuyến mãi." },
+        { "who": "narrator", "no": "Phương tar laks, melk, brød og poteter. Så går han til kassa.", "vi": "Phương lấy cá hồi, sữa, bánh mì và khoai tây. Sau đó anh ấy ra quầy thu ngân." },
+        { "who": "Kari", "no": "Hei! Trenger du pose?", "vi": "Chào anh! Anh có cần túi không?" },
+        { "who": "Phương", "no": "Nei takk, jeg har med meg et handlenett.", "vi": "Không, cảm ơn, tôi có mang theo túi đi chợ." },
+        { "who": "Kari", "no": "Har du Trumf?", "vi": "Anh có thẻ thành viên Trumf không?" },
+        { "who": "Phương", "no": "Nei, det har jeg ikke. Hvor mye blir det?", "vi": "Không, tôi không có. Hết bao nhiêu tiền?" },
+        { "who": "Kari", "no": "Det blir 187 kroner.", "vi": "Hết 187 krone." },
+        { "who": "Phương", "no": "Kan jeg betale med kort?", "vi": "Tôi trả bằng thẻ được không?" },
+        { "who": "Kari", "no": "Ja, selvfølgelig. Du kan bare holde kortet mot terminalen.", "vi": "Vâng, tất nhiên. Anh chỉ cần chạm thẻ vào máy." },
+        { "who": "Phương", "no": "Takk for hjelpen! Ha en fin dag!", "vi": "Cảm ơn chị đã giúp! Chúc chị một ngày tốt lành!" },
+        { "who": "Kari", "no": "Takk, i like måte!", "vi": "Cảm ơn, anh cũng vậy nhé!" }
+      ],
+      "questions": [
+        { "after": 2, "q": "Sữa ở đâu?", "options": ["Ở quầy thu ngân", "Bên cạnh pho mát", "Trong tủ mát cùng cá hồi"], "answer": 1, "explain": "“Ved siden av osten” nghĩa là “bên cạnh pho mát”." },
+        { "after": 4, "q": "Hôm nay cá hồi có gì đặc biệt?", "options": ["Đang khuyến mãi", "Đã hết hàng", "Nhập từ Việt Nam"], "answer": 0, "explain": "“På tilbud” nghĩa là đang khuyến mãi, giảm giá." },
+        { "after": 10, "q": "Phương phải trả bao nhiêu tiền?", "options": ["178 krone", "118 krone", "187 krone"], "answer": 2, "explain": "“Hundre og åttisju” = 187. Chú ý: tiếng Na Uy nói hàng chục trước hàng đơn vị (åttisju = 87)." },
+        { "after": 14, "q": "“I like måte” nghĩa là gì?", "options": ["Không có gì", "Anh/chị cũng vậy (chúc lại)", "Hẹn gặp lại"], "answer": 1, "explain": "Dùng để đáp lại một lời chúc: “Ha en fin dag!” → “Takk, i like måte!”." }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Billettkontroll på T-banen",
+      "title_vi": "Kiểm tra vé trên tàu điện ngầm",
+      "level": "A1",
+      "icon": "🚇",
+      "characters": { "Phương": "👨🏻", "Kontrolløren": "🧑🏼‍✈️" },
+      "lines": [
+        { "who": "narrator", "no": "Phương tar T-banen til sentrum. Han skal møte en venn på Nationaltheatret.", "vi": "Phương đi tàu điện ngầm vào trung tâm. Anh ấy sẽ gặp một người bạn ở ga Nationaltheatret." },
+        { "who": "narrator", "no": "En kontrollør kommer inn i vognen.", "vi": "Một nhân viên soát vé bước vào toa tàu." },
+        { "who": "Kontrolløren", "no": "Hei, billettkontroll. Kan jeg se billetten din?", "vi": "Chào anh, kiểm tra vé. Cho tôi xem vé của anh được không?" },
+        { "who": "Phương", "no": "Ja, et øyeblikk. Billetten er i Ruter-appen.", "vi": "Vâng, chờ một chút. Vé ở trong ứng dụng Ruter." },
+        { "who": "narrator", "no": "Phương åpner appen, men telefonen har nesten ikke strøm.", "vi": "Phương mở ứng dụng, nhưng điện thoại gần hết pin." },
+        { "who": "Phương", "no": "Å nei! Appen er veldig treg i dag.", "vi": "Ôi không! Hôm nay ứng dụng chạy chậm quá." },
+        { "who": "Kontrolløren", "no": "Ingen problem. Jeg venter litt.", "vi": "Không sao. Tôi đợi một chút." },
+        { "who": "Phương", "no": "Her! Jeg har en 30-dagersbillett for sone 1.", "vi": "Đây rồi! Tôi có vé 30 ngày cho vùng 1." },
+        { "who": "Kontrolløren", "no": "Hmm, billetten er ikke gyldig lenger. Du må kjøpe en ny.", "vi": "Hmm, vé này không còn hiệu lực nữa. Anh phải mua vé mới." },
+        { "who": "Phương", "no": "Å, unnskyld! Kan jeg kjøpe en billett nå?", "vi": "Ôi, xin lỗi! Tôi mua vé bây giờ được không?" },
+        { "who": "Kontrolløren", "no": "Nei, dessverre. Du må kjøpe billetten før du går på. Nå må du betale gebyr.", "vi": "Rất tiếc là không. Anh phải mua vé trước khi lên tàu. Bây giờ anh phải nộp phạt." },
+        { "who": "Phương", "no": "Hvor mye koster det?", "vi": "Tiền phạt là bao nhiêu?" },
+        { "who": "Kontrolløren", "no": "Beløpet står her på lappen. Du kan betale innen tre uker.", "vi": "Số tiền ghi ở đây trên tờ giấy. Anh có thể trả trong vòng ba tuần." },
+        { "who": "narrator", "no": "Phương er ikke glad. Men nå kjøper han alltid billetten før han går på T-banen.", "vi": "Phương không vui. Nhưng giờ anh ấy luôn mua vé trước khi lên tàu điện ngầm." }
+      ],
+      "questions": [
+        { "after": 3, "q": "Vé của Phương ở đâu?", "options": ["Trong ví", "Ở nhà", "Trong ứng dụng Ruter"], "answer": 2, "explain": "“Billetten er i Ruter-appen” nghĩa là vé nằm trong ứng dụng Ruter." },
+        { "after": 8, "q": "Vấn đề là gì?", "options": ["Vé không còn hiệu lực", "Điện thoại bị mất", "Phương đi nhầm tàu"], "answer": 0, "explain": "“Ikke gyldig lenger” nghĩa là không còn hiệu lực nữa." },
+        { "after": 10, "q": "Theo người soát vé, phải mua vé khi nào?", "options": ["Khi gặp người soát vé", "Trước khi lên tàu", "Sau khi xuống tàu"], "answer": 1, "explain": "“Før du går på” nghĩa là “trước khi anh lên (tàu)”." }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Hos fastlegen",
+      "title_vi": "Đi khám bác sĩ gia đình",
+      "level": "A1",
+      "icon": "🩺",
+      "characters": { "Linh": "👩🏻", "Legen": "👩🏼‍⚕️" },
+      "lines": [
+        { "who": "narrator", "no": "Linh er syk. Hun har time hos fastlegen klokka ni.", "vi": "Linh bị ốm. Chị ấy có lịch hẹn với bác sĩ gia đình lúc chín giờ." },
+        { "who": "Legen", "no": "God morgen, Linh. Kom inn og sett deg.", "vi": "Chào buổi sáng, Linh. Mời chị vào và ngồi xuống." },
+        { "who": "Linh", "no": "God morgen.", "vi": "Chào bác sĩ." },
+        { "who": "Legen", "no": "Hva kan jeg hjelpe deg med i dag?", "vi": "Hôm nay tôi có thể giúp gì cho chị?" },
+        { "who": "Linh", "no": "Jeg har vondt i halsen, og jeg har feber.", "vi": "Tôi bị đau họng và bị sốt." },
+        { "who": "Legen", "no": "Hvor lenge har du vært syk?", "vi": "Chị bị ốm bao lâu rồi?" },
+        { "who": "Linh", "no": "I tre dager. Jeg er veldig trøtt, og jeg hoster mye.", "vi": "Ba ngày rồi. Tôi rất mệt và ho nhiều." },
+        { "who": "Legen", "no": "Jeg skal se i halsen din. Si «a».", "vi": "Để tôi xem họng chị. Chị nói “a” nào." },
+        { "who": "narrator", "no": "Legen ser i halsen og lytter på lungene.", "vi": "Bác sĩ xem họng và nghe phổi." },
+        { "who": "Legen", "no": "Det er en vanlig virusinfeksjon. Du trenger ikke antibiotika.", "vi": "Đây là nhiễm virus thông thường. Chị không cần dùng kháng sinh." },
+        { "who": "Linh", "no": "Hva skal jeg gjøre da?", "vi": "Vậy tôi nên làm gì?" },
+        { "who": "Legen", "no": "Du må hvile, drikke mye vann og ta paracet hvis du har vondt.", "vi": "Chị cần nghỉ ngơi, uống nhiều nước và uống paracet nếu bị đau." },
+        { "who": "Linh", "no": "Trenger jeg sykemelding? Jeg har en jobb.", "vi": "Tôi có cần giấy nghỉ ốm không? Tôi đang đi làm." },
+        { "who": "Legen", "no": "Du kan bruke egenmelding i tre dager. Kom tilbake hvis du ikke blir bedre.", "vi": "Chị có thể dùng egenmelding (tự khai nghỉ ốm) trong ba ngày. Hãy quay lại nếu chị không đỡ hơn." }
+      ],
+      "questions": [
+        { "after": 4, "q": "Linh bị làm sao?", "options": ["Đau chân", "Đau răng", "Đau họng và sốt"], "answer": 2, "explain": "“Jeg har vondt i halsen” = tôi bị đau họng, “jeg har feber” = tôi bị sốt." },
+        { "after": 6, "q": "Linh bị ốm bao lâu rồi?", "options": ["Ba ngày", "Một ngày", "Một tuần"], "answer": 0, "explain": "“I tre dager” nghĩa là “trong ba ngày”." },
+        { "after": 11, "q": "Bác sĩ khuyên Linh làm gì?", "options": ["Uống kháng sinh", "Nghỉ ngơi và uống nhiều nước", "Đi làm ngay"], "answer": 1, "explain": "“Du må hvile, drikke mye vann” = chị cần nghỉ ngơi, uống nhiều nước." },
+        { "after": 13, "q": "“Egenmelding” là gì?", "options": ["Giấy nghỉ ốm do bác sĩ cấp", "Tự khai báo nghỉ ốm ngắn ngày với chỗ làm", "Đơn thuốc"], "answer": 1, "explain": "Egenmelding là khi người lao động tự báo nghỉ ốm vài ngày, không cần bác sĩ. Sykemelding thì do bác sĩ cấp." }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Helg på hytta",
+      "title_vi": "Cuối tuần ở nhà gỗ trên núi",
+      "level": "A1",
+      "icon": "🏔️",
+      "characters": { "Phương": "👨🏻", "Ingrid": "👩🏼" },
+      "lines": [
+        { "who": "narrator", "no": "Det er fredag. Phương og Ingrid kjører til hytta til Ingrid i Valdres.", "vi": "Hôm nay là thứ Sáu. Phương và Ingrid lái xe đến nhà gỗ của Ingrid ở Valdres." },
+        { "who": "Ingrid", "no": "Nå er vi framme! Velkommen til hytta.", "vi": "Đến nơi rồi! Chào mừng anh đến nhà gỗ." },
+        { "who": "Phương", "no": "Så vakkert! Men hvor er lysbryteren?", "vi": "Đẹp quá! Nhưng công tắc đèn ở đâu?" },
+        { "who": "Ingrid", "no": "Hytta har ikke strøm. Vi har stearinlys og en vedovn.", "vi": "Nhà gỗ không có điện. Chúng ta có nến và lò sưởi đốt củi." },
+        { "who": "Phương", "no": "Har dere vann?", "vi": "Ở đây có nước không?" },
+        { "who": "Ingrid", "no": "Nei, vi henter vann i bekken. Og toalettet er en utedo.", "vi": "Không, chúng ta lấy nước ở con suối. Còn nhà vệ sinh là nhà vệ sinh ngoài trời." },
+        { "who": "Phương", "no": "Det er veldig norsk!", "vi": "Đúng là rất Na Uy!" },
+        { "who": "Ingrid", "no": "Ja, det er ekte hytteliv. I morgen går vi på tur til toppen av fjellet.", "vi": "Đúng vậy, đây là cuộc sống nhà gỗ thực thụ. Ngày mai chúng ta đi bộ lên đỉnh núi." },
+        { "who": "Phương", "no": "Hvor lang er turen?", "vi": "Chuyến đi bộ dài bao lâu?" },
+        { "who": "Ingrid", "no": "Cirka tre timer. Vi tar med matpakke, kvikklunsj og kaffe på termos.", "vi": "Khoảng ba tiếng. Chúng ta mang theo hộp cơm, kvikklunsj và cà phê trong bình giữ nhiệt." },
+        { "who": "narrator", "no": "Om kvelden sitter de foran vedovnen og spiller kort.", "vi": "Buổi tối, họ ngồi trước lò sưởi và chơi bài." },
+        { "who": "Phương", "no": "Nå forstår jeg hvorfor nordmenn elsker hytta.", "vi": "Bây giờ tôi hiểu vì sao người Na Uy yêu nhà gỗ đến vậy." },
+        { "who": "Ingrid", "no": "Det er stille, og vi har god tid. Det er det beste.", "vi": "Ở đây yên tĩnh, và chúng ta có nhiều thời gian. Đó là điều tuyệt nhất." }
+      ],
+      "questions": [
+        { "after": 3, "q": "Nhà gỗ có điện không?", "options": ["Có", "Không, họ dùng nến và lò củi", "Chỉ có vào buổi tối"], "answer": 1, "explain": "“Hytta har ikke strøm” = nhà gỗ không có điện." },
+        { "after": 5, "q": "Họ lấy nước ở đâu?", "options": ["Ở cửa hàng", "Từ vòi nước", "Ở con suối"], "answer": 2, "explain": "“Vi henter vann i bekken” = chúng ta lấy nước ở suối (en bekk = con suối)." },
+        { "after": 9, "q": "Họ mang gì theo khi đi bộ lên núi?", "options": ["Hộp cơm, kvikklunsj và cà phê", "Chỉ mang nước", "Pizza và nước ngọt"], "answer": 0, "explain": "Matpakke (hộp cơm), kvikklunsj (thanh sô cô la quen thuộc khi đi núi) và kaffe på termos." }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "17. mai i Oslo",
+      "title_vi": "Ngày 17 tháng 5 ở Oslo",
+      "level": "A2",
+      "icon": "🇳🇴",
+      "characters": { "Linh": "👩🏻", "Ola": "👨🏼" },
+      "lines": [
+        { "who": "narrator", "no": "Det er 18. mai. Linh og Ola drikker kaffe på jobben.", "vi": "Hôm nay là ngày 18 tháng 5. Linh và Ola đang uống cà phê ở chỗ làm." },
+        { "who": "Ola", "no": "Hva gjorde du i går, på nasjonaldagen?", "vi": "Hôm qua, ngày Quốc khánh, chị đã làm gì?" },
+        { "who": "Linh", "no": "Jeg sto opp tidlig og tok på meg en ny kjole. Så gikk jeg til Karl Johans gate.", "vi": "Tôi dậy sớm và mặc một chiếc váy mới. Sau đó tôi đi đến phố Karl Johan." },
+        { "who": "Ola", "no": "Så du barnetoget?", "vi": "Chị có xem đoàn diễu hành của trẻ em không?" },
+        { "who": "Linh", "no": "Ja! Det var tusenvis av barn med flagg og korps. De gikk forbi Slottet.", "vi": "Có! Có hàng nghìn trẻ em cầm cờ và các ban nhạc kèn. Các em đi ngang qua Cung điện Hoàng gia." },
+        { "who": "Ola", "no": "Vinket kongefamilien fra balkongen?", "vi": "Gia đình Hoàng gia có vẫy tay từ ban công không?" },
+        { "who": "Linh", "no": "Ja, de sto der i flere timer. Alle ropte «Hurra!».", "vi": "Có, họ đứng đó mấy tiếng liền. Mọi người đều hô “Hurra!”." },
+        { "who": "Ola", "no": "Mange har på seg bunad på 17. mai. Så du mange bunader?", "vi": "Nhiều người mặc bunad vào ngày 17 tháng 5. Chị có thấy nhiều bunad không?" },
+        { "who": "Linh", "no": "Ja, de var så fine. Hver region har sin egen bunad, ikke sant?", "vi": "Có, đẹp lắm. Mỗi vùng có kiểu bunad riêng, đúng không?" },
+        { "who": "Ola", "no": "Det stemmer. Spiste du is og pølser?", "vi": "Đúng vậy. Chị có ăn kem và xúc xích không?" },
+        { "who": "Linh", "no": "Jeg spiste tre is og to pølser! Det var en lang dag.", "vi": "Tôi đã ăn ba cây kem và hai cái xúc xích! Đúng là một ngày dài." },
+        { "who": "Ola", "no": "Haha, det er tradisjon. Barna får spise så mye is de vil.", "vi": "Haha, đó là truyền thống. Trẻ con được ăn bao nhiêu kem tùy thích." },
+        { "who": "Linh", "no": "Om kvelden var jeg så trøtt at jeg sovnet klokka ni.", "vi": "Buổi tối tôi mệt đến mức ngủ thiếp đi lúc chín giờ." },
+        { "who": "narrator", "no": "17. mai er Norges nasjonaldag. Grunnloven ble vedtatt 17. mai 1814.", "vi": "Ngày 17 tháng 5 là Quốc khánh Na Uy. Hiến pháp được thông qua ngày 17 tháng 5 năm 1814." }
+      ],
+      "questions": [
+        { "after": 2, "q": "Sáng hôm qua Linh đã đi đâu?", "options": ["Đến nhà gỗ", "Đến phố Karl Johan", "Đến chỗ làm"], "answer": 1, "explain": "“Så gikk jeg til Karl Johans gate” (gikk là quá khứ của gå)." },
+        { "after": 6, "q": "Gia đình Hoàng gia đứng ở đâu?", "options": ["Trên ban công Cung điện", "Trong đoàn diễu hành", "Ở nhà ga"], "answer": 0, "explain": "Họ vẫy tay “fra balkongen” trên Slottet (Cung điện Hoàng gia)." },
+        { "after": 10, "q": "Linh đã ăn gì?", "options": ["Cá hồi và khoai tây", "Bánh mì kẹp", "Ba cây kem và hai cái xúc xích"], "answer": 2, "explain": "“Jeg spiste tre is og to pølser”. Spiste là quá khứ của å spise." },
+        { "after": 13, "q": "Vì sao ngày 17 tháng 5 là Quốc khánh Na Uy?", "options": ["Đó là sinh nhật nhà vua", "Hiến pháp được thông qua ngày đó năm 1814", "Na Uy giành độc lập năm 1905"], "answer": 1, "explain": "“Grunnloven ble vedtatt 17. mai 1814” = Hiến pháp được thông qua ngày 17/5/1814." }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Jobbintervjuet",
+      "title_vi": "Buổi phỏng vấn xin việc",
+      "level": "A2",
+      "icon": "🤝",
+      "characters": { "Phương": "👨🏻", "Hanne": "👩🏼‍💼" },
+      "lines": [
+        { "who": "narrator", "no": "Phương har jobbintervju i et maritimt konsulentselskap i Oslo.", "vi": "Phương có buổi phỏng vấn xin việc ở một công ty tư vấn hàng hải tại Oslo." },
+        { "who": "Hanne", "no": "Velkommen, Phương. Takk for at du kom. Fortell litt om deg selv.", "vi": "Chào mừng anh Phương. Cảm ơn anh đã đến. Anh hãy giới thiệu một chút về bản thân." },
+        { "who": "Phương", "no": "Takk. Jeg kommer fra Vietnam, og jeg jobbet som diplomat i mange år.", "vi": "Cảm ơn chị. Tôi đến từ Việt Nam, và tôi đã làm nhà ngoại giao nhiều năm." },
+        { "who": "Phương", "no": "Senere tok jeg en MBA i Storbritannia, og for to år siden flyttet jeg til Oslo.", "vi": "Sau đó tôi học MBA ở Anh, và hai năm trước tôi chuyển đến Oslo." },
+        { "who": "Hanne", "no": "Interessant! Hvorfor søkte du på denne stillingen?", "vi": "Thú vị quá! Vì sao anh ứng tuyển vào vị trí này?" },
+        { "who": "Phương", "no": "Jeg er veldig interessert i havøkonomi. Norge er ledende innen havbruk og shipping.", "vi": "Tôi rất quan tâm đến kinh tế biển. Na Uy dẫn đầu về nuôi trồng thủy sản và vận tải biển." },
+        { "who": "Hanne", "no": "Hva er dine sterkeste sider?", "vi": "Điểm mạnh nhất của anh là gì?" },
+        { "who": "Phương", "no": "Jeg er flink til å forhandle, og jeg har et stort nettverk i Sørøst-Asia.", "vi": "Tôi giỏi đàm phán, và tôi có mạng lưới quan hệ rộng ở Đông Nam Á." },
+        { "who": "Hanne", "no": "Og svake sider?", "vi": "Còn điểm yếu thì sao?" },
+        { "who": "Phương", "no": "Norsken min er ikke perfekt ennå, men jeg lærer hver dag. Jeg begynte på norskkurs i fjor.", "vi": "Tiếng Na Uy của tôi chưa hoàn hảo, nhưng tôi học mỗi ngày. Tôi bắt đầu học khóa tiếng Na Uy từ năm ngoái." },
+        { "who": "Hanne", "no": "Du snakker allerede godt norsk! Har du noen spørsmål til oss?", "vi": "Anh đã nói tiếng Na Uy giỏi rồi đấy! Anh có câu hỏi nào cho chúng tôi không?" },
+        { "who": "Phương", "no": "Ja. Hvordan ser en vanlig arbeidsdag ut?", "vi": "Có. Một ngày làm việc bình thường ở đây như thế nào?" },
+        { "who": "Hanne", "no": "Vi har mye kontakt med kunder i Asia, så du kommer til å reise en del.", "vi": "Chúng tôi làm việc nhiều với khách hàng ở châu Á, nên anh sẽ phải đi công tác khá nhiều." },
+        { "who": "Phương", "no": "Det passer meg perfekt.", "vi": "Điều đó rất hợp với tôi." },
+        { "who": "Hanne", "no": "Flott. Vi ringer deg i løpet av neste uke.", "vi": "Tuyệt. Chúng tôi sẽ gọi cho anh trong tuần tới." }
+      ],
+      "questions": [
+        { "after": 3, "q": "Trước đây Phương làm nghề gì?", "options": ["Giáo viên", "Nhà ngoại giao", "Đầu bếp"], "answer": 1, "explain": "“Jeg jobbet som diplomat” = tôi đã làm nhà ngoại giao (jobbet là quá khứ của jobbe)." },
+        { "after": 5, "q": "Vì sao Phương ứng tuyển?", "options": ["Anh quan tâm đến kinh tế biển", "Anh muốn sống ở Bergen", "Anh muốn lương cao"], "answer": 0, "explain": "“Jeg er veldig interessert i havøkonomi” = tôi rất quan tâm đến kinh tế biển." },
+        { "after": 9, "q": "Phương nói điểm yếu của mình là gì?", "options": ["Không thích đi công tác", "Chưa có kinh nghiệm", "Tiếng Na Uy chưa hoàn hảo"], "answer": 2, "explain": "“Norsken min er ikke perfekt ennå” = tiếng Na Uy của tôi chưa hoàn hảo." },
+        { "after": 14, "q": "Khi nào công ty sẽ gọi cho Phương?", "options": ["Ngày mai", "Trong tuần tới", "Tháng sau"], "answer": 1, "explain": "“I løpet av neste uke” = trong tuần tới." }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Dugnad i borettslaget",
+      "title_vi": "Ngày dugnad ở khu chung cư",
+      "level": "A2",
+      "icon": "🧹",
+      "characters": { "Phương": "👨🏻", "Bjørn": "👴🏼" },
+      "lines": [
+        { "who": "narrator", "no": "Det er lørdag morgen i mai. Borettslaget har dugnad.", "vi": "Một sáng thứ Bảy tháng Năm. Khu nhà ở hợp tác (borettslag) tổ chức ngày lao động chung." },
+        { "who": "Bjørn", "no": "God morgen! Fint at du kom. Jeg er Bjørn, styreleder.", "vi": "Chào buổi sáng! Thật tốt là anh đã đến. Tôi là Bjørn, trưởng ban quản trị." },
+        { "who": "Phương", "no": "God morgen. Jeg så lappen i oppgangen forrige uke. Hva skal vi gjøre?", "vi": "Chào buổi sáng. Tuần trước tôi thấy tờ thông báo ở cầu thang. Chúng ta sẽ làm gì?" },
+        { "who": "Bjørn", "no": "Vi skal rake løv, vaske vinduene i kjelleren og male benkene.", "vi": "Chúng ta sẽ cào lá, lau cửa sổ ở tầng hầm và sơn mấy chiếc ghế dài." },
+        { "who": "Phương", "no": "Jeg kan male benkene. Det gjorde jeg mye da jeg var ung.", "vi": "Tôi có thể sơn ghế. Hồi trẻ tôi làm việc này nhiều lắm." },
+        { "who": "Bjørn", "no": "Supert! Malingen og penslene står ved sykkelboden.", "vi": "Tuyệt! Sơn và cọ để cạnh kho xe đạp." },
+        { "who": "narrator", "no": "Alle naboene jobber i tre timer. Barna plukker søppel.", "vi": "Tất cả hàng xóm làm việc trong ba tiếng. Bọn trẻ đi nhặt rác." },
+        { "who": "Phương", "no": "Er dugnad obligatorisk?", "vi": "Dugnad có bắt buộc không?" },
+        { "who": "Bjørn", "no": "Ikke helt, men i noen borettslag må man betale hvis man ikke kommer. Det viktigste er at vi blir kjent med hverandre.", "vi": "Không hẳn, nhưng ở một số khu, ai không đến thì phải đóng tiền. Quan trọng nhất là chúng ta làm quen với nhau." },
+        { "who": "Phương", "no": "I Vietnam har vi noe lignende. Naboer hjelper hverandre.", "vi": "Ở Việt Nam chúng tôi cũng có điều tương tự. Hàng xóm giúp đỡ lẫn nhau." },
+        { "who": "narrator", "no": "Etterpå griller de pølser og drikker kaffe sammen på plenen.", "vi": "Sau đó, mọi người nướng xúc xích và uống cà phê cùng nhau trên bãi cỏ." },
+        { "who": "Bjørn", "no": "Takk for innsatsen i dag, Phương. Benkene ble veldig fine!", "vi": "Cảm ơn anh đã góp sức hôm nay, Phương. Mấy chiếc ghế trông đẹp lắm!" },
+        { "who": "Phương", "no": "Takk selv! Nå kjenner jeg endelig naboene mine.", "vi": "Tôi mới phải cảm ơn! Giờ tôi cuối cùng cũng quen được hàng xóm." }
+      ],
+      "questions": [
+        { "after": 3, "q": "Mọi người sẽ làm những việc gì?", "options": ["Nấu ăn và dọn nhà", "Cào lá, lau cửa sổ, sơn ghế", "Sửa xe đạp"], "answer": 1, "explain": "“Rake løv” = cào lá, “vaske vinduene” = lau cửa sổ, “male benkene” = sơn ghế dài." },
+        { "after": 5, "q": "Sơn và cọ để ở đâu?", "options": ["Trong căn hộ của Bjørn", "Ở tầng hầm", "Cạnh kho xe đạp"], "answer": 2, "explain": "“Ved sykkelboden” = cạnh kho để xe đạp." },
+        { "after": 8, "q": "Theo Bjørn, điều gì quan trọng nhất?", "options": ["Làm quen với nhau", "Làm thật nhanh", "Không phải đóng tiền"], "answer": 0, "explain": "“Det viktigste er at vi blir kjent med hverandre” = quan trọng nhất là chúng ta làm quen với nhau." },
+        { "after": 10, "q": "Sau dugnad mọi người làm gì?", "options": ["Đi xem phim", "Nướng xúc xích và uống cà phê", "Về nhà ngủ"], "answer": 1, "explain": "“Griller pølser og drikker kaffe” = nướng xúc xích và uống cà phê." }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Middag hos Ingrid",
+      "title_vi": "Bữa tối ở nhà Ingrid",
+      "level": "A2",
+      "icon": "🍷",
+      "characters": { "Phương": "👨🏻", "Ingrid": "👩🏼", "Tor": "🧔🏼" },
+      "lines": [
+        { "who": "narrator", "no": "Ingrid inviterte Phương på middag lørdag kveld. Han tok med en flaske vin.", "vi": "Ingrid đã mời Phương ăn tối vào tối thứ Bảy. Anh ấy mang theo một chai rượu vang." },
+        { "who": "Ingrid", "no": "Hei, Phương! Kom inn. Du kan ta av deg skoene i gangen.", "vi": "Chào Phương! Vào đi. Anh có thể cởi giày ở hành lang nhé." },
+        { "who": "Phương", "no": "Takk for invitasjonen. Her er en liten ting til dere.", "vi": "Cảm ơn lời mời. Đây là chút quà nhỏ cho anh chị." },
+        { "who": "Tor", "no": "Å, rødvin fra Italia! Så hyggelig, tusen takk.", "vi": "Ồ, rượu vang đỏ của Ý! Anh chu đáo quá, cảm ơn nhiều." },
+        { "who": "Ingrid", "no": "Maten er snart klar. Vi skal ha fårikål. Har du smakt det før?", "vi": "Đồ ăn sắp xong rồi. Hôm nay có món fårikål. Anh đã ăn thử món này bao giờ chưa?" },
+        { "who": "Phương", "no": "Nei, aldri. Hva er det?", "vi": "Chưa, chưa bao giờ. Đó là món gì vậy?" },
+        { "who": "Tor", "no": "Det er lammekjøtt og kål. Mange sier at det er Norges nasjonalrett.", "vi": "Đó là thịt cừu nấu với bắp cải. Nhiều người nói đó là món ăn quốc gia của Na Uy." },
+        { "who": "narrator", "no": "De setter seg ved bordet. Tor skjenker vin.", "vi": "Mọi người ngồi vào bàn. Tor rót rượu." },
+        { "who": "Tor", "no": "Skål! Velkommen til oss.", "vi": "Nâng ly! Chào mừng anh đến nhà chúng tôi." },
+        { "who": "Phương", "no": "Skål! Dette smaker kjempegodt. Kan jeg få litt mer?", "vi": "Nâng ly! Món này ngon tuyệt. Cho tôi xin thêm một chút được không?" },
+        { "who": "Ingrid", "no": "Selvfølgelig, bare forsyn deg!", "vi": "Tất nhiên rồi, anh cứ tự nhiên lấy thêm!" },
+        { "who": "narrator", "no": "Etter middagen reiser Phương seg fra bordet.", "vi": "Sau bữa tối, Phương đứng dậy khỏi bàn." },
+        { "who": "Phương", "no": "Takk for maten! Det var veldig godt.", "vi": "Cảm ơn vì bữa ăn! Ngon lắm." },
+        { "who": "Ingrid", "no": "Velbekomme! Vil du ha kaffe og kake nå?", "vi": "Không có gì, mong anh ăn ngon miệng! Anh có muốn dùng cà phê và bánh ngọt không?" },
+        { "who": "Phương", "no": "Ja takk, gjerne.", "vi": "Vâng, rất sẵn lòng." },
+        { "who": "narrator", "no": "Dagen etter sendte Phương en melding: «Takk for sist! Det var en hyggelig kveld.»", "vi": "Hôm sau, Phương gửi tin nhắn: “Takk for sist! Tối qua thật vui.”" }
+      ],
+      "questions": [
+        { "after": 3, "q": "Phương mang gì đến?", "options": ["Một bó hoa", "Một chai rượu vang", "Một chiếc bánh"], "answer": 1, "explain": "“Han tok med en flaske vin” = anh ấy mang theo một chai rượu vang. Đây là món quà phổ biến khi được mời ăn tối ở Na Uy." },
+        { "after": 6, "q": "Fårikål làm từ gì?", "options": ["Cá hồi và khoai tây", "Thịt bò và cơm", "Thịt cừu và bắp cải"], "answer": 2, "explain": "“Lammekjøtt og kål” = thịt cừu và bắp cải." },
+        { "after": 13, "q": "Khách nói gì sau bữa ăn?", "options": ["Takk for maten", "Skål", "Velkommen"], "answer": 0, "explain": "Khách nói “Takk for maten”, chủ nhà đáp “Velbekomme”." },
+        { "after": 15, "q": "“Takk for sist” dùng khi nào?", "options": ["Khi gọi món ở nhà hàng", "Khi chào người lạ lần đầu", "Khi cảm ơn về lần gặp gần nhất"], "answer": 2, "explain": "“Takk for sist” nghĩa là “cảm ơn về lần (gặp) trước”, dùng khi gặp lại hoặc nhắn tin sau buổi gặp." }
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Møte om sjømateksport",
+      "title_vi": "Cuộc họp về xuất khẩu hải sản",
+      "level": "A2",
+      "icon": "🐟",
+      "characters": { "Phương": "👨🏻", "Hanne": "👩🏼‍💼", "Erik": "👨🏼‍💼" },
+      "lines": [
+        { "who": "narrator", "no": "Phương fikk jobben. I dag er han på sitt første møte om eksport av sjømat til Vietnam.", "vi": "Phương đã nhận được công việc. Hôm nay anh ấy dự cuộc họp đầu tiên về xuất khẩu hải sản sang Việt Nam." },
+        { "who": "Erik", "no": "God morgen, alle sammen. I fjor eksporterte Norge sjømat for over 170 milliarder kroner.", "vi": "Chào buổi sáng mọi người. Năm ngoái Na Uy đã xuất khẩu hải sản trị giá hơn 170 tỷ krone." },
+        { "who": "Erik", "no": "Asia er et viktig marked, og Vietnam vokser raskt.", "vi": "Châu Á là một thị trường quan trọng, và Việt Nam đang tăng trưởng nhanh." },
+        { "who": "Hanne", "no": "Phương, du kjenner markedet godt. Hva tror du?", "vi": "Phương, anh hiểu rõ thị trường này. Anh nghĩ sao?" },
+        { "who": "Phương", "no": "Vietnamesere spiser mye fisk, og middelklassen blir større. Mange ønsker laks og makrell av høy kvalitet.", "vi": "Người Việt ăn nhiều cá, và tầng lớp trung lưu ngày càng đông. Nhiều người muốn cá hồi và cá thu chất lượng cao." },
+        { "who": "Erik", "no": "Hva er de største utfordringene?", "vi": "Những thách thức lớn nhất là gì?" },
+        { "who": "Phương", "no": "Transporten er lang, så kjølekjeden må være perfekt. Dessuten er tollsatsene ganske høye.", "vi": "Đường vận chuyển dài nên chuỗi lạnh phải hoàn hảo. Ngoài ra, thuế nhập khẩu khá cao." },
+        { "who": "Hanne", "no": "Vi snakket med en importør i Ho Chi Minh-byen forrige måned. De vil ha fersk laks hver uke.", "vi": "Tháng trước chúng ta đã trao đổi với một nhà nhập khẩu ở Thành phố Hồ Chí Minh. Họ muốn có cá hồi tươi hằng tuần." },
+        { "who": "Phương", "no": "Da bør vi sende laksen med fly fra Oslo lufthavn. Det tar under to døgn.", "vi": "Vậy chúng ta nên gửi cá hồi bằng máy bay từ sân bay Oslo. Chỉ mất chưa đến hai ngày đêm." },
+        { "who": "Erik", "no": "Godt forslag. Men hva med bærekraft? Kundene spør mye om det.", "vi": "Đề xuất hay. Nhưng còn tính bền vững thì sao? Khách hàng hỏi nhiều về điều đó." },
+        { "who": "Phương", "no": "Vi kan fortelle historien om norsk havbruk: rent vann, strenge regler og lite bruk av antibiotika.", "vi": "Chúng ta có thể kể câu chuyện về ngành nuôi biển Na Uy: nước sạch, quy định nghiêm ngặt và rất ít dùng kháng sinh." },
+        { "who": "Hanne", "no": "Fint. Kan du skrive et kort notat om markedet til neste møte?", "vi": "Tốt. Anh có thể viết một bản ghi nhớ ngắn về thị trường cho cuộc họp tới không?" },
+        { "who": "Phương", "no": "Ja, selvfølgelig. Jeg sender det til dere innen fredag.", "vi": "Vâng, tất nhiên. Tôi sẽ gửi cho anh chị trước thứ Sáu." },
+        { "who": "narrator", "no": "Etter møtet var Phương fornøyd. Endelig kunne han bruke erfaringen sin fra Vietnam.", "vi": "Sau cuộc họp, Phương rất hài lòng. Cuối cùng anh ấy đã có thể dùng kinh nghiệm của mình về Việt Nam." }
+      ],
+      "questions": [
+        { "after": 2, "q": "Theo Erik, thị trường nào đang tăng trưởng nhanh?", "options": ["Na Uy", "Việt Nam", "Ý"], "answer": 1, "explain": "“Vietnam vokser raskt” = Việt Nam đang tăng trưởng nhanh." },
+        { "after": 6, "q": "Phương nêu những thách thức nào?", "options": ["Người Việt không ăn cá", "Cá hồi quá rẻ", "Vận chuyển xa và thuế nhập khẩu cao"], "answer": 2, "explain": "“Transporten er lang” và “tollsatsene er ganske høye” (thuế suất khá cao)." },
+        { "after": 8, "q": "Phương đề xuất gửi cá hồi bằng cách nào?", "options": ["Bằng máy bay", "Bằng tàu biển", "Bằng tàu hỏa"], "answer": 0, "explain": "“Sende laksen med fly” = gửi cá hồi bằng máy bay. Med + phương tiện: med fly, med båt, med tog." },
+        { "after": 12, "q": "Phương phải làm gì trước thứ Sáu?", "options": ["Bay sang Việt Nam", "Gửi bản ghi nhớ về thị trường", "Gọi cho nhà nhập khẩu"], "answer": 1, "explain": "“Jeg sender det til dere innen fredag” = tôi sẽ gửi cho anh chị trước thứ Sáu (innen = trong hạn, trước)." }
+      ]
+    }
+  ]
+}

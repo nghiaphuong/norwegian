@@ -1,0 +1,270 @@
+{
+  "topics": [
+    {
+      "id": "intro",
+      "title": "Giới thiệu",
+      "icon": "👋",
+      "note": "Những câu đầu tiên khi gặp người mới.",
+      "items": [
+        {"no": "Hei!", "vi": "Chào!", "tip": "Đọc như “hai”."},
+        {"no": "God morgen!", "vi": "Chào buổi sáng!", "tip": "Chữ d trong god câm: “gu mo-ơn”."},
+        {"no": "Jeg heter Phuong.", "vi": "Tôi tên là Phương.", "tip": "jeg đọc như “jai”."},
+        {"no": "Jeg kommer fra Vietnam.", "vi": "Tôi đến từ Việt Nam."},
+        {"no": "Jeg bor i Oslo.", "vi": "Tôi sống ở Oslo.", "tip": "Người Oslo nói “Uslo”, chữ o đọc gần như “u”."},
+        {"no": "Hva heter du?", "vi": "Bạn tên là gì?", "tip": "hv- chỉ đọc là “v”."},
+        {"no": "Hvor kommer du fra?", "vi": "Bạn đến từ đâu?"},
+        {"no": "Hyggelig å møte deg!", "vi": "Rất vui được gặp bạn!", "tip": "å đọc gần như “ô”, ø như “ơ” tròn môi."},
+        {"no": "Jeg snakker litt norsk.", "vi": "Tôi nói được một chút tiếng Na Uy."},
+        {"no": "Kan du snakke saktere?", "vi": "Bạn nói chậm hơn được không?"}
+      ]
+    },
+    {
+      "id": "kiwi",
+      "title": "Ở siêu thị",
+      "icon": "🛒",
+      "note": "Mua sắm ở Kiwi, Rema hay Meny.",
+      "items": [
+        {"no": "Trenger du pose?", "vi": "Bạn có cần túi không?"},
+        {"no": "Ja, takk.", "vi": "Có, cảm ơn."},
+        {"no": "Nei, takk.", "vi": "Không, cảm ơn."},
+        {"no": "Hvor mye koster det?", "vi": "Cái này giá bao nhiêu?"},
+        {"no": "Hvor finner jeg melk?", "vi": "Sữa để ở đâu ạ?"},
+        {"no": "Det blir åttini kroner.", "vi": "Hết 89 kroner."},
+        {"no": "Kan jeg betale med kort?", "vi": "Tôi trả bằng thẻ được không?"},
+        {"no": "Vil du ha kvitteringen?", "vi": "Bạn có lấy hóa đơn không?"},
+        {"no": "Ha en fin dag!", "vi": "Chúc một ngày tốt lành!"},
+        {"no": "Takk, i like måte!", "vi": "Cảm ơn, bạn cũng vậy nhé!"}
+      ]
+    },
+    {
+      "id": "tall",
+      "title": "Số và giờ",
+      "icon": "🕐",
+      "note": "Đếm số, hỏi giờ và hẹn giờ.",
+      "items": [
+        {"no": "en, to, tre, fire, fem", "vi": "một, hai, ba, bốn, năm"},
+        {"no": "seks, sju, åtte, ni, ti", "vi": "sáu, bảy, tám, chín, mười", "tip": "sju đọc như “su” với âm sh mềm."},
+        {"no": "Hva er klokka?", "vi": "Mấy giờ rồi?"},
+        {"no": "Klokka er ti.", "vi": "Bây giờ là 10 giờ."},
+        {"no": "Klokka er halv tre.", "vi": "Bây giờ là 2 giờ 30.", "tip": "halv tre là “nửa đường đến 3 giờ”, tức 2:30, không phải 3:30."},
+        {"no": "Kvart over ni.", "vi": "9 giờ 15."},
+        {"no": "Kvart på ni.", "vi": "9 giờ kém 15."},
+        {"no": "Jeg kommer klokka åtte.", "vi": "Tôi đến lúc 8 giờ."}
+      ]
+    },
+    {
+      "id": "lyd",
+      "title": "Âm khó",
+      "icon": "👄",
+      "note": "Những âm người Việt hay vấp. Nghe chậm, nhại nhiều lần.",
+      "items": [
+        {"no": "Smør, brød og ost", "vi": "Bơ, bánh mì và phô mai", "tip": "ø: miệng nói “ê”, môi tròn như “ô”."},
+        {"no": "Kjøkkenet er lite.", "vi": "Nhà bếp nhỏ.", "tip": "kj đọc như “ch” rất mềm, gần “khi”."},
+        {"no": "Sju skjorter", "vi": "Bảy cái áo sơ mi", "tip": "sj và skj cùng một âm “sh”."},
+        {"no": "Lys og ny", "vi": "Ánh sáng và mới", "tip": "y: nói “i” nhưng chu môi."},
+        {"no": "Været er nært.", "vi": "Thời tiết đang ở gần.", "tip": "æ mở miệng rộng như “e” trong “em”."},
+        {"no": "Vi går på stranda.", "vi": "Chúng tôi đi ra bãi biển.", "tip": "str-: đừng chêm nguyên âm vào giữa, nói liền s-t-r."},
+        {"no": "Bønder og bønner", "vi": "Nông dân và hạt đậu", "tip": "Hai từ gần giống nhau, phân biệt bằng thanh điệu, rất hợp với tai người Việt."},
+        {"no": "Takk for maten!", "vi": "Cảm ơn vì bữa ăn!", "tip": "Người Na Uy luôn nói câu này sau bữa ăn."}
+      ]
+    },
+    {
+      "id": "jobb",
+      "title": "Đi làm",
+      "icon": "💼",
+      "note": "Small talk ở công sở và nói về bản thân khi tìm việc.",
+      "items": [
+        {"no": "Hva jobber du med?", "vi": "Bạn làm công việc gì?"},
+        {"no": "Jeg har jobbet som diplomat.", "vi": "Tôi từng làm nhà ngoại giao."},
+        {"no": "Jeg har en MBA fra Storbritannia.", "vi": "Tôi có bằng MBA ở Anh."},
+        {"no": "Jeg søker jobb i Oslo.", "vi": "Tôi đang tìm việc ở Oslo."},
+        {"no": "Jeg er interessert i havøkonomi.", "vi": "Tôi quan tâm đến kinh tế biển."},
+        {"no": "Skal vi ta lunsj sammen?", "vi": "Mình ăn trưa cùng nhau nhé?"},
+        {"no": "Hvordan var helgen?", "vi": "Cuối tuần của bạn thế nào?"},
+        {"no": "Den var fin, takk. Og din?", "vi": "Vui lắm, cảm ơn. Còn bạn?"},
+        {"no": "Kan du gjenta det?", "vi": "Bạn nhắc lại được không?"},
+        {"no": "Jeg lærer norsk hver dag.", "vi": "Tôi học tiếng Na Uy mỗi ngày."}
+      ]
+    },
+    {
+      "id": "kafe",
+      "title": "Nhà hàng và quán cà phê",
+      "icon": "☕",
+      "note": "Gọi món, thanh toán và trò chuyện ở quán.",
+      "items": [
+        {"no": "En kaffe, takk.", "vi": "Cho tôi một ly cà phê.", "tip": "Chỉ cần thêm “takk” cuối câu là đủ lịch sự."},
+        {"no": "Kan jeg få en cappuccino?", "vi": "Cho tôi một ly cappuccino được không?", "tip": "“Kan jeg få...” là cách gọi món tự nhiên nhất."},
+        {"no": "Er det ledig her?", "vi": "Chỗ này còn trống không?"},
+        {"no": "Spise her eller ta med?", "vi": "Ăn ở đây hay mang đi?"},
+        {"no": "Ta med, takk.", "vi": "Mang đi, cảm ơn."},
+        {"no": "Jeg vil gjerne bestille.", "vi": "Tôi muốn gọi món.", "tip": "gjerne làm câu nói mềm và lịch sự hơn, giống “xin phép”."},
+        {"no": "Hva anbefaler du?", "vi": "Bạn gợi ý món gì?"},
+        {"no": "Har dere vegetarmat?", "vi": "Quán có món chay không?"},
+        {"no": "Jeg er allergisk mot nøtter.", "vi": "Tôi bị dị ứng với các loại hạt."},
+        {"no": "Kan vi få regningen?", "vi": "Cho chúng tôi xin hóa đơn."},
+        {"no": "Kan vi dele regningen?", "vi": "Chúng tôi chia hóa đơn được không?", "tip": "Ở Na Uy chia tiền rất phổ biến, mỗi người tự trả phần mình qua Vipps."},
+        {"no": "Det smakte veldig godt!", "vi": "Ngon lắm!"}
+      ]
+    },
+    {
+      "id": "ruter",
+      "title": "Đi lại với Ruter",
+      "icon": "🚋",
+      "note": "Trikk, T-bane, buss và tàu hỏa ở Oslo.",
+      "items": [
+        {"no": "Hvor går denne bussen?", "vi": "Xe buýt này đi đâu?"},
+        {"no": "Går denne trikken til Majorstuen?", "vi": "Tàu điện này có đến Majorstuen không?"},
+        {"no": "Hvor er nærmeste T-banestasjon?", "vi": "Ga tàu điện ngầm gần nhất ở đâu?"},
+        {"no": "Når går neste tog?", "vi": "Khi nào có chuyến tàu tiếp theo?"},
+        {"no": "Jeg kjøper billett i Ruter-appen.", "vi": "Tôi mua vé trong ứng dụng Ruter.", "tip": "Phải có vé trước khi lên xe, bị soát vé mà không có vé sẽ bị phạt nặng."},
+        {"no": "Hvor mange soner trenger jeg?", "vi": "Tôi cần vé mấy vùng?"},
+        {"no": "Jeg har en 30-dagersbillett.", "vi": "Tôi có vé 30 ngày.", "tip": "Đọc là “tretti-dagers-billett”."},
+        {"no": "Toget er forsinket.", "vi": "Tàu bị trễ."},
+        {"no": "Jeg må bytte på Jernbanetorget.", "vi": "Tôi phải đổi tàu ở Jernbanetorget."},
+        {"no": "Neste stopp er Nationaltheatret.", "vi": "Điểm dừng tiếp theo là Nationaltheatret."},
+        {"no": "Unnskyld, skal du av her?", "vi": "Xin lỗi, bạn có xuống ở đây không?"},
+        {"no": "Kan du si fra når vi er framme?", "vi": "Bạn báo tôi khi đến nơi được không?"}
+      ]
+    },
+    {
+      "id": "lege",
+      "title": "Bác sĩ và hiệu thuốc",
+      "icon": "🩺",
+      "note": "Đặt lịch với fastlege, đi legevakt và mua thuốc.",
+      "items": [
+        {"no": "Jeg vil bestille time hos fastlegen.", "vi": "Tôi muốn đặt lịch hẹn với bác sĩ gia đình.", "tip": "Mỗi người có một fastlege riêng, có thể đặt lịch qua Helsenorge."},
+        {"no": "Har dere ledig time i dag?", "vi": "Hôm nay còn lịch trống không?"},
+        {"no": "Jeg har vondt i hodet.", "vi": "Tôi bị đau đầu."},
+        {"no": "Jeg har hatt feber i tre dager.", "vi": "Tôi bị sốt ba ngày rồi."},
+        {"no": "Jeg hoster mye.", "vi": "Tôi ho nhiều."},
+        {"no": "Hvor er legevakten?", "vi": "Phòng khám cấp cứu ở đâu?", "tip": "Legevakt dành cho trường hợp gấp ngoài giờ, gọi số 116 117."},
+        {"no": "Trenger jeg resept?", "vi": "Tôi có cần đơn thuốc không?"},
+        {"no": "Har du noe mot hodepine?", "vi": "Bạn có thuốc gì trị đau đầu không?"},
+        {"no": "Hvor ofte skal jeg ta medisinen?", "vi": "Thuốc này uống mấy lần một ngày?"},
+        {"no": "Jeg er allergisk mot penicillin.", "vi": "Tôi bị dị ứng với penicillin."},
+        {"no": "Kan jeg få en sykemelding?", "vi": "Tôi xin giấy nghỉ ốm được không?"},
+        {"no": "God bedring!", "vi": "Chúc mau khỏe!"}
+      ]
+    },
+    {
+      "id": "bolig",
+      "title": "Nhà ở và chủ nhà",
+      "icon": "🏠",
+      "note": "Thuê nhà, đi xem căn hộ và nói chuyện với chủ nhà.",
+      "items": [
+        {"no": "Er leiligheten fortsatt ledig?", "vi": "Căn hộ vẫn còn trống chứ?", "tip": "Hầu hết nhà cho thuê được đăng trên Finn.no."},
+        {"no": "Når er det visning?", "vi": "Khi nào có buổi xem nhà?", "tip": "visning là buổi xem nhà mở, thường rất đông người."},
+        {"no": "Hvor mye er husleia?", "vi": "Tiền thuê nhà bao nhiêu?"},
+        {"no": "Er strøm inkludert?", "vi": "Đã bao gồm tiền điện chưa?", "tip": "Tiền điện ở Na Uy thay đổi theo mùa, mùa đông có thể rất cao."},
+        {"no": "Hvor stort er depositumet?", "vi": "Tiền đặt cọc là bao nhiêu?"},
+        {"no": "Når kan jeg flytte inn?", "vi": "Khi nào tôi có thể chuyển vào?"},
+        {"no": "Kan jeg få en kopi av kontrakten?", "vi": "Cho tôi xin một bản hợp đồng được không?"},
+        {"no": "Vasken er tett.", "vi": "Bồn rửa bị tắc."},
+        {"no": "Varmtvannet fungerer ikke.", "vi": "Nước nóng không hoạt động."},
+        {"no": "Kan du sende en rørlegger?", "vi": "Bạn có thể gọi thợ sửa ống nước đến không?"},
+        {"no": "Hvor kaster jeg søppel?", "vi": "Tôi đổ rác ở đâu?", "tip": "Oslo phân loại rác: túi xanh lá cho rác thực phẩm, túi xanh dương cho nhựa."},
+        {"no": "Jeg vil si opp leiligheten.", "vi": "Tôi muốn chấm dứt hợp đồng thuê nhà."}
+      ]
+    },
+    {
+      "id": "offentlig",
+      "title": "Ngân hàng, NAV và cơ quan",
+      "icon": "🏛️",
+      "note": "Giấy tờ, tài khoản và làm việc với cơ quan nhà nước.",
+      "items": [
+        {"no": "Jeg vil åpne en bankkonto.", "vi": "Tôi muốn mở tài khoản ngân hàng."},
+        {"no": "Trenger jeg BankID?", "vi": "Tôi có cần BankID không?", "tip": "BankID là chìa khóa đăng nhập vào gần như mọi dịch vụ ở Na Uy."},
+        {"no": "Jeg har fødselsnummer.", "vi": "Tôi có mã số cá nhân.", "tip": "fødselsnummer gồm 11 chữ số, do Skatteetaten cấp."},
+        {"no": "Jeg har time klokka ti.", "vi": "Tôi có hẹn lúc 10 giờ."},
+        {"no": "Hvor tar jeg kølapp?", "vi": "Tôi lấy số thứ tự ở đâu?"},
+        {"no": "Jeg vil registrere meg som arbeidssøker.", "vi": "Tôi muốn đăng ký là người tìm việc.", "tip": "Đăng ký trên nav.no để được hỗ trợ tìm việc."},
+        {"no": "Jeg har et spørsmål om skattekortet.", "vi": "Tôi có câu hỏi về thẻ thuế."},
+        {"no": "Hvilke dokumenter trenger jeg?", "vi": "Tôi cần những giấy tờ gì?"},
+        {"no": "Kan du forklare det en gang til?", "vi": "Bạn giải thích lại lần nữa được không?"},
+        {"no": "Hvor lang er behandlingstiden?", "vi": "Thời gian xử lý hồ sơ là bao lâu?"},
+        {"no": "Kan jeg gjøre dette på nett?", "vi": "Tôi làm việc này trên mạng được không?"},
+        {"no": "Jeg har ikke fått svar ennå.", "vi": "Tôi vẫn chưa nhận được trả lời."}
+      ]
+    },
+    {
+      "id": "smalltalk",
+      "title": "Chuyện phiếm và thời tiết",
+      "icon": "🌦️",
+      "note": "Thời tiết là chủ đề trò chuyện an toàn nhất ở Na Uy.",
+      "items": [
+        {"no": "Så fint vær i dag!", "vi": "Hôm nay trời đẹp quá!"},
+        {"no": "Det regner igjen.", "vi": "Lại mưa rồi."},
+        {"no": "Kaldt i dag, hva?", "vi": "Hôm nay lạnh nhỉ?", "tip": "“hva?” ở cuối câu giống “nhỉ” trong tiếng Việt."},
+        {"no": "Det er meldt sol i helgen.", "vi": "Dự báo cuối tuần có nắng."},
+        {"no": "Det finnes ikke dårlig vær, bare dårlige klær.", "vi": "Không có thời tiết xấu, chỉ có quần áo không phù hợp.", "tip": "Câu tục ngữ người Na Uy rất thích."},
+        {"no": "Hvordan går det?", "vi": "Dạo này thế nào?"},
+        {"no": "Bare bra, takk!", "vi": "Khỏe, cảm ơn!"},
+        {"no": "Har du noen planer for helgen?", "vi": "Cuối tuần bạn có kế hoạch gì không?"},
+        {"no": "Hvor lenge har du bodd i Norge?", "vi": "Bạn sống ở Na Uy bao lâu rồi?"},
+        {"no": "Har du vært på hytta i det siste?", "vi": "Gần đây bạn có lên nhà gỗ không?"},
+        {"no": "Endelig fredag!", "vi": "Cuối cùng cũng đến thứ Sáu!"},
+        {"no": "Ha en fin helg!", "vi": "Chúc cuối tuần vui vẻ!"}
+      ]
+    },
+    {
+      "id": "kontor",
+      "title": "Điện thoại và email công việc",
+      "icon": "📞",
+      "note": "Những câu chuẩn khi gọi điện và viết email ở công sở.",
+      "items": [
+        {"no": "Hei, det er Phuong.", "vi": "Chào, Phương đây.", "tip": "Người Na Uy nhấc máy thường nói tên mình ngay."},
+        {"no": "Kan jeg snakke med Kari Hansen?", "vi": "Tôi có thể nói chuyện với Kari Hansen không?"},
+        {"no": "Et øyeblikk, takk.", "vi": "Xin chờ một chút."},
+        {"no": "Hun sitter i møte nå.", "vi": "Cô ấy đang họp."},
+        {"no": "Kan jeg legge igjen en beskjed?", "vi": "Tôi để lại lời nhắn được không?"},
+        {"no": "Jeg ringer tilbake senere.", "vi": "Tôi sẽ gọi lại sau."},
+        {"no": "Takk for e-posten.", "vi": "Cảm ơn vì email của bạn."},
+        {"no": "Vedlagt finner du CV-en min.", "vi": "CV của tôi được đính kèm.", "tip": "Câu quen thuộc trong email xin việc."},
+        {"no": "Jeg ser fram til å høre fra deg.", "vi": "Tôi mong nhận được hồi âm."},
+        {"no": "Passer det med et møte på tirsdag?", "vi": "Họp vào thứ Ba có tiện không?"},
+        {"no": "Beklager at jeg svarer sent.", "vi": "Xin lỗi vì tôi trả lời muộn."},
+        {"no": "Med vennlig hilsen", "vi": "Trân trọng", "tip": "Cách kết thư trang trọng phổ biến nhất; thân mật hơn thì viết “Hilsen”."}
+      ]
+    },
+    {
+      "id": "nod",
+      "title": "Khẩn cấp",
+      "icon": "🚨",
+      "note": "Những câu cần biết khi gặp sự cố. Số khẩn cấp: 110 cứu hỏa, 112 cảnh sát, 113 cấp cứu.",
+      "items": [
+        {"no": "Hjelp!", "vi": "Cứu với!", "tip": "hj chỉ đọc là “j”: “jelp”."},
+        {"no": "Ring en ambulanse!", "vi": "Gọi xe cứu thương đi!", "tip": "Số 113."},
+        {"no": "Ring politiet!", "vi": "Gọi cảnh sát đi!", "tip": "Số 112."},
+        {"no": "Det brenner!", "vi": "Cháy!", "tip": "Số 110."},
+        {"no": "Det har skjedd en ulykke.", "vi": "Đã xảy ra tai nạn."},
+        {"no": "Jeg trenger en lege nå.", "vi": "Tôi cần bác sĩ ngay."},
+        {"no": "Han puster ikke.", "vi": "Anh ấy không thở."},
+        {"no": "Adressen er Storgata 10.", "vi": "Địa chỉ là số 10 phố Storgata.", "tip": "Khi gọi cấp cứu, hãy nói địa chỉ trước tiên."},
+        {"no": "Hvor er nærmeste sykehus?", "vi": "Bệnh viện gần nhất ở đâu?"},
+        {"no": "Jeg har mistet lommeboka.", "vi": "Tôi bị mất ví."},
+        {"no": "Noen har stjålet mobilen min.", "vi": "Có người lấy cắp điện thoại của tôi."},
+        {"no": "Kan vi snakke engelsk?", "vi": "Mình nói tiếng Anh được không?"}
+      ]
+    },
+    {
+      "id": "sosial",
+      "title": "Giao lưu và dugnad",
+      "icon": "🎉",
+      "note": "Lời mời, tiệc tùng và tinh thần dugnad.",
+      "items": [
+        {"no": "Vil du komme på middag på lørdag?", "vi": "Thứ Bảy bạn đến ăn tối nhé?"},
+        {"no": "Takk for invitasjonen!", "vi": "Cảm ơn lời mời!"},
+        {"no": "Gjerne!", "vi": "Rất sẵn lòng!"},
+        {"no": "Dessverre kan jeg ikke.", "vi": "Rất tiếc tôi không đến được."},
+        {"no": "Skal jeg ta med noe?", "vi": "Tôi có nên mang theo gì không?", "tip": "Khách thường mang hoa, rượu hoặc sô cô la."},
+        {"no": "Skål!", "vi": "Cạn ly!"},
+        {"no": "Takk for sist!", "vi": "Cảm ơn về lần gặp trước!", "tip": "Nói khi gặp lại người đã cùng ăn uống hay đi chơi lần trước."},
+        {"no": "Det er dugnad i borettslaget på søndag.", "vi": "Chủ nhật này khu chung cư có dugnad.", "tip": "dugnad là ngày mọi người cùng làm việc chung tình nguyện, rất quan trọng để hòa nhập."},
+        {"no": "Jeg kan hjelpe til med ryddingen.", "vi": "Tôi có thể giúp dọn dẹp."},
+        {"no": "Skal vi ta en kaffe en dag?", "vi": "Hôm nào mình đi uống cà phê nhé?"},
+        {"no": "Det var veldig hyggelig!", "vi": "Vui thật đấy!"},
+        {"no": "Kos dere!", "vi": "Chúc mọi người vui vẻ!"}
+      ]
+    }
+  ]
+}

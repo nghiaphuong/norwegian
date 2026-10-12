@@ -1,0 +1,23 @@
+{
+  "name": "norsk",
+  "version": "1.0.0",
+  "description": "Norsk – học tiếng Na Uy cho người Việt: lộ trình bài học, ôn tập ngắt quãng, từ điển, phát âm, truyện, ngữ pháp (Node.js + MySQL)",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo \"No build step\"",
+    "check": "node scripts/check-data.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0",
+    "compression": "^1.7.5",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3"
+  }
+}

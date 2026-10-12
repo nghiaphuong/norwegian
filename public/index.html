@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Norsk – Học tiếng Na Uy</title>
+<meta name="description" content="Học tiếng Na Uy cho người Việt: lộ trình bài học, ôn tập ngắt quãng, từ điển Na Uy–Việt, phát âm, truyện và ngữ pháp.">
+<meta name="theme-color" content="#1F4E5A">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Literata:opsz,wght@7..72,400;7..72,600;7..72,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/app.css">
+<script>
+  try { var t = JSON.parse(localStorage.getItem('norsk-state-v1') || '{}').settings; if (t && t.theme && t.theme !== 'auto') document.documentElement.dataset.theme = t.theme; } catch (e) {}
+</script>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar" aria-label="Điều hướng chính">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span class="brand-text"><b>Norsk</b><small>học tiếng Na Uy</small></span>
+    </a>
+    <nav class="side-nav" id="sideNav"></nav>
+    <div class="side-foot" id="sideFoot"></div>
+  </aside>
+
+  <header class="topbar">
+    <a class="brand" href="#/"><span class="brand-mark" aria-hidden="true">N</span><b>Norsk</b></a>
+    <div class="top-stats" id="topStats"></div>
+  </header>
+
+  <main class="main" id="main" tabindex="-1"></main>
+
+  <aside class="rail" id="rail" aria-label="Tổng quan"></aside>
+
+  <nav class="tabbar" id="tabbar" aria-label="Điều hướng"></nav>
+</div>
+
+<div id="modal" class="modal" hidden></div>
+<div id="pop" class="pop" hidden></div>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+
+<script type="module" src="/js/app.js"></script>
+</body>
+</html>

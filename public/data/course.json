@@ -1,0 +1,1105 @@
+{
+  "units": [
+    {
+      "id": "u1",
+      "title": "Chào hỏi",
+      "title_no": "Hilsener",
+      "level": "A1",
+      "color": "#1F4E5A",
+      "desc": "Chào hỏi, giới thiệu tên, quê quán và nơi ở.",
+      "lessons": [
+        {
+          "id": "u1l1",
+          "title": "Xin chào",
+          "vocab": [
+            {"no": "hei", "vi": "chào", "pos": "interj"},
+            {"no": "god morgen", "vi": "chào buổi sáng", "pos": "phrase"},
+            {"no": "ha det bra", "vi": "tạm biệt", "pos": "phrase"},
+            {"no": "takk", "vi": "cảm ơn", "pos": "interj"},
+            {"no": "ja", "vi": "vâng, có", "pos": "interj"},
+            {"no": "nei", "vi": "không", "pos": "interj"},
+            {"no": "jeg", "vi": "tôi", "pos": "pron"},
+            {"no": "å hete", "vi": "tên là", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Hei! Jeg heter Phuong.", "vi": "Chào! Tôi tên là Phương.", "tip": "jeg đọc như “jai”, hei đọc như “hai”."},
+            {"no": "God morgen! Jeg heter Anna.", "vi": "Chào buổi sáng! Tôi tên là Anna.", "tip": "Chữ d trong god câm: “gu mo-ơn”."},
+            {"no": "Ja takk!", "vi": "Vâng, cảm ơn!"},
+            {"no": "Nei takk!", "vi": "Không, cảm ơn!"},
+            {"no": "Ha det bra!", "vi": "Tạm biệt nhé!", "tip": "Nghĩa đen là “chúc khỏe”, dùng để chào tạm biệt."},
+            {"no": "Hei! Jeg heter Ola.", "vi": "Chào! Tôi tên là Ola."},
+            {"no": "Takk! Ha det bra!", "vi": "Cảm ơn! Tạm biệt!"}
+          ]
+        },
+        {
+          "id": "u1l2",
+          "title": "Tôi đến từ đâu",
+          "vocab": [
+            {"no": "hva", "vi": "gì, cái gì", "pos": "pron"},
+            {"no": "du", "vi": "bạn", "pos": "pron"},
+            {"no": "hvor", "vi": "ở đâu", "pos": "adv"},
+            {"no": "å komme", "vi": "đến", "pos": "v"},
+            {"no": "fra", "vi": "từ", "pos": "prep"},
+            {"no": "å bo", "vi": "sống, ở", "pos": "v"},
+            {"no": "i", "vi": "ở, trong", "pos": "prep"},
+            {"no": "og", "vi": "và", "pos": "conj"}
+          ],
+          "sentences": [
+            {"no": "Hva heter du?", "vi": "Bạn tên là gì?", "tip": "hv- chỉ đọc là “v”: hva đọc như “va”."},
+            {"no": "Jeg kommer fra Vietnam.", "vi": "Tôi đến từ Việt Nam."},
+            {"no": "Hvor kommer du fra?", "vi": "Bạn đến từ đâu?", "tip": "Giới từ fra đứng cuối câu hỏi, giống tiếng Anh “Where are you from?”."},
+            {"no": "Jeg bor i Oslo.", "vi": "Tôi sống ở Oslo.", "tip": "Người Oslo nói “Uslo”, chữ o đọc gần như “u”."},
+            {"no": "Hvor bor du?", "vi": "Bạn sống ở đâu?"},
+            {"no": "Bor du i Oslo?", "vi": "Bạn sống ở Oslo à?", "tip": "Câu hỏi có/không: đảo động từ lên đầu câu."},
+            {"no": "Jeg kommer fra Hanoi og bor i Oslo.", "vi": "Tôi đến từ Hà Nội và sống ở Oslo."}
+          ]
+        },
+        {
+          "id": "u1l3",
+          "title": "Ngôn ngữ",
+          "vocab": [
+            {"no": "å snakke", "vi": "nói", "pos": "v"},
+            {"no": "norsk", "vi": "tiếng Na Uy; thuộc Na Uy", "pos": "adj"},
+            {"no": "engelsk", "vi": "tiếng Anh; thuộc Anh", "pos": "adj"},
+            {"no": "litt", "vi": "một chút", "pos": "adv"},
+            {"no": "godt", "vi": "tốt, giỏi", "pos": "adv"},
+            {"no": "hyggelig", "vi": "vui, dễ chịu", "pos": "adj"},
+            {"no": "å møte", "vi": "gặp", "pos": "v"},
+            {"no": "deg", "vi": "bạn (tân ngữ)", "pos": "pron"}
+          ],
+          "sentences": [
+            {"no": "Jeg snakker litt norsk.", "vi": "Tôi nói được một chút tiếng Na Uy."},
+            {"no": "Snakker du engelsk?", "vi": "Bạn có nói tiếng Anh không?"},
+            {"no": "Jeg snakker godt engelsk.", "vi": "Tôi nói tiếng Anh tốt.", "tip": "Động từ luôn đứng ở vị trí thứ hai: Jeg (1) snakker (2)."},
+            {"no": "Hyggelig å møte deg!", "vi": "Rất vui được gặp bạn!", "tip": "å đọc gần như “ô”, ø như “ơ” tròn môi."},
+            {"no": "Du snakker godt norsk!", "vi": "Bạn nói tiếng Na Uy giỏi quá!"},
+            {"no": "Takk! Du snakker godt engelsk.", "vi": "Cảm ơn! Bạn nói tiếng Anh giỏi."},
+            {"no": "Jeg snakker norsk og engelsk.", "vi": "Tôi nói tiếng Na Uy và tiếng Anh.", "tip": "Tên ngôn ngữ viết thường: norsk, engelsk."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Gia đình",
+      "title_no": "Familie",
+      "level": "A1",
+      "color": "#2E6B5E",
+      "desc": "Nói về bố mẹ, anh chị em, vợ chồng và con cái.",
+      "lessons": [
+        {
+          "id": "u2l1",
+          "title": "Gia đình tôi",
+          "vocab": [
+            {"no": "en familie", "vi": "gia đình", "pos": "n", "g": "m"},
+            {"no": "ei mor", "vi": "mẹ", "pos": "n", "g": "f"},
+            {"no": "en far", "vi": "bố", "pos": "n", "g": "m"},
+            {"no": "en bror", "vi": "anh trai, em trai", "pos": "n", "g": "m"},
+            {"no": "ei søster", "vi": "chị gái, em gái", "pos": "n", "g": "f"},
+            {"no": "å ha", "vi": "có", "pos": "v"},
+            {"no": "min", "vi": "của tôi", "pos": "pron"}
+          ],
+          "sentences": [
+            {"no": "Jeg har en bror.", "vi": "Tôi có một anh trai."},
+            {"no": "Jeg har ei søster.", "vi": "Tôi có một chị gái.", "tip": "ei là mạo từ cho danh từ giống cái, người Oslo dùng rất nhiều."},
+            {"no": "Mor og far bor i Vietnam.", "vi": "Bố mẹ sống ở Việt Nam.", "tip": "Người Na Uy nói “mẹ và bố”, thứ tự ngược với tiếng Việt."},
+            {"no": "Har du en bror?", "vi": "Bạn có anh em trai không?"},
+            {"no": "Familien min bor i Hanoi.", "vi": "Gia đình tôi sống ở Hà Nội.", "tip": "Từ sở hữu đứng sau danh từ xác định: familien min, giống tiếng Việt “gia đình tôi”."},
+            {"no": "Faren min heter Minh.", "vi": "Bố tôi tên là Minh."},
+            {"no": "Søstera mi bor i Oslo.", "vi": "Chị gái tôi sống ở Oslo.", "tip": "Với danh từ giống cái dùng mi thay cho min."}
+          ]
+        },
+        {
+          "id": "u2l2",
+          "title": "Vợ chồng và con cái",
+          "vocab": [
+            {"no": "en mann", "vi": "chồng; người đàn ông", "pos": "n", "g": "m"},
+            {"no": "ei kone", "vi": "vợ", "pos": "n", "g": "f"},
+            {"no": "et barn", "vi": "đứa trẻ, con", "pos": "n", "g": "n"},
+            {"no": "en sønn", "vi": "con trai", "pos": "n", "g": "m"},
+            {"no": "ei datter", "vi": "con gái", "pos": "n", "g": "f"},
+            {"no": "to", "vi": "hai", "pos": "num"},
+            {"no": "gift", "vi": "đã kết hôn", "pos": "adj"},
+            {"no": "å være", "vi": "là, thì, ở", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Er du gift?", "vi": "Bạn đã kết hôn chưa?", "tip": "er là dạng hiện tại của å være, dùng cho mọi ngôi."},
+            {"no": "Jeg er gift.", "vi": "Tôi đã kết hôn."},
+            {"no": "Har du barn?", "vi": "Bạn có con không?"},
+            {"no": "Jeg har to barn.", "vi": "Tôi có hai con.", "tip": "barn số nhiều vẫn là barn, không đổi."},
+            {"no": "Jeg har en sønn og ei datter.", "vi": "Tôi có một con trai và một con gái."},
+            {"no": "Ola har ei kone og to barn.", "vi": "Ola có vợ và hai con."},
+            {"no": "Sønnen heter Erik.", "vi": "Cậu con trai tên là Erik."}
+          ]
+        },
+        {
+          "id": "u2l3",
+          "title": "Mô tả người thân",
+          "vocab": [
+            {"no": "han", "vi": "anh ấy, ông ấy", "pos": "pron"},
+            {"no": "hun", "vi": "cô ấy, bà ấy", "pos": "pron"},
+            {"no": "vi", "vi": "chúng tôi, chúng ta", "pos": "pron"},
+            {"no": "gammel", "vi": "già; bao nhiêu tuổi", "pos": "adj"},
+            {"no": "ung", "vi": "trẻ", "pos": "adj"},
+            {"no": "snill", "vi": "tốt bụng, hiền", "pos": "adj"},
+            {"no": "et år", "vi": "năm", "pos": "n", "g": "n"},
+            {"no": "hvor gammel", "vi": "bao nhiêu tuổi", "pos": "phrase"}
+          ],
+          "sentences": [
+            {"no": "Hvor gammel er du?", "vi": "Bạn bao nhiêu tuổi?"},
+            {"no": "Han er ung og snill.", "vi": "Anh ấy trẻ và tốt bụng.", "tip": "han và hun dễ nhầm: han đọc như “han”, hun đọc với u tròn môi."},
+            {"no": "Hun er to år gammel.", "vi": "Bé ấy hai tuổi."},
+            {"no": "Faren min er gammel.", "vi": "Bố tôi đã già."},
+            {"no": "Søstera mi er snill.", "vi": "Chị gái tôi hiền lắm."},
+            {"no": "Hvor gammel er hun?", "vi": "Cô ấy bao nhiêu tuổi?"},
+            {"no": "Vi bor i Oslo.", "vi": "Chúng tôi sống ở Oslo."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Số đếm và giờ",
+      "title_no": "Tall og klokka",
+      "level": "A1",
+      "color": "#3B5B8C",
+      "desc": "Đếm số, làm phép tính đơn giản và hỏi giờ.",
+      "lessons": [
+        {
+          "id": "u3l1",
+          "title": "Số từ 1 đến 6",
+          "vocab": [
+            {"no": "en", "vi": "một", "pos": "num"},
+            {"no": "tre", "vi": "ba", "pos": "num"},
+            {"no": "fire", "vi": "bốn", "pos": "num"},
+            {"no": "fem", "vi": "năm", "pos": "num"},
+            {"no": "seks", "vi": "sáu", "pos": "num"},
+            {"no": "et tall", "vi": "con số", "pos": "n", "g": "n"},
+            {"no": "hvor mange", "vi": "bao nhiêu (đếm được)", "pos": "phrase"}
+          ],
+          "sentences": [
+            {"no": "To og to er fire.", "vi": "Hai cộng hai là bốn."},
+            {"no": "Fem og en er seks.", "vi": "Năm cộng một là sáu.", "tip": "seks đọc như “xếch-x”, không đọc như tiếng Anh “sex”."},
+            {"no": "Hvor mange barn har du?", "vi": "Bạn có mấy con?"},
+            {"no": "Jeg har tre barn.", "vi": "Tôi có ba con."},
+            {"no": "Hun er seks år.", "vi": "Cô bé sáu tuổi."},
+            {"no": "Han er fire år gammel.", "vi": "Cậu bé bốn tuổi."},
+            {"no": "Familien min har fem barn.", "vi": "Gia đình tôi có năm người con.", "tip": "fem đọc như “phem”, môi trên chạm răng dưới."}
+          ]
+        },
+        {
+          "id": "u3l2",
+          "title": "Số lớn hơn",
+          "vocab": [
+            {"no": "sju", "vi": "bảy", "pos": "num"},
+            {"no": "åtte", "vi": "tám", "pos": "num"},
+            {"no": "ni", "vi": "chín", "pos": "num"},
+            {"no": "ti", "vi": "mười", "pos": "num"},
+            {"no": "tjue", "vi": "hai mươi", "pos": "num"},
+            {"no": "tretti", "vi": "ba mươi", "pos": "num"},
+            {"no": "hundre", "vi": "một trăm", "pos": "num"},
+            {"no": "tusen", "vi": "một nghìn", "pos": "num"}
+          ],
+          "sentences": [
+            {"no": "Sju og tre er ti.", "vi": "Bảy cộng ba là mười.", "tip": "sju đọc như “su” với âm sh mềm."},
+            {"no": "Ti og ti er tjue.", "vi": "Mười cộng mười là hai mươi.", "tip": "tjue đọc gần như “khiu-e”, tj là âm “ch” rất mềm."},
+            {"no": "Hun er tjue år.", "vi": "Cô ấy hai mươi tuổi."},
+            {"no": "Han er tretti år gammel.", "vi": "Anh ấy ba mươi tuổi."},
+            {"no": "Ni og en er ti.", "vi": "Chín cộng một là mười."},
+            {"no": "Hundre og hundre er to hundre.", "vi": "Một trăm cộng một trăm là hai trăm."},
+            {"no": "Tusen takk!", "vi": "Cảm ơn rất nhiều!", "tip": "Nghĩa đen là “nghìn lời cảm ơn”, người Na Uy dùng hằng ngày."}
+          ]
+        },
+        {
+          "id": "u3l3",
+          "title": "Mấy giờ rồi?",
+          "vocab": [
+            {"no": "ei klokke", "vi": "đồng hồ; giờ", "pos": "n", "g": "f"},
+            {"no": "hva er klokka", "vi": "mấy giờ rồi", "pos": "phrase"},
+            {"no": "halv", "vi": "rưỡi, nửa", "pos": "adj"},
+            {"no": "kvart", "vi": "mười lăm phút", "pos": "n", "g": "n"},
+            {"no": "over", "vi": "quá, hơn", "pos": "prep"},
+            {"no": "på", "vi": "kém; trên, ở", "pos": "prep"},
+            {"no": "nå", "vi": "bây giờ", "pos": "adv"}
+          ],
+          "sentences": [
+            {"no": "Hva er klokka?", "vi": "Mấy giờ rồi?"},
+            {"no": "Klokka er ti.", "vi": "Bây giờ là 10 giờ."},
+            {"no": "Klokka er halv tre.", "vi": "Bây giờ là 2 giờ 30.", "tip": "halv tre là “nửa đường đến 3 giờ”, tức 2:30, không phải 3:30."},
+            {"no": "Klokka er kvart over ni.", "vi": "Bây giờ là 9 giờ 15."},
+            {"no": "Klokka er kvart på ni.", "vi": "Bây giờ là 9 giờ kém 15.", "tip": "over là “quá”, på là “kém”."},
+            {"no": "Jeg kommer klokka åtte.", "vi": "Tôi đến lúc 8 giờ."},
+            {"no": "Hva er klokka nå?", "vi": "Bây giờ là mấy giờ?"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Đồ ăn và siêu thị",
+      "title_no": "Mat og butikk",
+      "level": "A1",
+      "color": "#5F7F3F",
+      "desc": "Gọi tên đồ ăn, hỏi giá và trả tiền ở Kiwi, Rema hay Meny.",
+      "lessons": [
+        {
+          "id": "u4l1",
+          "title": "Đồ ăn thức uống",
+          "vocab": [
+            {"no": "en mat", "vi": "đồ ăn, thức ăn", "pos": "n", "g": "m"},
+            {"no": "et brød", "vi": "bánh mì", "pos": "n", "g": "n"},
+            {"no": "en ost", "vi": "phô mai", "pos": "n", "g": "m"},
+            {"no": "et egg", "vi": "quả trứng", "pos": "n", "g": "n"},
+            {"no": "en fisk", "vi": "cá", "pos": "n", "g": "m"},
+            {"no": "en kaffe", "vi": "cà phê", "pos": "n", "g": "m"},
+            {"no": "å spise", "vi": "ăn", "pos": "v"},
+            {"no": "å drikke", "vi": "uống", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Jeg spiser brød og ost.", "vi": "Tôi ăn bánh mì và phô mai.", "tip": "Chữ d trong brød câm: đọc như “brơ”."},
+            {"no": "Hun drikker kaffe.", "vi": "Cô ấy uống cà phê."},
+            {"no": "Spiser du fisk?", "vi": "Bạn có ăn cá không?"},
+            {"no": "Han spiser to egg.", "vi": "Anh ấy ăn hai quả trứng."},
+            {"no": "Jeg drikker kaffe nå.", "vi": "Bây giờ tôi đang uống cà phê.", "tip": "Tiếng Na Uy không có thì tiếp diễn: drikker vừa là “uống” vừa là “đang uống”."},
+            {"no": "Maten er god.", "vi": "Đồ ăn ngon."},
+            {"no": "Vi spiser fisk og brød.", "vi": "Chúng tôi ăn cá và bánh mì."}
+          ]
+        },
+        {
+          "id": "u4l2",
+          "title": "Ở siêu thị",
+          "vocab": [
+            {"no": "en butikk", "vi": "cửa hàng", "pos": "n", "g": "m"},
+            {"no": "en pose", "vi": "cái túi", "pos": "n", "g": "m"},
+            {"no": "en krone", "vi": "đồng krone", "pos": "n", "g": "m"},
+            {"no": "å koste", "vi": "có giá", "pos": "v"},
+            {"no": "hvor mye", "vi": "bao nhiêu (không đếm được)", "pos": "phrase"},
+            {"no": "å trenge", "vi": "cần", "pos": "v"},
+            {"no": "det", "vi": "cái đó, nó", "pos": "pron"},
+            {"no": "å kjøpe", "vi": "mua", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Hvor mye koster det?", "vi": "Cái này giá bao nhiêu?"},
+            {"no": "Det koster tjue kroner.", "vi": "Nó giá hai mươi kroner."},
+            {"no": "Trenger du pose?", "vi": "Bạn có cần túi không?", "tip": "Thu ngân ở Kiwi hay Rema gần như luôn hỏi câu này."},
+            {"no": "Jeg trenger en pose.", "vi": "Tôi cần một cái túi."},
+            {"no": "Jeg kjøper brød og ost.", "vi": "Tôi mua bánh mì và phô mai.", "tip": "kj trong kjøper đọc như “ch” rất mềm: “chơ-pơ”."},
+            {"no": "Brødet koster tretti kroner.", "vi": "Ổ bánh mì giá ba mươi kroner."},
+            {"no": "Kiwi og Rema er butikker.", "vi": "Kiwi và Rema là các cửa hàng."}
+          ]
+        },
+        {
+          "id": "u4l3",
+          "title": "Thanh toán",
+          "vocab": [
+            {"no": "et kort", "vi": "thẻ", "pos": "n", "g": "n"},
+            {"no": "å betale", "vi": "trả tiền", "pos": "v"},
+            {"no": "med", "vi": "bằng, với", "pos": "prep"},
+            {"no": "å kunne", "vi": "có thể", "pos": "v"},
+            {"no": "en kvittering", "vi": "hóa đơn", "pos": "n", "g": "m"},
+            {"no": "ikke", "vi": "không", "pos": "adv"},
+            {"no": "å ville", "vi": "muốn", "pos": "v"},
+            {"no": "å bli", "vi": "trở thành; tổng cộng là", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Kan jeg betale med kort?", "vi": "Tôi trả bằng thẻ được không?", "tip": "Sau kan, vil, må động từ giữ nguyên dạng, không có å."},
+            {"no": "Vil du ha kvitteringen?", "vi": "Bạn có lấy hóa đơn không?"},
+            {"no": "Jeg trenger ikke kvittering.", "vi": "Tôi không cần hóa đơn.", "tip": "ikke đứng ngay sau động từ."},
+            {"no": "Jeg vil betale med kort.", "vi": "Tôi muốn trả bằng thẻ."},
+            {"no": "Det blir hundre kroner.", "vi": "Hết một trăm kroner."},
+            {"no": "Jeg vil ha en kaffe.", "vi": "Tôi muốn một ly cà phê."},
+            {"no": "Kan du betale med kort?", "vi": "Bạn trả bằng thẻ được không?"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "Nhà ở",
+      "title_no": "Bolig",
+      "level": "A1",
+      "color": "#8A6A3B",
+      "desc": "Mô tả căn hộ, đồ đạc và chuyện thuê nhà ở Oslo.",
+      "lessons": [
+        {
+          "id": "u5l1",
+          "title": "Căn hộ của tôi",
+          "vocab": [
+            {"no": "en leilighet", "vi": "căn hộ", "pos": "n", "g": "m"},
+            {"no": "et hus", "vi": "ngôi nhà", "pos": "n", "g": "n"},
+            {"no": "et rom", "vi": "căn phòng", "pos": "n", "g": "n"},
+            {"no": "et kjøkken", "vi": "nhà bếp", "pos": "n", "g": "n"},
+            {"no": "et bad", "vi": "phòng tắm", "pos": "n", "g": "n"},
+            {"no": "stor", "vi": "to, lớn", "pos": "adj"},
+            {"no": "liten", "vi": "nhỏ", "pos": "adj"},
+            {"no": "ny", "vi": "mới", "pos": "adj"}
+          ],
+          "sentences": [
+            {"no": "Jeg bor i en leilighet.", "vi": "Tôi sống trong một căn hộ."},
+            {"no": "Leiligheten er liten.", "vi": "Căn hộ nhỏ."},
+            {"no": "Kjøkkenet er lite.", "vi": "Nhà bếp nhỏ.", "tip": "Với danh từ giống trung, liten đổi thành lite. kj đọc như “ch” mềm."},
+            {"no": "Huset er stort.", "vi": "Ngôi nhà to.", "tip": "Tính từ thêm -t cho danh từ giống trung: stor thành stort."},
+            {"no": "Leiligheten har to rom.", "vi": "Căn hộ có hai phòng."},
+            {"no": "Badet er nytt.", "vi": "Phòng tắm mới."},
+            {"no": "Bor du i et hus?", "vi": "Bạn sống trong nhà riêng à?"}
+          ]
+        },
+        {
+          "id": "u5l2",
+          "title": "Đồ đạc",
+          "vocab": [
+            {"no": "ei seng", "vi": "cái giường", "pos": "n", "g": "f"},
+            {"no": "et bord", "vi": "cái bàn", "pos": "n", "g": "n"},
+            {"no": "en stol", "vi": "cái ghế", "pos": "n", "g": "m"},
+            {"no": "en sofa", "vi": "ghế sofa", "pos": "n", "g": "m"},
+            {"no": "et vindu", "vi": "cửa sổ", "pos": "n", "g": "n"},
+            {"no": "ei dør", "vi": "cửa ra vào", "pos": "n", "g": "f"},
+            {"no": "her", "vi": "ở đây", "pos": "adv"},
+            {"no": "der", "vi": "ở đó", "pos": "adv"}
+          ],
+          "sentences": [
+            {"no": "Senga er stor.", "vi": "Cái giường to.", "tip": "Danh từ giống cái thêm -a: ei seng thành senga."},
+            {"no": "Bordet er i kjøkkenet.", "vi": "Cái bàn ở trong bếp.", "tip": "Chữ d trong bord câm: “bu-r”."},
+            {"no": "Her er en stol.", "vi": "Đây là một cái ghế."},
+            {"no": "Sofaen er ny.", "vi": "Ghế sofa mới."},
+            {"no": "Vinduet er stort.", "vi": "Cửa sổ to."},
+            {"no": "Døra er der.", "vi": "Cửa ra vào ở đằng kia."},
+            {"no": "Har du en sofa?", "vi": "Bạn có ghế sofa không?"}
+          ]
+        },
+        {
+          "id": "u5l3",
+          "title": "Thuê nhà",
+          "vocab": [
+            {"no": "å leie", "vi": "thuê", "pos": "v"},
+            {"no": "ei husleie", "vi": "tiền thuê nhà", "pos": "n", "g": "f"},
+            {"no": "en måned", "vi": "tháng", "pos": "n", "g": "m"},
+            {"no": "dyr", "vi": "đắt", "pos": "adj"},
+            {"no": "billig", "vi": "rẻ", "pos": "adj"},
+            {"no": "per", "vi": "mỗi", "pos": "prep"},
+            {"no": "en utleier", "vi": "chủ nhà (cho thuê)", "pos": "n", "g": "m"},
+            {"no": "å flytte", "vi": "chuyển nhà", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Jeg leier en leilighet i Oslo.", "vi": "Tôi thuê một căn hộ ở Oslo."},
+            {"no": "Husleia er ti tusen kroner per måned.", "vi": "Tiền thuê nhà là mười nghìn kroner mỗi tháng.", "tip": "Chữ d trong måned thường câm: “mô-nơt”."},
+            {"no": "Oslo er dyrt.", "vi": "Oslo đắt đỏ.", "tip": "Tên thành phố đi với tính từ dạng giống trung: dyrt."},
+            {"no": "Leiligheten er ikke billig.", "vi": "Căn hộ không rẻ."},
+            {"no": "Utleieren heter Kari.", "vi": "Chủ nhà tên là Kari."},
+            {"no": "Jeg vil flytte.", "vi": "Tôi muốn chuyển nhà."},
+            {"no": "Er leiligheten dyr?", "vi": "Căn hộ có đắt không?"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u6",
+      "title": "Ngày, tháng, thời tiết",
+      "title_no": "Tid og vær",
+      "level": "A1",
+      "color": "#4A7A8C",
+      "desc": "Các ngày trong tuần, lịch hẹn và chuyện thời tiết muôn thuở.",
+      "lessons": [
+        {
+          "id": "u6l1",
+          "title": "Các ngày trong tuần",
+          "vocab": [
+            {"no": "en mandag", "vi": "thứ Hai", "pos": "n", "g": "m"},
+            {"no": "en tirsdag", "vi": "thứ Ba", "pos": "n", "g": "m"},
+            {"no": "en onsdag", "vi": "thứ Tư", "pos": "n", "g": "m"},
+            {"no": "en torsdag", "vi": "thứ Năm", "pos": "n", "g": "m"},
+            {"no": "en fredag", "vi": "thứ Sáu", "pos": "n", "g": "m"},
+            {"no": "en lørdag", "vi": "thứ Bảy", "pos": "n", "g": "m"},
+            {"no": "en søndag", "vi": "Chủ nhật", "pos": "n", "g": "m"},
+            {"no": "en helg", "vi": "cuối tuần", "pos": "n", "g": "m"}
+          ],
+          "sentences": [
+            {"no": "Jeg kommer på mandag.", "vi": "Tôi đến vào thứ Hai.", "tip": "Dùng på trước thứ trong tuần. Tên thứ viết thường."},
+            {"no": "Kommer du på fredag?", "vi": "Thứ Sáu bạn có đến không?"},
+            {"no": "Helgen er lørdag og søndag.", "vi": "Cuối tuần là thứ Bảy và Chủ nhật."},
+            {"no": "På torsdag kommer Ola.", "vi": "Thứ Năm Ola sẽ đến.", "tip": "Thời gian đứng đầu thì động từ vẫn ở vị trí thứ hai, chủ ngữ lùi xuống sau."},
+            {"no": "På tirsdag spiser vi fisk.", "vi": "Thứ Ba chúng tôi ăn cá."},
+            {"no": "På onsdag er jeg i Bergen.", "vi": "Thứ Tư tôi ở Bergen."}
+          ]
+        },
+        {
+          "id": "u6l2",
+          "title": "Hôm nay, ngày mai",
+          "vocab": [
+            {"no": "i dag", "vi": "hôm nay", "pos": "adv"},
+            {"no": "i morgen", "vi": "ngày mai", "pos": "adv"},
+            {"no": "ei uke", "vi": "tuần", "pos": "n", "g": "f"},
+            {"no": "neste", "vi": "tới, sau", "pos": "adj"},
+            {"no": "hver", "vi": "mỗi", "pos": "pron"},
+            {"no": "en bursdag", "vi": "sinh nhật", "pos": "n", "g": "m"},
+            {"no": "en ferie", "vi": "kỳ nghỉ", "pos": "n", "g": "m"},
+            {"no": "å lære", "vi": "học", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "I dag er det mandag.", "vi": "Hôm nay là thứ Hai.", "tip": "I dag đứng đầu nên động từ er đứng trước chủ ngữ det."},
+            {"no": "I morgen har jeg bursdag.", "vi": "Ngày mai là sinh nhật tôi."},
+            {"no": "Neste uke har vi ferie.", "vi": "Tuần sau chúng tôi được nghỉ."},
+            {"no": "Jeg lærer norsk hver dag.", "vi": "Tôi học tiếng Na Uy mỗi ngày."},
+            {"no": "Har du ferie i juli?", "vi": "Tháng Bảy bạn có nghỉ phép không?", "tip": "Tháng Bảy là mùa nghỉ hè chung, cả Oslo như vắng người."},
+            {"no": "Bursdagen min er i mai.", "vi": "Sinh nhật tôi vào tháng Năm.", "tip": "Tên tháng viết thường: januar, mai, juli."},
+            {"no": "Uka har sju dager.", "vi": "Một tuần có bảy ngày."}
+          ]
+        },
+        {
+          "id": "u6l3",
+          "title": "Thời tiết",
+          "vocab": [
+            {"no": "et vær", "vi": "thời tiết", "pos": "n", "g": "n"},
+            {"no": "kald", "vi": "lạnh", "pos": "adj"},
+            {"no": "varm", "vi": "ấm, nóng", "pos": "adj"},
+            {"no": "ei sol", "vi": "mặt trời, nắng", "pos": "n", "g": "f"},
+            {"no": "å regne", "vi": "mưa", "pos": "v"},
+            {"no": "å snø", "vi": "có tuyết rơi", "pos": "v"},
+            {"no": "fin", "vi": "đẹp, tốt", "pos": "adj"},
+            {"no": "ute", "vi": "bên ngoài", "pos": "adv"}
+          ],
+          "sentences": [
+            {"no": "Været er fint i dag.", "vi": "Hôm nay trời đẹp.", "tip": "æ mở miệng rộng như “e” trong “em”."},
+            {"no": "Det regner i Oslo.", "vi": "Ở Oslo đang mưa.", "tip": "det là chủ ngữ giả, giống “it” trong “it rains”."},
+            {"no": "Det er kaldt ute.", "vi": "Bên ngoài lạnh."},
+            {"no": "I dag er det varmt.", "vi": "Hôm nay trời nóng."},
+            {"no": "Det snør i januar.", "vi": "Tháng Một có tuyết rơi."},
+            {"no": "Er det kaldt ute?", "vi": "Bên ngoài có lạnh không?"},
+            {"no": "Sola er fin i dag.", "vi": "Hôm nay nắng đẹp."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u7",
+      "title": "Đi lại ở Oslo",
+      "title_no": "Transport",
+      "level": "A1",
+      "color": "#BA0C2F",
+      "desc": "Đi trikk, T-bane, buss, hỏi đường và mua vé Ruter.",
+      "lessons": [
+        {
+          "id": "u7l1",
+          "title": "Phương tiện",
+          "vocab": [
+            {"no": "en trikk", "vi": "tàu điện mặt đất", "pos": "n", "g": "m"},
+            {"no": "en buss", "vi": "xe buýt", "pos": "n", "g": "m"},
+            {"no": "en T-bane", "vi": "tàu điện ngầm", "pos": "n", "g": "m"},
+            {"no": "et tog", "vi": "tàu hỏa", "pos": "n", "g": "n"},
+            {"no": "en sykkel", "vi": "xe đạp", "pos": "n", "g": "m"},
+            {"no": "å ta", "vi": "đi (phương tiện); lấy", "pos": "v"},
+            {"no": "å gå", "vi": "đi bộ; đi; chạy (xe)", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Jeg tar trikken.", "vi": "Tôi đi tàu điện.", "tip": "Phương tiện thường dùng dạng xác định: trikken, bussen, T-banen."},
+            {"no": "Tar du bussen i dag?", "vi": "Hôm nay bạn đi xe buýt à?"},
+            {"no": "Vi tar T-banen.", "vi": "Chúng tôi đi tàu điện ngầm."},
+            {"no": "Toget er nytt.", "vi": "Đoàn tàu mới."},
+            {"no": "Jeg har en ny sykkel.", "vi": "Tôi có một chiếc xe đạp mới."},
+            {"no": "Jeg går hver dag.", "vi": "Ngày nào tôi cũng đi bộ."},
+            {"no": "Bussen kommer klokka åtte.", "vi": "Xe buýt đến lúc 8 giờ."}
+          ]
+        },
+        {
+          "id": "u7l2",
+          "title": "Hỏi đường",
+          "vocab": [
+            {"no": "unnskyld", "vi": "xin lỗi", "pos": "interj"},
+            {"no": "en stasjon", "vi": "nhà ga", "pos": "n", "g": "m"},
+            {"no": "en holdeplass", "vi": "trạm dừng", "pos": "n", "g": "m"},
+            {"no": "til", "vi": "đến, tới", "pos": "prep"},
+            {"no": "høyre", "vi": "bên phải", "pos": "adv"},
+            {"no": "venstre", "vi": "bên trái", "pos": "adv"},
+            {"no": "rett fram", "vi": "đi thẳng", "pos": "phrase"},
+            {"no": "langt", "vi": "xa", "pos": "adv"}
+          ],
+          "sentences": [
+            {"no": "Unnskyld! Hvor er stasjonen?", "vi": "Xin lỗi! Nhà ga ở đâu ạ?"},
+            {"no": "Gå til venstre.", "vi": "Đi về bên trái."},
+            {"no": "Gå rett fram.", "vi": "Đi thẳng."},
+            {"no": "Er det langt?", "vi": "Có xa không?"},
+            {"no": "Det er ikke langt.", "vi": "Không xa đâu."},
+            {"no": "Holdeplassen er der.", "vi": "Trạm dừng ở đằng kia."},
+            {"no": "Trikken går til Majorstuen.", "vi": "Tàu điện chạy đến Majorstuen.", "tip": "Xe cộ “chạy” cũng dùng động từ gå."}
+          ]
+        },
+        {
+          "id": "u7l3",
+          "title": "Vé và Ruter",
+          "vocab": [
+            {"no": "en billett", "vi": "vé", "pos": "n", "g": "m"},
+            {"no": "en app", "vi": "ứng dụng", "pos": "n", "g": "m"},
+            {"no": "en sone", "vi": "vùng (vé)", "pos": "n", "g": "m"},
+            {"no": "en voksen", "vi": "người lớn", "pos": "n", "g": "m"},
+            {"no": "å gå av", "vi": "xuống xe", "pos": "v"},
+            {"no": "å gå på", "vi": "lên xe", "pos": "v"},
+            {"no": "forsinket", "vi": "bị trễ", "pos": "adj"}
+          ],
+          "sentences": [
+            {"no": "Jeg kjøper billett i appen.", "vi": "Tôi mua vé trong ứng dụng.", "tip": "Ở Oslo mua vé qua app Ruter trước khi lên xe, không mua trên xe buýt."},
+            {"no": "Har du billett?", "vi": "Bạn có vé không?"},
+            {"no": "Jeg vil kjøpe en billett for en voksen.", "vi": "Tôi muốn mua một vé người lớn."},
+            {"no": "Bussen er forsinket.", "vi": "Xe buýt bị trễ."},
+            {"no": "Jeg går av her.", "vi": "Tôi xuống ở đây."},
+            {"no": "Hvor går jeg av?", "vi": "Tôi xuống ở đâu?"},
+            {"no": "Oslo er i sone en.", "vi": "Oslo thuộc vùng 1."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u8",
+      "title": "Mua sắm và tiền",
+      "title_no": "Handel og penger",
+      "level": "A1",
+      "color": "#6B5B8C",
+      "desc": "Mua quần áo, săn hàng giảm giá và dùng ngân hàng, Vipps.",
+      "lessons": [
+        {
+          "id": "u8l1",
+          "title": "Quần áo",
+          "vocab": [
+            {"no": "ei jakke", "vi": "áo khoác", "pos": "n", "g": "f"},
+            {"no": "en genser", "vi": "áo len", "pos": "n", "g": "m"},
+            {"no": "ei skjorte", "vi": "áo sơ mi", "pos": "n", "g": "f"},
+            {"no": "ei bukse", "vi": "cái quần", "pos": "n", "g": "f"},
+            {"no": "en sko", "vi": "chiếc giày", "pos": "n", "g": "m"},
+            {"no": "en størrelse", "vi": "cỡ, size", "pos": "n", "g": "m"},
+            {"no": "å prøve", "vi": "thử", "pos": "v"},
+            {"no": "å passe", "vi": "vừa, hợp", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Jeg trenger en ny jakke.", "vi": "Tôi cần một cái áo khoác mới."},
+            {"no": "Kan jeg prøve skjorta?", "vi": "Tôi thử cái áo sơ mi được không?", "tip": "skj đọc như “sh”: skjorte là “shua-tơ”."},
+            {"no": "Genseren passer ikke.", "vi": "Cái áo len không vừa."},
+            {"no": "Buksa er fin.", "vi": "Cái quần đẹp."},
+            {"no": "Skoene er store.", "vi": "Đôi giày rộng quá.", "tip": "Số nhiều xác định của sko là skoene."},
+            {"no": "Jeg vil kjøpe en genser.", "vi": "Tôi muốn mua một cái áo len."},
+            {"no": "Har du en annen størrelse?", "vi": "Bạn có cỡ khác không?"}
+          ]
+        },
+        {
+          "id": "u8l2",
+          "title": "Giá cả và giảm giá",
+          "vocab": [
+            {"no": "et salg", "vi": "đợt giảm giá", "pos": "n", "g": "n"},
+            {"no": "et tilbud", "vi": "khuyến mãi", "pos": "n", "g": "n"},
+            {"no": "en pris", "vi": "giá", "pos": "n", "g": "m"},
+            {"no": "halv pris", "vi": "nửa giá", "pos": "phrase"},
+            {"no": "for", "vi": "quá; cho", "pos": "adv"},
+            {"no": "å spare", "vi": "tiết kiệm", "pos": "v"},
+            {"no": "penger", "vi": "tiền", "pos": "n", "g": "m"},
+            {"no": "mye", "vi": "nhiều", "pos": "adv"}
+          ],
+          "sentences": [
+            {"no": "Det er for dyrt.", "vi": "Đắt quá.", "tip": "for đứng trước tính từ nghĩa là “quá”."},
+            {"no": "Er jakka på salg?", "vi": "Cái áo khoác có đang giảm giá không?"},
+            {"no": "Jeg har ikke mye penger.", "vi": "Tôi không có nhiều tiền."},
+            {"no": "Prisen er god.", "vi": "Giá tốt."},
+            {"no": "Kaffen er på tilbud i dag.", "vi": "Hôm nay cà phê đang khuyến mãi."},
+            {"no": "Jeg vil spare penger.", "vi": "Tôi muốn tiết kiệm tiền."},
+            {"no": "Skoene koster halv pris.", "vi": "Đôi giày đang bán nửa giá."}
+          ]
+        },
+        {
+          "id": "u8l3",
+          "title": "Ngân hàng và Vipps",
+          "vocab": [
+            {"no": "en bank", "vi": "ngân hàng", "pos": "n", "g": "m"},
+            {"no": "en konto", "vi": "tài khoản", "pos": "n", "g": "m"},
+            {"no": "et bankkort", "vi": "thẻ ngân hàng", "pos": "n", "g": "n"},
+            {"no": "kontanter", "vi": "tiền mặt", "pos": "n", "g": "m"},
+            {"no": "en minibank", "vi": "cây ATM", "pos": "n", "g": "m"},
+            {"no": "å sende", "vi": "gửi", "pos": "v"},
+            {"no": "å vippse", "vi": "chuyển tiền bằng Vipps", "pos": "v"},
+            {"no": "å ta ut", "vi": "rút (tiền)", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Jeg trenger en konto i en norsk bank.", "vi": "Tôi cần một tài khoản ở ngân hàng Na Uy."},
+            {"no": "Kan jeg vippse deg?", "vi": "Tôi chuyển Vipps cho bạn nhé?", "tip": "Vipps phổ biến đến mức thành động từ: å vippse."},
+            {"no": "Jeg sender deg penger.", "vi": "Tôi gửi tiền cho bạn."},
+            {"no": "Har du kontanter?", "vi": "Bạn có tiền mặt không?"},
+            {"no": "Hvor er minibanken?", "vi": "Cây ATM ở đâu?"},
+            {"no": "Jeg vil ta ut penger.", "vi": "Tôi muốn rút tiền."},
+            {"no": "Jeg betaler med bankkort.", "vi": "Tôi trả bằng thẻ ngân hàng.", "tip": "Ở Na Uy hầu như ai cũng trả bằng thẻ hoặc Vipps, tiền mặt rất hiếm."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u9",
+      "title": "Sức khỏe",
+      "title_no": "Helse",
+      "level": "A2",
+      "color": "#3F7F73",
+      "desc": "Nói về cơ thể, triệu chứng, đặt lịch fastlege và đi legevakt.",
+      "lessons": [
+        {
+          "id": "u9l1",
+          "title": "Cơ thể",
+          "vocab": [
+            {"no": "et hode", "vi": "cái đầu", "pos": "n", "g": "n"},
+            {"no": "en mage", "vi": "bụng", "pos": "n", "g": "m"},
+            {"no": "en rygg", "vi": "lưng", "pos": "n", "g": "m"},
+            {"no": "en hals", "vi": "cổ, họng", "pos": "n", "g": "m"},
+            {"no": "et bein", "vi": "chân", "pos": "n", "g": "n"},
+            {"no": "en arm", "vi": "cánh tay", "pos": "n", "g": "m"},
+            {"no": "å ha vondt", "vi": "bị đau", "pos": "phrase"},
+            {"no": "syk", "vi": "ốm", "pos": "adj"}
+          ],
+          "sentences": [
+            {"no": "Jeg har vondt i hodet.", "vi": "Tôi bị đau đầu.", "tip": "Cấu trúc: ha vondt i + bộ phận cơ thể (dạng xác định)."},
+            {"no": "Jeg har vondt i magen.", "vi": "Tôi bị đau bụng."},
+            {"no": "Er du syk?", "vi": "Bạn bị ốm à?"},
+            {"no": "Jeg er syk i dag.", "vi": "Hôm nay tôi bị ốm."},
+            {"no": "Han har vondt i halsen.", "vi": "Anh ấy bị đau họng."},
+            {"no": "Jeg har vondt i ryggen.", "vi": "Tôi bị đau lưng.", "tip": "vondt: chữ d câm, đọc như “vunt”."},
+            {"no": "Barnet er sykt.", "vi": "Đứa bé bị ốm."}
+          ]
+        },
+        {
+          "id": "u9l2",
+          "title": "Bác sĩ gia đình",
+          "vocab": [
+            {"no": "en lege", "vi": "bác sĩ", "pos": "n", "g": "m"},
+            {"no": "en fastlege", "vi": "bác sĩ gia đình", "pos": "n", "g": "m"},
+            {"no": "en time", "vi": "giờ hẹn; tiếng đồng hồ", "pos": "n", "g": "m"},
+            {"no": "å bestille", "vi": "đặt (lịch, hàng)", "pos": "v"},
+            {"no": "å ringe", "vi": "gọi điện", "pos": "v"},
+            {"no": "en feber", "vi": "sốt", "pos": "n", "g": "m"},
+            {"no": "å føle seg", "vi": "cảm thấy", "pos": "v"},
+            {"no": "bedre", "vi": "tốt hơn", "pos": "adj"}
+          ],
+          "sentences": [
+            {"no": "Jeg vil bestille en time.", "vi": "Tôi muốn đặt một lịch hẹn.", "tip": "time ở đây là “giờ hẹn”, không phải thời gian."},
+            {"no": "Jeg ringer fastlegen.", "vi": "Tôi gọi cho bác sĩ gia đình."},
+            {"no": "Har du feber?", "vi": "Bạn có bị sốt không?"},
+            {"no": "Jeg har feber og vondt i halsen.", "vi": "Tôi bị sốt và đau họng."},
+            {"no": "Jeg føler meg ikke bra.", "vi": "Tôi thấy không khỏe.", "tip": "Động từ phản thân: jeg føler meg, du føler deg, han føler seg."},
+            {"no": "Jeg føler meg bedre i dag.", "vi": "Hôm nay tôi thấy khỏe hơn."},
+            {"no": "Fastlegen min heter Hansen.", "vi": "Bác sĩ gia đình của tôi tên là Hansen."}
+          ]
+        },
+        {
+          "id": "u9l3",
+          "title": "Cấp cứu và hiệu thuốc",
+          "vocab": [
+            {"no": "en legevakt", "vi": "phòng khám cấp cứu", "pos": "n", "g": "m"},
+            {"no": "et apotek", "vi": "hiệu thuốc", "pos": "n", "g": "n"},
+            {"no": "en medisin", "vi": "thuốc", "pos": "n", "g": "m"},
+            {"no": "en resept", "vi": "đơn thuốc", "pos": "n", "g": "m"},
+            {"no": "å hjelpe", "vi": "giúp", "pos": "v"},
+            {"no": "å måtte", "vi": "phải", "pos": "v"},
+            {"no": "når", "vi": "khi nào", "pos": "adv"},
+            {"no": "meg", "vi": "tôi (tân ngữ)", "pos": "pron"}
+          ],
+          "sentences": [
+            {"no": "Jeg må gå til legevakten.", "vi": "Tôi phải đến phòng khám cấp cứu.", "tip": "Legevakt dành cho ca gấp ngoài giờ, số điện thoại 116 117."},
+            {"no": "Hvor er apoteket?", "vi": "Hiệu thuốc ở đâu?"},
+            {"no": "Trenger jeg resept?", "vi": "Tôi có cần đơn thuốc không?"},
+            {"no": "Kan du hjelpe meg?", "vi": "Bạn giúp tôi được không?", "tip": "hj chỉ đọc là “j”: hjelpe đọc như “jel-pơ”."},
+            {"no": "Jeg trenger medisin.", "vi": "Tôi cần thuốc."},
+            {"no": "Når kan jeg komme?", "vi": "Khi nào tôi có thể đến?"},
+            {"no": "Apoteket har medisinen.", "vi": "Hiệu thuốc có loại thuốc đó."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u10",
+      "title": "Công việc và xin việc",
+      "title_no": "Jobb og jobbsøking",
+      "level": "A2",
+      "color": "#2F4F7A",
+      "desc": "Nói về nghề nghiệp, viết đơn, gửi CV và đi phỏng vấn.",
+      "lessons": [
+        {
+          "id": "u10l1",
+          "title": "Nghề nghiệp",
+          "vocab": [
+            {"no": "en jobb", "vi": "công việc", "pos": "n", "g": "m"},
+            {"no": "å jobbe", "vi": "làm việc", "pos": "v"},
+            {"no": "en diplomat", "vi": "nhà ngoại giao", "pos": "n", "g": "m"},
+            {"no": "en økonom", "vi": "nhà kinh tế", "pos": "n", "g": "m"},
+            {"no": "en sjef", "vi": "sếp", "pos": "n", "g": "m"},
+            {"no": "en kollega", "vi": "đồng nghiệp", "pos": "n", "g": "m"},
+            {"no": "et kontor", "vi": "văn phòng", "pos": "n", "g": "n"},
+            {"no": "før", "vi": "trước đây", "pos": "adv"}
+          ],
+          "sentences": [
+            {"no": "Hva jobber du med?", "vi": "Bạn làm công việc gì?", "tip": "Câu hỏi nghề nghiệp phổ biến nhất ở Na Uy."},
+            {"no": "Ola jobber som økonom.", "vi": "Ola làm nhà kinh tế.", "tip": "som nghĩa là “với tư cách là”, không cần mạo từ sau som."},
+            {"no": "Før var jeg diplomat.", "vi": "Trước đây tôi là nhà ngoại giao.", "tip": "var là quá khứ của er."},
+            {"no": "Jeg jobber på et kontor.", "vi": "Tôi làm việc ở văn phòng."},
+            {"no": "Sjefen er på kontoret.", "vi": "Sếp đang ở văn phòng.", "tip": "sj đọc như “sh”: sjef là “shêf”."},
+            {"no": "Kollegaen min er hyggelig.", "vi": "Đồng nghiệp của tôi dễ mến."},
+            {"no": "Jeg vil jobbe i Oslo.", "vi": "Tôi muốn làm việc ở Oslo."}
+          ]
+        },
+        {
+          "id": "u10l2",
+          "title": "Tìm việc",
+          "vocab": [
+            {"no": "å søke", "vi": "tìm; nộp đơn", "pos": "v"},
+            {"no": "en søknad", "vi": "đơn xin việc", "pos": "n", "g": "m"},
+            {"no": "en CV", "vi": "sơ yếu lý lịch", "pos": "n", "g": "m"},
+            {"no": "en stilling", "vi": "vị trí công việc", "pos": "n", "g": "m"},
+            {"no": "en erfaring", "vi": "kinh nghiệm", "pos": "n", "g": "m"},
+            {"no": "en utdanning", "vi": "học vấn, bằng cấp", "pos": "n", "g": "m"},
+            {"no": "å skrive", "vi": "viết", "pos": "v"},
+            {"no": "en annonse", "vi": "tin tuyển dụng, quảng cáo", "pos": "n", "g": "m"}
+          ],
+          "sentences": [
+            {"no": "Jeg søker jobb i Oslo.", "vi": "Tôi đang tìm việc ở Oslo."},
+            {"no": "Jeg skriver en søknad.", "vi": "Tôi đang viết đơn xin việc."},
+            {"no": "Jeg sender CV-en i dag.", "vi": "Hôm nay tôi gửi CV.", "tip": "CV đọc là “sê-vê”, dạng xác định viết CV-en."},
+            {"no": "Jeg har en MBA fra Storbritannia.", "vi": "Tôi có bằng MBA ở Anh."},
+            {"no": "Jeg har mye erfaring.", "vi": "Tôi có nhiều kinh nghiệm."},
+            {"no": "Stillingen passer for meg.", "vi": "Vị trí này hợp với tôi."},
+            {"no": "Annonsen er på NAV.", "vi": "Tin tuyển dụng có trên NAV.", "tip": "NAV là cơ quan lao động và phúc lợi, trang nav.no có rất nhiều tin tuyển dụng."}
+          ]
+        },
+        {
+          "id": "u10l3",
+          "title": "Phỏng vấn",
+          "vocab": [
+            {"no": "et intervju", "vi": "buổi phỏng vấn", "pos": "n", "g": "n"},
+            {"no": "å fortelle", "vi": "kể", "pos": "v"},
+            {"no": "om", "vi": "về", "pos": "prep"},
+            {"no": "sterk", "vi": "mạnh", "pos": "adj"},
+            {"no": "en side", "vi": "mặt, khía cạnh", "pos": "n", "g": "m"},
+            {"no": "å samarbeide", "vi": "hợp tác", "pos": "v"},
+            {"no": "et språk", "vi": "ngôn ngữ", "pos": "n", "g": "n"},
+            {"no": "interessert", "vi": "quan tâm, hứng thú", "pos": "adj"}
+          ],
+          "sentences": [
+            {"no": "Jeg har intervju i morgen.", "vi": "Ngày mai tôi có buổi phỏng vấn."},
+            {"no": "Fortell litt om deg selv.", "vi": "Hãy kể một chút về bản thân bạn.", "tip": "Câu mở đầu kinh điển của mọi buổi phỏng vấn, anh nên chuẩn bị sẵn."},
+            {"no": "Jeg snakker fire språk.", "vi": "Tôi nói bốn thứ tiếng."},
+            {"no": "Jeg er interessert i havøkonomi.", "vi": "Tôi quan tâm đến kinh tế biển."},
+            {"no": "Jeg kan samarbeide godt.", "vi": "Tôi hợp tác tốt."},
+            {"no": "Hva er dine sterke sider?", "vi": "Điểm mạnh của bạn là gì?"},
+            {"no": "Jeg er interessert i stillingen.", "vi": "Tôi quan tâm đến vị trí này."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u11",
+      "title": "Sở thích và thiên nhiên",
+      "title_no": "Fritid og natur",
+      "level": "A2",
+      "color": "#4E7D4E",
+      "desc": "Sở thích, đi bộ trong rừng, trượt tuyết và cuối tuần ở hytte.",
+      "lessons": [
+        {
+          "id": "u11l1",
+          "title": "Sở thích",
+          "vocab": [
+            {"no": "å like", "vi": "thích", "pos": "v"},
+            {"no": "å lese", "vi": "đọc", "pos": "v"},
+            {"no": "ei bok", "vi": "quyển sách", "pos": "n", "g": "f"},
+            {"no": "en film", "vi": "bộ phim", "pos": "n", "g": "m"},
+            {"no": "å se", "vi": "xem, nhìn", "pos": "v"},
+            {"no": "å trene", "vi": "tập thể dục", "pos": "v"},
+            {"no": "å høre på", "vi": "nghe", "pos": "v"},
+            {"no": "en podkast", "vi": "podcast", "pos": "n", "g": "m"}
+          ],
+          "sentences": [
+            {"no": "Jeg liker å lese.", "vi": "Tôi thích đọc sách.", "tip": "Sau like dùng å + động từ nguyên mẫu."},
+            {"no": "Hun leser ei bok.", "vi": "Cô ấy đang đọc một quyển sách."},
+            {"no": "Vi ser en film i dag.", "vi": "Hôm nay chúng tôi xem phim."},
+            {"no": "Jeg trener tre dager i uka.", "vi": "Tôi tập thể dục ba ngày một tuần."},
+            {"no": "Jeg hører på en podkast.", "vi": "Tôi đang nghe một podcast."},
+            {"no": "Liker du å trene?", "vi": "Bạn có thích tập thể dục không?"},
+            {"no": "Boka er god.", "vi": "Quyển sách hay."}
+          ]
+        },
+        {
+          "id": "u11l2",
+          "title": "Đi bộ và trượt tuyết",
+          "vocab": [
+            {"no": "en tur", "vi": "chuyến đi, cuộc dạo chơi", "pos": "n", "g": "m"},
+            {"no": "å gå på tur", "vi": "đi dạo, đi bộ đường dài", "pos": "phrase"},
+            {"no": "en skog", "vi": "rừng", "pos": "n", "g": "m"},
+            {"no": "et fjell", "vi": "núi", "pos": "n", "g": "n"},
+            {"no": "en ski", "vi": "ván trượt tuyết", "pos": "n", "g": "m"},
+            {"no": "å gå på ski", "vi": "trượt tuyết", "pos": "phrase"},
+            {"no": "en sjø", "vi": "hồ; biển", "pos": "n", "g": "m"},
+            {"no": "ofte", "vi": "thường xuyên", "pos": "adv"}
+          ],
+          "sentences": [
+            {"no": "Vi går på tur i skogen.", "vi": "Chúng tôi đi dạo trong rừng.", "tip": "Đi tur là thói quen quốc dân, cuối tuần người Oslo kéo nhau vào Nordmarka."},
+            {"no": "Jeg går ofte på tur.", "vi": "Tôi thường đi bộ đường dài."},
+            {"no": "Går du på ski?", "vi": "Bạn có trượt tuyết không?", "tip": "ski đọc như “shi”: sk trước i đọc như “sh”."},
+            {"no": "Fjellet er stort.", "vi": "Ngọn núi rất lớn."},
+            {"no": "Jeg har ikke ski.", "vi": "Tôi không có ván trượt."},
+            {"no": "Skogen er stor og fin.", "vi": "Khu rừng rộng và đẹp."},
+            {"no": "Vi går til sjøen.", "vi": "Chúng tôi đi ra hồ."}
+          ]
+        },
+        {
+          "id": "u11l3",
+          "title": "Cuối tuần ở hytte",
+          "vocab": [
+            {"no": "ei hytte", "vi": "nhà gỗ nghỉ dưỡng", "pos": "n", "g": "f"},
+            {"no": "å dra", "vi": "đi (xa), lên đường", "pos": "v"},
+            {"no": "på landet", "vi": "ở nông thôn", "pos": "phrase"},
+            {"no": "stille", "vi": "yên tĩnh", "pos": "adj"},
+            {"no": "å fiske", "vi": "câu cá", "pos": "v"},
+            {"no": "å slappe av", "vi": "thư giãn", "pos": "v"},
+            {"no": "en båt", "vi": "con thuyền", "pos": "n", "g": "m"},
+            {"no": "sammen", "vi": "cùng nhau", "pos": "adv"}
+          ],
+          "sentences": [
+            {"no": "Vi drar på hytta i helgen.", "vi": "Cuối tuần này chúng tôi lên nhà gỗ.", "tip": "Nói “på hytta”, không nói “til hytta”."},
+            {"no": "Hytta er liten og stille.", "vi": "Căn nhà gỗ nhỏ và yên tĩnh."},
+            {"no": "Jeg liker å fiske.", "vi": "Tôi thích câu cá."},
+            {"no": "Vi slapper av på hytta.", "vi": "Chúng tôi thư giãn ở nhà gỗ."},
+            {"no": "Har du en båt?", "vi": "Bạn có thuyền không?"},
+            {"no": "Vi drar sammen på lørdag.", "vi": "Thứ Bảy chúng ta cùng đi."},
+            {"no": "Det er stille på landet.", "vi": "Ở nông thôn yên tĩnh."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u12",
+      "title": "Văn hóa Na Uy",
+      "title_no": "Norsk kultur",
+      "level": "A2",
+      "color": "#7A4A6B",
+      "desc": "Quốc khánh 17/5, Giáng sinh, dugnad và tinh thần kos.",
+      "lessons": [
+        {
+          "id": "u12l1",
+          "title": "Quốc khánh 17/5",
+          "vocab": [
+            {"no": "en nasjonaldag", "vi": "ngày quốc khánh", "pos": "n", "g": "m"},
+            {"no": "å feire", "vi": "kỷ niệm, ăn mừng", "pos": "v"},
+            {"no": "et flagg", "vi": "lá cờ", "pos": "n", "g": "n"},
+            {"no": "et barnetog", "vi": "đoàn diễu hành của trẻ em", "pos": "n", "g": "n"},
+            {"no": "en bunad", "vi": "trang phục truyền thống", "pos": "n", "g": "m"},
+            {"no": "en is", "vi": "kem", "pos": "n", "g": "m"},
+            {"no": "ei pølse", "vi": "xúc xích", "pos": "n", "g": "f"},
+            {"no": "hurra", "vi": "hoan hô", "pos": "interj"}
+          ],
+          "sentences": [
+            {"no": "Syttende mai er nasjonaldagen.", "vi": "Ngày 17 tháng 5 là quốc khánh.", "tip": "Na Uy kỷ niệm Hiến pháp năm 1814 vào ngày này."},
+            {"no": "Vi feirer syttende mai.", "vi": "Chúng tôi mừng ngày 17 tháng 5."},
+            {"no": "Barna går i barnetog.", "vi": "Bọn trẻ đi diễu hành.", "tip": "Số nhiều xác định của barn là barna."},
+            {"no": "Hun har på seg bunad.", "vi": "Cô ấy mặc trang phục truyền thống."},
+            {"no": "Vi spiser is og pølser.", "vi": "Chúng tôi ăn kem và xúc xích."},
+            {"no": "Hurra for syttende mai!", "vi": "Hoan hô ngày 17 tháng 5!"},
+            {"no": "Barnet har et flagg.", "vi": "Đứa bé cầm một lá cờ."}
+          ]
+        },
+        {
+          "id": "u12l2",
+          "title": "Giáng sinh",
+          "vocab": [
+            {"no": "en jul", "vi": "Giáng sinh", "pos": "n", "g": "m"},
+            {"no": "en julaften", "vi": "đêm Giáng sinh (24/12)", "pos": "n", "g": "m"},
+            {"no": "god jul", "vi": "Giáng sinh vui vẻ", "pos": "phrase"},
+            {"no": "en gave", "vi": "món quà", "pos": "n", "g": "m"},
+            {"no": "et juletre", "vi": "cây thông Noel", "pos": "n", "g": "n"},
+            {"no": "ei ribbe", "vi": "sườn heo nướng", "pos": "n", "g": "f"},
+            {"no": "å gi", "vi": "tặng, cho", "pos": "v"},
+            {"no": "en snø", "vi": "tuyết", "pos": "n", "g": "m"}
+          ],
+          "sentences": [
+            {"no": "God jul og godt nytt år!", "vi": "Giáng sinh vui vẻ và chúc mừng năm mới!"},
+            {"no": "Vi feirer jul med familien.", "vi": "Chúng tôi đón Giáng sinh cùng gia đình."},
+            {"no": "Jeg gir deg en gave.", "vi": "Tôi tặng bạn một món quà."},
+            {"no": "Vi spiser ribbe på julaften.", "vi": "Chúng tôi ăn sườn heo vào đêm Giáng sinh.", "tip": "Người Na Uy mở quà vào tối 24, không phải sáng 25."},
+            {"no": "Juletreet er stort og fint.", "vi": "Cây thông Noel to và đẹp."},
+            {"no": "Det snør på julaften.", "vi": "Đêm Giáng sinh có tuyết rơi."},
+            {"no": "Snøen er fin i dag.", "vi": "Hôm nay tuyết đẹp."}
+          ]
+        },
+        {
+          "id": "u12l3",
+          "title": "Dugnad và kos",
+          "vocab": [
+            {"no": "en dugnad", "vi": "ngày làm việc chung tình nguyện", "pos": "n", "g": "m"},
+            {"no": "en nabo", "vi": "hàng xóm", "pos": "n", "g": "m"},
+            {"no": "å rydde", "vi": "dọn dẹp", "pos": "v"},
+            {"no": "koselig", "vi": "ấm cúng, dễ chịu", "pos": "adj"},
+            {"no": "å kose seg", "vi": "tận hưởng, vui vẻ thư thái", "pos": "v"},
+            {"no": "et lys", "vi": "cây nến; ánh sáng", "pos": "n", "g": "n"},
+            {"no": "en fredagstaco", "vi": "món taco tối thứ Sáu", "pos": "n", "g": "m"},
+            {"no": "en matpakke", "vi": "hộp cơm mang theo", "pos": "n", "g": "m"}
+          ],
+          "sentences": [
+            {"no": "Vi har dugnad på lørdag.", "vi": "Thứ Bảy chúng tôi có dugnad.", "tip": "Tham gia dugnad là cách hay nhất để quen hàng xóm."},
+            {"no": "Naboene rydder sammen.", "vi": "Hàng xóm cùng nhau dọn dẹp."},
+            {"no": "Det er koselig her.", "vi": "Ở đây ấm cúng quá."},
+            {"no": "Vi koser oss med fredagstaco.", "vi": "Chúng tôi vui vẻ bên món taco tối thứ Sáu.", "tip": "Taco tối thứ Sáu là “món quốc dân” của các gia đình Na Uy."},
+            {"no": "Jeg spiser matpakke på jobben.", "vi": "Tôi ăn cơm hộp ở chỗ làm."},
+            {"no": "Lysene er koselige.", "vi": "Những ngọn nến thật ấm cúng."},
+            {"no": "Kos deg!", "vi": "Chúc bạn vui vẻ!"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u13",
+      "title": "Kể chuyện quá khứ",
+      "title_no": "Fortid",
+      "level": "A2",
+      "color": "#9C5B2E",
+      "desc": "Dùng thì quá khứ (preteritum, perfektum) để kể chuyện cuối tuần.",
+      "lessons": [
+        {
+          "id": "u13l1",
+          "title": "Hôm qua",
+          "vocab": [
+            {"no": "i går", "vi": "hôm qua", "pos": "adv"},
+            {"no": "forrige", "vi": "trước", "pos": "adj"},
+            {"no": "en venn", "vi": "người bạn", "pos": "n", "g": "m"},
+            {"no": "å besøke", "vi": "thăm (quá khứ: besøkte)", "pos": "v"},
+            {"no": "å lage", "vi": "nấu, làm (quá khứ: laget)", "pos": "v"},
+            {"no": "å handle", "vi": "đi chợ, mua sắm (quá khứ: handlet)", "pos": "v"},
+            {"no": "å sove", "vi": "ngủ (quá khứ: sov)", "pos": "v"},
+            {"no": "å reise", "vi": "đi xa, du lịch (quá khứ: reiste)", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "I går var jeg på Kiwi.", "vi": "Hôm qua tôi đi Kiwi."},
+            {"no": "Jeg handlet på Rema i går.", "vi": "Hôm qua tôi đi chợ ở Rema.", "tip": "Nhiều động từ quá khứ chỉ cần thêm -et hoặc -te."},
+            {"no": "Vi besøkte en venn i helgen.", "vi": "Cuối tuần chúng tôi đến thăm một người bạn."},
+            {"no": "Jeg sov godt i går.", "vi": "Hôm qua tôi ngủ ngon.", "tip": "sove là động từ bất quy tắc: sover, sov, har sovet."},
+            {"no": "Jeg laget vietnamesisk mat.", "vi": "Tôi đã nấu món Việt."},
+            {"no": "Forrige uke reiste jeg til Bergen.", "vi": "Tuần trước tôi đi Bergen.", "tip": "Thời gian đứng đầu, động từ vẫn ở vị trí thứ hai."},
+            {"no": "Hva gjorde du i helgen?", "vi": "Cuối tuần bạn đã làm gì?", "tip": "gjorde là quá khứ của gjøre (làm)."}
+          ]
+        },
+        {
+          "id": "u13l2",
+          "title": "Tôi đã từng",
+          "vocab": [
+            {"no": "aldri", "vi": "chưa bao giờ, không bao giờ", "pos": "adv"},
+            {"no": "allerede", "vi": "đã... rồi", "pos": "adv"},
+            {"no": "lenge", "vi": "lâu", "pos": "adv"},
+            {"no": "noen gang", "vi": "bao giờ, từng", "pos": "phrase"},
+            {"no": "å glemme", "vi": "quên (har glemt)", "pos": "v"},
+            {"no": "å treffe", "vi": "gặp (har truffet)", "pos": "v"},
+            {"no": "å smake", "vi": "nếm (har smakt)", "pos": "v"},
+            {"no": "å bo", "vi": "sống (har bodd)", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Jeg har bodd i Oslo i to år.", "vi": "Tôi đã sống ở Oslo được hai năm.", "tip": "Perfektum = har + quá khứ phân từ, dùng cho việc kéo dài đến hiện tại."},
+            {"no": "Jeg har jobbet som diplomat.", "vi": "Tôi từng làm nhà ngoại giao."},
+            {"no": "Har du noen gang gått på ski?", "vi": "Bạn đã bao giờ trượt tuyết chưa?"},
+            {"no": "Jeg har aldri smakt brunost.", "vi": "Tôi chưa bao giờ nếm phô mai nâu.", "tip": "brunost là phô mai nâu ngọt, đặc sản Na Uy."},
+            {"no": "Jeg har allerede spist.", "vi": "Tôi ăn rồi."},
+            {"no": "Jeg har glemt billetten.", "vi": "Tôi quên vé rồi."},
+            {"no": "Vi har truffet naboen.", "vi": "Chúng tôi đã gặp người hàng xóm."},
+            {"no": "Hvor lenge har du bodd her?", "vi": "Bạn sống ở đây bao lâu rồi?"}
+          ]
+        },
+        {
+          "id": "u13l3",
+          "title": "Kể chuyện cuối tuần",
+          "vocab": [
+            {"no": "først", "vi": "đầu tiên", "pos": "adv"},
+            {"no": "så", "vi": "sau đó, rồi", "pos": "adv"},
+            {"no": "etterpå", "vi": "sau đó, sau khi xong", "pos": "adv"},
+            {"no": "til slutt", "vi": "cuối cùng", "pos": "phrase"},
+            {"no": "morsom", "vi": "vui, thú vị", "pos": "adj"},
+            {"no": "en kveld", "vi": "buổi tối", "pos": "n", "g": "m"},
+            {"no": "sliten", "vi": "mệt", "pos": "adj"},
+            {"no": "en kafé", "vi": "quán cà phê", "pos": "n", "g": "m"}
+          ],
+          "sentences": [
+            {"no": "Hvordan var helgen?", "vi": "Cuối tuần của bạn thế nào?", "tip": "Thứ Hai ở công sở ai cũng hỏi câu này. hvordan = như thế nào."},
+            {"no": "Helgen var fin.", "vi": "Cuối tuần vui lắm."},
+            {"no": "Først gikk vi på tur.", "vi": "Đầu tiên chúng tôi đi dạo.", "tip": "gikk là quá khứ của gå."},
+            {"no": "Så drakk vi kaffe på en kafé.", "vi": "Rồi chúng tôi uống cà phê ở quán."},
+            {"no": "Etterpå så vi en film.", "vi": "Sau đó chúng tôi xem phim.", "tip": "så vừa là “sau đó”, vừa là quá khứ của se (xem)."},
+            {"no": "Til slutt var jeg sliten.", "vi": "Cuối cùng tôi thấy mệt."},
+            {"no": "Det var en morsom kveld.", "vi": "Đó là một buổi tối vui vẻ."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u14",
+      "title": "Công sở và kinh tế biển",
+      "title_no": "Arbeidsliv og havøkonomi",
+      "level": "A2",
+      "color": "#1B4965",
+      "desc": "Họp hành ở công sở và nói về nuôi trồng thủy sản, hải sản, dầu khí, hàng hải.",
+      "lessons": [
+        {
+          "id": "u14l1",
+          "title": "Ở công sở",
+          "vocab": [
+            {"no": "et møte", "vi": "cuộc họp", "pos": "n", "g": "n"},
+            {"no": "en lunsj", "vi": "bữa trưa", "pos": "n", "g": "m"},
+            {"no": "en e-post", "vi": "email", "pos": "n", "g": "m"},
+            {"no": "å svare", "vi": "trả lời", "pos": "v"},
+            {"no": "en avtale", "vi": "cuộc hẹn; thỏa thuận", "pos": "n", "g": "m"},
+            {"no": "opptatt", "vi": "bận", "pos": "adj"},
+            {"no": "en pause", "vi": "giờ nghỉ", "pos": "n", "g": "m"},
+            {"no": "å skulle", "vi": "sẽ; định", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Vi har møte klokka ni.", "vi": "Chúng ta họp lúc 9 giờ."},
+            {"no": "Skal vi ta lunsj sammen?", "vi": "Mình ăn trưa cùng nhau nhé?", "tip": "Người Na Uy ăn trưa sớm, khoảng 11:30, và thường rất nhanh."},
+            {"no": "Jeg svarer på e-posten i dag.", "vi": "Hôm nay tôi sẽ trả lời email."},
+            {"no": "Jeg er litt opptatt nå.", "vi": "Bây giờ tôi hơi bận."},
+            {"no": "Vi tar en pause.", "vi": "Chúng ta nghỉ một chút."},
+            {"no": "Jeg har en avtale klokka tre.", "vi": "Tôi có một cuộc hẹn lúc 3 giờ."},
+            {"no": "Møtet er på mandag.", "vi": "Cuộc họp vào thứ Hai."}
+          ]
+        },
+        {
+          "id": "u14l2",
+          "title": "Kinh tế biển",
+          "vocab": [
+            {"no": "et hav", "vi": "biển, đại dương", "pos": "n", "g": "n"},
+            {"no": "havøkonomi", "vi": "kinh tế biển", "pos": "n", "g": "m"},
+            {"no": "et havbruk", "vi": "nuôi trồng thủy sản trên biển", "pos": "n", "g": "n"},
+            {"no": "sjømat", "vi": "hải sản", "pos": "n", "g": "m"},
+            {"no": "en laks", "vi": "cá hồi", "pos": "n", "g": "m"},
+            {"no": "å eksportere", "vi": "xuất khẩu", "pos": "v"},
+            {"no": "viktig", "vi": "quan trọng", "pos": "adj"},
+            {"no": "ei næring", "vi": "ngành kinh tế", "pos": "n", "g": "f"}
+          ],
+          "sentences": [
+            {"no": "Havet er viktig for Norge.", "vi": "Biển rất quan trọng đối với Na Uy."},
+            {"no": "Norge eksporterer mye laks.", "vi": "Na Uy xuất khẩu nhiều cá hồi.", "tip": "Na Uy là nước xuất khẩu cá hồi lớn nhất thế giới, Việt Nam cũng là một thị trường."},
+            {"no": "Havbruk er ei stor næring.", "vi": "Nuôi trồng thủy sản là một ngành lớn."},
+            {"no": "Norsk sjømat er god.", "vi": "Hải sản Na Uy ngon."},
+            {"no": "Jeg er interessert i havøkonomi.", "vi": "Tôi quan tâm đến kinh tế biển."},
+            {"no": "Laksen kommer fra Norge.", "vi": "Cá hồi này đến từ Na Uy."},
+            {"no": "Norge har mye hav.", "vi": "Na Uy có vùng biển rộng lớn."}
+          ]
+        },
+        {
+          "id": "u14l3",
+          "title": "Dầu khí, hàng hải và tương lai",
+          "vocab": [
+            {"no": "olje", "vi": "dầu mỏ", "pos": "n", "g": "m"},
+            {"no": "skipsfart", "vi": "ngành hàng hải", "pos": "n", "g": "m"},
+            {"no": "et skip", "vi": "con tàu", "pos": "n", "g": "n"},
+            {"no": "ei havn", "vi": "bến cảng", "pos": "n", "g": "f"},
+            {"no": "grønn", "vi": "xanh lá; xanh (bền vững)", "pos": "adj"},
+            {"no": "ei framtid", "vi": "tương lai", "pos": "n", "g": "f"},
+            {"no": "havvind", "vi": "điện gió ngoài khơi", "pos": "n", "g": "m"},
+            {"no": "å utvikle", "vi": "phát triển", "pos": "v"}
+          ],
+          "sentences": [
+            {"no": "Norge har mye olje.", "vi": "Na Uy có nhiều dầu mỏ."},
+            {"no": "Skipsfart er viktig for Norge.", "vi": "Hàng hải rất quan trọng đối với Na Uy.", "tip": "skip đọc như “ship”: sk trước i đọc như “sh”."},
+            {"no": "Skipet er i havna.", "vi": "Con tàu đang ở bến cảng."},
+            {"no": "Framtida er grønn.", "vi": "Tương lai là xanh."},
+            {"no": "Vi må utvikle grønn skipsfart.", "vi": "Chúng ta phải phát triển ngành hàng hải xanh."},
+            {"no": "Havvind er viktig for framtida.", "vi": "Điện gió ngoài khơi quan trọng cho tương lai."},
+            {"no": "Jeg vil jobbe med havøkonomi.", "vi": "Tôi muốn làm việc trong lĩnh vực kinh tế biển.", "tip": "jobbe med = làm trong lĩnh vực, câu rất hữu ích khi anh đi networking."}
+          ]
+        }
+      ]
+    }
+  ]
+}
