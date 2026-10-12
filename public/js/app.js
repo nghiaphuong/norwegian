@@ -140,7 +140,7 @@ async function renderRail(route) {
 
 // ---------- Chạm từ để xem nghĩa ----------
 const pop = () => $('#pop');
-function hidePop() { const p = pop(); if (p) { p.hidden = true; p.innerHTML = ''; } }
+function hidePop() { const p = pop(); if (p && !p.hidden) { p.hidden = true; p.innerHTML = ''; } }
 document.addEventListener('click', async e => {
   const w = e.target.closest('.tw');
   if (!w) { if (!e.target.closest('#pop')) hidePop(); return; }

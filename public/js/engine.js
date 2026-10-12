@@ -193,8 +193,11 @@ export function runPlayer(root, exercises, { title = '', onFinish, onQuit, xpBas
     </div></div>`;
     const res = { correct: firstTryCorrect, total, xp, seconds, perfect, acc, mistakes };
     const btn = $('#pDone', root); btn.focus();
-    const onKey = e => { if (e.key === 'Enter') { document.removeEventListener('keydown', onKey); btn.click(); } };
-    setTimeout(() => document.addEventListener('keydown', onKey), 300);
+    const onKey = e => {
+      if (!btn.isConnected) { document.removeEventListener('keydown', onKey); return; } // đã rời màn hình kết thúc
+      if (e.key === 'Enter') { document.removeEventListener('keydown', onKey); btn.click(); }
+    };
+    setTimeout(() => { if (btn.isConnected) document.addEventListener('keydown', onKey); }, 300);
     btn.onclick = () => { document.removeEventListener('keydown', onKey); onFinish && onFinish(res); };
   }
 

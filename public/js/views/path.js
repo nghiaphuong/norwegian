@@ -37,7 +37,8 @@ export async function render(main) {
     }).join('')}
   </div>`;
 
-  main.addEventListener('click', e => {
+  // Gắn vào .page (được tạo lại mỗi lần vẽ) để không cộng dồn trình xử lý trên #main.
+  main.firstElementChild.addEventListener('click', e => {
     const nd = e.target.closest('.node');
     if (nd) {
       const l = course.byId[nd.dataset.l];

@@ -50,12 +50,20 @@ export function toast(msg, kind = '') {
   setTimeout(() => { t.classList.remove('in'); setTimeout(() => t.remove(), 300); }, 2600);
 }
 
+// Chỉ một hộp thoại tại một thời điểm: mở hộp mới thì đóng hẳn hộp cũ (gỡ cả trình bắt phím Esc).
+let closeCurrent = null;
 export function modal(html, { onMount, wide } = {}) {
+  if (closeCurrent) closeCurrent();
   const root = $('#modal');
   root.innerHTML = `<div class="modal-back" data-close></div><div class="modal-card ${wide ? 'wide' : ''}" role="dialog" aria-modal="true"><button class="icon-btn modal-x" data-close aria-label="${t('Đóng')}">${ICON.x}</button>${html}</div>`;
   root.hidden = false;
   document.body.classList.add('no-scroll');
-  const close = () => { root.hidden = true; root.innerHTML = ''; document.body.classList.remove('no-scroll'); document.removeEventListener('keydown', onKey); };
+  const close = () => {
+    if (closeCurrent !== close) return; // đã bị hộp thoại khác thay thế
+    closeCurrent = null;
+    root.hidden = true; root.innerHTML = ''; document.body.classList.remove('no-scroll'); document.removeEventListener('keydown', onKey);
+  };
+  closeCurrent = close;
   const onKey = e => { if (e.key === 'Escape') close(); };
   document.addEventListener('keydown', onKey);
   root.querySelectorAll('[data-close]').forEach(b => b.addEventListener('click', close));
