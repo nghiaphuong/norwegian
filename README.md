@@ -23,7 +23,7 @@ Giao diện riêng cho **desktop** (thanh điều hướng trái, cột tổng q
 ## Trang quản trị (#/admin)
 Chỉ hiện với tài khoản quản trị viên (kiểm tra cả ở máy chủ lẫn giao diện).
 - **Tổng quan:** số người dùng, người học hôm nay / 7 / 30 ngày, XP, lượt hoàn thành bài, giờ luyện tập, biểu đồ 30 ngày, người chăm nhất tuần, tỷ lệ ngôn ngữ giao diện, lượt dùng gia sư AI.
-- **Người dùng:** tìm kiếm, lọc (hoạt động / không hoạt động / quản trị viên / bị khóa), sắp xếp theo từng cột, xuất CSV.
+- **Người dùng:** danh sách có tìm kiếm, lọc (hoạt động / không hoạt động / quản trị viên / bị khóa), sắp xếp theo từng cột, xuất CSV; **thêm người dùng** (mật khẩu tự nhập hoặc tạo ngẫu nhiên), **sửa** (tên, tên đăng nhập, mật khẩu, quyền quản trị, khóa) và **xóa** ngay trên từng dòng.
 - **Chi tiết từng người:** chuỗi ngày, XP theo ngày (60 ngày), tiến độ theo chương, độ nhớ thẻ từ, lỗi hay gặp, huy hiệu, lượt AI; thao tác đổi tên, đặt lại mật khẩu (tạo mật khẩu ngẫu nhiên, hiện một lần), cấp/bỏ quyền quản trị, khóa/mở khóa, xóa tiến độ, xóa tài khoản.
 - **Cài đặt đăng ký:** mở cho mọi người / cần mã mời / đóng; đổi mã mời ngay trên trang (ghi đè INVITE_CODE).
 - Người đăng ký đầu tiên tự động là quản trị viên; với CSDL có sẵn, người có id nhỏ nhất được nâng lên quản trị viên.

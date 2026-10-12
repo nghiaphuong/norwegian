@@ -98,6 +98,7 @@ async function renderUsers(el) {
   el.innerHTML = `<div class="admin-toolbar">
       <input type="search" id="uq" placeholder="${t('Tìm theo tên hoặc tên đăng nhập…')}">
       <div class="chips" id="uf">${[['all', 'Tất cả'], ['active', 'Hoạt động 7 ngày'], ['idle', 'Không hoạt động'], ['admin', 'Quản trị viên'], ['disabled', 'Bị khóa']].map(([k, v]) => `<button class="chip" data-f="${k}" aria-pressed="${k === 'all'}">${t(v)}</button>`).join('')}</div>
+      <button class="btn small primary" id="uadd">${ICON.plus} ${t('Thêm người dùng')}</button>
       <a class="btn small" href="/api/admin/users.csv" download>${t('Xuất CSV')}</a>
     </div>
     <div class="card" style="padding:0;overflow:hidden"><div class="atable-wrap"><table class="atable"><thead><tr>${COLS.map(([k, v]) => `<th data-s="${k}" class="${['name', 'created_at', 'last'].includes(k) ? '' : 'num'}">${t(v)} <span class="sort"></span></th>`).join('')}<th></th></tr></thead><tbody id="ub"></tbody></table></div></div>
@@ -121,15 +122,88 @@ async function renderUsers(el) {
       <td class="num" data-l="${t('Thẻ')}">${num(u.stats.cards)}</td>
       <td class="num" data-l="${t('Đúng')}">${u.stats.accuracy === null ? '–' : `${u.stats.accuracy}%`}</td>
       <td class="num" data-l="${t('Phút')}">${num(u.stats.minutes)}</td>
-      <td class="go">${ICON.next}</td></tr>`).join('') || `<tr><td colspan="11" class="muted" style="text-align:center;padding:24px">${t('Không tìm thấy.')}</td></tr>`;
+      <td class="row-acts"><button class="icon-btn" data-edit="${u.id}" title="${t('Sửa')}" aria-label="${t('Sửa')}">${ICON.edit}</button>${u.id === store.user.id ? '' : `<button class="icon-btn danger" data-del="${u.id}" title="${t('Xóa')}" aria-label="${t('Xóa')}">${ICON.trash}</button>`}</td></tr>`).join('') || `<tr><td colspan="11" class="muted" style="text-align:center;padding:24px">${t('Không tìm thấy.')}</td></tr>`;
     $$('th[data-s]', el).forEach(th => { th.querySelector('.sort').textContent = th.dataset.s === sort ? (dir > 0 ? '▲' : '▼') : ''; });
     $('#ucount', el).textContent = t('{n} / {total} người dùng', { n: list.length, total: users.length });
   };
   $('#uq', el).oninput = e => { q = e.target.value.trim().toLowerCase(); paint(); };
   $('#uf', el).onclick = e => { const b = e.target.closest('[data-f]'); if (!b) return; filter = b.dataset.f; $$('#uf .chip', el).forEach(x => x.setAttribute('aria-pressed', x === b)); paint(); };
   $$('th[data-s]', el).forEach(th => th.onclick = () => { if (sort === th.dataset.s) dir = -dir; else { sort = th.dataset.s; dir = th.dataset.s === 'name' ? 1 : -1; } paint(); });
-  $('#ub', el).onclick = e => { const tr = e.target.closest('tr[data-id]'); if (tr) go(`admin/user/${tr.dataset.id}`); };
+  const reload = () => renderUsers(el);
+  $('#uadd', el).onclick = () => userForm(null, reload);
+  $('#ub', el).onclick = e => {
+    const ed = e.target.closest('[data-edit]');
+    if (ed) return userForm(users.find(u => u.id === Number(ed.dataset.edit)), reload);
+    const del = e.target.closest('[data-del]');
+    if (del) return deleteUser(users.find(u => u.id === Number(del.dataset.del)), reload);
+    const tr = e.target.closest('tr[data-id]'); if (tr) go(`admin/user/${tr.dataset.id}`);
+  };
   paint();
+}
+
+// ---------- Form thêm / sửa người dùng ----------
+const slug = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/gi, 'd').toLowerCase().trim().replace(/\s+/g, '.').replace(/[^a-z0-9_.-]/g, '').slice(0, 40);
+
+function userForm(u, onDone) {
+  const isNew = !u;
+  const self = !!u && u.id === store.user.id;
+  modal(`<h2>${isNew ? t('Thêm người dùng') : t('Sửa người dùng')}</h2>
+    <form id="uform" style="margin-top:14px" autocomplete="off" novalidate>
+      <label class="field">${t('Tên hiển thị')}<input type="text" name="name" value="${esc(u?.name || '')}" maxlength="60"></label>
+      <label class="field">${t('Tên đăng nhập')}<input type="text" name="username" value="${esc(u?.username || '')}" autocapitalize="off" spellcheck="false" maxlength="40">
+        <small class="muted" style="font-weight:400">${t('3–40 ký tự: chữ thường, số, dấu . _ -')}</small></label>
+      <label class="field">${isNew ? t('Mật khẩu') : t('Mật khẩu mới')}<input type="text" name="password" autocomplete="new-password" spellcheck="false" placeholder="${isNew ? t('Để trống để tạo ngẫu nhiên') : t('Để trống nếu không đổi')}">
+        <small class="muted" style="font-weight:400">${t('Tối thiểu 6 ký tự.')}</small></label>
+      <div style="display:flex;flex-direction:column;gap:8px;margin:4px 0 16px">
+        <label class="toggle"><input type="checkbox" name="is_admin" ${u?.is_admin ? 'checked' : ''} ${self ? 'disabled' : ''}> ${t('Quản trị viên')}</label>
+        <label class="toggle"><input type="checkbox" name="is_disabled" ${u?.is_disabled ? 'checked' : ''} ${self ? 'disabled' : ''}> ${t('Khóa tài khoản')}</label>
+      </div>
+      ${self ? `<p class="muted small" style="margin-bottom:12px">${t('Đây là tài khoản của anh: không thể tự bỏ quyền quản trị hay tự khóa.')}</p>` : ''}
+      <div style="display:flex;gap:8px;justify-content:flex-end"><button type="button" class="btn" data-close>${t('Hủy')}</button><button type="submit" class="btn primary">${isNew ? t('Tạo tài khoản') : t('Lưu')}</button></div>
+    </form>`, {
+    onMount(card, close) {
+      const form = $('#uform', card);
+      const f = n => form.elements.namedItem(n);
+      f('name').focus();
+      // Khi tạo mới: gợi ý tên đăng nhập từ tên hiển thị (bỏ dấu tiếng Việt).
+      if (isNew) f('name').addEventListener('input', () => { if (!f('username').dataset.touched) f('username').value = slug(f('name').value); });
+      f('username').addEventListener('input', () => { f('username').dataset.touched = '1'; });
+      form.onsubmit = async e => {
+        e.preventDefault();
+        const body = { name: f('name').value.trim(), username: f('username').value.trim().toLowerCase(), password: f('password').value };
+        if (!body.name) return toast(t('Tên hiển thị không được trống'), 'bad');
+        if (!/^[a-z0-9_.-]{3,40}$/.test(body.username)) return toast(t('3–40 ký tự: chữ thường, số, dấu . _ -'), 'bad');
+        if (body.password && body.password.length < 6) return toast(t('Tối thiểu 6 ký tự.'), 'bad');
+        if (!self) { body.is_admin = f('is_admin').checked; body.is_disabled = f('is_disabled').checked; }
+        try {
+          if (isNew) {
+            const r = await api('/admin/users', { body });
+            close();
+            if (r.password) showPassword(body.name, r.password);
+            else toast(t('Đã tạo tài khoản'), 'ok');
+          } else {
+            await api(`/admin/users/${u.id}`, { method: 'PUT', body });
+            close(); toast(t('Đã lưu'), 'ok');
+            if (self) { store.user.name = body.name; store.user.username = body.username; store.emit(); }
+          }
+          if (onDone) onDone();
+        } catch (err) { toast(err.message, 'bad'); }
+      };
+    },
+  });
+}
+
+function showPassword(name, pw) {
+  modal(`<h2>${t('Mật khẩu mới')}</h2><p class="muted" style="margin:6px 0 12px">${t('Gửi mật khẩu này cho {n}. Nó chỉ hiển thị một lần; người dùng có thể tự đổi trong Hồ sơ.', { n: esc(name) })}</p>
+    <div class="pw-box"><code id="npw">${esc(pw)}</code><button class="btn small" id="cpw">${t('Sao chép')}</button></div>`, { onMount(card) { $('#cpw', card).onclick = () => { navigator.clipboard?.writeText(pw); toast(t('Đã sao chép')); }; } });
+}
+
+async function deleteUser(u, onDone) {
+  if (!u) return;
+  const typed = prompt(t('Xóa vĩnh viễn tài khoản và toàn bộ dữ liệu. Gõ tên đăng nhập “{u}” để xác nhận:', { u: u.username }));
+  if (typed === null) return;
+  if (typed.trim() !== u.username) { toast(t('Tên đăng nhập không khớp'), 'bad'); return; }
+  try { await api(`/admin/users/${u.id}`, { method: 'DELETE' }); toast(t('Đã xóa tài khoản'), 'ok'); if (onDone) onDone(); } catch (e) { toast(e.message, 'bad'); }
 }
 
 // ---------- Chi tiết một người dùng ----------
@@ -155,7 +229,7 @@ async function renderUser(el, id) {
         <p class="muted">@${esc(u.username)} · ${t('Tham gia {d}', { d: day(u.created_at) })} · ${t('Hoạt động {a}', { a: ago(lastActive(u)) })} · ${t('Đăng nhập lần cuối {a}', { a: ago(u.last_login) })}</p>
         <p class="muted small">${t('Ngôn ngữ')}: ${S.lang.toUpperCase()} · ${t('Mục tiêu')}: ${S.dailyGoal} XP/${t('ngày')} · ${t('Đồng bộ lần cuối')}: ${ago(u.synced_at)}</p></div>
       <div class="admin-actions">
-        <button class="btn small" data-act="rename">${t('Đổi tên')}</button>
+        <button class="btn small primary" data-act="edit">${ICON.edit} ${t('Sửa thông tin')}</button>
         <button class="btn small" data-act="password">${t('Đặt lại mật khẩu')}</button>
         ${self ? '' : `<button class="btn small" data-act="admin">${u.is_admin ? t('Bỏ quyền quản trị') : t('Cấp quyền quản trị')}</button>`}
         ${self ? '' : `<button class="btn small" data-act="disable">${u.is_disabled ? t('Mở khóa') : t('Khóa tài khoản')}</button>`}
@@ -202,14 +276,12 @@ async function renderUser(el, id) {
   $$('[data-act]', el).forEach(b => b.onclick = async () => {
     const a = b.dataset.act;
     try {
-      if (a === 'rename') {
-        const name = prompt(t('Tên hiển thị mới:'), u.name); if (!name) return;
-        await act('rename', name); toast(t('Đã lưu'), 'ok');
+      if (a === 'edit') {
+        userForm(u, () => renderUser(el, id)); return;
       } else if (a === 'password') {
         if (!confirm(t('Tạo mật khẩu mới cho {n}? Mật khẩu cũ sẽ không dùng được nữa.', { n: u.name }))) return;
         const r = await api(`/admin/users/${id}`, { body: { action: 'password' } });
-        modal(`<h2>${t('Mật khẩu mới')}</h2><p class="muted" style="margin:6px 0 12px">${t('Gửi mật khẩu này cho {n}. Nó chỉ hiển thị một lần; người dùng có thể tự đổi trong Hồ sơ.', { n: esc(u.name) })}</p>
-          <div class="pw-box"><code id="npw">${esc(r.password)}</code><button class="btn small" id="cpw">${t('Sao chép')}</button></div>`, { onMount(card) { $('#cpw', card).onclick = () => { navigator.clipboard?.writeText(r.password); toast(t('Đã sao chép')); }; } });
+        showPassword(u.name, r.password);
         return;
       } else if (a === 'admin') {
         await act('admin', !u.is_admin);
@@ -220,10 +292,7 @@ async function renderUser(el, id) {
         if (!confirm(t('Xóa toàn bộ tiến độ đã đồng bộ của {n}? Không thể hoàn tác.', { n: u.name }))) return;
         await act('reset-progress'); toast(t('Đã xóa tiến độ'), 'ok');
       } else if (a === 'delete') {
-        const typed = prompt(t('Xóa vĩnh viễn tài khoản và toàn bộ dữ liệu. Gõ tên đăng nhập “{u}” để xác nhận:', { u: u.username }));
-        if (typed !== u.username) { if (typed !== null) toast(t('Tên đăng nhập không khớp'), 'bad'); return; }
-        await api(`/admin/users/${id}`, { method: 'DELETE' });
-        toast(t('Đã xóa tài khoản'), 'ok'); go('admin/users'); return;
+        deleteUser(u, () => go('admin/users')); return;
       }
       renderUser(el, id);
     } catch (e) { toast(e.message, 'bad'); }

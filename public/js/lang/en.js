@@ -231,6 +231,12 @@ export default {
   'Ai có đường dẫn cũng tự tạo được tài khoản.': 'Anyone with the link can create an account.', 'Phải nhập đúng mã mời khi đăng ký.': 'The correct invite code is required to sign up.',
   'Không ai tạo được tài khoản mới; người đã có vẫn đăng nhập bình thường.': 'No new accounts can be created; existing users can still sign in.', 'Cần nhập mã mời': 'Please enter an invite code',
 
+  'Thêm người dùng': 'Add user', 'Sửa': 'Edit', 'Sửa người dùng': 'Edit user', 'Sửa thông tin': 'Edit details',
+  '3–40 ký tự: chữ thường, số, dấu . _ -': '3–40 characters: lowercase letters, digits, . _ -',
+  'Để trống để tạo ngẫu nhiên': 'Leave empty to generate one', 'Để trống nếu không đổi': 'Leave empty to keep the current one', 'Tối thiểu 6 ký tự.': 'At least 6 characters.',
+  'Đây là tài khoản của anh: không thể tự bỏ quyền quản trị hay tự khóa.': 'This is your own account: you cannot remove your admin rights or disable it.',
+  'Hủy': 'Cancel', 'Tên hiển thị không được trống': 'Display name cannot be empty', 'Đã tạo tài khoản': 'Account created',
+
   // ---- Cặp âm (nhóm) ----
   'Nguyên âm dài / ngắn': 'Long / short vowel', 'Thanh 1 / thanh 2': 'Tone 1 / tone 2', 'u dài / ngắn': 'long / short u',
 };

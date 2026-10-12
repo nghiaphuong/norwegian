@@ -564,3 +564,10 @@ button.sym { color: var(--accent); }
 .pw-box code { flex: 1; font-size: 1.3rem; letter-spacing: .05em; }
 body.no-rail .rail { display: none; }
 body.no-rail .main { margin-right: 0; }
+.atable .row-acts { width: 1%; white-space: nowrap; text-align: right; }
+.atable .row-acts .icon-btn { width: 34px; height: 34px; border-radius: 10px; margin-left: 4px; }
+.icon-btn.danger { color: var(--bad); }
+.icon-btn.danger:hover { background: var(--bad-soft); }
+@media (max-width: 767px) {
+  .atable td.row-acts { grid-column: 1 / -1; display: flex; justify-content: flex-end; gap: 6px; margin-top: 6px; width: auto; }
+}

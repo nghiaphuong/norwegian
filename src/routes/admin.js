@@ -149,6 +149,59 @@ router.post('/users/:id', wrap(async (req, res) => {
   res.json({ ok: true });
 }));
 
+// ---------- Thêm / sửa thông tin tài khoản ----------
+const USER_RE = /^[a-z0-9_.-]{3,40}$/;
+async function validateAccount(req, { username, name, password }, id = null) {
+  if (username !== undefined) {
+    if (!USER_RE.test(username)) return tr(req, 'Tên đăng nhập 3–40 ký tự: chữ thường, số, dấu . _ -');
+    const dup = await db.q('SELECT id FROM users WHERE username = ? AND id <> ?', [username, id || 0]);
+    if (dup.length) return tr(req, 'Tên đăng nhập đã có người dùng');
+  }
+  if (name !== undefined && !name) return tr(req, 'Tên hiển thị không được trống');
+  if (password && password.length < 6) return tr(req, 'Mật khẩu tối thiểu 6 ký tự');
+  return null;
+}
+const clean = b => ({
+  username: b.username === undefined ? undefined : String(b.username).trim().toLowerCase(),
+  name: b.name === undefined ? undefined : String(b.name).trim().slice(0, 60),
+  password: b.password ? String(b.password) : '',
+});
+
+// Tạo tài khoản mới. Không nhập mật khẩu thì tạo ngẫu nhiên và trả về một lần.
+router.post('/users', wrap(async (req, res) => {
+  const f = clean(req.body || {});
+  if (f.name === undefined || f.name === '') f.name = f.username || '';
+  const err = await validateAccount(req, { username: f.username ?? '', name: f.name, password: f.password });
+  if (err) return res.status(400).json({ error: err });
+  const pw = f.password || randomPassword();
+  const r = await db.q('INSERT INTO users (username, display_name, pass_hash, is_admin, is_disabled) VALUES (?,?,?,?,?)',
+    [f.username, f.name, hashPassword(pw), req.body.is_admin ? 1 : 0, req.body.is_disabled ? 1 : 0]);
+  await db.loadDisabled();
+  res.json({ ok: true, id: r.insertId, password: f.password ? null : pw });
+}));
+
+// Sửa nhiều trường cùng lúc: tên, tên đăng nhập, mật khẩu (tùy chọn), quyền quản trị, khóa.
+router.put('/users/:id', wrap(async (req, res) => {
+  const id = Number(req.params.id);
+  const cur = await db.q('SELECT id FROM users WHERE id = ?', [id]);
+  if (!cur[0]) return res.status(404).json({ error: tr(req, 'Không tìm thấy người dùng') });
+  const self = id === req.userId;
+  const f = clean(req.body || {});
+  const err = await validateAccount(req, f, id);
+  if (err) return res.status(400).json({ error: err });
+  if (self && req.body.is_admin === false) return res.status(400).json({ error: tr(req, 'Không thể tự bỏ quyền quản trị của chính mình') });
+  if (self && req.body.is_disabled === true) return res.status(400).json({ error: tr(req, 'Không thể tự khóa tài khoản của chính mình') });
+  const sets = []; const vals = [];
+  if (f.username !== undefined) { sets.push('username = ?'); vals.push(f.username); }
+  if (f.name !== undefined) { sets.push('display_name = ?'); vals.push(f.name); }
+  if (f.password) { sets.push('pass_hash = ?'); vals.push(hashPassword(f.password)); }
+  if (typeof req.body.is_admin === 'boolean') { sets.push('is_admin = ?'); vals.push(req.body.is_admin ? 1 : 0); }
+  if (typeof req.body.is_disabled === 'boolean') { sets.push('is_disabled = ?'); vals.push(req.body.is_disabled ? 1 : 0); }
+  if (sets.length) await db.q(`UPDATE users SET ${sets.join(', ')} WHERE id = ?`, [...vals, id]);
+  await db.loadDisabled();
+  res.json({ ok: true });
+}));
+
 router.delete('/users/:id', wrap(async (req, res) => {
   const id = Number(req.params.id);
   if (id === req.userId) return res.status(400).json({ error: tr(req, 'Không thể tự xóa tài khoản của chính mình') });
