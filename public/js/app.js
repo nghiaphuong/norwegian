@@ -17,6 +17,7 @@ const NAV = [
   { id: 'grammar', label: 'Ngữ pháp', icon: 'grammar' },
   { id: 'tutor', label: 'Gia sư AI', icon: 'spark' },
   { id: 'me', label: 'Hồ sơ', icon: 'user' },
+  { id: 'admin', label: 'Quản trị', icon: 'shield' },
 ];
 const TABS = ['', 'path', 'review', 'dict', 'more'];
 
@@ -33,6 +34,7 @@ const ROUTES = {
   tutor: () => import('./views/tutor.js'),
   me: () => import('./views/me.js'),
   more: () => import('./views/more.js'),
+  admin: () => import('./views/admin.js'),
 };
 
 function parseHash() {
@@ -57,6 +59,7 @@ async function router() {
   const main = $('#main');
   const full = route === 'learn' || (route === 'stories' && params[0]);
   document.body.classList.toggle('in-player', full);
+  document.body.classList.toggle('no-rail', route === 'admin');
   try {
     const mod = await loader();
     if (seq !== renderSeq) return;
@@ -84,12 +87,12 @@ const langBtn = () => `<div class="seg lang-switch" role="group" aria-label="Lan
 document.addEventListener('click', e => { const b = e.target.closest('[data-lang]'); if (b) switchLang(b.dataset.lang); });
 
 function renderNav(route) {
-  const items = NAV.filter(n => n.id !== 'tutor' || app.config.ai);
+  const items = NAV.filter(n => (n.id !== 'tutor' || app.config.ai) && (n.id !== 'admin' || store.user?.admin));
   const dueN = store.dueCards().length;
   const badge = id => (id === 'review' && dueN ? `<span class="nav-badge">${dueN > 99 ? '99+' : dueN}</span>` : '');
   const bt = document.querySelector('.sidebar .brand-text small'); if (bt) bt.textContent = t('học tiếng Na Uy');
   $('#sideNav').innerHTML = items.map(n => `<a href="#/${n.id}" class="nav-item ${route === n.id ? 'active' : ''}" ${route === n.id ? 'aria-current="page"' : ''}>${ICON[n.icon]}<span>${t(n.label)}</span>${badge(n.id)}</a>`).join('');
-  const moreRoutes = ['phrases', 'pron', 'stories', 'grammar', 'tutor', 'me', 'more'];
+  const moreRoutes = ['phrases', 'pron', 'stories', 'grammar', 'tutor', 'me', 'more', 'admin'];
   $('#tabbar').innerHTML = TABS.map(id => {
     const n = id === 'more' ? { id: 'more', label: 'Thêm', icon: 'more' } : NAV.find(x => x.id === id);
     const active = id === 'more' ? moreRoutes.includes(route) : route === id;
@@ -106,7 +109,7 @@ function renderNav(route) {
 
 async function renderRail(route) {
   const rail = $('#rail');
-  if (['learn'].includes(route)) { rail.innerHTML = ''; return; }
+  if (['learn', 'admin'].includes(route)) { rail.innerHTML = ''; return; }
   const st = store.streak(); const xp = store.xpToday(); const goal = store.s.settings.dailyGoal;
   const pct = Math.min(100, Math.round(xp / goal * 100));
   const due = store.dueCards().length;

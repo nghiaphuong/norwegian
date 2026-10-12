@@ -14,6 +14,18 @@ async function q(sql, params = []) {
   return rows;
 }
 
+// Nâng cấp bảng đã tạo từ phiên bản cũ (chỉ thêm cột còn thiếu).
+async function upgradeSchema() {
+  const cols = new Set((await q("SELECT COLUMN_NAME c FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'users'")).map(r => r.c));
+  if (!cols.has('is_admin')) await q('ALTER TABLE users ADD COLUMN is_admin TINYINT(1) NOT NULL DEFAULT 0');
+  if (!cols.has('is_disabled')) await q('ALTER TABLE users ADD COLUMN is_disabled TINYINT(1) NOT NULL DEFAULT 0');
+  if (!cols.has('last_seen')) await q('ALTER TABLE users ADD COLUMN last_seen DATETIME NULL');
+  if (!cols.has('last_login')) await q('ALTER TABLE users ADD COLUMN last_login DATETIME NULL');
+  // Luôn có ít nhất một quản trị viên: người đăng ký sớm nhất.
+  const admins = await q('SELECT COUNT(*) n FROM users WHERE is_admin = 1');
+  if (!admins[0].n) await q('UPDATE users SET is_admin = 1 ORDER BY id LIMIT 1');
+}
+
 async function migrate() {
   if (!config.db.database) {
     console.log('DB_NAME trống: chạy không có cơ sở dữ liệu (tiến độ chỉ lưu trên trình duyệt)');
@@ -31,8 +43,29 @@ async function migrate() {
   for (const stmt of sql.split(/;\s*\n/).map(s => s.trim()).filter(Boolean)) {
     await pool.query(stmt);
   }
+  await upgradeSchema();
   ready = true;
+  await loadDisabled();
   return true;
+}
+
+// Tài khoản bị khóa: giữ trong bộ nhớ để kiểm tra mỗi yêu cầu mà không tốn truy vấn.
+const disabled = new Set();
+async function loadDisabled() {
+  disabled.clear();
+  (await q('SELECT id FROM users WHERE is_disabled = 1')).forEach(r => disabled.add(r.id));
+}
+const isDisabled = id => disabled.has(Number(id));
+
+// Cài đặt ứng dụng do quản trị viên chỉnh (ưu tiên hơn biến môi trường).
+async function getSetting(k, def = null) {
+  if (!ready) return def;
+  const r = await q('SELECT v FROM app_settings WHERE k = ?', [k]);
+  return r[0] ? r[0].v : def;
+}
+async function setSetting(k, v) {
+  if (v === null || v === undefined) await q('DELETE FROM app_settings WHERE k = ?', [k]);
+  else await q('REPLACE INTO app_settings (k, v) VALUES (?, ?)', [k, String(v)]);
 }
 
 // Bộ nhớ đệm khóa–giá trị (từ điển, bản dịch). Không có CSDL thì dùng bộ nhớ tiến trình.
@@ -55,4 +88,4 @@ async function cacheSet(k, v) {
   mem.set(k, v);
 }
 
-module.exports = { q, migrate, enabled, cacheGet, cacheSet };
+module.exports = { q, migrate, enabled, cacheGet, cacheSet, loadDisabled, isDisabled, getSetting, setSetting };

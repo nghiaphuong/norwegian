@@ -18,7 +18,7 @@ export async function render(main, params, query) {
     ${store.user ? `<button class="btn" id="logout">${t('Đăng xuất')}</button>` : ''}</div>
 
     ${!store.user && app.config.db ? `<section class="card" id="auth" style="margin-bottom:18px">
-      <div class="seg" id="amode" style="margin-bottom:14px"><button data-m="login" aria-pressed="true">${t('Đăng nhập')}</button><button data-m="register" aria-pressed="false">${t('Tạo tài khoản')}</button></div>
+      <div class="seg" id="amode" style="margin-bottom:14px"><button data-m="login" aria-pressed="true">${t('Đăng nhập')}</button>${app.config.registration === 'closed' ? '' : `<button data-m="register" aria-pressed="false">${t('Tạo tài khoản')}</button>`}</div>
       <form id="aform">
         <label class="field reg" hidden>${t('Tên hiển thị')}<input type="text" name="name" placeholder="${t('vd: Phương')}" autocomplete="nickname"></label>
         <label class="field">${t('Tên đăng nhập')}<input type="text" name="username" autocomplete="username" autocapitalize="off" required></label>

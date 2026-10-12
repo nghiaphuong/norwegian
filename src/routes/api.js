@@ -6,6 +6,7 @@ const dict = require('../dict');
 const { translate, provider } = require('../translate');
 const ai = require('../ai');
 const { tr, langOf } = require('../i18n');
+const admin = require('./admin');
 
 const router = express.Router();
 const wrap = fn => (req, res) => fn(req, res).catch(e => { console.error(req.path, e.message); res.status(500).json({ error: e.message }); });
@@ -31,11 +32,15 @@ function needDb(req, res, next) {
 // ---------- Thông tin chung ----------
 router.get('/config', wrap(async (req, res) => {
   let user = null;
-  if (req.userId && db.enabled()) {
-    const r = await db.q('SELECT id, username, display_name FROM users WHERE id = ?', [req.userId]);
-    if (r[0]) user = { id: r[0].id, username: r[0].username, name: r[0].display_name };
+  let reg = { mode: config.inviteCode ? 'invite' : 'open', code: config.inviteCode };
+  if (db.enabled()) {
+    reg = await admin.registration();
+    if (req.userId) {
+      const r = await db.q('SELECT id, username, display_name, is_admin FROM users WHERE id = ?', [req.userId]);
+      if (r[0]) user = { id: r[0].id, username: r[0].username, name: r[0].display_name, admin: !!r[0].is_admin };
+    }
   }
-  res.json({ db: db.enabled(), ai: ai.enabled(), aiScenarios: ai.SCENARIOS, invite: !!config.inviteCode, translator: provider(), user });
+  res.json({ db: db.enabled(), ai: ai.enabled(), aiScenarios: ai.SCENARIOS, invite: reg.mode === 'invite' && !!reg.code, registration: reg.mode, translator: provider(), user });
 }));
 
 // ---------- Tài khoản ----------
@@ -46,20 +51,29 @@ router.post('/auth/register', needDb, rateLimit(10, 3600e3), wrap(async (req, re
   const password = String(req.body.password || '');
   if (!USER_RE.test(username)) return res.status(400).json({ error: tr(req, 'Tên đăng nhập 3–40 ký tự: chữ thường, số, dấu . _ -') });
   if (password.length < 6) return res.status(400).json({ error: tr(req, 'Mật khẩu tối thiểu 6 ký tự') });
-  if (config.inviteCode && String(req.body.invite || '').trim() !== config.inviteCode) return res.status(403).json({ error: tr(req, 'Mã mời không đúng') });
+  const reg = await admin.registration();
+  const count = (await db.q('SELECT COUNT(*) n FROM users'))[0].n;
+  // Người đăng ký đầu tiên luôn được phép và trở thành quản trị viên.
+  if (count > 0) {
+    if (reg.mode === 'closed') return res.status(403).json({ error: tr(req, 'Đăng ký tài khoản đang tạm đóng') });
+    if (reg.mode === 'invite' && reg.code && String(req.body.invite || '').trim() !== reg.code) return res.status(403).json({ error: tr(req, 'Mã mời không đúng') });
+  }
   const exist = await db.q('SELECT id FROM users WHERE username = ?', [username]);
   if (exist.length) return res.status(409).json({ error: tr(req, 'Tên đăng nhập đã có người dùng') });
-  const r = await db.q('INSERT INTO users (username, display_name, pass_hash) VALUES (?,?,?)', [username, name, hashPassword(password)]);
+  const isAdmin = count === 0 ? 1 : 0;
+  const r = await db.q('INSERT INTO users (username, display_name, pass_hash, is_admin, last_login) VALUES (?,?,?,?,NOW())', [username, name, hashPassword(password), isAdmin]);
   setSession(res, r.insertId);
-  res.json({ user: { id: r.insertId, username, name } });
+  res.json({ user: { id: r.insertId, username, name, admin: !!isAdmin } });
 }));
 
 router.post('/auth/login', needDb, rateLimit(20, 900e3), wrap(async (req, res) => {
   const username = String(req.body.username || '').trim().toLowerCase();
-  const r = await db.q('SELECT id, username, display_name, pass_hash FROM users WHERE username = ?', [username]);
+  const r = await db.q('SELECT id, username, display_name, pass_hash, is_admin, is_disabled FROM users WHERE username = ?', [username]);
   if (!r[0] || !checkPassword(String(req.body.password || ''), r[0].pass_hash)) return res.status(401).json({ error: tr(req, 'Sai tên đăng nhập hoặc mật khẩu') });
+  if (r[0].is_disabled) return res.status(403).json({ error: tr(req, 'Tài khoản này đã bị khóa') });
+  await db.q('UPDATE users SET last_login = NOW(), last_seen = NOW() WHERE id = ?', [r[0].id]);
   setSession(res, r[0].id);
-  res.json({ user: { id: r[0].id, username: r[0].username, name: r[0].display_name } });
+  res.json({ user: { id: r[0].id, username: r[0].username, name: r[0].display_name, admin: !!r[0].is_admin } });
 }));
 
 router.post('/auth/logout', (req, res) => { clearSession(res); res.json({ ok: true }); });
@@ -78,6 +92,9 @@ router.post('/auth/profile', needDb, requireUser, wrap(async (req, res) => {
   await db.q('UPDATE users SET display_name = ? WHERE id = ?', [name, req.userId]);
   res.json({ ok: true });
 }));
+
+// ---------- Quản trị ----------
+router.use('/admin', admin.router);
 
 // ---------- Đồng bộ tiến độ ----------
 router.get('/state', needDb, requireUser, wrap(async (req, res) => {

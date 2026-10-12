@@ -14,6 +14,7 @@ export async function render(main) {
     ['learn/speak', 'mic', 'Luyện nói', 'Đọc to, máy chấm điểm'],
     ...(app.config.ai ? [['tutor', 'spark', 'Gia sư AI', 'Hội thoại nhập vai, sửa câu']] : []),
     ['me', 'user', store.user ? null : 'Hồ sơ & cài đặt', 'Thống kê, huy hiệu, bảng xếp hạng, cài đặt'],
+    ...(store.user?.admin ? [['admin', 'shield', 'Quản trị', 'Quản lý người dùng và thống kê']] : []),
   ];
   main.innerHTML = `<div class="page"><div class="page-head"><h1>${t('Thêm')}</h1>
     <div class="seg lang-switch" role="group" aria-label="Language"><button data-lang="en" aria-pressed="${lang() === 'en'}">English</button><button data-lang="vi" aria-pressed="${lang() === 'vi'}">Tiếng Việt</button></div></div>

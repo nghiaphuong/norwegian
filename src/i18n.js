@@ -15,6 +15,15 @@ const EN = {
   'Chưa bật gia sư AI (thiếu ANTHROPIC_API_KEY)': 'The AI tutor is not enabled (ANTHROPIC_API_KEY is missing)',
   'Cần đăng nhập': 'Please sign in',
   'Đã dùng hết {n} lượt AI hôm nay': 'You have used all {n} AI requests for today',
+  'Chỉ quản trị viên được truy cập': 'Administrators only',
+  'Không tìm thấy người dùng': 'User not found',
+  'Không thể tự bỏ quyền quản trị của chính mình': 'You cannot remove your own admin rights',
+  'Không thể tự khóa tài khoản của chính mình': 'You cannot disable your own account',
+  'Không thể tự xóa tài khoản của chính mình': 'You cannot delete your own account',
+  'Thao tác không hợp lệ': 'Invalid action',
+  'Mã mời 4–40 ký tự: chữ, số, dấu . _ -': 'Invite code must be 4–40 characters: letters, digits, . _ -',
+  'Đăng ký tài khoản đang tạm đóng': 'Sign-ups are currently closed',
+  'Tài khoản này đã bị khóa': 'This account has been disabled',
 };
 
 const langOf = req => (req.get('X-Lang') === 'vi' ? 'vi' : 'en');

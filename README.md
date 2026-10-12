@@ -20,6 +20,15 @@
 
 Giao diện riêng cho **desktop** (thanh điều hướng trái, cột tổng quan phải), **máy tính bảng** (thanh icon thu gọn) và **điện thoại** (thanh tab dưới, làm bài toàn màn hình); chế độ sáng/tối; cài được như ứng dụng (PWA) và mở được khi ngoại tuyến.
 
+## Trang quản trị (#/admin)
+Chỉ hiện với tài khoản quản trị viên (kiểm tra cả ở máy chủ lẫn giao diện).
+- **Tổng quan:** số người dùng, người học hôm nay / 7 / 30 ngày, XP, lượt hoàn thành bài, giờ luyện tập, biểu đồ 30 ngày, người chăm nhất tuần, tỷ lệ ngôn ngữ giao diện, lượt dùng gia sư AI.
+- **Người dùng:** tìm kiếm, lọc (hoạt động / không hoạt động / quản trị viên / bị khóa), sắp xếp theo từng cột, xuất CSV.
+- **Chi tiết từng người:** chuỗi ngày, XP theo ngày (60 ngày), tiến độ theo chương, độ nhớ thẻ từ, lỗi hay gặp, huy hiệu, lượt AI; thao tác đổi tên, đặt lại mật khẩu (tạo mật khẩu ngẫu nhiên, hiện một lần), cấp/bỏ quyền quản trị, khóa/mở khóa, xóa tiến độ, xóa tài khoản.
+- **Cài đặt đăng ký:** mở cho mọi người / cần mã mời / đóng; đổi mã mời ngay trên trang (ghi đè INVITE_CODE).
+- Người đăng ký đầu tiên tự động là quản trị viên; với CSDL có sẵn, người có id nhỏ nhất được nâng lên quản trị viên.
+- Thử trên máy: chạy MySQL/MariaDB cục bộ, đặt DB_* trong `.env`, rồi `node scripts/seed-local.js` để tạo dữ liệu mẫu.
+
 ## Dữ liệu
 - Không đăng nhập: tiến độ lưu trên trình duyệt.
 - Có MySQL + đăng nhập: tiến độ đồng bộ giữa các thiết bị (gộp thông minh, không mất dữ liệu), có bảng xếp hạng tuần, bộ nhớ đệm từ điển và bản dịch (giảm gọi dịch vụ ngoài).
@@ -44,12 +53,14 @@ npm run check          # kiểm tra dữ liệu bài học (cả bản EN) và �
 ```
 server.js                 Express, nén, cache tĩnh, migrate CSDL
 src/config.js             Biến môi trường
-src/db.js, schema.sql     MySQL (users, user_state, xp_daily, cache, ai_usage)
+src/db.js, schema.sql     MySQL (users, user_state, xp_daily, cache, ai_usage, app_settings)
 src/auth.js               Phiên đăng nhập ký HMAC, mật khẩu scrypt
 src/dict.js               Bokmålsordboka + Wiktionary, chuẩn hóa và lưu đệm
 src/translate.js          Dịch máy (Google nếu có khóa, nếu không MyMemory)
 src/ai.js                 Gia sư Claude (tùy chọn)
 src/routes/api.js         REST API
+src/routes/admin.js       API quản trị
+src/stats.js              Tính chỉ số học tập từ tiến độ đồng bộ
 public/index.html         Khung ứng dụng (SPA, không cần bước build)
 public/css/app.css        Giao diện desktop / tablet / mobile, sáng / tối
 public/js/app.js          Điều hướng, thanh bên, chạm từ xem nghĩa, chuyển EN/VI

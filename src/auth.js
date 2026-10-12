@@ -1,6 +1,7 @@
 const crypto = require('crypto');
 const config = require('./config');
 const { tr } = require('./i18n');
+const db = require('./db');
 
 const COOKIE = 'norsk_session';
 const MAX_AGE = 180 * 24 * 3600 * 1000;
@@ -41,8 +42,19 @@ function checkPassword(pw, stored) {
   return a.length === b.length && crypto.timingSafeEqual(a, b);
 }
 
+// Ghi nhận lần cuối hoạt động (tối đa mỗi 5 phút một lần cho mỗi người).
+const seen = new Map();
+function touch(id) {
+  const now = Date.now();
+  if (now - (seen.get(id) || 0) < 5 * 60e3) return;
+  seen.set(id, now);
+  db.q('UPDATE users SET last_seen = NOW() WHERE id = ?', [id]).catch(() => {});
+}
+
 function attachUser(req, res, next) {
-  req.userId = readToken(req.cookies[COOKIE]);
+  const id = readToken(req.cookies[COOKIE]);
+  req.userId = id && !db.isDisabled(id) ? id : null;
+  if (req.userId && db.enabled()) touch(req.userId);
   next();
 }
 function requireUser(req, res, next) {
@@ -50,4 +62,14 @@ function requireUser(req, res, next) {
   return res.status(401).json({ error: tr(req, 'Cần đăng nhập') });
 }
 
-module.exports = { setSession, clearSession, hashPassword, checkPassword, attachUser, requireUser };
+// Chỉ quản trị viên (kiểm tra trực tiếp trong CSDL mỗi lần gọi).
+async function requireAdmin(req, res, next) {
+  try {
+    if (!req.userId || !db.enabled()) return res.status(401).json({ error: tr(req, 'Cần đăng nhập') });
+    const r = await db.q('SELECT is_admin FROM users WHERE id = ?', [req.userId]);
+    if (!r[0] || !r[0].is_admin) return res.status(403).json({ error: tr(req, 'Chỉ quản trị viên được truy cập') });
+    next();
+  } catch (e) { res.status(500).json({ error: e.message }); }
+}
+
+module.exports = { requireAdmin, setSession, clearSession, hashPassword, checkPassword, attachUser, requireUser };
