@@ -7,6 +7,7 @@ const { translate, provider } = require('../translate');
 const ai = require('../ai');
 const { tr, langOf } = require('../i18n');
 const admin = require('./admin');
+const tts = require('../tts');
 
 const router = express.Router();
 const wrap = fn => (req, res) => fn(req, res).catch(e => { console.error(req.path, e.message); res.status(500).json({ error: e.message }); });
@@ -40,7 +41,7 @@ router.get('/config', wrap(async (req, res) => {
       if (r[0]) user = { id: r[0].id, username: r[0].username, name: r[0].display_name, admin: !!r[0].is_admin };
     }
   }
-  res.json({ db: db.enabled(), ai: ai.enabled(), aiScenarios: ai.SCENARIOS, invite: reg.mode === 'invite' && !!reg.code, registration: reg.mode, translator: provider(), user });
+  res.json({ db: db.enabled(), ai: ai.enabled(), aiScenarios: ai.SCENARIOS, invite: reg.mode === 'invite' && !!reg.code, registration: reg.mode, translator: provider(), tts: tts.provider(), user });
 }));
 
 // ---------- Tài khoản ----------
@@ -144,6 +145,20 @@ router.post('/translate', rateLimit(60, 60e3), wrap(async (req, res) => {
   const out = await translate(texts.map(t => String(t || '').slice(0, 1000)), req.body.from || 'nb', req.body.to || 'vi');
   res.json({ texts: out, provider: provider() });
 }));
+
+// ---------- Đọc tiếng Na Uy (khi thiết bị không có giọng Na Uy) ----------
+router.get('/tts', rateLimit(150, 60e3), async (req, res) => {
+  try {
+    const buf = await tts.synth(String(req.query.q || ''));
+    res.setHeader('Content-Type', 'audio/mpeg');
+    res.setHeader('Cache-Control', 'public, max-age=2592000, immutable'); // 30 ngày: cùng câu luôn cùng âm thanh
+    res.setHeader('Content-Length', buf.length);
+    res.end(buf);
+  } catch (e) {
+    console.error('tts', e.message);
+    res.status(e.message === 'empty' ? 400 : 502).json({ error: 'TTS unavailable' });
+  }
+});
 
 // ---------- Gia sư AI (tùy chọn) ----------
 async function aiQuota(req, res, next) {

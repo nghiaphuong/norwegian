@@ -86,4 +86,4 @@ public/data/*.json        Giáo trình, từ vựng, câu giao tiếp, truyện,
 ```
 
 ## Nguồn
-Bokmålsordboka © Språkrådet og Universitetet i Bergen (ordbokene.no) · Wiktionary (CC BY-SA) · MyMemory. Giọng đọc và nhận dạng giọng nói do trình duyệt cung cấp (Web Speech API); nên dùng Chrome/Edge trên máy tính, Safari trên iPhone.
+Bokmålsordboka © Språkrådet og Universitetet i Bergen (ordbokene.no) · Wiktionary (CC BY-SA) · MyMemory. Giọng đọc: dùng giọng Na Uy của thiết bị nếu có; nếu không, app tự chuyển sang giọng trực tuyến do máy chủ tạo (`/api/tts`, lưu đệm trong CSDL) để không bị giọng tiếng Anh đánh vần sai. Có thể chọn trong Hồ sơ → Cài đặt → Nguồn giọng đọc. Đặt `GOOGLE_TTS_API_KEY` để dùng giọng Google Cloud chính thức thay cho giọng Google Dịch. Nhận dạng giọng nói do trình duyệt cung cấp (Web Speech API).

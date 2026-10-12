@@ -237,6 +237,12 @@ export default {
   'Đây là tài khoản của anh: không thể tự bỏ quyền quản trị hay tự khóa.': 'This is your own account: you cannot remove your admin rights or disable it.',
   'Hủy': 'Cancel', 'Tên hiển thị không được trống': 'Display name cannot be empty', 'Đã tạo tài khoản': 'Account created',
 
+  // ---- Giọng đọc ----
+  'Nguồn giọng đọc': 'Voice source', 'Trực tuyến': 'Online', 'Thiết bị': 'Device', 'Giọng trực tuyến': 'Online voice',
+  'Đang dùng giọng trực tuyến': 'Using the online voice', 'Đang dùng giọng Na Uy của thiết bị': 'Using this device’s Norwegian voice', 'thiết bị chưa có giọng Na Uy': 'no Norwegian voice on this device',
+  'Thiết bị chưa có giọng đọc tiếng Na Uy nên app dùng giọng trực tuyến (cần mạng). Muốn đọc ngoại tuyến, hãy cài giọng Na Uy cho thiết bị:': 'This device has no Norwegian voice, so the app uses an online voice (internet required). To listen offline, install a Norwegian voice:',
+  '<b>Windows:</b> Cài đặt → Thời gian và ngôn ngữ → Giọng nói → thêm “Norsk bokmål”. <b>iPhone:</b> Cài đặt → Trợ năng → Nội dung được đọc → Giọng nói → Norsk. <b>Android:</b> Cài đặt → Chuyển văn bản thành giọng nói → tải tiếng Na Uy.': '<b>Windows:</b> Settings → Time & language → Speech → add “Norsk bokmål”. <b>iPhone:</b> Settings → Accessibility → Spoken Content → Voices → Norwegian. <b>Android:</b> Settings → Text-to-speech → download Norwegian.',
+
   // ---- Cặp âm (nhóm) ----
   'Nguyên âm dài / ngắn': 'Long / short vowel', 'Thanh 1 / thanh 2': 'Tone 1 / tone 2', 'u dài / ngắn': 'long / short u',
 };

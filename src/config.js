@@ -28,4 +28,7 @@ module.exports = {
   // Tùy chọn: Google Cloud Translation (chính xác hơn). Bỏ trống = dùng MyMemory miễn phí.
   googleTranslateKey: env('GOOGLE_TRANSLATE_API_KEY'),
   myMemoryEmail: env('MYMEMORY_EMAIL'), // tăng hạn mức MyMemory từ 5.000 lên 50.000 ký tự/ngày
+  // Tùy chọn: giọng đọc Na Uy chính thức của Google Cloud (miễn phí 1 triệu ký tự WaveNet/tháng). Bỏ trống = giọng Google Dịch.
+  googleTtsKey: env('GOOGLE_TTS_API_KEY'),
+  googleTtsVoice: env('GOOGLE_TTS_VOICE', 'nb-NO-Wavenet-F'),
 };

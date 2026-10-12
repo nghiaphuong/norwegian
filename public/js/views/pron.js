@@ -59,6 +59,7 @@ export async function render(main, params, query) {
   setTimeout(() => {
     const n = $('#pnotice', main); if (!n) return;
     if (!tts.supported) { n.textContent = t('Trình duyệt này không đọc được văn bản thành tiếng. Hãy dùng Chrome, Edge hoặc Safari.'); n.hidden = false; }
+    else if (!tts.hasNorwegian() && tts.mode() === 'online') { n.className = 'notice info'; n.innerHTML = t('Thiết bị chưa có giọng đọc tiếng Na Uy nên app dùng giọng trực tuyến (cần mạng). Muốn đọc ngoại tuyến, hãy cài giọng Na Uy cho thiết bị:') + ' ' + t('<b>Windows:</b> Cài đặt → Thời gian và ngôn ngữ → Giọng nói → thêm “Norsk bokmål”. <b>iPhone:</b> Cài đặt → Trợ năng → Nội dung được đọc → Giọng nói → Norsk. <b>Android:</b> Cài đặt → Chuyển văn bản thành giọng nói → tải tiếng Na Uy.'); n.hidden = false; }
     else if (!tts.hasNorwegian()) { n.innerHTML = t('Chưa tìm thấy giọng đọc tiếng Na Uy trên thiết bị nên phát âm có thể sai. <b>Windows:</b> Cài đặt → Thời gian và ngôn ngữ → Giọng nói → thêm “Norsk bokmål”. <b>iPhone:</b> Cài đặt → Trợ năng → Nội dung được đọc → Giọng nói → Norsk. <b>Android:</b> Cài đặt → Chuyển văn bản thành giọng nói → tải tiếng Na Uy. Chrome trên máy tính thường có sẵn giọng Google norsk.'); n.hidden = false; }
   }, 1500);
 
@@ -79,7 +80,7 @@ export async function render(main, params, query) {
       </div>
       <div style="display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;align-items:center" class="muted small">
         <label style="display:flex;gap:8px;align-items:center">${t('Tốc độ')} <input type="range" id="prate" min="0.4" max="1.2" step="0.05" value="${st.settings.rate}" style="accent-color:var(--deep)"> <span id="prv">${st.settings.rate}×</span></label>
-        <label style="display:flex;gap:8px;align-items:center">${t('Giọng')} <select id="pvoice" style="width:auto;padding:5px 8px">${voices.length ? voices.map(v => `<option ${tts.current() === v ? 'selected' : ''}>${esc(v.name)}</option>`).join('') : `<option>${t('Giọng mặc định')}</option>`}</select></label>
+        <label style="display:flex;gap:8px;align-items:center">${t('Giọng')} <select id="pvoice" style="width:auto;padding:5px 8px">${tts.mode() === 'online' ? `<option>${t('Giọng trực tuyến')}</option>` : voices.length ? voices.map(v => `<option ${tts.current() === v ? 'selected' : ''}>${esc(v.name)}</option>`).join('') : `<option>${t('Giọng mặc định')}</option>`}</select></label>
       </div>
       <div class="section-title"><h2>${t('Từng từ')}</h2></div><p class="muted small" style="margin:-4px 0 10px">${t('Chạm vào một từ để nghe riêng từ đó.')}</p><div class="words" id="pwords"></div>
       <div class="section-title"><h2>${t('Mẹo đọc')}</h2></div><ul class="hints" id="phints"></ul>

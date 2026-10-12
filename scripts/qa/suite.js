@@ -22,6 +22,9 @@ await waitFor(() => $('#sideNav a') || $('#tabbar a'), 8000, 'app không khởi 
 const { mean, lang } = await import('/js/i18n.js');
 const { store } = await import('/js/store.js');
 const appMod = await import('/js/app.js');
+// Bộ kiểm thử làm bài rất nhanh: dùng giọng thiết bị để không gửi hàng trăm yêu cầu đọc/phút tới máy chủ TTS
+// (giọng trực tuyến có bài kiểm tra riêng: scripts/qa/voice.js).
+store.s.settings.voiceMode = 'device'; store.save(true);
 
 // ---------- Bộ giải bài tập ----------
 async function solve(max = 160) {
