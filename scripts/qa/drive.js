@@ -91,6 +91,7 @@ async function runBidi(code) {
   let res;
   try { res = B.kind === 'cdp' ? await runCdp(code) : await runBidi(code); } catch (e) { res = { error: e.message }; }
   console.log(JSON.stringify({ browser: name, mobile, ...res }, null, 1));
-  try { proc.kill(); } catch (e) { /* */ }
+  // Dừng cả cây tiến trình (trình duyệt sinh nhiều tiến trình con, nhất là trên Windows).
+  try { if (process.platform === 'win32') require('child_process').execSync(`taskkill /PID ${proc.pid} /T /F`, { stdio: 'ignore' }); else proc.kill('SIGKILL'); } catch (e) { /* */ }
   setTimeout(() => { try { fs.rmSync(profile, { recursive: true, force: true }); } catch (e) { /* */ } process.exit(0); }, 2000);
 })();
