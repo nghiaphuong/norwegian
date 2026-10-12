@@ -585,3 +585,18 @@ body.no-rail .main { margin-right: 0; }
   .node.locked { box-shadow: 0 6px 0 rgba(0, 0, 0, .15); }
   .stat.flame svg, .flame svg { color: var(--line); }
 }
+
+/* ===== Trang đọc truyện (trong bố cục thường, giữ điều hướng) ===== */
+.story-page { padding-bottom: 0; }
+.story-bar { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 14px; padding: 12px 0; background: var(--bg); }
+.story-bar .progress { flex: 1; height: 10px; }
+.story-head { text-align: center; margin: 10px 0 22px; }
+.story-emoji { font-size: 3rem; line-height: 1.1; }
+.story-head h1 { font-size: clamp(1.5rem, 4vw, 2rem); margin-top: 6px; }
+.story-foot { position: sticky; bottom: 0; z-index: 5; display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 24px -24px 0; padding: 14px 24px calc(14px + var(--sab)); background: var(--surface); border-top: 2px solid var(--line); }
+.story-foot .btn { min-width: 150px; min-height: 48px; }
+@media (max-width: 767px) {
+  .story-bar { top: calc(var(--top) + var(--sat)); }
+  .story-foot { bottom: calc(var(--tab) + var(--sab)); margin: 20px -16px 0; padding: 12px 16px; }
+  .story-foot .btn { flex: 1; }
+}

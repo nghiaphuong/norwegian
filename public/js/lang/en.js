@@ -243,6 +243,7 @@ export default {
   'Thiết bị chưa có giọng đọc tiếng Na Uy nên app dùng giọng trực tuyến (cần mạng). Muốn đọc ngoại tuyến, hãy cài giọng Na Uy cho thiết bị:': 'This device has no Norwegian voice, so the app uses an online voice (internet required). To listen offline, install a Norwegian voice:',
   '<b>Windows:</b> Cài đặt → Thời gian và ngôn ngữ → Giọng nói → thêm “Norsk bokmål”. <b>iPhone:</b> Cài đặt → Trợ năng → Nội dung được đọc → Giọng nói → Norsk. <b>Android:</b> Cài đặt → Chuyển văn bản thành giọng nói → tải tiếng Na Uy.': '<b>Windows:</b> Settings → Time & language → Speech → add “Norsk bokmål”. <b>iPhone:</b> Settings → Accessibility → Spoken Content → Voices → Norwegian. <b>Android:</b> Settings → Text-to-speech → download Norwegian.',
 
+  'Tiến độ': 'Progress', '{n} dòng': ['{n} line', '{n} lines'],
   // ---- Cặp âm (nhóm) ----
   'Nguyên âm dài / ngắn': 'Long / short vowel', 'Thanh 1 / thanh 2': 'Tone 1 / tone 2', 'u dài / ngắn': 'long / short u',
 };

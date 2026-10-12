@@ -62,7 +62,7 @@ async function router() {
   tts.stop();
   hidePop();
   const main = $('#main');
-  const full = route === 'learn' || (route === 'stories' && params[0]);
+  const full = route === 'learn';
   if (!full) lastPage = location.hash || '#/';
   document.body.classList.toggle('in-player', full);
   document.body.classList.toggle('no-rail', route === 'admin');

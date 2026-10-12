@@ -24,13 +24,16 @@ export async function render(main, params) {
   let i = -1; let correct = 0; let asked = 0; const autoplay = store.s.settings.autoplay;
   const qs = [...(s.questions || [])].map(q => ({ ...q })).sort((a, b) => a.after - b.after);
 
-  main.innerHTML = `<div class="player">
-    <div class="p-top"><a class="icon-btn" href="#/stories" style="border:0;background:none;color:var(--muted)" aria-label="${t('Thoát')}">${ICON.x}</a>
-      <div class="progress"><div id="sb" style="width:0"></div></div>
-      <label class="toggle"><input type="checkbox" id="svi" checked> ${t('Nghĩa')}</label></div>
-    <div class="p-body"><div style="text-align:center;margin-bottom:18px"><div style="font-size:3rem">${s.icon || '📖'}</div><h2 lang="nb">${esc(s.title)}</h2><p class="muted">${esc(subtitle(s))}</p></div>
-      <div class="story-body" id="sl"></div></div>
-    <div class="p-foot"><div class="p-foot-in"><span class="muted small" id="sinfo"></span><button class="btn primary" id="snext">${t('Bắt đầu')}</button></div></div></div>`;
+  main.innerHTML = `<div class="page story-page">
+    <div class="story-bar">
+      <a class="btn small" href="#/stories">${ICON.back} ${t('Truyện')}</a>
+      <div class="progress" aria-label="${t('Tiến độ')}"><div id="sb" style="width:0"></div></div>
+      <label class="toggle"><input type="checkbox" id="svi" checked> ${t('Nghĩa')}</label>
+    </div>
+    <div class="story-head"><div class="story-emoji">${s.icon || '📖'}</div><h1 lang="nb">${esc(s.title)}</h1><p class="muted">${esc(subtitle(s))} · ${esc(s.level)}</p></div>
+    <div class="story-body" id="sl"></div>
+    <div class="story-foot"><span class="muted small" id="sinfo">${t('{n} dòng', { n: s.lines.length })}</span><button class="btn primary" id="snext">${t('Bắt đầu')}</button></div>
+  </div>`;
   const list = $('#sl', main); const nextBtn = $('#snext', main);
   $('#svi', main).onchange = e => list.classList.toggle('hide-vi', !e.target.checked);
 
@@ -79,7 +82,7 @@ export async function render(main, params) {
     const div = document.createElement('div');
     div.className = 'done-screen';
     div.innerHTML = `<div class="big">📖</div><h2>${t('Hết truyện!')}</h2><div class="result-boxes"><div class="rbox"><small>XP</small><b>⚡ ${xp}</b></div><div class="rbox ok"><small>${t('Trả lời đúng')}</small><b>${correct}/${asked}</b></div></div>`;
-    list.appendChild(div); div.scrollIntoView({ behavior: 'smooth' });
+    list.appendChild(div); div.scrollIntoView({ behavior: 'smooth', block: 'center' });
     nextBtn.textContent = t('Xong'); nextBtn.dataset.done = '1';
     nextBtn.onclick = () => { go('stories'); setTimeout(showNewBadges, 300); };
   }
