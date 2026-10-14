@@ -193,6 +193,11 @@ label.field { display: flex; flex-direction: column; gap: 6px; font-size: .88rem
 .board li:nth-child(1) .rank { color: var(--gold); }
 .board .nm { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .board.mini li { padding: 5px 6px; font-size: .9rem; }
+.board li.gap { justify-content: center; padding: 0; color: var(--muted); line-height: 1; }
+.board-tabs { display: flex; flex-wrap: nowrap; width: 100%; margin-bottom: 6px; }
+.board-tabs button { flex: 1; min-width: 0; padding: 8px 4px; }
+.board-tabs.sm button { padding: 5px 4px; font-size: .8rem; }
+.board-note { margin: 0 0 8px; }
 
 /* ===== Hôm nay ===== */
 .hero { display: grid; grid-template-columns: 1fr auto; gap: 20px; align-items: center; background: linear-gradient(135deg, var(--deep), color-mix(in srgb, var(--deep) 70%, var(--navy))); color: #fff; border-radius: 20px; padding: 24px; position: relative; overflow: hidden; }

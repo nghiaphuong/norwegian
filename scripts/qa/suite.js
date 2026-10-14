@@ -237,6 +237,8 @@ if (!MOBILE) {
   await test('Bảng xếp hạng & cột phải', async () => {
     await go('', 800); await waitFor(() => $('#railBoard .board') || innerWidth < 1280, 5000, 'bảng xếp hạng không hiện');
     const r = await api('/leaderboard'); assert(r.d.rows.some(x => x.me), 'không thấy chính mình');
+    for (const p of ['month', 'year', 'all']) { const q = await api('/leaderboard?period=' + p); assert(q.d.period === p && q.d.rows.some(x => x.me), 'bảng ' + p + ' thiếu chính mình'); }
+    const all = (await api('/leaderboard?period=all')).d.rows.find(x => x.me); assert(all.xp >= r.d.rows.find(x => x.me).xp, 'tổng XP nhỏ hơn XP tuần');
   });
   await test('Đổi tên hiển thị', async () => {
     await go('me', 500); typeInto($('#pname'), 'QA Admin ' + BR); $('#psave').click(); await sleep(400);

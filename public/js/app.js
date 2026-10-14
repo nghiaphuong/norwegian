@@ -130,18 +130,55 @@ async function renderRail(route) {
     <p class="muted small">${xp}/${goal} XP${pct >= 100 ? ` · ${t('Đã hoàn thành')} 🎉` : ''}</p>
   </section>
   ${due ? `<section class="card cta-card"><h3>${t('{n} thẻ đến hạn ôn', { n: due })}</h3><p class="muted small">${t('Ôn đúng lúc giúp nhớ lâu gấp nhiều lần.')}</p><a class="btn primary block" href="#/review">${t('Ôn ngay')}</a></section>` : ''}`;
-  if (app.config.db) html += `<section class="card" id="railBoard"><div class="card-head"><h3>${t('Bảng xếp hạng tuần')}</h3><a href="#/me?tab=board" class="link">${t('Xem')}</a></div><p class="muted small">${t('Đang tải…')}</p></section>`;
+  if (app.config.db) html += `<section class="card" id="railBoard"><div class="card-head"><h3>${t('Bảng xếp hạng')}</h3><a href="#/me?tab=board" class="link">${t('Xem')}</a></div><div id="railBoardBody"></div></section>`;
   if (!store.user && app.config.db) html += `<section class="card"><h3>${t('Lưu tiến độ trên mọi thiết bị')}</h3><p class="muted small">${t('Tạo tài khoản để đồng bộ giữa điện thoại và máy tính.')}</p><a class="btn block" href="#/me">${t('Đăng nhập / Đăng ký')}</a></section>`;
   rail.innerHTML = html;
-  if (app.config.db) {
+  if (app.config.db) mountBoard($('#railBoardBody'), { limit: 5 });
+}
+
+// ---------- Bảng xếp hạng: tuần / tháng / năm / tổng (dùng chung cho cột phải và Hồ sơ) ----------
+const BOARD = {
+  week: ['Tuần', 'Làm mới mỗi thứ Hai', 'Tuần này chưa có ai ghi điểm.'],
+  month: ['Tháng', 'Làm mới ngày 1 hằng tháng', 'Tháng này chưa có ai ghi điểm.'],
+  year: ['Năm', 'Làm mới ngày 1 tháng 1', 'Năm nay chưa có ai ghi điểm.'],
+  all: ['Tổng', 'Tổng XP từ trước đến nay', 'Chưa có ai ghi điểm.'],
+};
+let boardPeriod = (() => { try { return localStorage.getItem('norsk-board'); } catch { return null; } })();
+if (!BOARD[boardPeriod]) boardPeriod = 'week';
+
+export function mountBoard(el, { limit = 30 } = {}) {
+  if (!el) return;
+  const mini = limit < 30;
+  el.innerHTML = `<div class="seg board-tabs${mini ? ' sm' : ''}" role="group" aria-label="${t('Bảng xếp hạng')}">${Object.entries(BOARD).map(([k, [l]]) => `<button data-p="${k}" aria-pressed="${k === boardPeriod}">${t(l)}</button>`).join('')}</div>
+    <p class="muted small board-note"></p><div class="board-body"><p class="muted small">${t('Đang tải…')}</p></div>`;
+  let seq = 0;
+  const load = async () => {
+    const p = boardPeriod, my = ++seq;
+    el.querySelector('.board-note').textContent = t(BOARD[p][1]);
+    const body = el.querySelector('.board-body');
     try {
-      const d = await api('/leaderboard');
-      const el = $('#railBoard'); if (!el) return;
-      el.querySelector('p').outerHTML = d.rows.length
-        ? `<ol class="board mini">${d.rows.slice(0, 5).map((r, i) => `<li class="${r.me ? 'me' : ''}"><span class="rank">${i + 1}</span><span class="nm">${esc(r.name)}</span><b>${r.xp} XP</b></li>`).join('')}</ol>`
-        : `<p class="muted small">${t('Chưa có ai ghi điểm tuần này. Hãy là người đầu tiên!')}</p>`;
-    } catch (e) { /* bỏ qua */ }
-  }
+      const d = await api('/leaderboard?period=' + p);
+      if (my !== seq || !el.isConnected) return;
+      const row = (rank, r) => `<li class="${r.me ? 'me' : ''}"><span class="rank">${!mini && rank <= 3 ? ['🥇', '🥈', '🥉'][rank - 1] : rank}</span><span class="nm">${esc(r.name)}</span><b>${r.xp.toLocaleString(locale())} XP</b></li>`;
+      let html = d.rows.slice(0, limit).map((r, i) => row(i + 1, r)).join('');
+      // Mình nằm ngoài danh sách đang hiện: thêm một dòng hạng của mình ở cuối.
+      const meIdx = d.rows.findIndex(r => r.me);
+      const extra = meIdx >= limit ? { rank: meIdx + 1, xp: d.rows[meIdx].xp } : d.mine;
+      if (extra) html += `<li class="gap" aria-hidden="true">…</li>` + row(extra.rank, { me: true, name: store.user?.name || t('Bạn'), xp: extra.xp });
+      body.innerHTML = d.rows.length
+        ? `<ol class="board${mini ? ' mini' : ''}">${html}</ol>`
+        : `<p class="muted small">${t(BOARD[p][2])}${mini ? ' ' + t('Hãy là người đầu tiên!') : ''}</p>`;
+      if (!mini && !store.user) body.insertAdjacentHTML('beforeend', `<p class="muted small" style="margin-top:8px">${t('Đăng nhập để có tên trên bảng xếp hạng.')}</p>`);
+    } catch (e) { if (my === seq) body.innerHTML = `<p class="muted small">${t('Không tải được bảng xếp hạng.')}</p>`; }
+  };
+  el.querySelector('.board-tabs').onclick = e => {
+    const b = e.target.closest('[data-p]'); if (!b || b.dataset.p === boardPeriod) return;
+    boardPeriod = b.dataset.p;
+    try { localStorage.setItem('norsk-board', boardPeriod); } catch { /* bỏ qua */ }
+    el.querySelectorAll('[data-p]').forEach(x => x.setAttribute('aria-pressed', x === b));
+    load();
+  };
+  load();
 }
 
 // ---------- Chạm từ để xem nghĩa ----------

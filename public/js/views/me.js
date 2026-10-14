@@ -1,7 +1,7 @@
 // Hồ sơ: tài khoản, thống kê, bảng xếp hạng, huy hiệu, cài đặt, sao lưu dữ liệu.
 import { $, $$, esc, ICON, api, toast } from '../ui.js';
 import { store, BADGES } from '../store.js';
-import { app, switchLang } from '../app.js';
+import { app, switchLang, mountBoard } from '../app.js';
 import { tts } from '../speech.js';
 import { getCourse, progress } from '../course.js';
 import { t, lang, locale } from '../i18n.js';
@@ -39,7 +39,7 @@ export async function render(main, params, query) {
       <div class="sbox"><b>${Object.keys(s.grammar).length}</b><small>${t('bài ngữ pháp')}</small></div>
     </div>
 
-    ${app.config.db ? `<div class="section-title"><h2>${t('Bảng xếp hạng tuần')}</h2><span class="muted small">${t('Làm mới mỗi thứ Hai')}</span></div><section class="card" id="board"><p class="muted small">${t('Đang tải…')}</p></section>` : ''}
+    ${app.config.db ? `<div class="section-title"><h2>${t('Bảng xếp hạng')}</h2></div><section class="card" id="board"></section>` : ''}
 
     <div class="section-title"><h2>${t('Huy hiệu')}</h2><span class="muted small">${Object.keys(BADGES).filter(k => s.badges[k]).length}/${Object.keys(BADGES).length}</span></div>
     <div class="badges">${Object.entries(BADGES).map(([k, [ic, ti, d]]) => `<div class="badge ${s.badges[k] ? '' : 'locked'}" title="${esc(t(d))}"><span>${ic}</span><b>${esc(t(ti))}</b><small>${esc(t(d))}</small></div>`).join('')}</div>
@@ -102,13 +102,7 @@ export async function render(main, params, query) {
   if (pp) pp.onclick = async () => { try { await api('/auth/password', { body: { old: $('#pold', main).value, password: $('#pnew', main).value } }); toast(t('Đã đổi mật khẩu'), 'ok'); $('#pold', main).value = ''; $('#pnew', main).value = ''; } catch (e) { toast(e.message, 'bad'); } };
 
   // ---------- Bảng xếp hạng ----------
-  if (app.config.db) {
-    api('/leaderboard').then(d => {
-      const el = $('#board', main); if (!el) return;
-      el.innerHTML = d.rows.length ? `<ol class="board">${d.rows.map((r, i) => `<li class="${r.me ? 'me' : ''}"><span class="rank">${i < 3 ? ['🥇', '🥈', '🥉'][i] : i + 1}</span><span class="nm">${esc(r.name)}</span><b>${r.xp} XP</b></li>`).join('')}</ol>` : `<p class="muted small">${t('Tuần này chưa có ai ghi điểm.')}</p>`;
-      if (!store.user) el.insertAdjacentHTML('beforeend', `<p class="muted small" style="margin-top:8px">${t('Đăng nhập để có tên trên bảng xếp hạng.')}</p>`);
-    }).catch(() => {});
-  }
+  if (app.config.db) mountBoard($('#board', main));
 
   // ---------- Cài đặt ----------
   const set = (k, v) => { s.settings[k] = v; store.save(); };

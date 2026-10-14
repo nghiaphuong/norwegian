@@ -109,24 +109,47 @@ router.put('/state', needDb, requireUser, express.json({ limit: '4mb' }), wrap(a
   const json = JSON.stringify(state);
   if (json.length > 3.5e6) return res.status(413).json({ error: tr(req, 'Dữ liệu quá lớn') });
   await db.q('INSERT INTO user_state (user_id, state) VALUES (?, ?) ON DUPLICATE KEY UPDATE state = VALUES(state)', [req.userId, json]);
-  // XP theo ngày cho bảng xếp hạng (chỉ 14 ngày gần nhất).
-  const days = Object.entries(state.xpByDay || {}).filter(([d]) => /^\d{4}-\d{2}-\d{2}$/.test(d)).sort().slice(-14);
-  for (const [day, xp] of days) {
-    await db.q('INSERT INTO xp_daily (user_id, day, xp) VALUES (?,?,?) ON DUPLICATE KEY UPDATE xp = GREATEST(xp, VALUES(xp))', [req.userId, day, Math.min(100000, Math.max(0, parseInt(xp, 10) || 0))]);
+  // XP theo ngày cho bảng xếp hạng tuần/tháng/năm/tổng – ghi toàn bộ lịch sử bằng một câu lệnh.
+  const days = Object.entries(state.xpByDay || {}).filter(([d]) => /^\d{4}-\d{2}-\d{2}$/.test(d)).sort().slice(-5000);
+  if (days.length) {
+    await db.q(`INSERT INTO xp_daily (user_id, day, xp) VALUES ${days.map(() => '(?,?,?)').join(',')} ON DUPLICATE KEY UPDATE xp = GREATEST(xp, VALUES(xp))`,
+      days.flatMap(([day, xp]) => [req.userId, day, Math.min(100000, Math.max(0, parseInt(xp, 10) || 0))]));
   }
   res.json({ ok: true });
 }));
 
-// ---------- Bảng xếp hạng tuần ----------
+// ---------- Bảng xếp hạng: tuần / tháng / năm / tổng ----------
+const PERIODS = ['week', 'month', 'year', 'all'];
+function periodStart(period) {
+  const d = new Date();
+  if (period === 'week') d.setDate(d.getDate() - ((d.getDay() + 6) % 7));
+  else if (period === 'month') d.setDate(1);
+  else if (period === 'year') d.setMonth(0, 1);
+  else return '1970-01-01';
+  return d.toLocaleDateString('sv-SE');
+}
 router.get('/leaderboard', needDb, wrap(async (req, res) => {
-  const now = new Date();
-  const monday = new Date(now); monday.setDate(now.getDate() - ((now.getDay() + 6) % 7));
-  const from = monday.toLocaleDateString('sv-SE');
+  const period = PERIODS.includes(req.query.period) ? req.query.period : 'week';
+  const from = periodStart(period);
   const rows = await db.q(
-    `SELECT u.id, u.display_name name, COALESCE(SUM(x.xp),0) xp FROM users u
-     LEFT JOIN xp_daily x ON x.user_id = u.id AND x.day >= ?
-     GROUP BY u.id HAVING xp > 0 ORDER BY xp DESC LIMIT 30`, [from]);
-  res.json({ from, rows: rows.map(r => ({ ...r, xp: Number(r.xp), me: r.id === req.userId })) });
+    `SELECT u.id, u.display_name name, SUM(x.xp) xp FROM users u
+     JOIN xp_daily x ON x.user_id = u.id AND x.day >= ?
+     WHERE u.is_disabled = 0
+     GROUP BY u.id, u.display_name HAVING xp > 0 ORDER BY xp DESC, u.id LIMIT 30`, [from]);
+  const out = rows.map(r => ({ name: r.name, xp: Number(r.xp), me: r.id === req.userId }));
+  // Hạng của chính mình khi nằm ngoài top 30.
+  let mine = null;
+  if (req.userId && !out.some(r => r.me)) {
+    const [m] = await db.q('SELECT COALESCE(SUM(xp),0) xp FROM xp_daily WHERE user_id = ? AND day >= ?', [req.userId, from]);
+    const xp = Number(m.xp);
+    if (xp > 0) {
+      const [c] = await db.q(
+        `SELECT COUNT(*) n FROM (SELECT x.user_id FROM xp_daily x JOIN users u ON u.id = x.user_id AND u.is_disabled = 0
+         WHERE x.day >= ? GROUP BY x.user_id HAVING SUM(x.xp) > ?) t`, [from, xp]);
+      mine = { rank: Number(c.n) + 1, xp };
+    }
+  }
+  res.json({ period, from, rows: out, mine });
 }));
 
 // ---------- Từ điển & dịch ----------
