@@ -1,8 +1,8 @@
 // Trang quản trị: tổng quan, quản lý người dùng, thống kê từng người, cài đặt đăng ký.
-import { $, $$, esc, ICON, api, toast, modal } from '../ui.js';
+import { $, $$, esc, ICON, api, toast, modal, loadData } from '../ui.js';
 import { store, BADGES } from '../store.js';
 import { go } from '../app.js';
-import { getCourse } from '../course.js';
+import { getCourse, LEVELS } from '../course.js';
 import { t, L, mean, locale } from '../i18n.js';
 
 const num = n => (n === null || n === undefined ? '–' : Number(n).toLocaleString(locale()));
@@ -208,15 +208,23 @@ async function deleteUser(u, onDone) {
 
 // ---------- Chi tiết một người dùng ----------
 async function renderUser(el, id) {
-  const [d, course] = await Promise.all([api(`/admin/users/${id}`), getCourse()]);
+  const [d, course, storiesData, grammarData] = await Promise.all([api(`/admin/users/${id}`), getCourse(), loadData('stories'), loadData('grammar')]);
+  const totalLessons = course.flat.filter(l => !l.checkpoint).length;
   const u = d.user; const S = u.stats;
   const self = u.id === store.user.id;
   const sb = (v, l) => `<div class="sbox"><b>${v}</b><small>${l}</small></div>`;
-  const unitRows = course.units.map((un, ui) => {
+  const unitRow = (un, ui) => {
     const ls = course.flat.filter(l => l.ui === ui && !l.checkpoint);
     const done = ls.filter(l => (d.lessons[l.id]?.n || 0) > 0).length;
     const best = ls.map(l => d.lessons[l.id]?.best).filter(x => x !== undefined);
     return `<div class="unit-row"><span class="ut">${ui + 1}. ${esc(L(un, 'title'))}</span><div class="progress"><div style="width:${Math.round(done / ls.length * 100)}%;background:${esc(un.color)}"></div></div><span class="muted small">${done}/${ls.length}${best.length ? ` · ${Math.round(best.reduce((a, b) => a + b, 0) / best.length)}%` : ''}</span></div>`;
+  };
+  // Tiến độ nhóm theo cấp; cấp đang học mở sẵn.
+  const curLv = (course.flat.find(l => !l.checkpoint && !(d.lessons[l.id]?.n > 0)) || course.flat[course.flat.length - 1]).unit.level;
+  const unitRows = LEVELS.filter(lv => course.units.some(un => un.level === lv)).map(lv => {
+    const ls = course.flat.filter(l => !l.checkpoint && l.unit.level === lv);
+    const done = ls.filter(l => (d.lessons[l.id]?.n || 0) > 0).length;
+    return `<details class="lv-group" ${lv === curLv ? 'open' : ''}><summary><span class="level-code sm">${lv}</span><div class="progress"><div style="width:${Math.round(done / ls.length * 100)}%"></div></div><span class="muted small">${done}/${ls.length}</span></summary>${course.units.map((un, ui) => (un.level === lv ? unitRow(un, ui) : '')).join('')}</details>`;
   }).join('');
   const dist = S.strengthDist; const distTotal = Math.max(1, dist.reduce((a, b) => a + b, 0));
   const distLabels = [t('Mới'), t('Đang học'), t('Ngắn hạn'), t('Khá vững'), t('Thuộc lâu')];
@@ -243,10 +251,10 @@ async function renderUser(el, id) {
       ${sb(`⚡ ${num(S.totalXp)}`, t('tổng XP · {n} trong 7 ngày', { n: num(S.xp7) }))}
       ${sb(num(S.activeDays), t('ngày có học · từ {d}', { d: S.firstDay ? day(S.firstDay) : '–' }))}
       ${sb(num(S.minutes), t('phút luyện tập'))}
-      ${sb(`${S.lessonsDone}/42`, t('bài học · {n} lượt', { n: S.lessonRuns }))}
+      ${sb(`${S.lessonsDone}/${totalLessons}`, t('bài học · {n} lượt', { n: S.lessonRuns }))}
       ${sb(num(S.cards), t('thẻ từ · {n} đến hạn', { n: S.cardsDue }))}
       ${sb(S.accuracy === null ? '–' : `${S.accuracy}%`, t('trả lời đúng ({n})', { n: num(S.answers) }))}
-      ${sb(`${S.stories}/10 · ${S.grammar}/14`, t('truyện · ngữ pháp'))}
+      ${sb(`${S.stories}/${storiesData.stories.length} · ${S.grammar}/${grammarData.lessons.length}`, t('truyện · ngữ pháp'))}
     </div>
 
     <section class="card" style="margin-top:14px"><div class="card-head"><h3>${t('XP mỗi ngày (60 ngày)')}</h3><span class="muted small">${t('{n} XP trong 30 ngày', { n: num(S.xp30) })}</span></div>${bars(d.series, 'xp', { color: 'var(--bolt)' })}</section>

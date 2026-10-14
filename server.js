@@ -9,7 +9,9 @@ const { attachUser } = require('./src/auth');
 const app = express();
 app.set('trust proxy', 1);
 app.use(compression());
-app.use(express.json({ limit: '1mb' }));
+// /api/state tự giới hạn 4 MB (tiến độ của người học lâu năm có thể vượt 1 MB); các API khác giữ 1 MB.
+const jsonBody = express.json({ limit: '1mb' });
+app.use((req, res, next) => (req.path === '/api/state' ? next() : jsonBody(req, res, next)));
 app.use(cookieParser());
 app.use(attachUser);
 app.use((req, res, next) => {

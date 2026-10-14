@@ -619,3 +619,10 @@ body.no-rail .main { margin-right: 0; }
 .level-title:first-of-type { margin-top: 4px; }
 
 .hero-level { display: inline-block; background: rgba(255, 255, 255, .2); border-radius: 6px; padding: 0 7px; font-weight: 800; font-size: .8rem; margin-right: 4px; vertical-align: 1px; }
+
+.lv-group { border-top: 1px solid var(--line); }
+.lv-group:first-of-type { border-top: 0; }
+.lv-group summary { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 8px 0; cursor: pointer; list-style: none; }
+.lv-group summary::-webkit-details-marker { display: none; }
+.lv-group[open] summary { margin-bottom: 4px; }
+.lv-group .unit-row { padding-left: 6px; }

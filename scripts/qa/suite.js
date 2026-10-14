@@ -55,13 +55,13 @@ if (!MOBILE) {
   await test('Tài nguyên tĩnh (icon, manifest, sw)', async () => {
     for (const u of ['/manifest.webmanifest', '/icons/icon.svg', '/icons/icon-192.png', '/icons/icon-512.png', '/icons/maskable-512.png', '/sw.js', '/data/glossary.json', '/data/course.json', '/data/phrasebook.json', '/data/stories.json', '/data/grammar.json']) { const r = await fetch(u); assert(r.ok, u + ' ' + r.status); }
   });
-  const ROUTES = ['', 'path', 'review', 'review?tab=words', 'review?tab=mistakes', 'dict', 'phrases', 'phrases/intro', 'pron', 'pron?tab=guide', 'pron?tab=pairs', 'stories', 'grammar', 'grammar/g1', 'tutor', 'me', 'more'];
+  const ROUTES = ['', 'path', 'review', 'review?tab=words', 'review?tab=mistakes', 'dict', 'phrases', 'phrases/intro', 'phrases/forhandling', 'phrases/myndighet', 'pron', 'pron?tab=guide', 'pron?tab=pairs', 'stories', 'stories/s17', 'grammar', 'grammar/g1', 'grammar/g20', 'grammar/g30', 'tutor', 'me', 'more'];
   await test('Mọi trang hiển thị, không sót tiếng Việt (EN)', async () => {
     const bad = {};
     for (const r of ROUTES) {
       await go(r, 450);
       assert(!/Không tải được trang này|This page could not be loaded/.test(mainText()), 'lỗi tải trang ' + r);
-      const lines = (mainText() + '\n' + $('#sideNav').innerText + '\n' + $('#rail').innerText).split('\n').filter(l => VI_RE.test(l) && !/Tiếng Việt|Ngôn ngữ|^VI:/.test(l));
+      const lines = (mainText() + '\n' + $('#sideNav').innerText + '\n' + $('#rail').innerText).split('\n').filter(l => VI_RE.test(l.replace(/Phương/g, '')) && !/Tiếng Việt|Ngôn ngữ|^VI:/.test(l));
       if (lines.length) bad[r || 'home'] = lines.slice(0, 3);
     }
     assert(!Object.keys(bad).length, 'còn tiếng Việt: ' + JSON.stringify(bad));
@@ -79,7 +79,7 @@ if (!MOBILE) {
     assert(!fails.length, fails.slice(0, 5).join(' | '));
     return { xp: store.totalXp(), lessonsDone: Object.keys(store.s.lessons).length, cards: Object.keys(store.s.cards).length };
   });
-  await test('Huy hiệu được trao', async () => { assert(store.s.badges['first-lesson'] && store.s.badges['lessons-30'], JSON.stringify(Object.keys(store.s.badges))); });
+  await test('Huy hiệu được trao (kể cả 4 cấp)', async () => { const b = store.s.badges; const miss = ['first-lesson', 'lessons-30', 'level-A1', 'level-A2', 'level-B1', 'level-B2'].filter(k => !b[k]); assert(!miss.length, 'thiếu huy hiệu: ' + miss.join(', ')); });
   await test('Lộ trình: trạng thái nút & hộp thoại bài', async () => {
     await go('path', 500);
     assert($$('.node').length === ids.length, 'số nút ' + $$('.node').length);
@@ -155,6 +155,15 @@ if (!MOBILE) {
     for (let i = 0; i < 20 && $('.opt'); i++) { $('.opt').click(); await sleep(60); $('#qNext')?.click(); await sleep(60); }
     assert($('#qAgain'), 'quiz không kết thúc');
     await go('learn/phrases/kiwi', 400); await solve(); await finishLesson();
+  });
+  await test('Bài tập của mọi chủ đề câu giao tiếp', async () => {
+    const pbd = await (await fetch('/data/phrasebook.json')).json(); const fails = [];
+    for (const tp of pbd.topics) { await go('learn/phrases/' + tp.id, 300); try { await solve(); await finishLesson(); } catch (e) { fails.push(tp.id + ': ' + e.message); location.hash = '#/'; await sleep(300); } }
+    assert(!fails.length, fails.slice(0, 4).join(' | ')); return { topics: pbd.topics.length };
+  });
+  await test('Từ điển: từ B2 (bærekraftig, havbruk)', async () => {
+    for (const w of ['bærekraftig', 'havbruk']) { await go('dict/' + w, 300); await waitFor(() => $$('#online section, #online .card').length, 10000, 'không có kết quả cho ' + w); }
+    await go('dict/en:negotiate', 900); assert($$('.vi-results .row').length, 'en:negotiate không có kết quả');
   });
   await test('Phát âm: gõ câu, mẹo, đánh vần, bảng âm, cặp âm', async () => {
     await go('pron', 400); typeInto($('#ptxt'), 'Hvor er kjøkkenet?'); await sleep(400);
@@ -260,7 +269,7 @@ if (!MOBILE) {
   });
   await test('Quản trị: chi tiết, lọc, sắp xếp, CSV', async () => {
     $$('#ub tr').find(r => r.innerText.includes('qa-admin')).click(); await waitFor(() => $('.admin-user-head'), 5000, 'không mở chi tiết');
-    assert($$('.unit-row').length === 14, 'thiếu tiến độ chương'); assert(!$('[data-act="delete"]'), 'có nút xóa chính mình');
+    assert($$('.unit-row').length === course.units.length, 'thiếu tiến độ chương: ' + $$('.unit-row').length); assert($$('.lv-group').length === 4, 'thiếu nhóm cấp'); assert(!/\/42\b/.test(mainText()), 'còn số 42 cứng'); assert(!$('[data-act="delete"]'), 'có nút xóa chính mình');
     await go('admin/users', 800); $('[data-f="admin"]').click(); await sleep(100); assert($$('#ub tr').every(r => /admin/.test(r.innerText)), 'lọc admin sai');
     $('[data-f="all"]').click(); $('th[data-s="totalXp"]').click(); await sleep(100);
     const csv = await (await fetch('/api/admin/users.csv')).text(); assert(csv.includes(NEWU) && csv.split('\n').length >= 3, 'CSV thiếu');
