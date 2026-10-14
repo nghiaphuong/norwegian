@@ -167,23 +167,23 @@ if (!MOBILE) {
   });
 
   // ================= 6. TRUYỆN & NGỮ PHÁP =================
-  await test('Đọc hết 10 truyện', async () => {
+  await test('Đọc hết các truyện', async () => {
     const st = await (await fetch('/data/stories.json')).json(); const fails = [];
     for (const s of st.stories) {
       await go('stories/' + s.id, 400);
       for (let i = 0; i < 80; i++) { const b = $('#snext'); if (!b || b.dataset.done) break; if (b.disabled) { $('.q-card .opt:not([disabled])')?.click(); await sleep(40); } b.click(); await sleep(35); }
       if (!$('.done-screen')) fails.push(s.id);
     }
-    assert(!fails.length, 'không xong: ' + fails); assert(Object.keys(store.s.stories).length === 10, 'chưa lưu đủ');
+    assert(!fails.length, 'không xong: ' + fails); assert(Object.keys(store.s.stories).length === st.stories.length, 'chưa lưu đủ'); return { stories: st.stories.length };
   });
-  await test('Làm hết 14 bài ngữ pháp', async () => {
-    const fails = [];
-    for (let i = 1; i <= 14; i++) {
+  await test('Làm hết các bài ngữ pháp', async () => {
+    const fails = []; const gr = await (await fetch('/data/grammar.json')).json();
+    for (const gl of gr.lessons) { const i = gl.id.slice(1);
       await go('grammar/g' + i, 400);
       for (let k = 0; k < 10 && !$('#redo'); k++) { $('#gq .opt')?.click(); await sleep(40); $('#gn')?.click(); await sleep(40); }
       if (!$('#redo')) fails.push('g' + i);
     }
-    assert(!fails.length, fails); assert(Object.keys(store.s.grammar).length === 14, 'chưa lưu đủ');
+    assert(!fails.length, fails); assert(Object.keys(store.s.grammar).length === gr.lessons.length, 'chưa lưu đủ'); return { grammar: gr.lessons.length };
   });
 
   // ================= 7. HỒ SƠ & CÀI ĐẶT =================

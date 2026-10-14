@@ -1673,6 +1673,2706 @@
           "explain_en": "“Jeg sender det til dere innen fredag” = I'll send it to you by Friday (innen = by, within)."
         }
       ]
+    },
+    {
+      "id": "s11",
+      "title": "Visning og budrunde",
+      "title_vi": "Đi xem nhà và trả giá",
+      "title_en": "Viewing and bidding round",
+      "level": "B1",
+      "icon": "🏠",
+      "characters": {
+        "Phương": "👨🏻",
+        "Linh": "👩🏻",
+        "Megleren": "🧑🏼‍💼"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "En søndag i april drar Phương og Linh på visning av en treroms leilighet på Tøyen.",
+          "vi": "Một ngày Chủ nhật tháng Tư, Phương và Linh đi xem một căn hộ ba phòng ở Tøyen.",
+          "en": "One Sunday in April, Phương and Linh go to a viewing of a three-room flat in Tøyen."
+        },
+        {
+          "who": "Megleren",
+          "no": "Velkommen! Ta gjerne en salgsoppgave, og si fra hvis dere lurer på noe.",
+          "vi": "Chào mừng anh chị! Cứ lấy một bản thông tin rao bán, và báo tôi nếu anh chị có thắc mắc gì.",
+          "en": "Welcome! Feel free to take a sales prospectus, and let me know if you are wondering about anything."
+        },
+        {
+          "who": "Linh",
+          "no": "Så lyst det er her! Stua er større enn jeg hadde trodd.",
+          "vi": "Ở đây sáng quá! Phòng khách rộng hơn em tưởng.",
+          "en": "It's so bright in here! The living room is bigger than I had thought."
+        },
+        {
+          "who": "Phương",
+          "no": "Ja, men kjøkkenet virker ganske gammelt. Vi må nok pusse det opp etter hvert.",
+          "vi": "Ừ, nhưng nhà bếp có vẻ khá cũ. Chắc mình sẽ phải sửa sang lại dần dần.",
+          "en": "Yes, but the kitchen seems quite old. We'll probably have to renovate it eventually."
+        },
+        {
+          "who": "Phương",
+          "no": "Unnskyld, hvor høye er felleskostnadene, og hva er inkludert i dem?",
+          "vi": "Xin lỗi, phí chung cư hằng tháng là bao nhiêu, và bao gồm những gì?",
+          "en": "Excuse me, how high are the monthly common costs, and what is included in them?"
+        },
+        {
+          "who": "Megleren",
+          "no": "De er på 4200 kroner i måneden, og da er både oppvarming og internett inkludert.",
+          "vi": "Phí là 4200 krone mỗi tháng, đã bao gồm cả sưởi và internet.",
+          "en": "They are 4,200 kroner a month, and that includes both heating and internet."
+        },
+        {
+          "who": "Linh",
+          "no": "Har borettslaget planlagt noen store oppussinger de neste årene?",
+          "vi": "Hợp tác xã nhà ở có dự định sửa chữa lớn nào trong những năm tới không?",
+          "en": "Has the housing cooperative planned any major renovations in the coming years?"
+        },
+        {
+          "who": "Megleren",
+          "no": "Taket ble skiftet i fjor, så det kommer ikke flere store utgifter med det første.",
+          "vi": "Mái nhà đã được thay năm ngoái, nên sắp tới sẽ không có khoản chi lớn nào nữa.",
+          "en": "The roof was replaced last year, so there won't be any more big expenses in the near future."
+        },
+        {
+          "who": "narrator",
+          "no": "Prisantydningen er 4,9 millioner kroner. Om kvelden sitter de hjemme og diskuterer.",
+          "vi": "Giá chào bán là 4,9 triệu krone. Buổi tối họ ngồi ở nhà bàn bạc.",
+          "en": "The asking price is 4.9 million kroner. In the evening they sit at home and discuss it."
+        },
+        {
+          "who": "Phương",
+          "no": "Banken har gitt oss finansieringsbevis på 5,3 millioner, men jeg vil helst ikke strekke oss så langt.",
+          "vi": "Ngân hàng đã cấp cho mình giấy xác nhận tài chính 5,3 triệu, nhưng anh không muốn vươn tới mức đó.",
+          "en": "The bank has given us proof of financing for 5.3 million, but I'd rather not stretch ourselves that far."
+        },
+        {
+          "who": "Linh",
+          "no": "Enig. Hvis vi går over 5,1 millioner, blir det for trangt i budsjettet vårt.",
+          "vi": "Em đồng ý. Nếu mình trả quá 5,1 triệu thì ngân sách sẽ quá eo hẹp.",
+          "en": "Agreed. If we go above 5.1 million, our budget will get too tight."
+        },
+        {
+          "who": "narrator",
+          "no": "Mandag klokka tolv starter budrunden. Phương legger inn et bud på 4,8 millioner.",
+          "vi": "Thứ Hai lúc mười hai giờ, vòng trả giá bắt đầu. Phương đặt giá 4,8 triệu.",
+          "en": "On Monday at twelve, the bidding round starts. Phương places a bid of 4.8 million."
+        },
+        {
+          "who": "Megleren",
+          "no": "Takk for budet. Jeg må dessverre si at en annen budgiver allerede har budt 4,95.",
+          "vi": "Cảm ơn anh đã trả giá. Tiếc là tôi phải báo rằng một người khác đã trả 4,95 rồi.",
+          "en": "Thanks for the bid. Unfortunately I have to tell you that another bidder has already bid 4.95."
+        },
+        {
+          "who": "Phương",
+          "no": "Da øker vi til fem millioner, med akseptfrist klokka to.",
+          "vi": "Vậy chúng tôi tăng lên năm triệu, với hạn chấp nhận là hai giờ.",
+          "en": "Then we'll raise it to five million, with an acceptance deadline of two o'clock."
+        },
+        {
+          "who": "narrator",
+          "no": "Prisen stiger raskt, og etter en time er budet oppe i 5,15 millioner.",
+          "vi": "Giá tăng nhanh, và sau một tiếng đồng hồ, mức giá đã lên tới 5,15 triệu.",
+          "en": "The price rises quickly, and after an hour the bid is up at 5.15 million."
+        },
+        {
+          "who": "Linh",
+          "no": "Det er mer enn vi ble enige om. Jeg synes vi skal stoppe her.",
+          "vi": "Thế là nhiều hơn mức mình đã thống nhất. Em nghĩ mình nên dừng ở đây.",
+          "en": "That's more than we agreed on. I think we should stop here."
+        },
+        {
+          "who": "Phương",
+          "no": "Du har rett. Det er surt, men det kommer flere leiligheter på markedet.",
+          "vi": "Em nói đúng. Hơi tiếc thật, nhưng sẽ còn nhiều căn hộ khác được rao bán.",
+          "en": "You're right. It's a shame, but more flats will come on the market."
+        },
+        {
+          "who": "Megleren",
+          "no": "Jeg skjønner. Dere skal få beskjed hvis den andre budgiveren trekker seg.",
+          "vi": "Tôi hiểu. Tôi sẽ báo anh chị nếu người trả giá kia rút lui.",
+          "en": "I understand. You'll be notified if the other bidder withdraws."
+        }
+      ],
+      "questions": [
+        {
+          "after": 3,
+          "q": "Phương thấy điểm gì chưa tốt ở căn hộ?",
+          "q_en": "What does Phương think is not so good about the flat?",
+          "options": [
+            "Phòng khách quá tối",
+            "Nhà bếp khá cũ",
+            "Căn hộ quá nhỏ"
+          ],
+          "options_en": [
+            "The living room is too dark",
+            "The kitchen is quite old",
+            "The flat is too small"
+          ],
+          "answer": 1,
+          "explain": "“Kjøkkenet virker ganske gammelt” = nhà bếp có vẻ khá cũ. Pusse opp = sửa sang, tân trang.",
+          "explain_en": "“Kjøkkenet virker ganske gammelt” = the kitchen seems quite old. Pusse opp = to renovate."
+        },
+        {
+          "after": 7,
+          "q": "Vì sao sắp tới sẽ không có chi phí lớn?",
+          "q_en": "Why won't there be big expenses in the near future?",
+          "options": [
+            "Vì phí chung cư rất cao",
+            "Vì người môi giới trả tiền",
+            "Vì mái nhà đã được thay năm ngoái"
+          ],
+          "options_en": [
+            "Because the common costs are very high",
+            "Because the agent pays",
+            "Because the roof was replaced last year"
+          ],
+          "answer": 2,
+          "explain": "“Taket ble skiftet i fjor” là câu bị động với ble + phân từ: mái nhà đã được thay.",
+          "explain_en": "“Taket ble skiftet i fjor” is a passive with ble + participle: the roof was replaced."
+        },
+        {
+          "after": 10,
+          "q": "Phương và Linh thống nhất mức giá tối đa là bao nhiêu?",
+          "q_en": "What maximum price do Phương and Linh agree on?",
+          "options": [
+            "5,1 triệu",
+            "5,3 triệu",
+            "4,9 triệu"
+          ],
+          "options_en": [
+            "5.1 million",
+            "5.3 million",
+            "4.9 million"
+          ],
+          "answer": 0,
+          "explain": "“Hvis vi går over 5,1 millioner, blir det for trangt” = nếu vượt 5,1 triệu thì quá eo hẹp. Chú ý đảo ngữ “blir det” sau mệnh đề hvis.",
+          "explain_en": "“Hvis vi går over 5,1 millioner, blir det for trangt” = if we go over 5.1 million, it gets too tight. Note the inversion “blir det” after the hvis clause."
+        },
+        {
+          "after": 13,
+          "q": "“Akseptfrist” nghĩa là gì?",
+          "q_en": "What does “akseptfrist” mean?",
+          "options": [
+            "Giá chào bán",
+            "Phí môi giới",
+            "Thời hạn để người bán chấp nhận giá"
+          ],
+          "options_en": [
+            "The asking price",
+            "The agent's fee",
+            "The deadline for the seller to accept the bid"
+          ],
+          "answer": 2,
+          "explain": "Aksept = sự chấp nhận, frist = thời hạn. Ở Na Uy mỗi lần trả giá đều kèm akseptfrist.",
+          "explain_en": "Aksept = acceptance, frist = deadline. In Norway every bid comes with an akseptfrist."
+        },
+        {
+          "after": 17,
+          "q": "Kết quả vòng trả giá thế nào?",
+          "q_en": "What is the outcome of the bidding round?",
+          "options": [
+            "Họ mua được căn hộ với giá 5 triệu",
+            "Họ dừng lại vì giá vượt mức đã thống nhất",
+            "Người bán hủy việc bán nhà"
+          ],
+          "options_en": [
+            "They buy the flat for 5 million",
+            "They stop because the price exceeds what they agreed",
+            "The seller cancels the sale"
+          ],
+          "answer": 1,
+          "explain": "“Det er mer enn vi ble enige om” = nhiều hơn mức đã thống nhất (å bli enige om = thống nhất về).",
+          "explain_en": "“Det er mer enn vi ble enige om” = it's more than we agreed on (å bli enige om = to agree on)."
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Foreldremøte på skolen",
+      "title_vi": "Họp phụ huynh ở trường",
+      "title_en": "Parents' meeting at school",
+      "level": "B1",
+      "icon": "🏫",
+      "characters": {
+        "Phương": "👨🏻",
+        "Anne": "👩🏼‍🏫",
+        "Siri": "👩🏼"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "Datteren til Phương, Mai, går i fjerde klasse. I kveld er det foreldremøte på skolen hennes.",
+          "vi": "Con gái của Phương, bé Mai, học lớp bốn. Tối nay có họp phụ huynh ở trường của bé.",
+          "en": "Phương's daughter, Mai, is in fourth grade. Tonight there is a parents' meeting at her school."
+        },
+        {
+          "who": "Anne",
+          "no": "Velkommen, alle sammen. Jeg er kontaktlærer for klassen og har gledet meg til å møte dere.",
+          "vi": "Chào mừng tất cả quý phụ huynh. Tôi là giáo viên chủ nhiệm của lớp và rất mong được gặp mọi người.",
+          "en": "Welcome, everyone. I'm the class teacher and have been looking forward to meeting you."
+        },
+        {
+          "who": "Anne",
+          "no": "Først vil jeg si at klassen har kommet godt i gang etter sommerferien.",
+          "vi": "Trước hết tôi muốn nói rằng lớp đã bắt nhịp tốt sau kỳ nghỉ hè.",
+          "en": "First, I want to say that the class has got off to a good start after the summer holidays."
+        },
+        {
+          "who": "Anne",
+          "no": "I år skal elevene lære mer om brøk, og de skal skrive en egen fagtekst om et dyr.",
+          "vi": "Năm nay các em sẽ học thêm về phân số, và mỗi em sẽ tự viết một bài văn chuyên đề về một loài vật.",
+          "en": "This year the pupils will learn more about fractions, and they will each write their own factual text about an animal."
+        },
+        {
+          "who": "Siri",
+          "no": "Hvor mye lekser får de? Sønnen min synes at det har blitt veldig mye i det siste.",
+          "vi": "Các cháu có bao nhiêu bài tập về nhà? Con trai tôi thấy dạo này bài nhiều quá.",
+          "en": "How much homework do they get? My son thinks it has become a lot lately."
+        },
+        {
+          "who": "Anne",
+          "no": "De bør ikke bruke mer enn tretti minutter om dagen. Gi meg beskjed hvis det tar lengre tid.",
+          "vi": "Các em không nên dành quá ba mươi phút mỗi ngày. Hãy báo tôi nếu các cháu mất nhiều thời gian hơn.",
+          "en": "They shouldn't spend more than thirty minutes a day. Let me know if it takes longer."
+        },
+        {
+          "who": "Phương",
+          "no": "Jeg har et spørsmål om skjermbruk. Mai sier at de bruker nettbrett i nesten alle timene.",
+          "vi": "Tôi có một câu hỏi về việc dùng màn hình. Mai kể rằng các cháu dùng máy tính bảng trong gần như mọi tiết học.",
+          "en": "I have a question about screen use. Mai says they use tablets in almost every lesson."
+        },
+        {
+          "who": "Anne",
+          "no": "Det stemmer at vi bruker dem mye, men vi har bestemt at elevene skal lese mer på papir i år.",
+          "vi": "Đúng là chúng tôi dùng nhiều, nhưng chúng tôi đã quyết định năm nay các em sẽ đọc trên giấy nhiều hơn.",
+          "en": "It's true that we use them a lot, but we have decided that the pupils will read more on paper this year."
+        },
+        {
+          "who": "Phương",
+          "no": "Det er jeg glad for å høre. Jeg tror at de konsentrerer seg bedre når de leser en ordentlig bok.",
+          "vi": "Tôi rất mừng khi nghe vậy. Tôi nghĩ các cháu tập trung tốt hơn khi đọc một cuốn sách thật sự.",
+          "en": "I'm glad to hear that. I think they concentrate better when they read a proper book."
+        },
+        {
+          "who": "Siri",
+          "no": "Jeg er enig. Dessuten blir det mindre krangling hjemme om skjermtid.",
+          "vi": "Tôi đồng ý. Hơn nữa ở nhà cũng bớt cãi nhau về thời gian dùng màn hình.",
+          "en": "I agree. Besides, there will be less arguing at home about screen time."
+        },
+        {
+          "who": "Anne",
+          "no": "Så til det sosiale miljøet. Noen elever har følt seg utenfor i friminuttene.",
+          "vi": "Giờ đến môi trường xã hội của lớp. Một số em cảm thấy bị cô lập trong giờ ra chơi.",
+          "en": "Now, the social environment. Some pupils have felt left out during break time."
+        },
+        {
+          "who": "Anne",
+          "no": "Derfor foreslår jeg at vi lager vennegrupper, slik at barna treffes hjemme hos hverandre etter skolen.",
+          "vi": "Vì thế tôi đề xuất chúng ta lập các nhóm bạn, để các cháu gặp nhau ở nhà của nhau sau giờ học.",
+          "en": "That's why I suggest we set up friend groups, so that the children meet at each other's homes after school."
+        },
+        {
+          "who": "Phương",
+          "no": "Det høres fint ut. Vi kan gjerne ha den første gruppa hjemme hos oss.",
+          "vi": "Nghe hay đấy. Nhà chúng tôi sẵn lòng đón nhóm đầu tiên.",
+          "en": "That sounds nice. We'd be happy to host the first group at our place."
+        },
+        {
+          "who": "Siri",
+          "no": "Så hyggelig! Da kan jeg ta ansvar for neste gang.",
+          "vi": "Thật tốt quá! Vậy tôi sẽ lo lần tiếp theo.",
+          "en": "How nice! Then I can take responsibility for the next time."
+        },
+        {
+          "who": "Anne",
+          "no": "Til slutt trenger vi to foreldre som kan være med i FAU, altså foreldrerådets arbeidsutvalg.",
+          "vi": "Cuối cùng, chúng ta cần hai phụ huynh tham gia FAU, tức là ban công tác của hội phụ huynh.",
+          "en": "Finally, we need two parents to join the FAU, that is, the parents' council working committee."
+        },
+        {
+          "who": "Phương",
+          "no": "Jeg kan stille. Jeg har litt bedre tid nå, siden jeg fortsatt søker jobb.",
+          "vi": "Tôi có thể tham gia. Bây giờ tôi có nhiều thời gian hơn một chút, vì tôi vẫn đang tìm việc.",
+          "en": "I can volunteer. I have a bit more time now, since I'm still looking for a job."
+        },
+        {
+          "who": "Anne",
+          "no": "Tusen takk, Phương. Da avslutter vi møtet, og jeg sender et referat på e-post i morgen.",
+          "vi": "Cảm ơn anh Phương rất nhiều. Vậy chúng ta kết thúc buổi họp, và ngày mai tôi sẽ gửi biên bản qua email.",
+          "en": "Thank you so much, Phương. Then we'll end the meeting, and I'll send the minutes by email tomorrow."
+        }
+      ],
+      "questions": [
+        {
+          "after": 3,
+          "q": "Năm nay học sinh sẽ học gì?",
+          "q_en": "What will the pupils learn this year?",
+          "options": [
+            "Phân số và viết bài về một loài vật",
+            "Tiếng Anh và bơi lội",
+            "Lịch sử Na Uy"
+          ],
+          "options_en": [
+            "Fractions and writing a text about an animal",
+            "English and swimming",
+            "Norwegian history"
+          ],
+          "answer": 0,
+          "explain": "“De skal lære mer om brøk” (phân số) và “skrive en egen fagtekst om et dyr”.",
+          "explain_en": "“De skal lære mer om brøk” (fractions) and “skrive en egen fagtekst om et dyr”."
+        },
+        {
+          "after": 5,
+          "q": "Theo cô Anne, học sinh nên làm bài tập về nhà tối đa bao lâu mỗi ngày?",
+          "q_en": "According to Anne, how long should pupils spend on homework each day at most?",
+          "options": [
+            "Một tiếng",
+            "Mười lăm phút",
+            "Ba mươi phút"
+          ],
+          "options_en": [
+            "One hour",
+            "Fifteen minutes",
+            "Thirty minutes"
+          ],
+          "answer": 2,
+          "explain": "“Ikke mer enn tretti minutter om dagen” = không quá ba mươi phút mỗi ngày.",
+          "explain_en": "“Ikke mer enn tretti minutter om dagen” = no more than thirty minutes a day."
+        },
+        {
+          "after": 8,
+          "q": "Phương nghĩ gì về việc đọc trên giấy?",
+          "q_en": "What does Phương think about reading on paper?",
+          "options": [
+            "Đọc trên giấy quá đắt",
+            "Trẻ tập trung tốt hơn khi đọc sách thật",
+            "Máy tính bảng tốt hơn sách"
+          ],
+          "options_en": [
+            "Reading on paper is too expensive",
+            "Children concentrate better with a real book",
+            "Tablets are better than books"
+          ],
+          "answer": 1,
+          "explain": "“De konsentrerer seg bedre” dùng động từ phản thân å konsentrere seg (tập trung).",
+          "explain_en": "“De konsentrerer seg bedre” uses the reflexive verb å konsentrere seg (to concentrate)."
+        },
+        {
+          "after": 12,
+          "q": "Cô Anne đề xuất gì để giúp các em bị cô lập?",
+          "q_en": "What does Anne suggest to help pupils who feel left out?",
+          "options": [
+            "Thêm giờ ra chơi",
+            "Lập các nhóm bạn gặp nhau sau giờ học",
+            "Đổi chỗ ngồi mỗi tuần"
+          ],
+          "options_en": [
+            "More break time",
+            "Friend groups that meet after school",
+            "Changing seats every week"
+          ],
+          "answer": 1,
+          "explain": "“Vennegrupper” = nhóm bạn. Phương còn nhận đón nhóm đầu tiên ở nhà mình.",
+          "explain_en": "“Vennegrupper” = friend groups. Phương even offers to host the first group."
+        },
+        {
+          "after": 15,
+          "q": "Vì sao Phương có thể tham gia FAU?",
+          "q_en": "Why can Phương join the FAU?",
+          "options": [
+            "Vì anh ấy là giáo viên",
+            "Vì vợ anh ấy bận",
+            "Vì anh ấy đang tìm việc nên có nhiều thời gian hơn"
+          ],
+          "options_en": [
+            "Because he is a teacher",
+            "Because his wife is busy",
+            "Because he is job hunting and has more time"
+          ],
+          "answer": 2,
+          "explain": "“Siden jeg fortsatt søker jobb” = vì tôi vẫn đang tìm việc. Siden ở đây nghĩa là “vì”.",
+          "explain_en": "“Siden jeg fortsatt søker jobb” = since I'm still looking for a job. Here siden means “because”."
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "title": "Klimadebatt rundt middagsbordet",
+      "title_vi": "Tranh luận về khí hậu trong bữa tối",
+      "title_en": "Climate debate around the dinner table",
+      "level": "B1",
+      "icon": "🌍",
+      "characters": {
+        "Phương": "👨🏻",
+        "Ingrid": "👩🏼",
+        "Tor": "🧔🏼"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "Phương er invitert på middag hos Ingrid og Tor. Etter hvert begynner de å snakke om klimaet.",
+          "vi": "Phương được mời ăn tối ở nhà Ingrid và Tor. Dần dần họ bắt đầu nói về khí hậu.",
+          "en": "Phương is invited to dinner at Ingrid and Tor's. After a while they start talking about the climate."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Har dere sett at det var den varmeste sommeren som noen gang er målt i Norge?",
+          "vi": "Mọi người có thấy đó là mùa hè nóng nhất từng được đo ở Na Uy không?",
+          "en": "Have you seen that it was the warmest summer ever measured in Norway?"
+        },
+        {
+          "who": "Tor",
+          "no": "Ja, men vi kan ikke redde verden alene. Norge står bare for en liten del av utslippene.",
+          "vi": "Ừ, nhưng mình không thể một mình cứu thế giới. Na Uy chỉ chiếm một phần nhỏ lượng khí thải.",
+          "en": "Yes, but we can't save the world alone. Norway only accounts for a small share of emissions."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Det er for lettvint, Tor. Vi har blitt rike på olje og gass, så vi har et spesielt ansvar.",
+          "vi": "Nói vậy dễ dãi quá, Tor. Mình đã giàu lên nhờ dầu khí, nên mình có trách nhiệm đặc biệt.",
+          "en": "That's too easy, Tor. We have become rich on oil and gas, so we have a special responsibility."
+        },
+        {
+          "who": "Tor",
+          "no": "Men hvis vi slutter å produsere olje i morgen, mister tusenvis av mennesker jobben sin.",
+          "vi": "Nhưng nếu ngày mai mình ngừng khai thác dầu, hàng nghìn người sẽ mất việc.",
+          "en": "But if we stop producing oil tomorrow, thousands of people will lose their jobs."
+        },
+        {
+          "who": "Phương",
+          "no": "Kan jeg skyte inn noe? Jeg tror ikke at det handler om å slutte over natta.",
+          "vi": "Tôi chen vào một chút được không? Tôi không nghĩ vấn đề là dừng lại chỉ sau một đêm.",
+          "en": "Can I chime in? I don't think it's about stopping overnight."
+        },
+        {
+          "who": "Phương",
+          "no": "Norge har kompetanse fra offshore som kan brukes i havvind og grønn skipsfart.",
+          "vi": "Na Uy có chuyên môn từ ngành ngoài khơi, có thể dùng cho điện gió ngoài khơi và vận tải biển xanh.",
+          "en": "Norway has offshore expertise that can be used in offshore wind and green shipping."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Akkurat! Ingeniørene som bygger oljeplattformer, kan like gjerne bygge vindturbiner.",
+          "vi": "Chính xác! Những kỹ sư xây giàn khoan dầu cũng có thể xây tua-bin gió.",
+          "en": "Exactly! The engineers who build oil platforms could just as well build wind turbines."
+        },
+        {
+          "who": "Tor",
+          "no": "Det høres fint ut på papiret, men havvind er fortsatt dyrt og trenger mye subsidier.",
+          "vi": "Trên lý thuyết thì nghe hay đấy, nhưng điện gió ngoài khơi vẫn đắt và cần nhiều trợ cấp.",
+          "en": "It sounds nice on paper, but offshore wind is still expensive and needs a lot of subsidies."
+        },
+        {
+          "who": "Phương",
+          "no": "Det er sant, men det samme ble sagt om solenergi for femten år siden. Nå er den billig.",
+          "vi": "Đúng vậy, nhưng mười lăm năm trước người ta cũng nói thế về năng lượng mặt trời. Giờ nó rẻ rồi.",
+          "en": "That's true, but the same was said about solar power fifteen years ago. Now it's cheap."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Dessuten må vi alle endre vanene våre. Vi kan fly mindre og spise mindre kjøtt.",
+          "vi": "Hơn nữa, tất cả chúng ta đều phải thay đổi thói quen. Mình có thể bay ít hơn và ăn ít thịt hơn.",
+          "en": "Besides, we all have to change our habits. We can fly less and eat less meat."
+        },
+        {
+          "who": "Tor",
+          "no": "Sier du som skal til Thailand i jula?",
+          "vi": "Em nói vậy trong khi Giáng sinh này em sẽ đi Thái Lan à?",
+          "en": "Says the one who's going to Thailand at Christmas?"
+        },
+        {
+          "who": "Ingrid",
+          "no": "Touché. Jeg innrømmer at jeg ikke alltid lever som jeg lærer.",
+          "vi": "Bị bắt bài rồi. Em thừa nhận là em không phải lúc nào cũng làm đúng như mình nói.",
+          "en": "Touché. I admit that I don't always practise what I preach."
+        },
+        {
+          "who": "Phương",
+          "no": "Det gjør ingen av oss. Derfor trenger vi politikk som gjør det grønne valget billigere.",
+          "vi": "Không ai trong chúng ta làm được cả. Vì vậy chúng ta cần chính sách làm cho lựa chọn xanh rẻ hơn.",
+          "en": "None of us do. That's why we need policies that make the green choice cheaper."
+        },
+        {
+          "who": "Phương",
+          "no": "Se på elbilene. Folk kjøpte dem fordi de slapp moms og bompenger, ikke bare for miljøets skyld.",
+          "vi": "Hãy nhìn xe điện mà xem. Người ta mua chúng vì được miễn thuế VAT và phí cầu đường, không chỉ vì môi trường.",
+          "en": "Look at electric cars. People bought them because they were exempt from VAT and tolls, not just for the environment's sake."
+        },
+        {
+          "who": "Tor",
+          "no": "Der har du et poeng. Gulrot fungerer ofte bedre enn pisk.",
+          "vi": "Điểm đó thì anh nói đúng. Củ cà rốt thường hiệu quả hơn cây roi.",
+          "en": "You have a point there. The carrot often works better than the stick."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Så vi er enige om noe likevel! Hvem vil ha mer laks?",
+          "vi": "Vậy rốt cuộc mình cũng đồng ý được một điều! Ai muốn thêm cá hồi nào?",
+          "en": "So we agree on something after all! Who wants more salmon?"
+        },
+        {
+          "who": "Phương",
+          "no": "Gjerne, men bare hvis den er bærekraftig oppdrettet!",
+          "vi": "Có chứ, nhưng chỉ khi nó được nuôi bền vững thôi nhé!",
+          "en": "Yes please, but only if it's sustainably farmed!"
+        }
+      ],
+      "questions": [
+        {
+          "after": 2,
+          "q": "Lập luận của Tor là gì?",
+          "q_en": "What is Tor's argument?",
+          "options": [
+            "Na Uy chỉ chiếm phần nhỏ khí thải toàn cầu",
+            "Mùa hè năm nay rất lạnh",
+            "Na Uy nên ngừng khai thác dầu ngay"
+          ],
+          "options_en": [
+            "Norway accounts for only a small share of global emissions",
+            "This summer was very cold",
+            "Norway should stop producing oil immediately"
+          ],
+          "answer": 0,
+          "explain": "“Norge står bare for en liten del av utslippene” (å stå for = chiếm, chịu trách nhiệm cho).",
+          "explain_en": "“Norge står bare for en liten del av utslippene” (å stå for = to account for)."
+        },
+        {
+          "after": 6,
+          "q": "Theo Phương, chuyên môn ngoài khơi của Na Uy có thể dùng vào việc gì?",
+          "q_en": "According to Phương, what can Norway's offshore expertise be used for?",
+          "options": [
+            "Khai thác thêm dầu",
+            "Du lịch biển",
+            "Điện gió ngoài khơi và vận tải biển xanh"
+          ],
+          "options_en": [
+            "Producing more oil",
+            "Sea tourism",
+            "Offshore wind and green shipping"
+          ],
+          "answer": 2,
+          "explain": "“Kompetanse ... som kan brukes i havvind og grønn skipsfart”: kan brukes là bị động với động từ khuyết thiếu.",
+          "explain_en": "“Kompetanse ... som kan brukes i havvind og grønn skipsfart”: kan brukes is a passive with a modal verb."
+        },
+        {
+          "after": 9,
+          "q": "Phương lấy ví dụ nào để phản bác Tor?",
+          "q_en": "What example does Phương use to counter Tor?",
+          "options": [
+            "Giá dầu",
+            "Năng lượng mặt trời từng đắt nhưng giờ rẻ",
+            "Thủy điện"
+          ],
+          "options_en": [
+            "The oil price",
+            "Solar power used to be expensive but is now cheap",
+            "Hydropower"
+          ],
+          "answer": 1,
+          "explain": "“Det samme ble sagt om solenergi for femten år siden” = người ta cũng nói vậy về điện mặt trời mười lăm năm trước.",
+          "explain_en": "“Det samme ble sagt om solenergi for femten år siden” = the same was said about solar power fifteen years ago."
+        },
+        {
+          "after": 12,
+          "q": "Ingrid thừa nhận điều gì?",
+          "q_en": "What does Ingrid admit?",
+          "options": [
+            "Cô ấy không thích cá hồi",
+            "Cô ấy đã bán xe điện",
+            "Cô ấy không phải lúc nào cũng làm đúng như mình nói"
+          ],
+          "options_en": [
+            "She doesn't like salmon",
+            "She sold her electric car",
+            "She doesn't always practise what she preaches"
+          ],
+          "answer": 2,
+          "explain": "Thành ngữ “leve som man lærer” = sống đúng như mình dạy người khác. Chú ý ikke đứng trước alltid trong mệnh đề phụ: “at jeg ikke alltid lever”.",
+          "explain_en": "The idiom “leve som man lærer” = to practise what you preach. Note ikke comes before the verb in the subordinate clause: “at jeg ikke alltid lever”."
+        },
+        {
+          "after": 15,
+          "q": "“Gulrot fungerer bedre enn pisk” có nghĩa là gì?",
+          "q_en": "What does “gulrot fungerer bedre enn pisk” mean?",
+          "options": [
+            "Khuyến khích hiệu quả hơn trừng phạt",
+            "Nên ăn nhiều rau hơn",
+            "Thuế cao là tốt nhất"
+          ],
+          "options_en": [
+            "Rewards work better than punishment",
+            "We should eat more vegetables",
+            "High taxes are best"
+          ],
+          "answer": 0,
+          "explain": "Gulrot (củ cà rốt) = phần thưởng, pisk (roi) = hình phạt, giống thành ngữ tiếng Anh carrot and stick.",
+          "explain_en": "Gulrot (carrot) = reward, pisk (whip) = punishment, just like the English carrot and stick."
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "title": "En reklamasjon på telefonen",
+      "title_vi": "Gọi điện khiếu nại hàng lỗi",
+      "title_en": "A complaint over the phone",
+      "level": "B1",
+      "icon": "📞",
+      "characters": {
+        "Phương": "👨🏻",
+        "Kundeservice": "👩🏼‍💻"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "For fire måneder siden kjøpte Phương en dyr kaffemaskin på nett. Nå har den sluttet å virke.",
+          "vi": "Bốn tháng trước, Phương mua một chiếc máy pha cà phê đắt tiền trên mạng. Giờ nó đã ngừng hoạt động.",
+          "en": "Four months ago, Phương bought an expensive coffee machine online. Now it has stopped working."
+        },
+        {
+          "who": "Kundeservice",
+          "no": "Du har kommet til kundeservice. Du snakker med Marte, hva kan jeg hjelpe deg med?",
+          "vi": "Anh đã gọi đến bộ phận chăm sóc khách hàng. Tôi là Marte, tôi có thể giúp gì cho anh?",
+          "en": "You've reached customer service. You're speaking with Marte, how can I help you?"
+        },
+        {
+          "who": "Phương",
+          "no": "Hei, jeg ringer fordi kaffemaskinen jeg kjøpte hos dere, har gått i stykker.",
+          "vi": "Chào chị, tôi gọi vì chiếc máy pha cà phê tôi mua bên chị đã bị hỏng.",
+          "en": "Hi, I'm calling because the coffee machine I bought from you has broken down."
+        },
+        {
+          "who": "Kundeservice",
+          "no": "Så kjedelig å høre. Har du ordrenummeret for hånden?",
+          "vi": "Rất tiếc khi nghe vậy. Anh có sẵn mã đơn hàng không?",
+          "en": "Sorry to hear that. Do you have the order number at hand?"
+        },
+        {
+          "who": "Phương",
+          "no": "Ja, det er 48 31 77. Maskinen lekker vann, og den slår seg av etter noen sekunder.",
+          "vi": "Có, là 48 31 77. Máy bị rò nước, và nó tự tắt sau vài giây.",
+          "en": "Yes, it's 48 31 77. The machine leaks water, and it switches itself off after a few seconds."
+        },
+        {
+          "who": "Kundeservice",
+          "no": "Takk. Jeg ser at den ble levert i juni. Har du brukt den slik som det står i bruksanvisningen?",
+          "vi": "Cảm ơn anh. Tôi thấy máy được giao vào tháng Sáu. Anh có dùng đúng như hướng dẫn sử dụng không?",
+          "en": "Thank you. I see that it was delivered in June. Have you used it as described in the user manual?"
+        },
+        {
+          "who": "Phương",
+          "no": "Ja, absolutt. Jeg har til og med avkalket den hver måned, slik produsenten anbefaler.",
+          "vi": "Vâng, chắc chắn rồi. Tôi thậm chí còn tẩy cặn cho máy mỗi tháng, đúng như nhà sản xuất khuyến nghị.",
+          "en": "Yes, absolutely. I've even descaled it every month, as the manufacturer recommends."
+        },
+        {
+          "who": "Kundeservice",
+          "no": "Da kan vi sende den til reparasjon. Det tar vanligvis tre til fire uker.",
+          "vi": "Vậy chúng tôi có thể gửi máy đi sửa. Thường mất khoảng ba đến bốn tuần.",
+          "en": "Then we can send it for repair. It usually takes three to four weeks."
+        },
+        {
+          "who": "Phương",
+          "no": "Fire uker er ganske lenge. Ifølge forbrukerkjøpsloven har jeg vel krav på en ny maskin?",
+          "vi": "Bốn tuần là khá lâu. Theo luật mua bán tiêu dùng thì tôi có quyền được nhận máy mới, đúng không?",
+          "en": "Four weeks is quite long. According to the Consumer Purchases Act, I'm entitled to a new machine, aren't I?"
+        },
+        {
+          "who": "Kundeservice",
+          "no": "Loven sier at selgeren først har rett til å prøve å reparere varen.",
+          "vi": "Luật quy định rằng người bán có quyền thử sửa chữa hàng trước.",
+          "en": "The law says that the seller first has the right to try to repair the item."
+        },
+        {
+          "who": "Kundeservice",
+          "no": "Men hvis den samme feilen oppstår igjen etter reparasjonen, får du en ny maskin eller pengene tilbake.",
+          "vi": "Nhưng nếu lỗi tương tự xảy ra lần nữa sau khi sửa, anh sẽ được đổi máy mới hoặc hoàn tiền.",
+          "en": "But if the same fault occurs again after the repair, you'll get a new machine or your money back."
+        },
+        {
+          "who": "Phương",
+          "no": "Greit, det høres rimelig ut. Kan jeg få låne en maskin mens den er på verksted?",
+          "vi": "Được, nghe cũng hợp lý. Tôi có thể mượn một chiếc máy trong lúc máy của tôi đang được sửa không?",
+          "en": "Okay, that sounds reasonable. Could I borrow a machine while it's at the repair shop?"
+        },
+        {
+          "who": "Kundeservice",
+          "no": "Det tilbyr vi dessverre ikke, men vi dekker selvfølgelig alle fraktkostnadene.",
+          "vi": "Rất tiếc chúng tôi không có dịch vụ đó, nhưng tất nhiên chúng tôi chịu toàn bộ phí vận chuyển.",
+          "en": "Unfortunately we don't offer that, but of course we cover all shipping costs."
+        },
+        {
+          "who": "Phương",
+          "no": "Hvordan sender jeg den til dere? Jeg har ikke beholdt den originale esken.",
+          "vi": "Tôi gửi máy cho bên chị bằng cách nào? Tôi không giữ hộp gốc.",
+          "en": "How do I send it to you? I didn't keep the original box."
+        },
+        {
+          "who": "Kundeservice",
+          "no": "Det gjør ingenting. Pakk den godt inn og lever den på nærmeste postkontor med returlappen vi sender deg.",
+          "vi": "Không sao cả. Anh gói máy cẩn thận rồi gửi ở bưu cục gần nhất với phiếu gửi trả mà chúng tôi sẽ gửi cho anh.",
+          "en": "That's no problem. Wrap it up well and drop it off at the nearest post office with the return label we'll send you."
+        },
+        {
+          "who": "Phương",
+          "no": "Supert. Kan du også bekrefte avtalen skriftlig, slik at jeg har den svart på hvitt?",
+          "vi": "Tuyệt. Chị có thể xác nhận thỏa thuận bằng văn bản để tôi có giấy trắng mực đen không?",
+          "en": "Great. Could you also confirm the agreement in writing, so that I have it in black and white?"
+        },
+        {
+          "who": "Kundeservice",
+          "no": "Selvfølgelig. Du får en e-post med saksnummer og returlapp i løpet av en time.",
+          "vi": "Tất nhiên. Trong vòng một tiếng anh sẽ nhận được email có số hồ sơ và phiếu gửi trả.",
+          "en": "Of course. You'll get an email with a case number and return label within an hour."
+        },
+        {
+          "who": "narrator",
+          "no": "Phương legger på og smiler. Han føler at han klarte samtalen nesten bare på norsk.",
+          "vi": "Phương cúp máy và mỉm cười. Anh cảm thấy mình đã xử lý cuộc gọi gần như hoàn toàn bằng tiếng Na Uy.",
+          "en": "Phương hangs up and smiles. He feels he managed the conversation almost entirely in Norwegian."
+        }
+      ],
+      "questions": [
+        {
+          "after": 4,
+          "q": "Máy pha cà phê bị lỗi gì?",
+          "q_en": "What is wrong with the coffee machine?",
+          "options": [
+            "Cà phê có vị lạ",
+            "Máy rò nước và tự tắt",
+            "Máy kêu quá to"
+          ],
+          "options_en": [
+            "The coffee tastes strange",
+            "It leaks water and switches itself off",
+            "It is too noisy"
+          ],
+          "answer": 1,
+          "explain": "“Maskinen lekker vann, og den slår seg av” (å slå seg av = tự tắt, động từ phản thân).",
+          "explain_en": "“Maskinen lekker vann, og den slår seg av” (å slå seg av = to switch itself off, a reflexive verb)."
+        },
+        {
+          "after": 6,
+          "q": "Phương đã làm gì mỗi tháng?",
+          "q_en": "What has Phương done every month?",
+          "options": [
+            "Tẩy cặn cho máy",
+            "Gọi cho cửa hàng",
+            "Mua cà phê mới"
+          ],
+          "options_en": [
+            "Descaled the machine",
+            "Called the shop",
+            "Bought new coffee"
+          ],
+          "answer": 0,
+          "explain": "“Jeg har til og med avkalket den hver måned”: til og med = thậm chí, avkalke = tẩy cặn vôi.",
+          "explain_en": "“Jeg har til og med avkalket den hver måned”: til og med = even, avkalke = to descale."
+        },
+        {
+          "after": 10,
+          "q": "Theo luật, người bán có quyền gì trước tiên?",
+          "q_en": "According to the law, what right does the seller have first?",
+          "options": [
+            "Từ chối khiếu nại",
+            "Hoàn tiền ngay",
+            "Thử sửa chữa hàng"
+          ],
+          "options_en": [
+            "To reject the complaint",
+            "To refund immediately",
+            "To try to repair the item"
+          ],
+          "answer": 2,
+          "explain": "“Selgeren først har rett til å prøve å reparere varen”. Nếu lỗi tái diễn, khách được đổi mới hoặc hoàn tiền.",
+          "explain_en": "“Selgeren først har rett til å prøve å reparere varen”. If the fault recurs, the customer gets a new one or a refund."
+        },
+        {
+          "after": 13,
+          "q": "Cửa hàng không cung cấp điều gì?",
+          "q_en": "What does the shop not offer?",
+          "options": [
+            "Phí vận chuyển miễn phí",
+            "Máy cho mượn trong lúc sửa",
+            "Phiếu gửi trả"
+          ],
+          "options_en": [
+            "Free shipping",
+            "A loan machine during the repair",
+            "A return label"
+          ],
+          "answer": 1,
+          "explain": "“Det tilbyr vi dessverre ikke”: tân ngữ det đứng đầu câu nên động từ tilbyr đứng thứ hai (V2).",
+          "explain_en": "“Det tilbyr vi dessverre ikke”: the object det comes first, so the verb tilbyr stays in second place (V2)."
+        },
+        {
+          "after": 16,
+          "q": "“Svart på hvitt” có nghĩa là gì?",
+          "q_en": "What does “svart på hvitt” mean?",
+          "options": [
+            "Bằng ảnh chụp",
+            "Qua điện thoại",
+            "Bằng văn bản, rõ ràng"
+          ],
+          "options_en": [
+            "As a photo",
+            "Over the phone",
+            "In writing, clearly documented"
+          ],
+          "answer": 2,
+          "explain": "Thành ngữ “svart på hvitt” (đen trên trắng) giống “giấy trắng mực đen” trong tiếng Việt.",
+          "explain_en": "The idiom “svart på hvitt” (black on white) is like English “in black and white”."
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "title": "Forberedelse til norskprøven",
+      "title_vi": "Buổi học thi norskprøve",
+      "title_en": "Preparing for the Norwegian test",
+      "level": "B1",
+      "icon": "📝",
+      "characters": {
+        "Phương": "👨🏻",
+        "Læreren": "👨🏼‍🏫",
+        "Amira": "🧕🏽"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "Om tre uker skal Phương ta norskprøven på B1-nivå. I dag har klassen en prøvetime.",
+          "vi": "Ba tuần nữa Phương sẽ thi norskprøve trình độ B1. Hôm nay cả lớp có một buổi thi thử.",
+          "en": "In three weeks, Phương will take the Norwegian test at B1 level. Today the class has a practice session."
+        },
+        {
+          "who": "Læreren",
+          "no": "Prøven består av fire deler: lytting, lesing, skriftlig og muntlig. I dag øver vi på den muntlige delen.",
+          "vi": "Bài thi gồm bốn phần: nghe, đọc, viết và nói. Hôm nay chúng ta luyện phần nói.",
+          "en": "The test consists of four parts: listening, reading, writing and speaking. Today we'll practise the oral part."
+        },
+        {
+          "who": "Amira",
+          "no": "Jeg blir så nervøs når jeg må snakke. Da glemmer jeg alle ordene jeg har lært.",
+          "vi": "Em rất hồi hộp khi phải nói. Lúc đó em quên hết các từ đã học.",
+          "en": "I get so nervous when I have to speak. Then I forget all the words I've learned."
+        },
+        {
+          "who": "Læreren",
+          "no": "Det er helt normalt. Husk at sensorene ikke forventer perfekt norsk, men at dere klarer å kommunisere.",
+          "vi": "Điều đó hoàn toàn bình thường. Hãy nhớ rằng giám khảo không đòi hỏi tiếng Na Uy hoàn hảo, mà cần các em giao tiếp được.",
+          "en": "That's completely normal. Remember that the examiners don't expect perfect Norwegian, but that you manage to communicate."
+        },
+        {
+          "who": "Læreren",
+          "no": "Phương, kan du begynne? Fortell om en tradisjon fra hjemlandet ditt og sammenlign den med Norge.",
+          "vi": "Phương, em bắt đầu nhé? Hãy kể về một truyền thống ở quê hương em và so sánh với Na Uy.",
+          "en": "Phương, can you start? Talk about a tradition from your home country and compare it with Norway."
+        },
+        {
+          "who": "Phương",
+          "no": "I Vietnam er nyttår, eller Tết, den viktigste høytiden. Den feires vanligvis i januar eller februar.",
+          "vi": "Ở Việt Nam, năm mới, tức Tết, là dịp lễ quan trọng nhất. Tết thường được tổ chức vào tháng Một hoặc tháng Hai.",
+          "en": "In Vietnam, New Year, or Tết, is the most important holiday. It is usually celebrated in January or February."
+        },
+        {
+          "who": "Phương",
+          "no": "Da reiser folk hjem til familien sin, akkurat som nordmenn gjør i jula.",
+          "vi": "Lúc đó mọi người về quê sum họp gia đình, giống như người Na Uy làm vào dịp Giáng sinh.",
+          "en": "Then people travel home to their families, just as Norwegians do at Christmas."
+        },
+        {
+          "who": "Phương",
+          "no": "En forskjell er at vi gir penger i røde konvolutter i stedet for gaver.",
+          "vi": "Một điểm khác là chúng tôi lì xì tiền trong phong bao đỏ thay vì tặng quà.",
+          "en": "One difference is that we give money in red envelopes instead of presents."
+        },
+        {
+          "who": "Læreren",
+          "no": "Veldig bra! Du brukte både passiv og leddsetninger. Hva synes du selv er vanskeligst med norsk?",
+          "vi": "Rất tốt! Em đã dùng cả câu bị động lẫn mệnh đề phụ. Bản thân em thấy điều gì khó nhất ở tiếng Na Uy?",
+          "en": "Very good! You used both the passive and subordinate clauses. What do you yourself find hardest about Norwegian?"
+        },
+        {
+          "who": "Phương",
+          "no": "Uttalen, særlig tonelaget. Bønder og bønner høres nesten likt ut for meg.",
+          "vi": "Phát âm, đặc biệt là thanh điệu. Với tôi, bønder (nông dân) và bønner (hạt đậu) nghe gần như giống nhau.",
+          "en": "The pronunciation, especially the pitch accent. Bønder and bønner sound almost the same to me."
+        },
+        {
+          "who": "Læreren",
+          "no": "Interessant, siden vietnamesisk også har toner. Nå er det din tur, Amira. Hva gjør du i fritiden?",
+          "vi": "Thú vị thật, vì tiếng Việt cũng có thanh điệu. Giờ đến lượt em, Amira. Em làm gì lúc rảnh?",
+          "en": "Interesting, since Vietnamese also has tones. Now it's your turn, Amira. What do you do in your free time?"
+        },
+        {
+          "who": "Amira",
+          "no": "Jeg ... jeg liker å gå tur i skogen. Før bodde jeg i en stor by, så naturen her var ny for meg.",
+          "vi": "Em ... em thích đi dạo trong rừng. Trước đây em sống ở một thành phố lớn, nên thiên nhiên ở đây rất mới mẻ với em.",
+          "en": "I ... I like walking in the forest. I used to live in a big city, so the nature here was new to me."
+        },
+        {
+          "who": "Læreren",
+          "no": "Flott, Amira! Ser du? Du snakket flytende da du glemte at du var nervøs.",
+          "vi": "Tuyệt lắm, Amira! Thấy chưa? Em nói rất trôi chảy khi quên mất mình đang hồi hộp.",
+          "en": "Great, Amira! See? You spoke fluently when you forgot that you were nervous."
+        },
+        {
+          "who": "Amira",
+          "no": "Takk! Har du noen tips til den skriftlige delen også?",
+          "vi": "Em cảm ơn! Thầy có mẹo nào cho phần viết nữa không ạ?",
+          "en": "Thank you! Do you have any tips for the written part too?"
+        },
+        {
+          "who": "Læreren",
+          "no": "Les oppgaven nøye, lag en kort plan før dere skriver, og sett av fem minutter til å sjekke ordstillingen.",
+          "vi": "Đọc kỹ đề bài, lập dàn ý ngắn trước khi viết, và dành năm phút để kiểm tra trật tự từ.",
+          "en": "Read the task carefully, make a short plan before you write, and set aside five minutes to check the word order."
+        },
+        {
+          "who": "Phương",
+          "no": "Særlig plasseringen av ikke i leddsetninger, ikke sant? Den glemmer jeg ofte.",
+          "vi": "Đặc biệt là vị trí của ikke trong mệnh đề phụ, phải không thầy? Em hay quên điều đó.",
+          "en": "Especially the position of ikke in subordinate clauses, right? I often forget that."
+        },
+        {
+          "who": "Læreren",
+          "no": "Nettopp. Hvis dere øver litt hver dag fram til prøven, kommer dere til å klare dere fint.",
+          "vi": "Chính xác. Nếu các em luyện tập một chút mỗi ngày cho đến kỳ thi, các em sẽ làm tốt thôi.",
+          "en": "Exactly. If you practise a little every day until the test, you're going to do just fine."
+        }
+      ],
+      "questions": [
+        {
+          "after": 1,
+          "q": "Bài thi norskprøve gồm mấy phần?",
+          "q_en": "How many parts does the Norwegian test have?",
+          "options": [
+            "Hai",
+            "Ba",
+            "Bốn"
+          ],
+          "options_en": [
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "answer": 2,
+          "explain": "“Prøven består av fire deler”: å bestå av = gồm có.",
+          "explain_en": "“Prøven består av fire deler”: å bestå av = to consist of."
+        },
+        {
+          "after": 3,
+          "q": "Theo thầy giáo, giám khảo mong đợi điều gì?",
+          "q_en": "According to the teacher, what do the examiners expect?",
+          "options": [
+            "Tiếng Na Uy hoàn hảo",
+            "Thí sinh giao tiếp được",
+            "Thí sinh nói giọng Oslo"
+          ],
+          "options_en": [
+            "Perfect Norwegian",
+            "That candidates can communicate",
+            "That candidates speak with an Oslo accent"
+          ],
+          "answer": 1,
+          "explain": "“Sensorene ikke forventer perfekt norsk, men at dere klarer å kommunisere”.",
+          "explain_en": "“Sensorene ikke forventer perfekt norsk, men at dere klarer å kommunisere”."
+        },
+        {
+          "after": 7,
+          "q": "Phương nêu điểm khác biệt nào giữa Tết và Giáng sinh?",
+          "q_en": "What difference between Tết and Christmas does Phương mention?",
+          "options": [
+            "Người Việt tặng tiền trong phong bao đỏ thay vì quà",
+            "Người Việt không về quê",
+            "Tết diễn ra vào mùa hè"
+          ],
+          "options_en": [
+            "Vietnamese people give money in red envelopes instead of presents",
+            "Vietnamese people don't go home",
+            "Tết takes place in summer"
+          ],
+          "answer": 0,
+          "explain": "“Vi gir penger i røde konvolutter i stedet for gaver”: i stedet for = thay vì.",
+          "explain_en": "“Vi gir penger i røde konvolutter i stedet for gaver”: i stedet for = instead of."
+        },
+        {
+          "after": 10,
+          "q": "Phương thấy điều gì khó nhất ở tiếng Na Uy?",
+          "q_en": "What does Phương find hardest about Norwegian?",
+          "options": [
+            "Ngữ pháp",
+            "Thanh điệu (tonelag)",
+            "Chính tả"
+          ],
+          "options_en": [
+            "Grammar",
+            "The pitch accent (tonelag)",
+            "Spelling"
+          ],
+          "answer": 1,
+          "explain": "Tonelag là ngữ điệu từ: bønder (nông dân) và bønner (hạt đậu) chỉ khác nhau ở cao độ.",
+          "explain_en": "Tonelag is word pitch: bønder (farmers) and bønner (beans) differ only in pitch."
+        },
+        {
+          "after": 15,
+          "q": "Lỗi nào Phương hay mắc khi viết?",
+          "q_en": "Which mistake does Phương often make when writing?",
+          "options": [
+            "Chia sai thì quá khứ",
+            "Quên mạo từ",
+            "Đặt sai vị trí của ikke trong mệnh đề phụ"
+          ],
+          "options_en": [
+            "Wrong past tense forms",
+            "Forgetting articles",
+            "Putting ikke in the wrong place in subordinate clauses"
+          ],
+          "answer": 2,
+          "explain": "Trong mệnh đề phụ, ikke đứng trước động từ: “at jeg ikke glemmer”, không phải “at jeg glemmer ikke”.",
+          "explain_en": "In subordinate clauses, ikke comes before the verb: “at jeg ikke glemmer”, not “at jeg glemmer ikke”."
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "title": "Tur til Lofoten og samisk historie",
+      "title_vi": "Chuyến đi Lofoten và chuyện người Sami",
+      "title_en": "A trip to Lofoten and Sámi history",
+      "level": "B1",
+      "icon": "🏔️",
+      "characters": {
+        "Phương": "👨🏻",
+        "Ingrid": "👩🏼",
+        "Elle": "👩🏼‍🦰"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "I juli reiser Phương og Ingrid til Lofoten. De har leid en rorbu i Reine.",
+          "vi": "Tháng Bảy, Phương và Ingrid đi Lofoten. Họ thuê một căn nhà chài (rorbu) ở Reine.",
+          "en": "In July, Phương and Ingrid travel to Lofoten. They have rented a fisherman's cabin in Reine."
+        },
+        {
+          "who": "Phương",
+          "no": "Jeg hadde sett bilder, men jeg trodde ikke at fjellene var så bratte i virkeligheten.",
+          "vi": "Anh đã xem ảnh rồi, nhưng không ngờ ngoài đời núi lại dốc đứng đến vậy.",
+          "en": "I had seen pictures, but I didn't think the mountains were so steep in real life."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Og det er lyst hele døgnet nå. Midnattssola går ikke ned før i slutten av juli.",
+          "vi": "Mà bây giờ trời sáng suốt cả ngày đêm. Mặt trời nửa đêm phải đến cuối tháng Bảy mới lặn.",
+          "en": "And it's light around the clock now. The midnight sun doesn't set until the end of July."
+        },
+        {
+          "who": "narrator",
+          "no": "Neste dag blir de med på en guidet tur. Guiden heter Elle, og hun er sjøsame.",
+          "vi": "Hôm sau họ tham gia một chuyến tham quan có hướng dẫn viên. Hướng dẫn viên tên Elle, cô là người Sami vùng biển.",
+          "en": "The next day they join a guided tour. The guide is called Elle, and she is a Sea Sámi."
+        },
+        {
+          "who": "Elle",
+          "no": "Mange tror at alle samer driver med reindrift, men her ved kysten levde samene av fiske og jordbruk.",
+          "vi": "Nhiều người nghĩ rằng mọi người Sami đều chăn tuần lộc, nhưng ở vùng ven biển này người Sami sống bằng nghề cá và làm nông.",
+          "en": "Many people think that all Sámi herd reindeer, but here on the coast the Sámi lived from fishing and farming."
+        },
+        {
+          "who": "Phương",
+          "no": "Det visste jeg ikke. Hvor mange samer bor det i Norge i dag?",
+          "vi": "Tôi không biết điều đó. Ngày nay có bao nhiêu người Sami sống ở Na Uy?",
+          "en": "I didn't know that. How many Sámi live in Norway today?"
+        },
+        {
+          "who": "Elle",
+          "no": "Ingen vet det helt sikkert, fordi det ikke registreres etnisitet i Norge. Anslagene ligger på rundt femti tusen.",
+          "vi": "Không ai biết chính xác, vì ở Na Uy không đăng ký sắc tộc. Ước tính vào khoảng năm mươi nghìn người.",
+          "en": "Nobody knows for sure, because ethnicity isn't registered in Norway. Estimates are around fifty thousand."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Snakker du samisk selv?",
+          "vi": "Bản thân chị có nói tiếng Sami không?",
+          "en": "Do you speak Sámi yourself?"
+        },
+        {
+          "who": "Elle",
+          "no": "Jeg har lært det som voksen. Besteforeldrene mine fikk ikke lov til å snakke samisk på skolen.",
+          "vi": "Tôi học khi đã trưởng thành. Ông bà tôi ngày xưa không được phép nói tiếng Sami ở trường.",
+          "en": "I learned it as an adult. My grandparents weren't allowed to speak Sámi at school."
+        },
+        {
+          "who": "Elle",
+          "no": "Det kaltes fornorskingspolitikken. Staten ville at alle skulle bli norske, og mange skammet seg over bakgrunnen sin.",
+          "vi": "Đó gọi là chính sách Na Uy hóa. Nhà nước muốn mọi người đều trở thành người Na Uy, và nhiều người đã xấu hổ về nguồn gốc của mình.",
+          "en": "It was called the Norwegianisation policy. The state wanted everyone to become Norwegian, and many were ashamed of their background."
+        },
+        {
+          "who": "Phương",
+          "no": "Det minner meg om hvordan minoritetsspråk har blitt behandlet i mange andre land også.",
+          "vi": "Điều đó làm tôi nhớ đến cách các ngôn ngữ thiểu số đã bị đối xử ở nhiều nước khác nữa.",
+          "en": "That reminds me of how minority languages have been treated in many other countries too."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Men det har heldigvis blitt bedre. Sametinget ble åpnet i 1989, ikke sant?",
+          "vi": "Nhưng may là mọi chuyện đã tốt hơn. Quốc hội Sami được khánh thành năm 1989, đúng không?",
+          "en": "But luckily things have improved. The Sámi Parliament was opened in 1989, wasn't it?"
+        },
+        {
+          "who": "Elle",
+          "no": "Ja, i Karasjok. Og i 2023 la en sannhets- og forsoningskommisjon fram en stor rapport om urettferdigheten.",
+          "vi": "Đúng, ở Karasjok. Và năm 2023, một ủy ban sự thật và hòa giải đã công bố một báo cáo lớn về những bất công đó.",
+          "en": "Yes, in Karasjok. And in 2023 a truth and reconciliation commission presented a major report on the injustice."
+        },
+        {
+          "who": "Phương",
+          "no": "Hvordan merker du det i hverdagen? Er holdningene annerledes nå?",
+          "vi": "Chị cảm nhận điều đó thế nào trong cuộc sống hằng ngày? Thái độ của mọi người bây giờ có khác không?",
+          "en": "How do you notice it in everyday life? Are attitudes different now?"
+        },
+        {
+          "who": "Elle",
+          "no": "Unge samer er stolte av kulturen sin. De joiker, går med kofte og lager musikk som når ut over hele verden.",
+          "vi": "Người Sami trẻ tự hào về văn hóa của mình. Họ hát joik, mặc áo kofte truyền thống và làm âm nhạc vươn ra toàn thế giới.",
+          "en": "Young Sámi are proud of their culture. They joik, wear the gákti and make music that reaches the whole world."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Vi feirer jo samefolkets dag den sjette februar. Da heises det samiske flagget mange steder.",
+          "vi": "Mình còn kỷ niệm Ngày dân tộc Sami vào mùng sáu tháng Hai. Hôm đó lá cờ Sami được kéo lên ở nhiều nơi.",
+          "en": "We celebrate Sámi National Day on the sixth of February. Then the Sámi flag is raised in many places."
+        },
+        {
+          "who": "Phương",
+          "no": "Takk for at du delte historien din, Elle. Turen ble mye mer enn bare vakker natur.",
+          "vi": "Cảm ơn chị đã chia sẻ câu chuyện của mình, Elle. Chuyến đi đã trở thành nhiều hơn chỉ là phong cảnh đẹp.",
+          "en": "Thank you for sharing your story, Elle. The trip became much more than just beautiful nature."
+        },
+        {
+          "who": "Elle",
+          "no": "Bare hyggelig. Kom gjerne til Riddu Riđđu-festivalen neste sommer, så får dere oppleve kulturen selv.",
+          "vi": "Rất vui được chia sẻ. Hè tới anh chị hãy đến lễ hội Riddu Riđđu để tự mình trải nghiệm văn hóa nhé.",
+          "en": "My pleasure. Feel free to come to the Riddu Riđđu festival next summer, so you can experience the culture yourselves."
+        }
+      ],
+      "questions": [
+        {
+          "after": 2,
+          "q": "Khi nào mặt trời nửa đêm lặn ở Lofoten?",
+          "q_en": "When does the midnight sun set in Lofoten?",
+          "options": [
+            "Đầu tháng Sáu",
+            "Cuối tháng Bảy",
+            "Giữa tháng Tám"
+          ],
+          "options_en": [
+            "Early June",
+            "Late July",
+            "Mid-August"
+          ],
+          "answer": 1,
+          "explain": "“Midnattssola går ikke ned før i slutten av juli”: ikke ... før = mãi đến ... mới.",
+          "explain_en": "“Midnattssola går ikke ned før i slutten av juli”: ikke ... før = not until."
+        },
+        {
+          "after": 4,
+          "q": "Người Sami vùng biển xưa kia sống bằng nghề gì?",
+          "q_en": "What did the Sea Sámi traditionally live from?",
+          "options": [
+            "Đánh cá và làm nông",
+            "Chăn tuần lộc",
+            "Khai thác mỏ"
+          ],
+          "options_en": [
+            "Fishing and farming",
+            "Reindeer herding",
+            "Mining"
+          ],
+          "answer": 0,
+          "explain": "“Her ved kysten levde samene av fiske og jordbruk”: å leve av = sống bằng.",
+          "explain_en": "“Her ved kysten levde samene av fiske og jordbruk”: å leve av = to live from."
+        },
+        {
+          "after": 6,
+          "q": "Vì sao không ai biết chính xác số người Sami ở Na Uy?",
+          "q_en": "Why does nobody know exactly how many Sámi live in Norway?",
+          "options": [
+            "Vì người Sami sống du mục",
+            "Vì Na Uy không đăng ký sắc tộc",
+            "Vì họ không muốn được đếm"
+          ],
+          "options_en": [
+            "Because the Sámi are nomadic",
+            "Because Norway doesn't register ethnicity",
+            "Because they don't want to be counted"
+          ],
+          "answer": 1,
+          "explain": "“Det ikke registreres etnisitet” là bị động với đuôi -s; ikke đứng trước động từ trong mệnh đề phụ.",
+          "explain_en": "“Det ikke registreres etnisitet” is an s-passive; ikke comes before the verb in the subordinate clause."
+        },
+        {
+          "after": 9,
+          "q": "Chính sách Na Uy hóa (fornorskingspolitikken) là gì?",
+          "q_en": "What was the Norwegianisation policy?",
+          "options": [
+            "Chính sách khuyến khích du lịch",
+            "Chính sách dạy tiếng Sami ở trường",
+            "Chính sách muốn mọi người trở thành người Na Uy, cấm tiếng Sami ở trường"
+          ],
+          "options_en": [
+            "A policy to promote tourism",
+            "A policy of teaching Sámi in schools",
+            "A policy to make everyone Norwegian, banning Sámi at school"
+          ],
+          "answer": 2,
+          "explain": "“Staten ville at alle skulle bli norske”. Å skamme seg over = xấu hổ về.",
+          "explain_en": "“Staten ville at alle skulle bli norske”. Å skamme seg over = to be ashamed of."
+        },
+        {
+          "after": 15,
+          "q": "Ngày dân tộc Sami là ngày nào?",
+          "q_en": "When is Sámi National Day?",
+          "options": [
+            "17 tháng Năm",
+            "6 tháng Hai",
+            "23 tháng Sáu"
+          ],
+          "options_en": [
+            "17 May",
+            "6 February",
+            "23 June"
+          ],
+          "answer": 1,
+          "explain": "“Samefolkets dag den sjette februar”. Hôm đó “heises det samiske flagget” (lá cờ được kéo lên, bị động -s).",
+          "explain_en": "“Samefolkets dag den sjette februar”. On that day “heises det samiske flagget” (the flag is raised, s-passive)."
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "title": "Seminar om havøkonomi mellom Norge og Vietnam",
+      "title_vi": "Hội thảo kinh tế biển Na Uy – Việt Nam",
+      "title_en": "Seminar on the ocean economy between Norway and Vietnam",
+      "level": "B2",
+      "icon": "🌊",
+      "characters": {
+        "Phương": "👨🏻",
+        "Moderatoren": "🧑🏼‍💼",
+        "Kristin": "👩🏼‍💼",
+        "Nam": "👨🏻‍💼"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "Phương er invitert som innleder på et seminar i Oslo om havøkonomisk samarbeid mellom Norge og Vietnam.",
+          "vi": "Phương được mời làm diễn giả mở đầu tại một hội thảo ở Oslo về hợp tác kinh tế biển giữa Na Uy và Việt Nam.",
+          "en": "Phương has been invited as an opening speaker at a seminar in Oslo on ocean economy cooperation between Norway and Vietnam."
+        },
+        {
+          "who": "Moderatoren",
+          "no": "Velkommen til dagens seminar. Norge og Vietnam har hatt diplomatiske forbindelser siden 1971, og samarbeidet har aldri vært bredere.",
+          "vi": "Chào mừng quý vị đến với hội thảo hôm nay. Na Uy và Việt Nam có quan hệ ngoại giao từ năm 1971, và sự hợp tác chưa bao giờ rộng mở như bây giờ.",
+          "en": "Welcome to today's seminar. Norway and Vietnam have had diplomatic relations since 1971, and the cooperation has never been broader."
+        },
+        {
+          "who": "Moderatoren",
+          "no": "Vår første innleder har bakgrunn fra utenrikstjenesten. Vær så god, Phương.",
+          "vi": "Diễn giả đầu tiên của chúng ta từng công tác trong ngành ngoại giao. Xin mời anh Phương.",
+          "en": "Our first speaker has a background in the foreign service. Please go ahead, Phương."
+        },
+        {
+          "who": "Phương",
+          "no": "Takk. Begge land har lange kystlinjer, og havet utgjør en vesentlig del av økonomien vår.",
+          "vi": "Xin cảm ơn. Cả hai nước đều có đường bờ biển dài, và biển chiếm một phần đáng kể trong nền kinh tế của chúng ta.",
+          "en": "Thank you. Both countries have long coastlines, and the ocean makes up a significant part of our economies."
+        },
+        {
+          "who": "Phương",
+          "no": "Vietnam er blant verdens største eksportører av sjømat, men næringen står overfor betydelige utfordringer.",
+          "vi": "Việt Nam là một trong những nước xuất khẩu hải sản lớn nhất thế giới, nhưng ngành này đang đối mặt với những thách thức đáng kể.",
+          "en": "Vietnam is among the world's largest seafood exporters, but the industry faces considerable challenges."
+        },
+        {
+          "who": "Phương",
+          "no": "Klimaendringer, forurensning og overfiske truer både inntektene og matsikkerheten til millioner av mennesker.",
+          "vi": "Biến đổi khí hậu, ô nhiễm và đánh bắt quá mức đe dọa cả thu nhập lẫn an ninh lương thực của hàng triệu người.",
+          "en": "Climate change, pollution and overfishing threaten both the incomes and the food security of millions of people."
+        },
+        {
+          "who": "Phương",
+          "no": "Her har Norge mye å bidra med, ettersom norsk havforvaltning bygger på forskning og strenge kvoter.",
+          "vi": "Ở đây Na Uy có nhiều điều để đóng góp, bởi quản lý biển của Na Uy dựa trên nghiên cứu và hạn ngạch nghiêm ngặt.",
+          "en": "Here Norway has a lot to contribute, since Norwegian ocean management is based on research and strict quotas."
+        },
+        {
+          "who": "Phương",
+          "no": "Likevel bør samarbeidet ikke være enveis. Vietnam har verdifull erfaring med havbruk i tropiske farvann.",
+          "vi": "Tuy vậy, hợp tác không nên là một chiều. Việt Nam có kinh nghiệm quý báu về nuôi trồng thủy sản ở vùng biển nhiệt đới.",
+          "en": "Nevertheless, the cooperation should not be one-way. Vietnam has valuable experience with aquaculture in tropical waters."
+        },
+        {
+          "who": "Moderatoren",
+          "no": "Takk for en tankevekkende innledning. Kristin, du representerer en norsk leverandør av havbruksteknologi. Hvordan ser dere på markedet?",
+          "vi": "Cảm ơn anh vì phần mở đầu giàu gợi mở. Kristin, chị đại diện cho một nhà cung cấp công nghệ nuôi biển của Na Uy. Bên chị nhìn nhận thị trường thế nào?",
+          "en": "Thank you for a thought-provoking introduction. Kristin, you represent a Norwegian supplier of aquaculture technology. How do you view the market?"
+        },
+        {
+          "who": "Kristin",
+          "no": "Vi ser et enormt potensial. Etterspørselen etter fôrsystemer og overvåkingsteknologi har økt kraftig de siste årene.",
+          "vi": "Chúng tôi thấy tiềm năng rất lớn. Nhu cầu về hệ thống cho ăn và công nghệ giám sát đã tăng mạnh trong những năm gần đây.",
+          "en": "We see enormous potential. Demand for feeding systems and monitoring technology has risen sharply in recent years."
+        },
+        {
+          "who": "Kristin",
+          "no": "Derimot opplever vi at byråkratiet kan være tungt, og at det tar tid å bygge tillit til nye partnere.",
+          "vi": "Mặt khác, chúng tôi nhận thấy thủ tục hành chính có thể nặng nề, và cần thời gian để xây dựng lòng tin với đối tác mới.",
+          "en": "On the other hand, we find that the bureaucracy can be heavy, and that it takes time to build trust with new partners."
+        },
+        {
+          "who": "Nam",
+          "no": "Det er et betimelig poeng. Som representant for ambassaden kan jeg si at vietnamesiske myndigheter jobber med å forenkle prosedyrene.",
+          "vi": "Đó là một nhận xét đúng lúc. Với tư cách đại diện đại sứ quán, tôi có thể nói rằng chính quyền Việt Nam đang nỗ lực đơn giản hóa các thủ tục.",
+          "en": "That's a timely point. As a representative of the embassy, I can say that the Vietnamese authorities are working to simplify procedures."
+        },
+        {
+          "who": "Nam",
+          "no": "Dessuten vil en eventuell frihandelsavtale med EFTA-landene kunne senke tollsatsene betraktelig.",
+          "vi": "Hơn nữa, một hiệp định thương mại tự do khả dĩ với các nước EFTA có thể giảm đáng kể thuế quan.",
+          "en": "Moreover, a possible free trade agreement with the EFTA countries could lower tariffs considerably."
+        },
+        {
+          "who": "Moderatoren",
+          "no": "Phương, du nevnte at samarbeidet ikke bør være enveis. Kan du utdype det?",
+          "vi": "Anh Phương, anh có nói rằng hợp tác không nên là một chiều. Anh có thể nói rõ hơn không?",
+          "en": "Phương, you mentioned that the cooperation shouldn't be one-way. Could you elaborate on that?"
+        },
+        {
+          "who": "Phương",
+          "no": "Gjerne. Norske selskaper har ofte de beste løsningene på papiret, men de er ikke nødvendigvis tilpasset lokale forhold.",
+          "vi": "Vâng. Các công ty Na Uy thường có giải pháp tốt nhất trên giấy tờ, nhưng chưa chắc đã phù hợp với điều kiện địa phương.",
+          "en": "Gladly. Norwegian companies often have the best solutions on paper, but they are not necessarily adapted to local conditions."
+        },
+        {
+          "who": "Phương",
+          "no": "Småskala oppdrettere i Mekongdeltaet har verken kapital eller behov for et anlegg til flere millioner kroner.",
+          "vi": "Các hộ nuôi quy mô nhỏ ở đồng bằng sông Cửu Long không có vốn mà cũng chẳng cần một cơ sở trị giá nhiều triệu krone.",
+          "en": "Small-scale farmers in the Mekong Delta have neither the capital nor the need for a facility costing several million kroner."
+        },
+        {
+          "who": "Phương",
+          "no": "Den som lytter til lokale aktører fra starten av, vil stå langt sterkere i det lange løp.",
+          "vi": "Ai lắng nghe các bên địa phương ngay từ đầu sẽ có vị thế vững hơn nhiều về lâu dài.",
+          "en": "Those who listen to local actors from the start will be in a far stronger position in the long run."
+        },
+        {
+          "who": "Kristin",
+          "no": "Det er jeg helt enig i. Vi har faktisk begynt å utvikle enklere og rimeligere sensorer nettopp med tanke på det markedet.",
+          "vi": "Tôi hoàn toàn đồng ý. Thực ra chúng tôi đã bắt đầu phát triển các cảm biến đơn giản và rẻ hơn, chính là nhắm đến thị trường đó.",
+          "en": "I completely agree. We have actually started developing simpler and cheaper sensors precisely with that market in mind."
+        },
+        {
+          "who": "Nam",
+          "no": "Da håper jeg at dere tar kontakt med ambassaden, slik at vi kan sette dere i forbindelse med de rette partnerne.",
+          "vi": "Vậy tôi hy vọng quý công ty sẽ liên hệ với đại sứ quán, để chúng tôi có thể kết nối với các đối tác phù hợp.",
+          "en": "Then I hope you'll get in touch with the embassy, so that we can put you in contact with the right partners."
+        },
+        {
+          "who": "Moderatoren",
+          "no": "Det ser ut til at dagens seminar allerede har båret frukter. Vi tar en kort pause før neste sesjon.",
+          "vi": "Có vẻ hội thảo hôm nay đã đơm hoa kết trái rồi. Chúng ta nghỉ giải lao ngắn trước phiên tiếp theo.",
+          "en": "It seems today's seminar has already borne fruit. We'll take a short break before the next session."
+        },
+        {
+          "who": "narrator",
+          "no": "I pausen kommer Kristin bort til Phương og spør om han kunne tenke seg å jobbe som rådgiver for selskapet.",
+          "vi": "Trong giờ nghỉ, Kristin đến gặp Phương và hỏi liệu anh có muốn làm cố vấn cho công ty không.",
+          "en": "During the break, Kristin comes over to Phương and asks whether he would consider working as an adviser for the company."
+        }
+      ],
+      "questions": [
+        {
+          "after": 1,
+          "q": "Na Uy và Việt Nam có quan hệ ngoại giao từ năm nào?",
+          "q_en": "Since when have Norway and Vietnam had diplomatic relations?",
+          "options": [
+            "1989",
+            "1971",
+            "1995"
+          ],
+          "options_en": [
+            "1989",
+            "1971",
+            "1995"
+          ],
+          "answer": 1,
+          "explain": "“Har hatt diplomatiske forbindelser siden 1971”: thì hoàn thành + siden diễn tả việc kéo dài đến hiện tại.",
+          "explain_en": "“Har hatt diplomatiske forbindelser siden 1971”: present perfect + siden expresses something lasting until now."
+        },
+        {
+          "after": 7,
+          "q": "Vì sao Phương cho rằng hợp tác không nên là một chiều?",
+          "q_en": "Why does Phương think the cooperation shouldn't be one-way?",
+          "options": [
+            "Vì Na Uy không có công nghệ",
+            "Vì Việt Nam có kinh nghiệm nuôi trồng ở vùng biển nhiệt đới",
+            "Vì Việt Nam không cần hỗ trợ"
+          ],
+          "options_en": [
+            "Because Norway has no technology",
+            "Because Vietnam has experience with aquaculture in tropical waters",
+            "Because Vietnam needs no support"
+          ],
+          "answer": 1,
+          "explain": "“Likevel bør samarbeidet ikke være enveis”: likevel = tuy vậy, đứng đầu câu kéo theo đảo ngữ.",
+          "explain_en": "“Likevel bør samarbeidet ikke være enveis”: likevel = nevertheless, and at the start of the sentence it triggers inversion."
+        },
+        {
+          "after": 10,
+          "q": "Kristin nhắc đến khó khăn nào?",
+          "q_en": "Which difficulty does Kristin mention?",
+          "options": [
+            "Thủ tục hành chính nặng nề và cần thời gian xây dựng lòng tin",
+            "Thiếu nhu cầu",
+            "Giá cá quá thấp"
+          ],
+          "options_en": [
+            "Heavy bureaucracy and the time needed to build trust",
+            "Lack of demand",
+            "Fish prices are too low"
+          ],
+          "answer": 0,
+          "explain": "“Derimot” = ngược lại, mặt khác: liên từ lập luận điển hình ở trình độ B2.",
+          "explain_en": "“Derimot” = on the other hand: a typical B2 linking word for contrast."
+        },
+        {
+          "after": 15,
+          "q": "Theo Phương, các hộ nuôi nhỏ ở đồng bằng sông Cửu Long thiếu gì?",
+          "q_en": "According to Phương, what do small-scale farmers in the Mekong Delta lack?",
+          "options": [
+            "Kiến thức về cá",
+            "Lao động",
+            "Cả vốn lẫn nhu cầu về cơ sở đắt tiền"
+          ],
+          "options_en": [
+            "Knowledge about fish",
+            "Labour",
+            "Both the capital and the need for an expensive facility"
+          ],
+          "answer": 2,
+          "explain": "Cấu trúc “verken ... eller” = không ... cũng không (neither ... nor).",
+          "explain_en": "The structure “verken ... eller” = neither ... nor."
+        },
+        {
+          "after": 19,
+          "q": "“Har båret frukter” có nghĩa là gì?",
+          "q_en": "What does “har båret frukter” mean?",
+          "options": [
+            "Đã có kết quả tốt",
+            "Đã kéo dài quá lâu",
+            "Đã phục vụ hoa quả"
+          ],
+          "options_en": [
+            "Has produced good results",
+            "Has gone on too long",
+            "Has served fruit"
+          ],
+          "answer": 0,
+          "explain": "Thành ngữ “å bære frukter” (kết trái) = mang lại kết quả, giống “đơm hoa kết trái”.",
+          "explain_en": "The idiom “å bære frukter” = to bear fruit, to produce results."
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "title": "Lønnsforhandling etter jobbtilbudet",
+      "title_vi": "Đàm phán lương sau khi nhận lời mời làm việc",
+      "title_en": "Salary negotiation after the job offer",
+      "level": "B2",
+      "icon": "💰",
+      "characters": {
+        "Phương": "👨🏻",
+        "Lars": "👨🏼‍💼"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "Phương har fått et skriftlig tilbud om stilling som rådgiver i et havbruksteknologiselskap. Før han signerer, har han bedt om et møte med HR-sjefen.",
+          "vi": "Phương đã nhận được lời mời làm việc bằng văn bản cho vị trí cố vấn tại một công ty công nghệ nuôi biển. Trước khi ký, anh đã đề nghị gặp trưởng phòng nhân sự.",
+          "en": "Phương has received a written offer for a position as an adviser at an aquaculture technology company. Before signing, he has asked for a meeting with the HR manager."
+        },
+        {
+          "who": "Lars",
+          "no": "Hyggelig å se deg igjen, Phương. Vi er veldig glade for at du er interessert i stillingen.",
+          "vi": "Rất vui được gặp lại anh, Phương. Chúng tôi rất mừng vì anh quan tâm đến vị trí này.",
+          "en": "Nice to see you again, Phương. We're very glad that you're interested in the position."
+        },
+        {
+          "who": "Phương",
+          "no": "Takk, i like måte. Jeg vil gjerne understreke at jeg er svært motivert for å begynne hos dere.",
+          "vi": "Cảm ơn anh, tôi cũng vậy. Tôi muốn nhấn mạnh rằng tôi rất có động lực để bắt đầu làm việc ở đây.",
+          "en": "Thank you, likewise. I'd like to emphasise that I'm highly motivated to start working with you."
+        },
+        {
+          "who": "Phương",
+          "no": "Før jeg signerer, ønsker jeg imidlertid å drøfte lønnsnivået som er foreslått i tilbudet.",
+          "vi": "Tuy nhiên, trước khi ký, tôi muốn trao đổi về mức lương được đề xuất trong thư mời.",
+          "en": "Before I sign, however, I would like to discuss the salary level proposed in the offer."
+        },
+        {
+          "who": "Lars",
+          "no": "Selvfølgelig. Vi har tilbudt 720 000 kroner i årslønn, noe vi mener er konkurransedyktig for en rådgiverstilling.",
+          "vi": "Tất nhiên. Chúng tôi đề xuất lương năm 720 000 krone, mức mà chúng tôi cho là cạnh tranh đối với một vị trí cố vấn.",
+          "en": "Of course. We have offered an annual salary of 720,000 kroner, which we consider competitive for an adviser position."
+        },
+        {
+          "who": "Phương",
+          "no": "Jeg har sett på lønnsstatistikken, og for stillinger med tilsvarende ansvar ligger nivået nærmere 800 000.",
+          "vi": "Tôi đã xem thống kê tiền lương, và với những vị trí có trách nhiệm tương đương, mức lương gần với 800 000 hơn.",
+          "en": "I have looked at the salary statistics, and for positions with similar responsibility, the level is closer to 800,000."
+        },
+        {
+          "who": "Phương",
+          "no": "Med tanke på min erfaring fra utenrikstjenesten og mitt nettverk i Sørøst-Asia, mener jeg at 780 000 vil være rimelig.",
+          "vi": "Xét đến kinh nghiệm của tôi trong ngành ngoại giao và mạng lưới quan hệ của tôi ở Đông Nam Á, tôi cho rằng 780 000 là hợp lý.",
+          "en": "Considering my experience from the foreign service and my network in Southeast Asia, I believe 780,000 would be reasonable."
+        },
+        {
+          "who": "Lars",
+          "no": "Jeg skjønner resonnementet ditt. Samtidig mangler du erfaring fra privat næringsliv i Norge.",
+          "vi": "Tôi hiểu lập luận của anh. Đồng thời, anh lại thiếu kinh nghiệm trong khu vực doanh nghiệp tư nhân ở Na Uy.",
+          "en": "I understand your reasoning. At the same time, you lack experience from the private sector in Norway."
+        },
+        {
+          "who": "Phương",
+          "no": "Det er riktig, men jeg har forhandlet handelsavtaler på regjeringsnivå. Den kompetansen er direkte overførbar.",
+          "vi": "Đúng vậy, nhưng tôi đã đàm phán các hiệp định thương mại ở cấp chính phủ. Năng lực đó có thể chuyển giao trực tiếp.",
+          "en": "That's right, but I have negotiated trade agreements at government level. That expertise is directly transferable."
+        },
+        {
+          "who": "Phương",
+          "no": "Dessuten var det nettopp nettverket mitt i Vietnam som var grunnen til at dere kontaktet meg.",
+          "vi": "Hơn nữa, chính mạng lưới của tôi ở Việt Nam là lý do quý công ty đã liên hệ với tôi.",
+          "en": "Besides, it was precisely my network in Vietnam that was the reason you contacted me."
+        },
+        {
+          "who": "Lars",
+          "no": "Det skal jeg ikke underslå. La meg være ærlig: budsjettet for stillingen er stramt i år.",
+          "vi": "Điều đó tôi không phủ nhận. Thành thật mà nói, ngân sách cho vị trí này năm nay khá eo hẹp.",
+          "en": "I won't deny that. Let me be honest: the budget for the position is tight this year."
+        },
+        {
+          "who": "Lars",
+          "no": "Jeg kan strekke meg til 750 000, men da må vi nok finne andre måter å møtes på.",
+          "vi": "Tôi có thể nâng lên 750 000, nhưng khi đó chúng ta phải tìm cách khác để gặp nhau ở giữa.",
+          "en": "I can stretch to 750,000, but then we'll probably have to find other ways to meet halfway."
+        },
+        {
+          "who": "Phương",
+          "no": "Det setter jeg pris på. Hva med en lønnsvurdering etter prøvetiden, forutsatt at jeg når de målene vi blir enige om?",
+          "vi": "Tôi rất trân trọng điều đó. Vậy còn việc xem xét lại lương sau thời gian thử việc thì sao, với điều kiện tôi đạt các mục tiêu mà hai bên thống nhất?",
+          "en": "I appreciate that. What about a salary review after the probation period, provided that I reach the targets we agree on?"
+        },
+        {
+          "who": "Lars",
+          "no": "Det er et konstruktivt forslag. Prøvetiden er seks måneder, så vi kan sette opp en ny samtale i mars.",
+          "vi": "Đó là một đề xuất mang tính xây dựng. Thời gian thử việc là sáu tháng, vậy chúng ta có thể hẹn một buổi trao đổi mới vào tháng Ba.",
+          "en": "That's a constructive suggestion. The probation period is six months, so we can set up a new meeting in March."
+        },
+        {
+          "who": "Phương",
+          "no": "Utmerket. Jeg lurer også på om det er mulig å jobbe hjemmefra én dag i uka.",
+          "vi": "Tuyệt vời. Tôi cũng muốn hỏi liệu có thể làm việc ở nhà một ngày mỗi tuần không.",
+          "en": "Excellent. I'm also wondering whether it's possible to work from home one day a week."
+        },
+        {
+          "who": "Lars",
+          "no": "Det praktiserer vi allerede for de fleste ansatte, så det er uproblematisk.",
+          "vi": "Chúng tôi đã áp dụng điều đó cho hầu hết nhân viên rồi, nên không có vấn đề gì.",
+          "en": "We already practise that for most employees, so that's unproblematic."
+        },
+        {
+          "who": "Phương",
+          "no": "Og pensjonsordningen? I tilbudet står det bare at dere følger lovens minimumskrav.",
+          "vi": "Còn chế độ hưu trí thì sao? Trong thư mời chỉ ghi rằng công ty tuân theo mức tối thiểu của luật.",
+          "en": "And the pension scheme? The offer only says that you follow the legal minimum requirements."
+        },
+        {
+          "who": "Lars",
+          "no": "Der har vi faktisk litt spillerom. Vi kan øke innskuddet fra to til fem prosent av lønna.",
+          "vi": "Ở điểm đó thực ra chúng tôi có chút dư địa. Chúng tôi có thể tăng mức đóng từ hai lên năm phần trăm lương.",
+          "en": "There we actually have some room for manoeuvre. We can increase the contribution from two to five per cent of the salary."
+        },
+        {
+          "who": "Phương",
+          "no": "Da tror jeg vi har funnet en løsning som begge parter kan leve godt med.",
+          "vi": "Vậy tôi nghĩ chúng ta đã tìm được một giải pháp mà cả hai bên đều có thể chấp nhận thoải mái.",
+          "en": "Then I think we've found a solution that both parties can live with comfortably."
+        },
+        {
+          "who": "Lars",
+          "no": "Flott. Jeg sender deg en oppdatert kontrakt i løpet av dagen, så kan du se gjennom den i ro og fred.",
+          "vi": "Tốt lắm. Trong ngày hôm nay tôi sẽ gửi anh hợp đồng đã cập nhật, để anh có thể đọc kỹ trong yên tĩnh.",
+          "en": "Great. I'll send you an updated contract during the day, so you can look through it in peace and quiet."
+        },
+        {
+          "who": "narrator",
+          "no": "På vei ut puster Phương lettet ut. Han fikk ikke alt han ba om, men totalpakken ble betydelig bedre.",
+          "vi": "Trên đường ra về, Phương thở phào nhẹ nhõm. Anh không có được mọi thứ mình đề nghị, nhưng tổng đãi ngộ đã tốt hơn đáng kể.",
+          "en": "On his way out, Phương breathes a sigh of relief. He didn't get everything he asked for, but the overall package became significantly better."
+        }
+      ],
+      "questions": [
+        {
+          "after": 4,
+          "q": "Công ty đề xuất mức lương năm ban đầu là bao nhiêu?",
+          "q_en": "What annual salary did the company initially offer?",
+          "options": [
+            "750 000 krone",
+            "780 000 krone",
+            "720 000 krone"
+          ],
+          "options_en": [
+            "750,000 kroner",
+            "780,000 kroner",
+            "720,000 kroner"
+          ],
+          "answer": 2,
+          "explain": "“Vi har tilbudt 720 000 kroner i årslønn”. Noe vi mener = điều mà chúng tôi cho là (noe thay cho cả mệnh đề).",
+          "explain_en": "“Vi har tilbudt 720 000 kroner i årslønn”. Noe vi mener = which we consider (noe refers back to the whole clause)."
+        },
+        {
+          "after": 9,
+          "q": "Phương dùng lập luận nào để phản bác việc anh thiếu kinh nghiệm doanh nghiệp tư nhân?",
+          "q_en": "Which argument does Phương use against his lack of private-sector experience?",
+          "options": [
+            "Anh có bằng thạc sĩ",
+            "Anh đã đàm phán hiệp định thương mại cấp chính phủ và có mạng lưới ở Việt Nam",
+            "Anh đã sống lâu ở Oslo"
+          ],
+          "options_en": [
+            "He has a master's degree",
+            "He has negotiated government-level trade agreements and has a network in Vietnam",
+            "He has lived in Oslo for a long time"
+          ],
+          "answer": 1,
+          "explain": "“Den kompetansen er direkte overførbar” = năng lực đó có thể chuyển giao trực tiếp.",
+          "explain_en": "“Den kompetansen er direkte overførbar” = that expertise is directly transferable."
+        },
+        {
+          "after": 11,
+          "q": "“Det skal jeg ikke underslå” có nghĩa là gì?",
+          "q_en": "What does “det skal jeg ikke underslå” mean?",
+          "options": [
+            "Tôi không phủ nhận điều đó",
+            "Tôi không hiểu điều đó",
+            "Tôi sẽ không trả thêm"
+          ],
+          "options_en": [
+            "I won't deny that",
+            "I don't understand that",
+            "I won't pay more"
+          ],
+          "answer": 0,
+          "explain": "Å underslå = che giấu, giấu nhẹm. Câu này là cách thừa nhận một luận điểm một cách lịch sự.",
+          "explain_en": "Å underslå = to conceal or play down. The phrase is a polite way of conceding a point."
+        },
+        {
+          "after": 13,
+          "q": "Phương đề xuất gì để bù cho mức lương thấp hơn mong muốn?",
+          "q_en": "What does Phương propose to make up for the lower salary?",
+          "options": [
+            "Thêm một tuần nghỉ phép",
+            "Xem xét lại lương sau thời gian thử việc",
+            "Xe công ty"
+          ],
+          "options_en": [
+            "An extra week of holiday",
+            "A salary review after the probation period",
+            "A company car"
+          ],
+          "answer": 1,
+          "explain": "“Forutsatt at jeg når de målene” = với điều kiện tôi đạt các mục tiêu. Forutsatt at = provided that.",
+          "explain_en": "“Forutsatt at jeg når de målene” = provided that I reach the targets."
+        },
+        {
+          "after": 18,
+          "q": "Công ty đồng ý tăng mức đóng hưu trí lên bao nhiêu?",
+          "q_en": "How much does the company agree to raise the pension contribution to?",
+          "options": [
+            "Hai phần trăm",
+            "Mười phần trăm",
+            "Năm phần trăm"
+          ],
+          "options_en": [
+            "Two per cent",
+            "Ten per cent",
+            "Five per cent"
+          ],
+          "answer": 2,
+          "explain": "“Øke innskuddet fra to til fem prosent”. Spillerom = dư địa, khoảng linh hoạt.",
+          "explain_en": "“Øke innskuddet fra to til fem prosent”. Spillerom = room for manoeuvre."
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "title": "Intervju på NRK om innvandringspolitikk",
+      "title_vi": "Phỏng vấn trên NRK về chính sách nhập cư",
+      "title_en": "Interview on NRK about immigration policy",
+      "level": "B2",
+      "icon": "🎙️",
+      "characters": {
+        "Phương": "👨🏻",
+        "Programlederen": "👩🏼‍💼",
+        "Berg": "👨🏼‍💼"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "Phương er invitert til et debattprogram på NRK radio. Temaet er hvordan Norge kan tiltrekke seg og beholde høyt utdannede innvandrere.",
+          "vi": "Phương được mời tham gia một chương trình tranh luận trên đài phát thanh NRK. Chủ đề là làm sao Na Uy có thể thu hút và giữ chân người nhập cư có trình độ cao.",
+          "en": "Phương has been invited to a debate programme on NRK radio. The topic is how Norway can attract and retain highly educated immigrants."
+        },
+        {
+          "who": "Programlederen",
+          "no": "God morgen og velkommen. I studio har vi stortingsrepresentant Jon Berg og Phương, som kom til Norge for tre år siden.",
+          "vi": "Chào buổi sáng và chào mừng quý thính giả. Trong trường quay hôm nay có đại biểu quốc hội Jon Berg và anh Phương, người đã đến Na Uy ba năm trước.",
+          "en": "Good morning and welcome. In the studio we have Member of Parliament Jon Berg and Phương, who came to Norway three years ago."
+        },
+        {
+          "who": "Programlederen",
+          "no": "Phương, du har en mastergrad fra Storbritannia og lang erfaring som diplomat. Hvorfor tok det så lang tid å finne jobb?",
+          "vi": "Anh Phương, anh có bằng thạc sĩ từ Anh và nhiều năm kinh nghiệm làm nhà ngoại giao. Vì sao anh mất nhiều thời gian như vậy mới tìm được việc?",
+          "en": "Phương, you have a master's degree from Britain and long experience as a diplomat. Why did it take so long to find a job?"
+        },
+        {
+          "who": "Phương",
+          "no": "Det skyldes flere forhold. For det første krevde de fleste arbeidsgivere flytende norsk, selv for stillinger der arbeidsspråket var engelsk.",
+          "vi": "Điều đó do nhiều yếu tố. Thứ nhất, hầu hết nhà tuyển dụng yêu cầu tiếng Na Uy lưu loát, kể cả với những vị trí mà ngôn ngữ làm việc là tiếng Anh.",
+          "en": "That's due to several factors. Firstly, most employers required fluent Norwegian, even for positions where the working language was English."
+        },
+        {
+          "who": "Phương",
+          "no": "For det andre opplevde jeg at utenlandsk arbeidserfaring ble tillagt mindre vekt enn norsk erfaring.",
+          "vi": "Thứ hai, tôi nhận thấy kinh nghiệm làm việc ở nước ngoài ít được coi trọng hơn kinh nghiệm ở Na Uy.",
+          "en": "Secondly, I found that foreign work experience was given less weight than Norwegian experience."
+        },
+        {
+          "who": "Programlederen",
+          "no": "Jon Berg, kjenner du deg igjen i denne beskrivelsen?",
+          "vi": "Ông Jon Berg, ông có thấy mô tả này quen thuộc không?",
+          "en": "Jon Berg, do you recognise this description?"
+        },
+        {
+          "who": "Berg",
+          "no": "Dessverre gjør jeg det. Vi vet at mange innvandrere er overkvalifisert for jobbene de har, og det er sløsing med ressurser.",
+          "vi": "Tiếc là có. Chúng ta biết rằng nhiều người nhập cư có trình độ vượt quá công việc họ đang làm, và đó là sự lãng phí nguồn lực.",
+          "en": "Unfortunately I do. We know that many immigrants are overqualified for the jobs they have, and that's a waste of resources."
+        },
+        {
+          "who": "Berg",
+          "no": "Samtidig må vi stille krav. Norskkunnskaper er avgjørende, ikke bare på jobb, men for å delta i samfunnet.",
+          "vi": "Đồng thời, chúng ta phải đặt ra yêu cầu. Kiến thức tiếng Na Uy là yếu tố then chốt, không chỉ trong công việc mà còn để tham gia vào xã hội.",
+          "en": "At the same time, we must set requirements. Norwegian skills are crucial, not only at work but for participating in society."
+        },
+        {
+          "who": "Phương",
+          "no": "Det er jeg ikke uenig i. Problemet er at norskopplæringen ofte ikke er tilpasset folk som allerede har høy utdanning.",
+          "vi": "Tôi không phản đối điều đó. Vấn đề là chương trình dạy tiếng Na Uy thường không phù hợp với những người đã có trình độ học vấn cao.",
+          "en": "I don't disagree with that. The problem is that Norwegian tuition is often not adapted to people who already have higher education."
+        },
+        {
+          "who": "Phương",
+          "no": "Jeg satt i samme klasse som folk som aldri hadde gått på skole. Det er ingen tjent med.",
+          "vi": "Tôi ngồi cùng lớp với những người chưa từng đi học. Điều đó chẳng có lợi cho ai cả.",
+          "en": "I sat in the same class as people who had never gone to school. That serves no one."
+        },
+        {
+          "who": "Programlederen",
+          "no": "Hva mener partiet ditt bør gjøres med det, Berg?",
+          "vi": "Thưa ông Berg, đảng của ông cho rằng nên làm gì với vấn đề đó?",
+          "en": "What does your party think should be done about that, Berg?"
+        },
+        {
+          "who": "Berg",
+          "no": "Vi foreslår et eget hurtigløp for akademikere, der språkopplæringen kombineres med praksisplass i relevant bransje.",
+          "vi": "Chúng tôi đề xuất một lộ trình cấp tốc riêng cho người có học vị, trong đó việc học tiếng được kết hợp với thực tập trong ngành phù hợp.",
+          "en": "We propose a separate fast track for academics, where language training is combined with a work placement in a relevant industry."
+        },
+        {
+          "who": "Programlederen",
+          "no": "Kritikere hevder at dette vil koste mye, i en tid der statsbudsjettet allerede er under press.",
+          "vi": "Những người phản biện cho rằng việc này sẽ tốn kém, trong bối cảnh ngân sách nhà nước vốn đã chịu áp lực.",
+          "en": "Critics claim that this will cost a lot, at a time when the state budget is already under pressure."
+        },
+        {
+          "who": "Berg",
+          "no": "Tvert imot. Hver måned en ingeniør kjører taxi i stedet for å jobbe som ingeniør, taper samfunnet både skatteinntekter og kompetanse.",
+          "vi": "Hoàn toàn ngược lại. Mỗi tháng một kỹ sư lái taxi thay vì làm kỹ sư, xã hội mất cả nguồn thu thuế lẫn năng lực chuyên môn.",
+          "en": "On the contrary. Every month an engineer drives a taxi instead of working as an engineer, society loses both tax revenue and expertise."
+        },
+        {
+          "who": "Programlederen",
+          "no": "Phương, ville et slikt tilbud ha gjort en forskjell for deg?",
+          "vi": "Anh Phương, một chương trình như thế có tạo ra khác biệt với anh không?",
+          "en": "Phương, would such a scheme have made a difference for you?"
+        },
+        {
+          "who": "Phương",
+          "no": "Uten tvil. Det var først da jeg fikk en praksisplass, at jeg virkelig begynte å snakke norsk i hverdagen.",
+          "vi": "Không còn nghi ngờ gì. Phải đến khi tôi có được chỗ thực tập, tôi mới thực sự bắt đầu nói tiếng Na Uy hằng ngày.",
+          "en": "Without a doubt. It was only when I got a work placement that I really started speaking Norwegian in everyday life."
+        },
+        {
+          "who": "Phương",
+          "no": "Men det handler ikke bare om politikk. Arbeidsgivere må også tørre å ansette folk som ikke ligner på dem selv.",
+          "vi": "Nhưng vấn đề không chỉ nằm ở chính sách. Nhà tuyển dụng cũng phải dám tuyển những người không giống mình.",
+          "en": "But it's not just about policy. Employers must also dare to hire people who don't resemble themselves."
+        },
+        {
+          "who": "Berg",
+          "no": "Der treffer du spikeren på hodet. Forskning viser at søkere med utenlandskklingende navn sjeldnere blir kalt inn til intervju.",
+          "vi": "Anh nói trúng phóc. Nghiên cứu cho thấy ứng viên có tên nghe như người nước ngoài ít được mời phỏng vấn hơn.",
+          "en": "You've hit the nail on the head there. Research shows that applicants with foreign-sounding names are less often called in for interviews."
+        },
+        {
+          "who": "Programlederen",
+          "no": "Er anonymiserte søknader løsningen, slik enkelte kommuner har prøvd?",
+          "vi": "Liệu hồ sơ ẩn danh có phải là giải pháp, như một số chính quyền địa phương đã thử nghiệm?",
+          "en": "Are anonymised applications the solution, as some municipalities have tried?"
+        },
+        {
+          "who": "Phương",
+          "no": "Det kan være et nyttig virkemiddel, men til syvende og sist handler det om holdninger. Mangfold er en styrke, ikke en risiko.",
+          "vi": "Đó có thể là một công cụ hữu ích, nhưng suy cho cùng vấn đề nằm ở thái độ. Sự đa dạng là sức mạnh, không phải rủi ro.",
+          "en": "It can be a useful measure, but ultimately it's about attitudes. Diversity is a strength, not a risk."
+        },
+        {
+          "who": "Programlederen",
+          "no": "Vi må dessverre runde av her. Takk til begge for en opplysende samtale.",
+          "vi": "Tiếc là chúng ta phải dừng ở đây. Cảm ơn cả hai vị vì một cuộc trò chuyện bổ ích.",
+          "en": "Unfortunately we have to wrap up here. Thanks to both of you for an enlightening conversation."
+        },
+        {
+          "who": "narrator",
+          "no": "Etter sendingen får Phương flere meldinger fra lyttere som har opplevd akkurat det samme.",
+          "vi": "Sau buổi phát sóng, Phương nhận được nhiều tin nhắn từ những thính giả từng trải qua đúng điều tương tự.",
+          "en": "After the broadcast, Phương receives several messages from listeners who have experienced exactly the same thing."
+        }
+      ],
+      "questions": [
+        {
+          "after": 4,
+          "q": "Phương nêu những lý do nào khiến anh khó tìm việc?",
+          "q_en": "What reasons does Phương give for his difficulty finding a job?",
+          "options": [
+            "Yêu cầu tiếng Na Uy lưu loát và kinh nghiệm nước ngoài ít được coi trọng",
+            "Anh không có bằng đại học",
+            "Anh không muốn làm việc ở Oslo"
+          ],
+          "options_en": [
+            "Fluent Norwegian was required and foreign experience was given less weight",
+            "He has no university degree",
+            "He didn't want to work in Oslo"
+          ],
+          "answer": 0,
+          "explain": "“For det første ... For det andre ...” = thứ nhất ... thứ hai ...: cách sắp xếp lập luận trang trọng.",
+          "explain_en": "“For det første ... For det andre ...” = firstly ... secondly ...: a formal way to structure arguments."
+        },
+        {
+          "after": 9,
+          "q": "Phương phê bình điều gì ở chương trình dạy tiếng Na Uy?",
+          "q_en": "What does Phương criticise about Norwegian tuition?",
+          "options": [
+            "Học phí quá cao",
+            "Không có giáo viên giỏi",
+            "Không phù hợp với người đã có trình độ học vấn cao"
+          ],
+          "options_en": [
+            "The fees are too high",
+            "There are no good teachers",
+            "It isn't adapted to people who already have higher education"
+          ],
+          "answer": 2,
+          "explain": "“Det er ingen tjent med” = chẳng ai được lợi gì. Å være tjent med noe = được lợi từ điều gì.",
+          "explain_en": "“Det er ingen tjent med” = it serves no one. Å være tjent med noe = to benefit from something."
+        },
+        {
+          "after": 13,
+          "q": "Ông Berg phản bác lời chỉ trích về chi phí như thế nào?",
+          "q_en": "How does Berg respond to the criticism about costs?",
+          "options": [
+            "Ông thừa nhận chương trình quá đắt",
+            "Xã hội mất thuế và năng lực khi kỹ sư phải lái taxi",
+            "Ông nói các doanh nghiệp sẽ trả tiền"
+          ],
+          "options_en": [
+            "He admits the scheme is too expensive",
+            "Society loses tax revenue and expertise when engineers drive taxis",
+            "He says businesses will pay"
+          ],
+          "answer": 1,
+          "explain": "“Tvert imot” = hoàn toàn ngược lại, dùng để bác bỏ mạnh mẽ một luận điểm.",
+          "explain_en": "“Tvert imot” = on the contrary, used to firmly reject a claim."
+        },
+        {
+          "after": 15,
+          "q": "Khi nào Phương thực sự bắt đầu nói tiếng Na Uy hằng ngày?",
+          "q_en": "When did Phương really start speaking Norwegian every day?",
+          "options": [
+            "Khi anh vào lớp học tiếng",
+            "Khi anh xem NRK",
+            "Khi anh có chỗ thực tập"
+          ],
+          "options_en": [
+            "When he joined a language class",
+            "When he watched NRK",
+            "When he got a work placement"
+          ],
+          "answer": 2,
+          "explain": "Cấu trúc nhấn mạnh “Det var først da ..., at ...” = phải đến khi ... thì mới ...",
+          "explain_en": "The cleft structure “Det var først da ..., at ...” = it was only when ... that ..."
+        },
+        {
+          "after": 19,
+          "q": "“Til syvende og sist” có nghĩa là gì?",
+          "q_en": "What does “til syvende og sist” mean?",
+          "options": [
+            "Lần thứ bảy",
+            "Suy cho cùng",
+            "Cuối tuần"
+          ],
+          "options_en": [
+            "For the seventh time",
+            "Ultimately, in the end",
+            "At the weekend"
+          ],
+          "answer": 1,
+          "explain": "Thành ngữ “til syvende og sist” (đến thứ bảy và cuối cùng) = suy cho cùng, rốt cuộc.",
+          "explain_en": "The idiom “til syvende og sist” (literally to the seventh and last) = ultimately, when all is said and done."
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "title": "Et vanskelig prosjektmøte",
+      "title_vi": "Họp nhóm xử lý xung đột dự án",
+      "title_en": "A difficult project meeting",
+      "level": "B2",
+      "icon": "🧩",
+      "characters": {
+        "Phương": "👨🏻",
+        "Marianne": "👩🏼‍💼",
+        "Henrik": "👨🏼‍💻",
+        "Sofie": "👩🏼‍🔬"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "Pilotprosjektet med sensorer til et oppdrettsanlegg i Vietnam ligger tre uker bak skjema. Stemningen i teamet er anspent.",
+          "vi": "Dự án thí điểm lắp cảm biến cho một trại nuôi ở Việt Nam đang chậm ba tuần so với kế hoạch. Không khí trong nhóm căng thẳng.",
+          "en": "The pilot project with sensors for a fish farm in Vietnam is three weeks behind schedule. The mood in the team is tense."
+        },
+        {
+          "who": "Marianne",
+          "no": "Jeg har kalt inn til dette møtet fordi vi må rydde opp i situasjonen før den eskalerer ytterligere.",
+          "vi": "Tôi triệu tập cuộc họp này vì chúng ta phải giải quyết tình hình trước khi nó leo thang thêm.",
+          "en": "I've called this meeting because we need to sort out the situation before it escalates further."
+        },
+        {
+          "who": "Marianne",
+          "no": "Jeg ber om at alle snakker ut, men at vi holder oss til saken og ikke går etter personer.",
+          "vi": "Tôi đề nghị mọi người nói thẳng, nhưng chúng ta tập trung vào vấn đề và không công kích cá nhân.",
+          "en": "I ask that everyone speaks openly, but that we stick to the issue and don't attack individuals."
+        },
+        {
+          "who": "Henrik",
+          "no": "Greit. Fra utviklernes side opplever vi at kravene har blitt endret gang på gang underveis.",
+          "vi": "Được. Về phía đội phát triển, chúng tôi thấy yêu cầu liên tục bị thay đổi giữa chừng.",
+          "en": "Fine. From the developers' side, we feel that the requirements have been changed again and again along the way."
+        },
+        {
+          "who": "Henrik",
+          "no": "Først skulle sensorene måle oksygen, så temperatur, og nå plutselig også saltholdighet. Det er ikke gjennomførbart innen fristen.",
+          "vi": "Ban đầu cảm biến chỉ đo oxy, rồi nhiệt độ, và giờ bỗng dưng cả độ mặn. Không thể thực hiện kịp hạn chót.",
+          "en": "First the sensors were supposed to measure oxygen, then temperature, and now suddenly salinity too. It's not feasible within the deadline."
+        },
+        {
+          "who": "Phương",
+          "no": "Jeg forstår frustrasjonen, men endringene kom fra kunden. Saltholdighet er kritisk i Mekongdeltaet, der sjøvann trenger stadig lenger inn.",
+          "vi": "Tôi hiểu sự bực bội đó, nhưng các thay đổi đến từ khách hàng. Độ mặn là yếu tố then chốt ở đồng bằng sông Cửu Long, nơi nước biển ngày càng xâm nhập sâu hơn.",
+          "en": "I understand the frustration, but the changes came from the customer. Salinity is critical in the Mekong Delta, where seawater is pushing ever further inland."
+        },
+        {
+          "who": "Henrik",
+          "no": "Det kan godt være, men da burde vi ha fått beskjed med en gang, ikke via en e-post sent på fredagskvelden.",
+          "vi": "Có thể là vậy, nhưng lẽ ra chúng tôi phải được báo ngay, chứ không phải qua một email lúc tối muộn thứ Sáu.",
+          "en": "That may well be, but then we should have been told right away, not via an email late on a Friday evening."
+        },
+        {
+          "who": "Phương",
+          "no": "Det har du rett i, og det beklager jeg. Jeg videresendte e-posten uten å sjekke om dere hadde kapasitet.",
+          "vi": "Anh nói đúng, và tôi xin lỗi về điều đó. Tôi đã chuyển tiếp email mà không kiểm tra xem các anh chị có đủ năng lực xử lý không.",
+          "en": "You're right about that, and I apologise. I forwarded the email without checking whether you had capacity."
+        },
+        {
+          "who": "Marianne",
+          "no": "Takk for at du tar ansvar, Phương. Sofie, hvordan ser det ut fra testlaboratoriet?",
+          "vi": "Cảm ơn anh đã nhận trách nhiệm, Phương. Sofie, tình hình ở phòng thử nghiệm thế nào?",
+          "en": "Thanks for taking responsibility, Phương. Sofie, how do things look from the test lab?"
+        },
+        {
+          "who": "Sofie",
+          "no": "Oksygen- og temperaturmålingene fungerer som de skal. Saltholdighetssensoren gir derimot ustabile verdier i varmt vann.",
+          "vi": "Phép đo oxy và nhiệt độ hoạt động bình thường. Ngược lại, cảm biến độ mặn cho giá trị không ổn định trong nước ấm.",
+          "en": "The oxygen and temperature measurements work as they should. The salinity sensor, on the other hand, gives unstable readings in warm water."
+        },
+        {
+          "who": "Sofie",
+          "no": "Å løse det på tre uker er urealistisk, med mindre vi kjøper inn en ferdig komponent fra en underleverandør.",
+          "vi": "Giải quyết việc đó trong ba tuần là không thực tế, trừ khi chúng ta mua một linh kiện có sẵn từ nhà thầu phụ.",
+          "en": "Solving that in three weeks is unrealistic, unless we buy a ready-made component from a subcontractor."
+        },
+        {
+          "who": "Marianne",
+          "no": "La oss se på alternativene. Enten utsetter vi hele leveransen, eller så leverer vi i to faser.",
+          "vi": "Hãy cùng xem các phương án. Hoặc chúng ta hoãn toàn bộ đợt giao hàng, hoặc chúng ta giao theo hai giai đoạn.",
+          "en": "Let's look at the options. Either we postpone the whole delivery, or we deliver in two phases."
+        },
+        {
+          "who": "Phương",
+          "no": "Jeg tror kunden vil foretrekke to faser, så lenge de får en realistisk tidsplan for saltholdighetsmålingen.",
+          "vi": "Tôi nghĩ khách hàng sẽ thích phương án hai giai đoạn hơn, miễn là họ nhận được một lịch trình thực tế cho phép đo độ mặn.",
+          "en": "I think the customer will prefer two phases, as long as they get a realistic timeline for the salinity measurement."
+        },
+        {
+          "who": "Phương",
+          "no": "I vietnamesisk forretningskultur er det viktig å ikke tape ansikt. Vi må presentere det som en forbedring, ikke som et nederlag.",
+          "vi": "Trong văn hóa kinh doanh Việt Nam, điều quan trọng là không để mất thể diện. Chúng ta phải trình bày đây là một cải tiến, chứ không phải một thất bại.",
+          "en": "In Vietnamese business culture, it's important not to lose face. We have to present it as an improvement, not as a defeat."
+        },
+        {
+          "who": "Henrik",
+          "no": "Det kan jeg leve med. Men da vil jeg ha en skriftlig endringslogg, slik at vi slipper flere overraskelser.",
+          "vi": "Tôi chấp nhận được. Nhưng khi đó tôi muốn có một nhật ký thay đổi bằng văn bản, để chúng ta khỏi bị bất ngờ thêm nữa.",
+          "en": "I can live with that. But then I want a written change log, so that we avoid more surprises."
+        },
+        {
+          "who": "Marianne",
+          "no": "Godt forslag. Fra nå av skal alle endringer i kravene godkjennes av meg før de sendes videre til utviklerne.",
+          "vi": "Đề xuất hay. Từ nay mọi thay đổi về yêu cầu phải được tôi phê duyệt trước khi chuyển cho đội phát triển.",
+          "en": "Good suggestion. From now on, all changes to the requirements must be approved by me before they are passed on to the developers."
+        },
+        {
+          "who": "Sofie",
+          "no": "Og jeg tar kontakt med underleverandøren i dag for å høre om leveringstiden på komponenten.",
+          "vi": "Còn tôi sẽ liên hệ với nhà thầu phụ ngay hôm nay để hỏi về thời gian giao linh kiện.",
+          "en": "And I'll contact the subcontractor today to ask about the delivery time for the component."
+        },
+        {
+          "who": "Phương",
+          "no": "Jeg ringer kunden i morgen tidlig, ettersom de ligger seks timer foran oss om vinteren.",
+          "vi": "Tôi sẽ gọi cho khách hàng sáng sớm mai, vì vào mùa đông giờ bên họ sớm hơn chúng ta sáu tiếng.",
+          "en": "I will call the customer early tomorrow morning, since they are six hours ahead of us in winter."
+        },
+        {
+          "who": "Henrik",
+          "no": "Phương, beklager hvis jeg var litt krass i stad. Det var ikke ment personlig.",
+          "vi": "Phương, xin lỗi nếu lúc nãy tôi hơi gay gắt. Tôi không có ý nhắm vào cá nhân anh.",
+          "en": "Phương, sorry if I was a bit harsh earlier. It wasn't meant personally."
+        },
+        {
+          "who": "Phương",
+          "no": "Ingen fare. Det er bedre at vi tar diskusjonen åpent enn at den ulmer under overflaten.",
+          "vi": "Không sao đâu. Thà chúng ta tranh luận công khai còn hơn để nó âm ỉ bên dưới.",
+          "en": "No worries. It's better that we have the discussion openly than let it smoulder beneath the surface."
+        },
+        {
+          "who": "Marianne",
+          "no": "Godt sagt. Vi har en vei videre, og vi møtes igjen på fredag for å følge opp.",
+          "vi": "Nói hay lắm. Chúng ta đã có hướng đi tiếp, và thứ Sáu chúng ta sẽ họp lại để theo dõi tiến độ.",
+          "en": "Well said. We have a way forward, and we'll meet again on Friday to follow up."
+        }
+      ],
+      "questions": [
+        {
+          "after": 4,
+          "q": "Henrik phàn nàn về điều gì?",
+          "q_en": "What does Henrik complain about?",
+          "options": [
+            "Yêu cầu liên tục bị thay đổi giữa chừng",
+            "Lương quá thấp",
+            "Thiếu máy tính"
+          ],
+          "options_en": [
+            "The requirements keep changing along the way",
+            "The salary is too low",
+            "A lack of computers"
+          ],
+          "answer": 0,
+          "explain": "“Gang på gang” = hết lần này đến lần khác. “Gjennomførbart” = khả thi.",
+          "explain_en": "“Gang på gang” = again and again. “Gjennomførbart” = feasible."
+        },
+        {
+          "after": 7,
+          "q": "Phương thừa nhận sai sót gì?",
+          "q_en": "What mistake does Phương admit?",
+          "options": [
+            "Anh quên gọi cho khách hàng",
+            "Anh chuyển tiếp email mà không kiểm tra năng lực của nhóm",
+            "Anh đặt sai linh kiện"
+          ],
+          "options_en": [
+            "He forgot to call the customer",
+            "He forwarded the email without checking the team's capacity",
+            "He ordered the wrong component"
+          ],
+          "answer": 1,
+          "explain": "“Uten å sjekke om dere hadde kapasitet”: uten å + động từ nguyên mẫu = mà không làm gì.",
+          "explain_en": "“Uten å sjekke om dere hadde kapasitet”: uten å + infinitive = without doing something."
+        },
+        {
+          "after": 10,
+          "q": "Vấn đề kỹ thuật mà Sofie phát hiện là gì?",
+          "q_en": "What technical problem has Sofie found?",
+          "options": [
+            "Cảm biến oxy bị hỏng",
+            "Pin hết quá nhanh",
+            "Cảm biến độ mặn cho giá trị không ổn định trong nước ấm"
+          ],
+          "options_en": [
+            "The oxygen sensor is broken",
+            "The battery runs out too fast",
+            "The salinity sensor gives unstable readings in warm water"
+          ],
+          "answer": 2,
+          "explain": "“Med mindre” = trừ khi (unless). Derimot đứng giữa câu nhấn mạnh sự tương phản.",
+          "explain_en": "“Med mindre” = unless. Derimot in mid-sentence highlights the contrast."
+        },
+        {
+          "after": 13,
+          "q": "Vì sao Phương muốn trình bày việc giao hàng hai giai đoạn như một cải tiến?",
+          "q_en": "Why does Phương want to present the two-phase delivery as an improvement?",
+          "options": [
+            "Để được trả thêm tiền",
+            "Vì trong văn hóa kinh doanh Việt Nam không nên làm mất thể diện",
+            "Vì khách hàng không hiểu kỹ thuật"
+          ],
+          "options_en": [
+            "To get paid more",
+            "Because in Vietnamese business culture one should avoid losing face",
+            "Because the customer doesn't understand the technology"
+          ],
+          "answer": 1,
+          "explain": "“Å tape ansikt” = mất thể diện. Chú ý “å ikke tape”: ikke đứng trước động từ nguyên mẫu.",
+          "explain_en": "“Å tape ansikt” = to lose face. Note “å ikke tape”: ikke comes before the infinitive."
+        },
+        {
+          "after": 19,
+          "q": "“Ulmer under overflaten” có nghĩa là gì?",
+          "q_en": "What does “ulmer under overflaten” mean?",
+          "options": [
+            "Bùng nổ ngay lập tức",
+            "Âm ỉ, không được nói ra",
+            "Được giải quyết nhanh chóng"
+          ],
+          "options_en": [
+            "Explodes immediately",
+            "Smoulders, unspoken",
+            "Is resolved quickly"
+          ],
+          "answer": 1,
+          "explain": "Å ulme = cháy âm ỉ. Hình ảnh xung đột chưa được nói ra nhưng vẫn tồn tại.",
+          "explain_en": "Å ulme = to smoulder. It's an image of conflict that is unspoken but still there."
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "title": "Etter forestillingen av En folkefiende",
+      "title_vi": "Thảo luận về một vở kịch của Ibsen",
+      "title_en": "After the performance of An Enemy of the People",
+      "level": "B2",
+      "icon": "🎭",
+      "characters": {
+        "Phương": "👨🏻",
+        "Ingrid": "👩🏼",
+        "Tor": "🧔🏼"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "Phương, Ingrid og Tor har sett Ibsens En folkefiende på Nationaltheatret. Etterpå setter de seg på en kafé i nærheten.",
+          "vi": "Phương, Ingrid và Tor vừa xem vở Kẻ thù của nhân dân của Ibsen tại Nhà hát Quốc gia. Sau đó họ ngồi ở một quán cà phê gần đó.",
+          "en": "Phương, Ingrid and Tor have seen Ibsen's An Enemy of the People at the National Theatre. Afterwards they sit down at a café nearby."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Jeg blir like berørt hver gang. Det er utrolig at et stykke fra 1882 kan føles så aktuelt.",
+          "vi": "Lần nào xem tôi cũng xúc động như vậy. Thật khó tin một vở kịch từ năm 1882 lại có thể mang tính thời sự đến thế.",
+          "en": "I'm just as moved every time. It's incredible that a play from 1882 can feel so relevant."
+        },
+        {
+          "who": "Phương",
+          "no": "For meg var det første gang. Kan dere hjelpe meg med å forstå bakgrunnen? Jeg fikk ikke med meg alt.",
+          "vi": "Với tôi đây là lần đầu. Mọi người có thể giúp tôi hiểu bối cảnh không? Tôi không theo kịp hết.",
+          "en": "For me it was the first time. Can you help me understand the background? I didn't catch everything."
+        },
+        {
+          "who": "Tor",
+          "no": "Doktor Stockmann oppdager at vannet i byens kurbad er forurenset, og at badegjestene risikerer å bli syke.",
+          "vi": "Bác sĩ Stockmann phát hiện ra nước trong khu tắm khoáng của thị trấn bị ô nhiễm, và khách đến tắm có nguy cơ bị bệnh.",
+          "en": "Doctor Stockmann discovers that the water in the town's spa baths is polluted, and that the bathers risk getting ill."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Han regner med å bli hyllet som en helt, men i stedet vender hele byen seg mot ham.",
+          "vi": "Ông ấy tưởng mình sẽ được tôn vinh như một người hùng, nhưng thay vào đó cả thị trấn quay lưng lại với ông.",
+          "en": "He expects to be hailed as a hero, but instead the whole town turns against him."
+        },
+        {
+          "who": "Phương",
+          "no": "Fordi badet er byens viktigste inntektskilde, går jeg ut fra? Det var broren hans, byfogden, som ledet motstanden.",
+          "vi": "Tôi đoán là vì khu tắm là nguồn thu chính của thị trấn? Chính anh trai ông, viên thị trưởng, là người dẫn đầu phe phản đối.",
+          "en": "Because the baths are the town's main source of income, I assume? It was his brother, the mayor, who led the opposition."
+        },
+        {
+          "who": "Tor",
+          "no": "Nettopp. Å utbedre vannledningene ville koste en formue, og ingen ville ta regningen.",
+          "vi": "Chính xác. Sửa lại hệ thống ống dẫn nước sẽ tốn cả một gia tài, và không ai muốn chịu chi phí.",
+          "en": "Exactly. Repairing the water pipes would cost a fortune, and nobody wanted to foot the bill."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Det minner påfallende om dagens klimadebatt. Vi vet hva som må gjøres, men de økonomiske interessene står i veien.",
+          "vi": "Điều đó gợi nhớ rõ rệt đến cuộc tranh luận về khí hậu ngày nay. Chúng ta biết phải làm gì, nhưng lợi ích kinh tế cản đường.",
+          "en": "It's strikingly reminiscent of today's climate debate. We know what needs to be done, but economic interests stand in the way."
+        },
+        {
+          "who": "Phương",
+          "no": "Ja, eller om varslere i store selskaper. De som sier fra om kritikkverdige forhold, blir ofte straffet i stedet for belønnet.",
+          "vi": "Đúng, hoặc chuyện những người tố giác trong các tập đoàn lớn. Những ai lên tiếng về sai phạm thường bị trừng phạt thay vì được khen thưởng.",
+          "en": "Yes, or of whistle-blowers in large companies. Those who report wrongdoing are often punished instead of rewarded."
+        },
+        {
+          "who": "Tor",
+          "no": "Men jeg må innrømme at jeg ikke er helt komfortabel med Stockmann i fjerde akt.",
+          "vi": "Nhưng tôi phải thừa nhận là tôi không hoàn toàn thoải mái với Stockmann ở hồi thứ tư.",
+          "en": "But I have to admit that I'm not entirely comfortable with Stockmann in the fourth act."
+        },
+        {
+          "who": "Phương",
+          "no": "Du tenker på talen der han sier at flertallet aldri har retten på sin side?",
+          "vi": "Anh đang nghĩ đến bài diễn văn trong đó ông ấy nói rằng số đông không bao giờ có lẽ phải?",
+          "en": "You're thinking of the speech where he says that the majority is never in the right?"
+        },
+        {
+          "who": "Tor",
+          "no": "Ja. Der går han fra å være en idealist til å bli nesten arrogant og antidemokratisk.",
+          "vi": "Đúng vậy. Ở đó ông ấy chuyển từ một người lý tưởng thành gần như kiêu ngạo và phản dân chủ.",
+          "en": "Yes. There he goes from being an idealist to becoming almost arrogant and anti-democratic."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Jeg tror det er nettopp poenget. Ibsen gir oss ingen enkel helt, men en komplisert mann med både rett og feil.",
+          "vi": "Tôi nghĩ chính đó là điểm mấu chốt. Ibsen không cho chúng ta một người hùng đơn giản, mà là một con người phức tạp, vừa đúng vừa sai.",
+          "en": "I think that's exactly the point. Ibsen doesn't give us a simple hero, but a complicated man who is both right and wrong."
+        },
+        {
+          "who": "Phương",
+          "no": "Interessant. I mange vietnamesiske fortellinger er det tydeligere skille mellom gode og onde karakterer.",
+          "vi": "Thú vị thật. Trong nhiều câu chuyện Việt Nam, ranh giới giữa nhân vật tốt và xấu rõ ràng hơn.",
+          "en": "Interesting. In many Vietnamese stories there is a clearer distinction between good and evil characters."
+        },
+        {
+          "who": "Phương",
+          "no": "Likevel kjenner jeg igjen dilemmaet: Skal man si sannheten, selv om det går ut over familien og fellesskapet?",
+          "vi": "Tuy vậy tôi vẫn nhận ra tình thế khó xử đó: Có nên nói sự thật, ngay cả khi điều đó ảnh hưởng đến gia đình và cộng đồng?",
+          "en": "Nevertheless, I recognise the dilemma: Should you tell the truth, even if it harms your family and the community?"
+        },
+        {
+          "who": "Tor",
+          "no": "Det er vel derfor stykket fortsatt settes opp over hele verden. Spørsmålet har ikke noe enkelt svar.",
+          "vi": "Có lẽ vì thế mà vở kịch vẫn được dàn dựng khắp thế giới. Câu hỏi đó không có câu trả lời đơn giản.",
+          "en": "That's probably why the play is still staged all over the world. The question has no simple answer."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Hva syntes dere om regien? Jeg likte at de flyttet handlingen til vår egen tid.",
+          "vi": "Mọi người thấy phần đạo diễn thế nào? Tôi thích việc họ chuyển bối cảnh sang thời đại của chúng ta.",
+          "en": "What did you think of the direction? I liked that they moved the action to our own time."
+        },
+        {
+          "who": "Tor",
+          "no": "Jeg syntes de tok litt for hardt i med sosiale medier, men skuespillerprestasjonene var glimrende.",
+          "vi": "Tôi thấy họ hơi lạm dụng mạng xã hội, nhưng diễn xuất thì tuyệt vời.",
+          "en": "I thought they overdid the social media a bit, but the acting performances were brilliant."
+        },
+        {
+          "who": "Phương",
+          "no": "Jeg ble særlig grepet av den siste replikken om at den sterkeste mannen er han som står mest alene.",
+          "vi": "Tôi đặc biệt bị cuốn hút bởi câu thoại cuối cùng rằng người mạnh nhất là người đứng đơn độc nhất.",
+          "en": "I was especially gripped by the final line, that the strongest man is the one who stands most alone."
+        },
+        {
+          "who": "Ingrid",
+          "no": "Den er både vakker og tragisk. Neste gang må du se Et dukkehjem, så kan vi diskutere Nora.",
+          "vi": "Câu đó vừa đẹp vừa bi thương. Lần tới anh phải xem Ngôi nhà búp bê, rồi chúng ta có thể bàn về Nora.",
+          "en": "It's both beautiful and tragic. Next time you must see A Doll's House, then we can discuss Nora."
+        },
+        {
+          "who": "Phương",
+          "no": "Avtale! Men da er det jeg som spanderer billettene.",
+          "vi": "Hứa nhé! Nhưng lần đó tôi sẽ là người bao vé.",
+          "en": "Deal! But then I'm the one treating you to the tickets."
+        }
+      ],
+      "questions": [
+        {
+          "after": 3,
+          "q": "Bác sĩ Stockmann phát hiện ra điều gì?",
+          "q_en": "What does Doctor Stockmann discover?",
+          "options": [
+            "Thị trấn sắp phá sản",
+            "Nước ở khu tắm khoáng bị ô nhiễm",
+            "Anh trai ông tham nhũng"
+          ],
+          "options_en": [
+            "The town is about to go bankrupt",
+            "The water in the spa baths is polluted",
+            "His brother is corrupt"
+          ],
+          "answer": 1,
+          "explain": "“Vannet i byens kurbad er forurenset”: forurenset = bị ô nhiễm, kurbad = khu tắm khoáng chữa bệnh.",
+          "explain_en": "“Vannet i byens kurbad er forurenset”: forurenset = polluted, kurbad = spa baths."
+        },
+        {
+          "after": 6,
+          "q": "Vì sao cả thị trấn quay lưng lại với Stockmann?",
+          "q_en": "Why does the whole town turn against Stockmann?",
+          "options": [
+            "Vì sửa đường ống quá tốn kém và khu tắm là nguồn thu chính",
+            "Vì ông ấy nói dối",
+            "Vì ông ấy muốn làm thị trưởng"
+          ],
+          "options_en": [
+            "Because repairing the pipes is too expensive and the baths are the main income",
+            "Because he lied",
+            "Because he wants to become mayor"
+          ],
+          "answer": 0,
+          "explain": "Thành ngữ “å ta regningen” = chịu chi phí (trả hóa đơn). “Koste en formue” = tốn cả gia tài.",
+          "explain_en": "The idiom “å ta regningen” = to foot the bill. “Koste en formue” = to cost a fortune."
+        },
+        {
+          "after": 8,
+          "q": "Phương liên hệ vở kịch với hiện tượng nào ngày nay?",
+          "q_en": "Which modern phenomenon does Phương link the play to?",
+          "options": [
+            "Du lịch đại chúng",
+            "Bầu cử địa phương",
+            "Người tố giác sai phạm trong các tập đoàn"
+          ],
+          "options_en": [
+            "Mass tourism",
+            "Local elections",
+            "Whistle-blowers in large companies"
+          ],
+          "answer": 2,
+          "explain": "“Varslere” = người tố giác. “Å si fra om kritikkverdige forhold” là cách nói chính thức về việc lên tiếng trước sai phạm.",
+          "explain_en": "“Varslere” = whistle-blowers. “Å si fra om kritikkverdige forhold” is the official phrase for reporting wrongdoing."
+        },
+        {
+          "after": 12,
+          "q": "Theo Ingrid, Ibsen muốn thể hiện điều gì qua nhân vật Stockmann?",
+          "q_en": "According to Ingrid, what does Ibsen want to show through Stockmann?",
+          "options": [
+            "Một người hùng hoàn hảo",
+            "Một con người phức tạp, vừa đúng vừa sai",
+            "Một kẻ phản diện"
+          ],
+          "options_en": [
+            "A perfect hero",
+            "A complicated man who is both right and wrong",
+            "A villain"
+          ],
+          "answer": 1,
+          "explain": "“Ingen enkel helt, men en komplisert mann”: ingen ... men ... = không phải ... mà là ...",
+          "explain_en": "“Ingen enkel helt, men en komplisert mann”: ingen ... men ... = not a ... but a ..."
+        },
+        {
+          "after": 17,
+          "q": "Tor nhận xét gì về buổi diễn?",
+          "q_en": "What is Tor's opinion of the production?",
+          "options": [
+            "Diễn xuất kém nhưng dàn dựng hay",
+            "Quá dài và nhàm chán",
+            "Hơi lạm dụng mạng xã hội nhưng diễn xuất xuất sắc"
+          ],
+          "options_en": [
+            "Weak acting but good staging",
+            "Too long and boring",
+            "Overdid social media a bit, but brilliant acting"
+          ],
+          "answer": 2,
+          "explain": "Thành ngữ “å ta for hardt i” = làm quá tay, cường điệu.",
+          "explain_en": "The idiom “å ta for hardt i” = to overdo it."
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "title": "Møte i Utenriksdepartementet om utviklingssamarbeid",
+      "title_vi": "Gặp mặt tại Bộ Ngoại giao về hợp tác phát triển",
+      "title_en": "Meeting at the Ministry of Foreign Affairs on development cooperation",
+      "level": "B2",
+      "icon": "🏛️",
+      "characters": {
+        "Phương": "👨🏻",
+        "Astrid": "👩🏼‍💼",
+        "Nam": "👨🏻‍💼"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "no": "Phương og Nam fra den vietnamesiske ambassaden er invitert til Utenriksdepartementet for å drøfte et mulig samarbeid om bærekraftig fiskeriforvaltning.",
+          "vi": "Phương và anh Nam từ Đại sứ quán Việt Nam được mời đến Bộ Ngoại giao Na Uy để thảo luận về khả năng hợp tác quản lý nghề cá bền vững.",
+          "en": "Phương and Nam from the Vietnamese embassy have been invited to the Ministry of Foreign Affairs to discuss possible cooperation on sustainable fisheries management."
+        },
+        {
+          "who": "Astrid",
+          "no": "Velkommen begge to. Som seniorrådgiver i seksjonen for utviklingspolitikk har jeg ansvar for porteføljen innen hav og matsikkerhet.",
+          "vi": "Chào mừng hai anh. Với vai trò cố vấn cấp cao ở ban chính sách phát triển, tôi phụ trách danh mục về biển và an ninh lương thực.",
+          "en": "Welcome to you both. As senior adviser in the development policy section, I'm responsible for the portfolio on oceans and food security."
+        },
+        {
+          "who": "Astrid",
+          "no": "La meg innledningsvis være tydelig: Vietnam regnes ikke lenger som et typisk mottakerland for tradisjonell bistand.",
+          "vi": "Xin cho phép tôi nói rõ ngay từ đầu: Việt Nam không còn được coi là một nước tiếp nhận viện trợ truyền thống điển hình.",
+          "en": "Let me be clear from the outset: Vietnam is no longer regarded as a typical recipient country for traditional aid."
+        },
+        {
+          "who": "Nam",
+          "no": "Det er vi fullt klar over, og vi ser det som et tegn på den økonomiske utviklingen landet har gjennomgått.",
+          "vi": "Chúng tôi hoàn toàn nhận thức được điều đó, và chúng tôi coi đó là dấu hiệu của sự phát triển kinh tế mà đất nước đã trải qua.",
+          "en": "We are fully aware of that, and we see it as a sign of the economic development the country has undergone."
+        },
+        {
+          "who": "Nam",
+          "no": "Det vi etterspør, er derfor ikke økonomisk støtte, men kunnskapsoverføring og institusjonelt samarbeid.",
+          "vi": "Vì vậy, điều chúng tôi đề nghị không phải là hỗ trợ tài chính, mà là chuyển giao tri thức và hợp tác thể chế.",
+          "en": "What we are asking for is therefore not financial support, but knowledge transfer and institutional cooperation."
+        },
+        {
+          "who": "Astrid",
+          "no": "Det harmonerer godt med regjeringens prioriteringer. Kan dere konkretisere hva et slikt samarbeid kunne innebære?",
+          "vi": "Điều đó rất phù hợp với các ưu tiên của chính phủ. Các anh có thể cụ thể hóa sự hợp tác như vậy sẽ bao gồm những gì không?",
+          "en": "That fits well with the government's priorities. Could you specify what such cooperation might involve?"
+        },
+        {
+          "who": "Phương",
+          "no": "Vi ser for oss tre hovedområder: bestandsberegning, digital fangstrapportering og bekjempelse av ulovlig fiske.",
+          "vi": "Chúng tôi hình dung ba lĩnh vực chính: đánh giá trữ lượng, báo cáo sản lượng khai thác bằng kỹ thuật số và đấu tranh chống khai thác bất hợp pháp.",
+          "en": "We envisage three main areas: stock assessment, digital catch reporting and combating illegal fishing."
+        },
+        {
+          "who": "Phương",
+          "no": "Særlig det siste er presserende, ettersom EU har gitt Vietnam et såkalt gult kort for mangelfull kontroll med fiskeflåten.",
+          "vi": "Đặc biệt lĩnh vực cuối cùng là cấp bách, bởi EU đã rút thẻ vàng đối với Việt Nam vì kiểm soát đội tàu cá chưa đầy đủ.",
+          "en": "The last one in particular is urgent, since the EU has given Vietnam a so-called yellow card for inadequate control of its fishing fleet."
+        },
+        {
+          "who": "Astrid",
+          "no": "Det er et kjent problem. Havforskningsinstituttet har lang erfaring med lignende prosjekter i både Afrika og Asia.",
+          "vi": "Đó là vấn đề đã được biết đến. Viện Nghiên cứu Biển có nhiều kinh nghiệm với các dự án tương tự ở cả châu Phi lẫn châu Á.",
+          "en": "That's a well-known problem. The Institute of Marine Research has long experience with similar projects in both Africa and Asia."
+        },
+        {
+          "who": "Astrid",
+          "no": "Likevel må jeg understreke at bevilgningene er begrensede, og at vi må prioritere strengt mellom mange gode formål.",
+          "vi": "Tuy nhiên, tôi phải nhấn mạnh rằng ngân sách được cấp có hạn, và chúng tôi phải ưu tiên rất chặt chẽ giữa nhiều mục đích tốt đẹp.",
+          "en": "Nevertheless, I must stress that the appropriations are limited, and that we have to prioritise strictly between many good causes."
+        },
+        {
+          "who": "Phương",
+          "no": "Det har jeg full forståelse for. Derfor foreslår vi en kostnadsdelingsmodell der vietnamesiske myndigheter dekker halvparten.",
+          "vi": "Tôi hoàn toàn thông cảm với điều đó. Vì vậy chúng tôi đề xuất một mô hình chia sẻ chi phí, trong đó chính quyền Việt Nam chi trả một nửa.",
+          "en": "I fully understand that. That's why we propose a cost-sharing model where the Vietnamese authorities cover half."
+        },
+        {
+          "who": "Nam",
+          "no": "Det vil dessuten sikre eierskap på vietnamesisk side, noe som erfaringsmessig er avgjørende for at resultatene skal vare.",
+          "vi": "Hơn nữa, điều đó sẽ bảo đảm tính làm chủ từ phía Việt Nam, yếu tố mà theo kinh nghiệm là then chốt để kết quả được bền lâu.",
+          "en": "It will also ensure ownership on the Vietnamese side, which experience shows is crucial for the results to last."
+        },
+        {
+          "who": "Astrid",
+          "no": "Det er et sterkt argument. Lokalt eierskap er et av kriteriene vi vektlegger mest i vurderingen av søknader.",
+          "vi": "Đó là một lập luận mạnh. Tính làm chủ của địa phương là một trong những tiêu chí chúng tôi coi trọng nhất khi xét duyệt hồ sơ.",
+          "en": "That's a strong argument. Local ownership is one of the criteria we emphasise most when assessing applications."
+        },
+        {
+          "who": "Astrid",
+          "no": "Men hvordan vil dere håndtere risikoen for korrupsjon? Det er et tema vi ikke kan gå på akkord med.",
+          "vi": "Nhưng các anh sẽ xử lý nguy cơ tham nhũng như thế nào? Đó là vấn đề chúng tôi không thể thỏa hiệp.",
+          "en": "But how will you handle the risk of corruption? That's an issue on which we cannot compromise."
+        },
+        {
+          "who": "Nam",
+          "no": "Vi er innstilt på full åpenhet, med uavhengig revisjon og regelmessig rapportering til departementet.",
+          "vi": "Chúng tôi sẵn sàng minh bạch hoàn toàn, với kiểm toán độc lập và báo cáo định kỳ cho Bộ.",
+          "en": "We are prepared for full transparency, with independent auditing and regular reporting to the ministry."
+        },
+        {
+          "who": "Phương",
+          "no": "I tillegg kan midlene kanaliseres gjennom norske fagmiljøer i stedet for direkte til myndighetene.",
+          "vi": "Ngoài ra, nguồn vốn có thể được chuyển qua các cơ quan chuyên môn của Na Uy thay vì trực tiếp đến chính quyền.",
+          "en": "In addition, the funds can be channelled through Norwegian expert institutions instead of directly to the authorities."
+        },
+        {
+          "who": "Astrid",
+          "no": "Det ville gjøre saken betydelig enklere. Har dere vurdert å involvere næringslivet også?",
+          "vi": "Điều đó sẽ khiến vấn đề đơn giản hơn đáng kể. Các anh đã cân nhắc việc mời cả khu vực doanh nghiệp tham gia chưa?",
+          "en": "That would make the matter considerably simpler. Have you considered involving the business sector as well?"
+        },
+        {
+          "who": "Phương",
+          "no": "Ja, selskapet jeg jobber for, utvikler rimelige sensorer for småskala oppdrett. Men jeg vil være åpen om at det kan oppfattes som en interessekonflikt.",
+          "vi": "Có, công ty tôi đang làm phát triển các cảm biến giá rẻ cho nuôi trồng quy mô nhỏ. Nhưng tôi muốn nói thẳng rằng điều đó có thể bị xem là xung đột lợi ích.",
+          "en": "Yes, the company I work for develops affordable sensors for small-scale farming. But I want to be open that this could be seen as a conflict of interest."
+        },
+        {
+          "who": "Astrid",
+          "no": "Det setter jeg pris på at du nevner. Eventuelle anskaffelser må uansett gjennom en åpen anbudskonkurranse.",
+          "vi": "Tôi trân trọng việc anh nêu điều đó. Dù sao thì mọi hoạt động mua sắm đều phải qua đấu thầu công khai.",
+          "en": "I appreciate you mentioning that. Any procurement will in any case have to go through an open tender."
+        },
+        {
+          "who": "Astrid",
+          "no": "Mitt forslag er at dere utarbeider et konseptnotat på maksimalt fem sider, som jeg kan legge fram for ledelsen.",
+          "vi": "Đề xuất của tôi là các anh soạn một bản ghi khái niệm tối đa năm trang, để tôi có thể trình lên lãnh đạo.",
+          "en": "My suggestion is that you prepare a concept note of no more than five pages, which I can present to the management."
+        },
+        {
+          "who": "Nam",
+          "no": "Det skal vi gjøre. Vi tar sikte på å sende det innen utgangen av måneden.",
+          "vi": "Chúng tôi sẽ làm việc đó. Chúng tôi dự kiến gửi trước cuối tháng.",
+          "en": "We'll do that. We aim to send it by the end of the month."
+        },
+        {
+          "who": "Astrid",
+          "no": "Utmerket. Jeg kan ikke love noe, men jeg synes absolutt at forslaget fortjener å bli vurdert.",
+          "vi": "Tuyệt vời. Tôi không thể hứa trước điều gì, nhưng tôi hoàn toàn cho rằng đề xuất này xứng đáng được xem xét.",
+          "en": "Excellent. I can't promise anything, but I certainly think the proposal deserves to be considered."
+        },
+        {
+          "who": "narrator",
+          "no": "Utenfor departementet snur Nam seg mot Phương og smiler.",
+          "vi": "Bên ngoài tòa nhà Bộ, anh Nam quay sang Phương và mỉm cười.",
+          "en": "Outside the ministry, Nam turns to Phương and smiles."
+        },
+        {
+          "who": "Nam",
+          "no": "Diplomatkunstene sitter visst fortsatt i, Phương. Det der var godt håndverk!",
+          "vi": "Có vẻ tài ngoại giao vẫn còn nguyên đó, anh Phương. Vừa rồi anh xử lý rất khéo!",
+          "en": "It seems the diplomatic skills are still there, Phương. That was skilfully done!"
+        }
+      ],
+      "questions": [
+        {
+          "after": 4,
+          "q": "Phía Việt Nam đề nghị điều gì?",
+          "q_en": "What is the Vietnamese side asking for?",
+          "options": [
+            "Viện trợ tài chính trực tiếp",
+            "Chuyển giao tri thức và hợp tác thể chế",
+            "Tàu cá mới"
+          ],
+          "options_en": [
+            "Direct financial aid",
+            "Knowledge transfer and institutional cooperation",
+            "New fishing vessels"
+          ],
+          "answer": 1,
+          "explain": "Câu chẻ “Det vi etterspør, er ... ikke ..., men ...” = điều chúng tôi đề nghị không phải ... mà là ...",
+          "explain_en": "The cleft “Det vi etterspør, er ... ikke ..., men ...” = what we're asking for is not ... but ..."
+        },
+        {
+          "after": 7,
+          "q": "Vì sao chống khai thác bất hợp pháp là việc cấp bách?",
+          "q_en": "Why is combating illegal fishing urgent?",
+          "options": [
+            "Vì Na Uy yêu cầu",
+            "Vì giá cá giảm",
+            "Vì EU đã rút thẻ vàng với Việt Nam"
+          ],
+          "options_en": [
+            "Because Norway demands it",
+            "Because fish prices are falling",
+            "Because the EU has given Vietnam a yellow card"
+          ],
+          "answer": 2,
+          "explain": "“Ettersom” = bởi vì (trang trọng). “Mangelfull kontroll” = kiểm soát chưa đầy đủ.",
+          "explain_en": "“Ettersom” = since, because (formal). “Mangelfull kontroll” = inadequate control."
+        },
+        {
+          "after": 11,
+          "q": "Theo anh Nam, mô hình chia sẻ chi phí mang lại lợi ích gì?",
+          "q_en": "According to Nam, what is the benefit of the cost-sharing model?",
+          "options": [
+            "Bảo đảm tính làm chủ của phía Việt Nam để kết quả bền lâu",
+            "Giúp Na Uy tiết kiệm thuế",
+            "Rút ngắn thời gian dự án"
+          ],
+          "options_en": [
+            "It ensures Vietnamese ownership so results last",
+            "It saves Norway taxes",
+            "It shortens the project"
+          ],
+          "answer": 0,
+          "explain": "“Noe som erfaringsmessig er avgjørende”: noe som thay cho cả mệnh đề trước; erfaringsmessig = theo kinh nghiệm.",
+          "explain_en": "“Noe som erfaringsmessig er avgjørende”: noe som refers to the whole previous clause; erfaringsmessig = based on experience."
+        },
+        {
+          "after": 13,
+          "q": "“Gå på akkord med” có nghĩa là gì?",
+          "q_en": "What does “gå på akkord med” mean?",
+          "options": [
+            "Đồng ý ngay",
+            "Thỏa hiệp, nhân nhượng",
+            "Hát theo"
+          ],
+          "options_en": [
+            "To agree immediately",
+            "To compromise on",
+            "To sing along"
+          ],
+          "answer": 1,
+          "explain": "Thành ngữ “å gå på akkord med noe” = thỏa hiệp về nguyên tắc nào đó.",
+          "explain_en": "The idiom “å gå på akkord med noe” = to compromise on a principle."
+        },
+        {
+          "after": 18,
+          "q": "Vì sao bà Astrid đánh giá cao Phương?",
+          "q_en": "Why does Astrid appreciate Phương's remark?",
+          "options": [
+            "Vì anh hứa tài trợ dự án",
+            "Vì anh nói tiếng Na Uy rất giỏi",
+            "Vì anh chủ động nêu khả năng xung đột lợi ích"
+          ],
+          "options_en": [
+            "Because he promises to fund the project",
+            "Because he speaks excellent Norwegian",
+            "Because he openly raises a possible conflict of interest"
+          ],
+          "answer": 2,
+          "explain": "“Det setter jeg pris på at du nevner”: tân ngữ det đưa lên đầu để nhấn mạnh, động từ setter vẫn ở vị trí thứ hai.",
+          "explain_en": "“Det setter jeg pris på at du nevner”: det is fronted for emphasis, and the verb setter stays in second place."
+        }
+      ]
     }
   ]
 }

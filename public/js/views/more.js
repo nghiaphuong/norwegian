@@ -6,7 +6,7 @@ import { t, lang } from '../i18n.js';
 
 export async function render(main) {
   const items = [
-    ['phrases', 'chat', 'Câu giao tiếp', '14 tình huống: học, nhại theo, nghe hiểu'],
+    ['phrases', 'chat', 'Câu giao tiếp', '22 tình huống: học, nhại theo, nghe hiểu'],
     ['pron', 'lips', 'Phát âm', 'Nghe bất kỳ câu, bảng âm, cặp âm dễ nhầm'],
     ['stories', 'story', 'Truyện', 'Hội thoại ngắn có câu hỏi'],
     ['grammar', 'grammar', 'Ngữ pháp', 'Giải thích ngắn gọn + kiểm tra'],

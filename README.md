@@ -8,13 +8,13 @@
 | Mục | Nội dung |
 |---|---|
 | **Hôm nay** | Mục tiêu XP hằng ngày, chuỗi ngày học (có lượt đóng băng chuỗi), từ của ngày, câu của ngày, lịch sử học dạng ô nhiệt 17 tuần |
-| **Lộ trình** | 14 chương, 42 bài A1→A2 và bài kiểm tra cuối chương (có học vượt). Mỗi bài 9 dạng bài tập: chọn nghĩa, chọn từ, nghe chọn, ghép cặp, xếp câu từ thẻ chữ, điền chỗ trống, nghe chép, gõ từ, nói (máy chấm). Câu sai được làm lại cuối bài |
+| **Lộ trình** | 4 cấp A1, A2, B1, B2: 46 chương, 159 bài (hơn 2.000 từ, gần 1.500 câu mẫu) và bài kiểm tra cuối chương (có học vượt); nút nhảy nhanh tới từng cấp, tiến độ và huy hiệu hoàn thành mỗi cấp. Mỗi bài 9 dạng bài tập: chọn nghĩa, chọn từ, nghe chọn, ghép cặp, xếp câu từ thẻ chữ, điền chỗ trống, nghe chép, gõ từ, nói (máy chấm). Câu sai được làm lại cuối bài |
 | **Ôn tập** | Thẻ lặp lại ngắt quãng (SM-2: Quên/Khó/Nhớ/Dễ, cả chiều Việt → Na Uy), sổ từ cá nhân, luyện lỗi sai |
-| **Từ điển** | Bokmålsordboka (biến cách đầy đủ, nghĩa, ví dụ, thành ngữ) + dịch nghĩa sang tiếng Việt + Wiktionary tiếng Anh + 2.400 từ thông dụng có nghĩa tiếng Việt soạn sẵn; tra được dạng chia (huset, gikk), tra ngược Việt → Na Uy, dịch câu Na Uy ⇄ Việt/Anh, lưu thẻ một chạm |
-| **Câu giao tiếp** | 14 tình huống (siêu thị, Ruter, bác sĩ, NAV, công sở…) với 3 chế độ: Học câu (nghe, nói thử có chấm), Nhại theo (shadowing), Nghe hiểu |
+| **Từ điển** | Bokmålsordboka (biến cách đầy đủ, nghĩa, ví dụ, thành ngữ) + dịch nghĩa sang tiếng Việt + Wiktionary tiếng Anh + khoảng 4.600 từ A1–B2 có nghĩa tiếng Việt và tiếng Anh soạn sẵn (gồm thành ngữ, thuật ngữ kinh tế biển); tra được dạng chia (huset, gikk), tra ngược Việt → Na Uy, dịch câu Na Uy ⇄ Việt/Anh, lưu thẻ một chạm |
+| **Câu giao tiếp** | 22 tình huống: 14 tình huống hằng ngày (siêu thị, Ruter, bác sĩ, NAV, công sở…) và 8 tình huống B1–B2 (họp, đàm phán, thuyết trình, khiếu nại, tranh luận, phỏng vấn nâng cao, giao lưu, cơ quan nhà nước) với 3 chế độ: Học câu (nghe, nói thử có chấm), Nhại theo (shadowing), Nghe hiểu |
 | **Phát âm** | Nghe bất kỳ câu (chậm, 3 lần, đánh vần, mẹo đọc tự động), bảng phát âm đầy đủ, luyện tai với cặp âm dễ nhầm (tak/takk, bønder/bønner…) |
-| **Truyện** | 10 truyện hội thoại kiểu Duolingo Stories, chạm từ để xem nghĩa, câu hỏi hiểu bài xen giữa |
-| **Ngữ pháp** | 14 bài giải thích bằng tiếng Việt, so sánh với tiếng Việt, ví dụ có âm thanh, bài kiểm tra |
+| **Truyện** | 22 truyện hội thoại kiểu Duolingo Stories từ A1 đến B2, chạm từ để xem nghĩa, câu hỏi hiểu bài xen giữa |
+| **Ngữ pháp** | 30 bài từ A1 đến B2 (bị động, mệnh đề quan hệ, câu điều kiện, lời nói gián tiếp, danh từ hóa, liên kết văn bản, nynorsk…), giải thích song ngữ, ví dụ có âm thanh, bài kiểm tra |
 | **Gia sư AI** (tùy chọn) | Hội thoại nhập vai với Claude (quán cà phê, bác sĩ, phỏng vấn…) có sửa lỗi, sửa câu tự viết, giải thích câu từng từ |
 | **Hồ sơ** | Tài khoản, đồng bộ đa thiết bị, bảng xếp hạng tuần, 16 huy hiệu, cài đặt giọng đọc/tốc độ/giao diện, sao lưu và khôi phục |
 
@@ -31,7 +31,7 @@ Chỉ hiện với tài khoản quản trị viên (kiểm tra cả ở máy ch�
 
 ## Kiểm thử tự động trên nhiều trình duyệt
 `scripts/qa/` chứa bộ kiểm thử chạy trong trang bằng Chrome, Edge, Opera (giao thức DevTools) và Firefox (WebDriver BiDi), chế độ headless với hồ sơ tạm:
-làm hết 56 bài học, ôn thẻ, sổ từ, từ điển (tra xuôi, tra ngược, dịch câu, lưu thẻ), câu giao tiếp, phát âm, 10 truyện, 14 bài ngữ pháp,
+làm hết mọi bài học, ôn thẻ, sổ từ, từ điển (tra xuôi, tra ngược, dịch câu, lưu thẻ), câu giao tiếp, phát âm, mọi truyện và bài ngữ pháp,
 cài đặt, đổi ngôn ngữ, đăng ký/đăng nhập, đồng bộ, bảng xếp hạng, toàn bộ trang quản trị, chống rò rỉ khi chuyển trang; và bản điện thoại (375px):
 không tràn ngang, thanh tab, kích thước nút. Mọi lỗi JavaScript từ lúc tải trang đều bị ghi nhận.
 ```bash

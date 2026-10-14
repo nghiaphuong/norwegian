@@ -116,7 +116,7 @@ export async function render(main, params) {
     res.innerHTML = `<div class="card" style="margin-top:18px"><h3>${t('Từ điển này có gì?')}</h3>
       <ul class="muted" style="margin:8px 0 0;padding-left:20px;line-height:1.7">
         <li>${t('<b>Bokmålsordboka</b> (Språkrådet & Đại học Bergen): đầy đủ biến cách, nghĩa và ví dụ chuẩn, kèm bản dịch máy sang tiếng Việt.')}</li>
-        <li>${t('<b>Từ vựng tích hợp</b> hơn 2.400 từ thông dụng có nghĩa tiếng Việt soạn sẵn, tra được cả khi ngoại tuyến.')}</li>
+        <li>${t('<b>Từ vựng tích hợp</b> khoảng 4.600 từ A1–B2 có nghĩa tiếng Việt soạn sẵn, tra được cả khi ngoại tuyến.')}</li>
         <li>${t('<b>Wiktionary</b> tiếng Anh để đối chiếu nghĩa.')}</li>
         <li>${t('Lưu từ vào <b>thẻ ôn tập</b> chỉ với một chạm.')}</li></ul></div>
       ${recent.length ? `<div class="section-title"><h2>${t('Thẻ mới lưu')}</h2></div><div class="list">${recent.map(c => `<a class="row" href="#/dict/${encodeURIComponent(c.no.replace(/^(en|ei|et|å) /, ''))}" style="text-decoration:none"><div class="grow"><div class="no" lang="nb">${esc(c.no)}</div><div class="vi">${esc(mean(c))}</div></div>${ICON.next}</a>`).join('')}</div>` : ''}`;

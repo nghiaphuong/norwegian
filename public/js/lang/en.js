@@ -58,7 +58,7 @@ export default {
   'Tra gần đây': 'Recent searches', 'Chưa có.': 'Nothing yet.', '(không dịch được)': '(could not translate)', 'Dịch bởi {p}': 'Translated by {p}',
   'Chỉ đọc được văn bản tiếng Na Uy': 'Only Norwegian text can be read aloud', 'Từ điển này có gì?': "What's in this dictionary?",
   '<b>Bokmålsordboka</b> (Språkrådet & Đại học Bergen): đầy đủ biến cách, nghĩa và ví dụ chuẩn, kèm bản dịch máy sang tiếng Việt.': '<b>Bokmålsordboka</b> (Language Council of Norway & University of Bergen): full inflections, definitions and examples, with machine translation into English.',
-  '<b>Từ vựng tích hợp</b> hơn 2.400 từ thông dụng có nghĩa tiếng Việt soạn sẵn, tra được cả khi ngoại tuyến.': 'A <b>built-in vocabulary</b> of 2,400+ common words with hand-written English and Vietnamese meanings, available offline.',
+  '<b>Từ vựng tích hợp</b> khoảng 4.600 từ A1–B2 có nghĩa tiếng Việt soạn sẵn, tra được cả khi ngoại tuyến.': 'A <b>built-in vocabulary</b> of about 4,600 A1–B2 words with hand-written English and Vietnamese meanings, available offline.',
   '<b>Wiktionary</b> tiếng Anh để đối chiếu nghĩa.': 'English <b>Wiktionary</b> definitions for comparison.',
   'Lưu từ vào <b>thẻ ôn tập</b> chỉ với một chạm.': 'Save words to your <b>review cards</b> with one tap.',
   'Thẻ mới lưu': 'Recently saved', 'Đang tra Bokmålsordboka…': 'Searching Bokmålsordboka…', 'Không tra được trực tuyến ({e}).': 'Online lookup failed ({e}).',
@@ -118,7 +118,7 @@ export default {
   'Chắc chắn chứ?': 'Are you sure?',
 
   // ---- Thêm ----
-  '14 tình huống: học, nhại theo, nghe hiểu': '14 situations: learn, shadow, listen', 'Nghe bất kỳ câu, bảng âm, cặp âm dễ nhầm': 'Hear any sentence, sound chart, minimal pairs',
+  '22 tình huống: học, nhại theo, nghe hiểu': '22 situations: learn, shadow, listen', 'Nghe bất kỳ câu, bảng âm, cặp âm dễ nhầm': 'Hear any sentence, sound chart, minimal pairs',
   'Hội thoại ngắn có câu hỏi': 'Short dialogues with questions', 'Giải thích ngắn gọn + kiểm tra': 'Short explanations + quizzes',
   'Hồ sơ & cài đặt': 'Profile & settings', 'Thống kê, huy hiệu, bảng xếp hạng, cài đặt': 'Stats, badges, leaderboard, settings',
 
