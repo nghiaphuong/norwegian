@@ -36,9 +36,16 @@ export function buildExercises({ vocab = [], sentences = [], pool = [], count = 
   };
 
   // 1) Nhận biết từ mới
-  for (const w of (isNew ? v : sample(v, Math.ceil(v.length / 2)))) ex.push({ type: 'pick_vi', item: w, opts: optsFor(w, 'm'), isNew });
-  // 2) Ghép cặp
-  if (v.length >= 4) ex.push({ type: 'match', items: sample(v, Math.min(5, v.length)) });
+  // Bài nhiều từ (B1/B2 có 12–14 từ): giới thiệu tối đa 8 từ bằng trắc nghiệm, phần còn lại ghép cặp.
+  const intro = isNew ? (v.length > 8 ? sample(v, 8) : v) : sample(v, Math.min(6, Math.ceil(v.length / 2)));
+  for (const w of intro) ex.push({ type: 'pick_vi', item: w, opts: optsFor(w, 'm'), isNew });
+  // 2) Ghép cặp (thêm một lượt nếu bài có nhiều từ, ưu tiên từ chưa được giới thiệu)
+  if (v.length >= 4) {
+    const rest = shuffle(v.filter(w => !intro.includes(w)));
+    const first = (rest.length >= 4 ? rest : shuffle(v)).slice(0, 5);
+    ex.push({ type: 'match', items: first.length >= 4 ? first : sample(v, Math.min(5, v.length)) });
+    if (v.length > 10) ex.push({ type: 'match', items: sample(v.filter(w => !first.includes(w)).concat(first).slice(0, 5), 5) });
+  }
   // 3) Chọn từ Na Uy / nghe chọn / gõ từ
   for (const w of sample(v, Math.min(4, v.length))) {
     const r = Math.random();

@@ -1,5 +1,5 @@
 // Câu giao tiếp theo tình huống: Học câu · Nhại theo (shadowing) · Nghe hiểu.
-import { $, $$, esc, ICON, loadData, shuffle, sfx, tapWords } from '../ui.js';
+import { $, $$, esc, ICON, loadData, shuffle, sfx, tapWords, groupByLevel, levelTitle } from '../ui.js';
 import { store } from '../store.js';
 import { tts, stt } from '../speech.js';
 import { t, L, mean } from '../i18n.js';
@@ -13,10 +13,10 @@ export async function render(main, params) {
     const total = pb.topics.reduce((n, tp) => n + tp.items.length, 0);
     main.innerHTML = `<div class="page">
       <div class="page-head"><div><h1>${t('Câu giao tiếp')}</h1><p>${t('{n} tình huống thường gặp ở Oslo · đã thuộc {d}/{total} câu', { n: pb.topics.length, d: learned.size, total })}</p></div></div>
-      <div class="grid two">${pb.topics.map(tp => {
+      ${groupByLevel(pb.topics).map(([lv, tps]) => `${levelTitle(lv, tps.length)}<div class="grid two">${tps.map(tp => {
         const d = tp.items.filter((_, i) => learned.has(key(tp, i))).length;
         return `<a class="topic-tile" href="#/phrases/${tp.id}"><span class="emo">${tp.icon || '💬'}</span><div class="grow"><b>${esc(L(tp, 'title'))}</b><br><small>${esc(L(tp, 'note') || '')}</small><div class="progress" style="margin-top:8px;height:6px"><div style="width:${Math.round(d / tp.items.length * 100)}%"></div></div></div><small>${d}/${tp.items.length}</small></a>`;
-      }).join('')}</div></div>`;
+      }).join('')}</div>`).join('')}</div>`;
     return;
   }
 

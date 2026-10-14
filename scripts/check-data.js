@@ -7,13 +7,30 @@ const need = (cond, msg) => { if (!cond) errs.push(msg); };
 
 const course = load('course');
 const ids = new Set();
+const unitIds = new Set();
+const LEVELS = ['A1', 'A2', 'B1', 'B2'];
+let lastLevel = 0;
+const dupIn = (arr, f) => { const seen = new Set(); return arr.map(x => String(x[f] || '').trim().toLowerCase()).filter(k => (seen.has(k) ? true : (seen.add(k), false))); };
 for (const u of course.units) {
+  need(!unitIds.has(u.id), `trùng id chương ${u.id}`); unitIds.add(u.id);
+  const li = LEVELS.indexOf(u.level);
+  need(li >= 0, `${u.id}: cấp độ không hợp lệ ${u.level}`);
+  need(li >= lastLevel, `${u.id}: thứ tự cấp độ sai (${u.level} sau cấp cao hơn)`); lastLevel = Math.max(lastLevel, li);
   for (const l of u.lessons) {
     need(!ids.has(l.id), `trùng id bài ${l.id}`); ids.add(l.id);
     need(l.vocab.length >= 4, `${l.id}: ít hơn 4 từ`);
-    l.vocab.forEach((v, i) => need(v.no && v.vi, `${l.id} vocab ${i} thiếu no/vi`));
-    l.sentences.forEach((s, i) => need(s.no && s.vi, `${l.id} câu ${i} thiếu no/vi`));
+    l.vocab.forEach((v, i) => need(v.no && v.vi && v.en && v.pos, `${l.id} vocab ${i} thiếu no/vi/en/pos`));
+    l.vocab.forEach((v, i) => need(v.pos !== 'n' || ['m', 'f', 'n'].includes(v.g), `${l.id} vocab ${i} (${v.no}) danh từ thiếu giống`));
+    l.sentences.forEach((s, i) => need(s.no && s.vi && /[.!?]$/.test(s.no.trim()), `${l.id} câu ${i} thiếu no/vi hoặc dấu kết câu`));
+    // Nghĩa dùng làm phương án trắc nghiệm nên không được trùng trong một bài.
+    for (const f of ['no', 'vi', 'en']) { const d = dupIn(l.vocab, f); need(!d.length, `${l.id}: từ vựng trùng ${f}: ${d.join(', ')}`); }
+    for (const f of ['vi', 'en']) { const d = dupIn(l.sentences, f); need(!d.length, `${l.id}: câu trùng ${f}: ${d.join(', ')}`); }
   }
+}
+// Không dùng dấu gạch ngang dài trong nội dung.
+for (const n of ['course', 'phrasebook', 'stories', 'grammar']) {
+  const raw = JSON.stringify(load(n));
+  need(!raw.includes('—'), `${n}.json có dấu gạch ngang dài (—)`);
 }
 for (const t of load('phrasebook').topics) t.items.forEach((x, i) => need(x.no && x.vi, `phrase ${t.id}/${i}`));
 for (const s of load('stories').stories) {

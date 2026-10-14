@@ -2,3 +2,6 @@ node_modules/
 .env
 *.log
 tmp/
+
+# Nguồn nội dung đang soạn (gộp vào public/data bằng content-src/merge.js)
+content-src/

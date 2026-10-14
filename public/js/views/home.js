@@ -1,7 +1,7 @@
 import { esc, ICON, today, addDays, loadData, toast } from '../ui.js';
 import { store } from '../store.js';
 import { app, showNewBadges } from '../app.js';
-import { getCourse, nextLesson, progress } from '../course.js';
+import { getCourse, nextLesson, progress, currentLevel, levelProgress } from '../course.js';
 import { loadLexicon, allEntries, article, posVi } from '../lexicon.js';
 import { t, L, mean } from '../i18n.js';
 
@@ -57,7 +57,7 @@ export async function render(main) {
       <div>
         <p style="opacity:.75;margin:0" lang="nb">${g}${name}!</p>
         <h1>${xp >= goal ? `${t('Đã đạt mục tiêu hôm nay')} 🎉` : xp > 0 ? t('Tiếp tục nào!') : `${t(gvi)}!`}</h1>
-        <p>${nextLabel}</p>
+        <p><span class="hero-level" title="${t('Cấp độ hiện tại')}">${esc(currentLevel(course))}</span> ${nextLabel}</p>
         <a class="btn primary" href="#/learn/${next.id}">${ICON.play} ${pr.done ? t('Học tiếp') : t('Bắt đầu học')}</a>
       </div>
       <div class="ring">${ring(xp / goal)}<div class="lbl"><b>${xp}</b><small>/ ${goal} XP</small></div></div>
@@ -65,7 +65,7 @@ export async function render(main) {
 
     <div class="stat-boxes" style="margin-top:14px">
       <div class="sbox"><b style="color:var(--flame)">🔥 ${store.streak()}</b><small>${t('ngày liên tiếp')}${store.s.freezes ? ` · ❄️ ${store.s.freezes}` : ''}</small></div>
-      <div class="sbox"><b>${pr.done}/${pr.total}</b><small>${t('bài đã học')}</small></div>
+      <div class="sbox"><b>${esc(currentLevel(course))} · ${levelProgress(course, currentLevel(course)).done}/${levelProgress(course, currentLevel(course)).total}</b><small>${t('Cấp độ hiện tại')} · ${t('{d}/{n} bài', { d: pr.done, n: pr.total })}</small></div>
       <div class="sbox"><b>${Object.keys(store.s.cards).length}</b><small>${t('thẻ từ')}</small></div>
       <div class="sbox"><b>${store.weekXp()}</b><small>${t('XP tuần này')}</small></div>
     </div>

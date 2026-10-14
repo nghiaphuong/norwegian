@@ -150,3 +150,12 @@ export const ICON = {
   shield: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg>',
   ear: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8.5a6 6 0 1 1 12 0c0 3-2 4-3 5.5s-1 2.5-1 3.5a3 3 0 0 1-6 0"/><path d="M9.5 9a2.5 2.5 0 1 1 5 0c0 1.5-1.5 2-1.5 3"/></svg>',
 };
+
+// Nhóm danh sách theo cấp CEFR theo thứ tự A1 → B2; mục không ghi cấp xếp vào nhóm cơ bản.
+const LEVEL_ORDER = ['A1', 'A2', 'A1–A2', 'B1', 'B2'];
+export function groupByLevel(items, getLevel = x => x.level) {
+  const groups = new Map();
+  for (const it of items) { const lv = getLevel(it) || 'A1–A2'; if (!groups.has(lv)) groups.set(lv, []); groups.get(lv).push(it); }
+  return [...groups.entries()].sort((a, b) => LEVEL_ORDER.indexOf(a[0]) - LEVEL_ORDER.indexOf(b[0]));
+}
+export const levelTitle = (lv, n, done) => `<div class="level-title"><span class="level-code sm">${esc(lv)}</span><span class="muted small">${done !== undefined ? `${done}/${n}` : n}</span></div>`;

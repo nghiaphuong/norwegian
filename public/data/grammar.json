@@ -2289,6 +2289,3457 @@
           "explain_en": "Something repeated in the present takes når."
         }
       ]
+    },
+    {
+      "id": "g15",
+      "title": "Câu bị động",
+      "title_no": "Passiv",
+      "title_en": "The passive voice",
+      "level": "B1",
+      "icon": "🔄",
+      "summary": "Tiếng Na Uy có hai kiểu bị động: bli + phân từ (blir solgt, ble solgt) cho sự việc cụ thể, và đuôi -s (selges) cho quy định, hướng dẫn và sau động từ khuyết thiếu.",
+      "summary_en": "Norwegian has two passives: bli + participle (blir solgt, ble solgt) for concrete events, and the -s ending (selges) for rules, instructions and after modal verbs.",
+      "sections": [
+        {
+          "h": "Bị động với bli + phân từ",
+          "h_en": "The bli passive: bli + participle",
+          "body": "Câu bị động đưa **đối tượng** của hành động lên làm chủ ngữ, giống “được/bị” trong tiếng Việt. Cách phổ biến nhất là **bli + phân từ quá khứ (perfektum partisipp)**:\n\n| Thì | Dạng | Ví dụ |\n| --- | --- | --- |\n| Hiện tại | blir + phân từ | Søknaden blir behandlet. |\n| Quá khứ | ble + phân từ | Huset ble bygget i 1920. |\n| Hiện tại hoàn thành | har blitt + phân từ | Møtet har blitt flyttet. |\n| Tương lai | skal/vil bli + phân từ | Saken skal bli vurdert. |\n\nNgười thực hiện hành động được giới thiệu bằng **av** (giống “bởi” trong tiếng Việt, “by” trong tiếng Anh): Boka ble skrevet **av** Jon Fosse.\n\nLưu ý: **være + phân từ** chỉ một *trạng thái*, không phải hành động: Butikken **er stengt** (cửa hàng đang đóng cửa).",
+          "body_en": "A passive sentence makes the **object** of the action the subject, just like English “is done / was done”. The most common way is **bli + past participle (perfektum partisipp)**:\n\n| Tense | Form | Example |\n| --- | --- | --- |\n| Present | blir + participle | Søknaden blir behandlet. |\n| Past | ble + participle | Huset ble bygget i 1920. |\n| Present perfect | har blitt + participle | Møtet har blitt flyttet. |\n| Future | skal/vil bli + participle | Saken skal bli vurdert. |\n\nThe person doing the action is introduced with **av**, like English “by”: Boka ble skrevet **av** Jon Fosse.\n\nNote: **være + participle** describes a *state*, not an action: Butikken **er stengt** (the shop is closed).",
+          "examples": [
+            {
+              "no": "Huset ble bygget i 1920.",
+              "vi": "Ngôi nhà được xây năm 1920.",
+              "en": "The house was built in 1920."
+            },
+            {
+              "no": "Søknaden din blir behandlet nå.",
+              "vi": "Đơn của anh đang được xử lý.",
+              "en": "Your application is being processed now."
+            },
+            {
+              "no": "Laksen blir eksportert til Asia.",
+              "vi": "Cá hồi được xuất khẩu sang châu Á.",
+              "en": "The salmon is exported to Asia."
+            },
+            {
+              "no": "Boka ble skrevet av Jon Fosse.",
+              "vi": "Cuốn sách được viết bởi Jon Fosse.",
+              "en": "The book was written by Jon Fosse."
+            },
+            {
+              "no": "Prosjektet har blitt forsinket på grunn av været.",
+              "vi": "Dự án đã bị chậm lại vì thời tiết.",
+              "en": "The project has been delayed because of the weather."
+            }
+          ]
+        },
+        {
+          "h": "Bị động với đuôi -s",
+          "h_en": "The s passive",
+          "body": "Kiểu thứ hai là thêm **-s** vào động từ. Dạng này chủ yếu dùng ở **nguyên mẫu** và **hiện tại**:\n\n| Chủ động | Bị động -s |\n| --- | --- |\n| å selge (bán) | å selges (được bán) |\n| selger | selges |\n| å sende | å sendes |\n| leser | leses |\n\nThường gặp nhất là sau **động từ khuyết thiếu**: må, kan, skal, bør + động từ -s.\n\n- Søknaden **må sendes** innen fredag.\n- Billetter **kan kjøpes** på nett.\n\nTrên biển báo và trong quảng cáo tuyển dụng, kiểu -s rất phổ biến: Her **snakkes** det norsk. Det **søkes** etter en ingeniør.",
+          "body_en": "The second type adds **-s** to the verb. It is used mainly in the **infinitive** and the **present tense**:\n\n| Active | s passive |\n| --- | --- |\n| å selge (to sell) | å selges (to be sold) |\n| selger | selges |\n| å sende | å sendes |\n| leser | leses |\n\nIt is most common after **modal verbs**: må, kan, skal, bør + -s verb.\n\n- Søknaden **må sendes** innen fredag.\n- Billetter **kan kjøpes** på nett.\n\nOn signs and in job ads the s passive is very common: Her **snakkes** det norsk (Norwegian spoken here). Det **søkes** etter en ingeniør (an engineer is wanted).",
+          "examples": [
+            {
+              "no": "Boka må leses før møtet.",
+              "vi": "Cuốn sách phải được đọc trước buổi họp.",
+              "en": "The book must be read before the meeting."
+            },
+            {
+              "no": "Her snakkes det både norsk og engelsk.",
+              "vi": "Ở đây nói cả tiếng Na Uy lẫn tiếng Anh.",
+              "en": "Both Norwegian and English are spoken here."
+            },
+            {
+              "no": "Søknaden kan sendes på e-post.",
+              "vi": "Đơn có thể được gửi qua email.",
+              "en": "The application can be sent by email."
+            },
+            {
+              "no": "Billetter selges på nett.",
+              "vi": "Vé được bán trên mạng.",
+              "en": "Tickets are sold online."
+            },
+            {
+              "no": "Det søkes etter en ingeniør med erfaring fra havvind.",
+              "vi": "Cần tuyển một kỹ sư có kinh nghiệm về điện gió ngoài khơi.",
+              "en": "An engineer with offshore wind experience is wanted."
+            }
+          ]
+        },
+        {
+          "h": "Khi nào dùng kiểu nào?",
+          "h_en": "Which passive to use?",
+          "body": "| | bli-passiv | s-passiv |\n| --- | --- | --- |\n| Hiện tại | blir solgt | selges |\n| Quá khứ | ble solgt | solgtes (rất trang trọng, ít dùng) |\n| Hoàn thành | har blitt solgt | không dùng |\n| Sau må, kan, skal | må bli solgt | må selges (tự nhiên hơn) |\n\nQuy tắc dễ nhớ:\n\n- **s-passiv**: quy định chung, hướng dẫn, việc lặp lại, sau động từ khuyết thiếu. Fisken **bør spises** fersk.\n- **bli-passiv**: một sự kiện cụ thể, một thay đổi, nhất là ở **quá khứ**. Møtet **ble avlyst** i går.\n\nỞ quá khứ, gần như luôn dùng **ble + phân từ**. Người Na Uy cũng hay dùng câu chủ động với **man** (người ta) thay cho bị động: Man må sende søknaden innen fredag.",
+          "body_en": "| | bli passive | s passive |\n| --- | --- | --- |\n| Present | blir solgt | selges |\n| Past | ble solgt | solgtes (very formal, rare) |\n| Perfect | har blitt solgt | not used |\n| After må, kan, skal | må bli solgt | må selges (more natural) |\n\nAn easy rule:\n\n- **s passive**: general rules, instructions, repeated actions, after modal verbs. Fisken **bør spises** fersk.\n- **bli passive**: a specific event or a change, especially in the **past**. Møtet **ble avlyst** i går.\n\nIn the past tense you almost always use **ble + participle**. Norwegians also often use an active sentence with **man** (one, people) instead of the passive, much like English “you”: Man må sende søknaden innen fredag.",
+          "examples": [
+            {
+              "no": "Fisken bør spises fersk.",
+              "vi": "Cá nên được ăn khi còn tươi.",
+              "en": "Fish should be eaten fresh."
+            },
+            {
+              "no": "Kaka ble spist opp på ti minutter.",
+              "vi": "Chiếc bánh bị ăn hết trong mười phút.",
+              "en": "The cake was eaten up in ten minutes."
+            },
+            {
+              "no": "Kontrakten må signeres i dag.",
+              "vi": "Hợp đồng phải được ký hôm nay.",
+              "en": "The contract must be signed today."
+            },
+            {
+              "no": "Møtet ble avlyst i siste liten.",
+              "vi": "Buổi họp bị hủy vào phút chót.",
+              "en": "The meeting was cancelled at the last minute."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Huset ___ bygget i 1920.",
+          "q_en": "Huset ___ bygget i 1920.",
+          "options": [
+            "ble",
+            "blir",
+            "har"
+          ],
+          "options_en": [
+            "ble",
+            "blir",
+            "har"
+          ],
+          "answer": 0,
+          "explain": "Sự việc trong quá khứ: ble + phân từ.",
+          "explain_en": "A past event: ble + participle."
+        },
+        {
+          "q": "Søknaden må ___ innen fredag.",
+          "q_en": "Søknaden må ___ innen fredag.",
+          "options": [
+            "sende",
+            "sendes",
+            "sendt"
+          ],
+          "options_en": [
+            "sende",
+            "sendes",
+            "sendt"
+          ],
+          "answer": 1,
+          "explain": "Sau động từ khuyết thiếu må, dùng bị động -s: må sendes.",
+          "explain_en": "After the modal må, use the s passive: må sendes."
+        },
+        {
+          "q": "Câu bị động nào đúng?",
+          "q_en": "Which passive sentence is correct?",
+          "options": [
+            "Boka blir skrevets av Jon Fosse.",
+            "Boka ble skrive av Jon Fosse.",
+            "Boka ble skrevet av Jon Fosse."
+          ],
+          "options_en": [
+            "Boka blir skrevets av Jon Fosse.",
+            "Boka ble skrive av Jon Fosse.",
+            "Boka ble skrevet av Jon Fosse."
+          ],
+          "answer": 2,
+          "explain": "bli + phân từ (skrevet), người thực hiện đi với av.",
+          "explain_en": "bli + participle (skrevet), with the agent introduced by av."
+        },
+        {
+          "q": "Người thực hiện hành động trong câu bị động đi với giới từ nào?",
+          "q_en": "Which preposition introduces the agent in a passive sentence?",
+          "options": [
+            "av",
+            "med",
+            "fra"
+          ],
+          "options_en": [
+            "av",
+            "med",
+            "fra"
+          ],
+          "answer": 0,
+          "explain": "Av tương đương “bởi”: Boka ble skrevet av Jon Fosse.",
+          "explain_en": "Av is like English “by”: Boka ble skrevet av Jon Fosse."
+        },
+        {
+          "q": "Biển báo trong cửa hàng: Her ___ norsk.",
+          "q_en": "A shop sign: Her ___ norsk.",
+          "options": [
+            "snakker",
+            "snakkes",
+            "blir snakke"
+          ],
+          "options_en": [
+            "snakker",
+            "snakkes",
+            "blir snakke"
+          ],
+          "answer": 1,
+          "explain": "Biển báo, thông tin chung thường dùng bị động -s: snakkes.",
+          "explain_en": "Signs and general information usually take the s passive: snakkes."
+        },
+        {
+          "q": "Câu nào nói về một sự kiện cụ thể trong quá khứ?",
+          "q_en": "Which sentence describes a specific past event?",
+          "options": [
+            "Møtet må avlyses.",
+            "Møter avlyses ofte.",
+            "Møtet ble avlyst i går."
+          ],
+          "options_en": [
+            "Møtet må avlyses.",
+            "Møter avlyses ofte.",
+            "Møtet ble avlyst i går."
+          ],
+          "answer": 2,
+          "explain": "Sự kiện cụ thể trong quá khứ dùng ble + phân từ.",
+          "explain_en": "A specific past event uses ble + participle."
+        }
+      ]
+    },
+    {
+      "id": "g16",
+      "title": "Động từ phản thân",
+      "title_no": "Refleksive verb",
+      "title_en": "Reflexive verbs",
+      "level": "B1",
+      "icon": "🪞",
+      "summary": "Nhiều động từ tiếng Na Uy đi kèm đại từ phản thân (meg, deg, seg, oss, dere): glede seg, skynde seg, sette seg. Seg chỉ dùng cho ngôi thứ ba và luôn quay về chủ ngữ.",
+      "summary_en": "Many Norwegian verbs take a reflexive pronoun (meg, deg, seg, oss, dere): glede seg, skynde seg, sette seg. Seg is only for the third person and always refers back to the subject.",
+      "sections": [
+        {
+          "h": "Đại từ phản thân",
+          "h_en": "Reflexive pronouns",
+          "body": "Động từ phản thân là động từ mà hành động **quay lại chính chủ ngữ**. Đại từ phản thân thay đổi theo chủ ngữ:\n\n| Chủ ngữ | Đại từ phản thân | Ví dụ |\n| --- | --- | --- |\n| jeg | meg | Jeg setter meg. |\n| du | deg | Du setter deg. |\n| han, hun, den, det | seg | Hun setter seg. |\n| vi | oss | Vi setter oss. |\n| dere | dere | Dere setter dere. |\n| de | seg | De setter seg. |\n\n**Seg** chỉ dùng cho ngôi thứ ba và luôn chỉ chính chủ ngữ. So sánh:\n\n- Han vasker **seg**. (anh ấy tắm rửa cho chính mình)\n- Han vasker **ham**. (anh ấy tắm cho một người đàn ông khác)",
+          "body_en": "A reflexive verb is one where the action **goes back to the subject**. The reflexive pronoun changes with the subject:\n\n| Subject | Reflexive pronoun | Example |\n| --- | --- | --- |\n| jeg | meg | Jeg setter meg. |\n| du | deg | Du setter deg. |\n| han, hun, den, det | seg | Hun setter seg. |\n| vi | oss | Vi setter oss. |\n| dere | dere | Dere setter dere. |\n| de | seg | De setter seg. |\n\n**Seg** is only used in the third person and always means the subject itself, like English “himself, herself, themselves”. Compare:\n\n- Han vasker **seg**. (he washes himself)\n- Han vasker **ham**. (he washes another man)",
+          "examples": [
+            {
+              "no": "Jeg setter meg ved vinduet.",
+              "vi": "Tôi ngồi xuống cạnh cửa sổ.",
+              "en": "I sit down by the window."
+            },
+            {
+              "no": "Vi må skynde oss, toget går snart.",
+              "vi": "Chúng ta phải nhanh lên, tàu sắp chạy rồi.",
+              "en": "We have to hurry, the train leaves soon."
+            },
+            {
+              "no": "Hun gleder seg til sommerferien.",
+              "vi": "Cô ấy háo hức chờ kỳ nghỉ hè.",
+              "en": "She is looking forward to the summer holiday."
+            },
+            {
+              "no": "De har bestemt seg for å flytte til Tromsø.",
+              "vi": "Họ đã quyết định chuyển đến Tromsø.",
+              "en": "They have decided to move to Tromsø."
+            }
+          ]
+        },
+        {
+          "h": "Động từ phản thân thông dụng",
+          "h_en": "Common reflexive verbs",
+          "body": "Nhiều động từ phản thân trong tiếng Na Uy **không có “mình” trong tiếng Việt**, nên anh cần học thuộc cả cụm:\n\n| Động từ | Nghĩa |\n| --- | --- |\n| glede seg til | mong chờ, háo hức |\n| skynde seg | vội, nhanh lên |\n| sette seg | ngồi xuống |\n| legge seg | đi ngủ, nằm xuống |\n| kle på seg | mặc quần áo |\n| føle seg | cảm thấy |\n| interessere seg for | quan tâm đến |\n| forberede seg til/på | chuẩn bị cho |\n| bestemme seg for | quyết định |\n| konsentrere seg om | tập trung vào |\n| lære seg | tự học |\n\nChú ý cặp **sette seg / sitte** và **legge seg / ligge**: sette seg, legge seg là *hành động* (ngồi xuống, nằm xuống); sitte, ligge là *trạng thái* (đang ngồi, đang nằm).",
+          "body_en": "Many Norwegian reflexive verbs have **no “-self” in English**, so learn the whole phrase:\n\n| Verb | Meaning |\n| --- | --- |\n| glede seg til | to look forward to |\n| skynde seg | to hurry |\n| sette seg | to sit down |\n| legge seg | to go to bed, to lie down |\n| kle på seg | to get dressed |\n| føle seg | to feel |\n| interessere seg for | to be interested in |\n| forberede seg til/på | to prepare for |\n| bestemme seg for | to decide |\n| konsentrere seg om | to concentrate on |\n| lære seg | to learn (for yourself) |\n\nWatch the pairs **sette seg / sitte** and **legge seg / ligge**: sette seg and legge seg are *actions* (sit down, lie down); sitte and ligge are *states* (be sitting, be lying).",
+          "examples": [
+            {
+              "no": "Jeg føler meg ikke helt bra i dag.",
+              "vi": "Hôm nay tôi thấy không được khỏe lắm.",
+              "en": "I don't feel quite well today."
+            },
+            {
+              "no": "Han interesserer seg for havbruk.",
+              "vi": "Anh ấy quan tâm đến nuôi trồng thủy sản.",
+              "en": "He is interested in aquaculture."
+            },
+            {
+              "no": "Barna legger seg klokka åtte.",
+              "vi": "Bọn trẻ đi ngủ lúc tám giờ.",
+              "en": "The children go to bed at eight."
+            },
+            {
+              "no": "Jeg forbereder meg til jobbintervjuet.",
+              "vi": "Tôi đang chuẩn bị cho buổi phỏng vấn xin việc.",
+              "en": "I'm preparing for the job interview."
+            },
+            {
+              "no": "Hun har lært seg norsk på ett år.",
+              "vi": "Cô ấy đã tự học tiếng Na Uy trong một năm.",
+              "en": "She taught herself Norwegian in a year."
+            }
+          ]
+        },
+        {
+          "h": "Vị trí của đại từ phản thân",
+          "h_en": "Where the reflexive pronoun goes",
+          "body": "Trong **câu chính**, đại từ phản thân đứng ngay sau động từ chia, và **trước ikke**:\n\n- Jeg gleder **meg ikke** til vinteren.\n\nKhi câu đảo ngữ (V2), chủ ngữ chen vào giữa: **động từ + chủ ngữ + đại từ phản thân**.\n\n- I morgen **setter jeg meg** på første rad.\n\nTrong **mệnh đề phụ**, ikke đứng trước động từ, đại từ phản thân vẫn đi sau động từ:\n\n- Hun sier at hun **ikke føler seg** bra.\n\nỞ thì hoàn thành, đại từ đi sau phân từ: Jeg **har bestemt meg**.",
+          "body_en": "In a **main clause** the reflexive pronoun comes right after the finite verb, and **before ikke**:\n\n- Jeg gleder **meg ikke** til vinteren.\n\nWhen the sentence inverts (V2), the subject comes in between: **verb + subject + reflexive pronoun**.\n\n- I morgen **setter jeg meg** på første rad.\n\nIn a **subordinate clause** ikke comes before the verb, and the reflexive pronoun still follows the verb:\n\n- Hun sier at hun **ikke føler seg** bra.\n\nIn the perfect tense the pronoun comes after the participle: Jeg **har bestemt meg**.",
+          "examples": [
+            {
+              "no": "Han føler seg ikke bra.",
+              "vi": "Anh ấy thấy không khỏe.",
+              "en": "He doesn't feel well."
+            },
+            {
+              "no": "Neste sommer skal vi gifte oss.",
+              "vi": "Mùa hè tới chúng tôi sẽ cưới nhau.",
+              "en": "Next summer we're getting married."
+            },
+            {
+              "no": "Hun sier at hun ikke gleder seg til vinteren.",
+              "vi": "Cô ấy nói rằng cô ấy không mong mùa đông đến.",
+              "en": "She says she isn't looking forward to winter."
+            },
+            {
+              "no": "Nå har jeg bestemt meg.",
+              "vi": "Bây giờ tôi đã quyết định rồi.",
+              "en": "Now I have made up my mind."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Vi må skynde ___.",
+          "q_en": "Vi må skynde ___.",
+          "options": [
+            "dere",
+            "seg",
+            "oss"
+          ],
+          "options_en": [
+            "dere",
+            "seg",
+            "oss"
+          ],
+          "answer": 2,
+          "explain": "Chủ ngữ vi đi với đại từ phản thân oss.",
+          "explain_en": "The subject vi takes the reflexive pronoun oss."
+        },
+        {
+          "q": "Hun gleder ___ til ferien.",
+          "q_en": "Hun gleder ___ til ferien.",
+          "options": [
+            "seg",
+            "henne",
+            "sin"
+          ],
+          "options_en": [
+            "seg",
+            "henne",
+            "sin"
+          ],
+          "answer": 0,
+          "explain": "Ngôi thứ ba quay về chủ ngữ dùng seg; henne sẽ là người khác.",
+          "explain_en": "Third person referring back to the subject takes seg; henne would be someone else."
+        },
+        {
+          "q": "Glede seg til nghĩa là gì?",
+          "q_en": "What does glede seg til mean?",
+          "options": [
+            "vui vẻ",
+            "mong chờ, háo hức",
+            "giúp đỡ"
+          ],
+          "options_en": [
+            "to be cheerful",
+            "to look forward to",
+            "to help"
+          ],
+          "answer": 1,
+          "explain": "Glede seg til noe = háo hức chờ điều gì.",
+          "explain_en": "Glede seg til noe = to look forward to something."
+        },
+        {
+          "q": "Câu nào nghĩa là “anh ấy tắm rửa cho chính mình”?",
+          "q_en": "Which sentence means “he washes himself”?",
+          "options": [
+            "Han vasker ham.",
+            "Han vasker sin.",
+            "Han vasker seg."
+          ],
+          "options_en": [
+            "Han vasker ham.",
+            "Han vasker sin.",
+            "Han vasker seg."
+          ],
+          "answer": 2,
+          "explain": "Seg chỉ chính chủ ngữ; ham là một người khác.",
+          "explain_en": "Seg means the subject itself; ham is another person."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Jeg gleder meg ikke.",
+            "Jeg gleder ikke meg.",
+            "Jeg ikke gleder meg."
+          ],
+          "options_en": [
+            "Jeg gleder meg ikke.",
+            "Jeg gleder ikke meg.",
+            "Jeg ikke gleder meg."
+          ],
+          "answer": 0,
+          "explain": "Trong câu chính, đại từ phản thân đứng trước ikke.",
+          "explain_en": "In a main clause the reflexive pronoun comes before ikke."
+        },
+        {
+          "q": "Hun sier at hun ___ bra.",
+          "q_en": "Hun sier at hun ___ bra.",
+          "options": [
+            "føler seg ikke",
+            "ikke føler seg",
+            "føler ikke seg"
+          ],
+          "options_en": [
+            "føler seg ikke",
+            "ikke føler seg",
+            "føler ikke seg"
+          ],
+          "answer": 1,
+          "explain": "Trong mệnh đề phụ, ikke đứng trước động từ.",
+          "explain_en": "In a subordinate clause ikke comes before the verb."
+        }
+      ]
+    },
+    {
+      "id": "g17",
+      "title": "Động từ có tiểu từ",
+      "title_no": "Partikkelverb",
+      "title_en": "Particle verbs",
+      "level": "B1",
+      "icon": "🧩",
+      "summary": "Động từ kết hợp với một tiểu từ (opp, ned, ut, av, på) tạo nghĩa mới: slå opp, legge ned, finne ut, gi opp. Tiểu từ mang trọng âm, và đại từ tân ngữ đứng trước tiểu từ.",
+      "summary_en": "A verb combined with a particle (opp, ned, ut, av, på) gets a new meaning: slå opp, legge ned, finne ut, gi opp. The particle is stressed, and a pronoun object goes before it.",
+      "sections": [
+        {
+          "h": "Động từ + tiểu từ = nghĩa mới",
+          "h_en": "Verb + particle = new meaning",
+          "body": "Giống phrasal verbs trong tiếng Anh (give up, find out), tiếng Na Uy có rất nhiều động từ đi với **tiểu từ**. Nghĩa của cả cụm thường khác hẳn nghĩa từng từ:\n\n| Động từ | Nghĩa |\n| --- | --- |\n| slå opp | tra cứu (từ điển); chia tay |\n| legge ned | đóng cửa, giải thể |\n| ta opp | nêu ra (vấn đề); ghi âm |\n| finne ut | tìm ra, phát hiện |\n| gi opp | bỏ cuộc |\n| legge fram | trình bày |\n| slå av / slå på | tắt / bật |\n| stå opp | thức dậy |\n| se ut | trông có vẻ |\n| ta på seg | mặc vào |\n\nHãy học cả cụm như một từ vựng mới.",
+          "body_en": "Like English phrasal verbs (give up, find out), Norwegian has many verbs combined with a **particle**. The meaning of the whole phrase is often quite different from the separate words:\n\n| Verb | Meaning |\n| --- | --- |\n| slå opp | to look up (a word); to break up |\n| legge ned | to shut down, to close |\n| ta opp | to raise (an issue); to record |\n| finne ut | to find out |\n| gi opp | to give up |\n| legge fram | to present |\n| slå av / slå på | to switch off / on |\n| stå opp | to get up |\n| se ut | to look, to seem |\n| ta på seg | to put on (clothes) |\n\nLearn the whole phrase as one new word.",
+          "examples": [
+            {
+              "no": "Jeg slo opp ordet i ordboka.",
+              "vi": "Tôi đã tra từ đó trong từ điển.",
+              "en": "I looked the word up in the dictionary."
+            },
+            {
+              "no": "Fabrikken ble lagt ned i fjor.",
+              "vi": "Nhà máy đã bị đóng cửa năm ngoái.",
+              "en": "The factory was shut down last year."
+            },
+            {
+              "no": "Vi må finne ut hvem som har ansvaret.",
+              "vi": "Chúng ta phải tìm ra ai là người chịu trách nhiệm.",
+              "en": "We have to find out who is responsible."
+            },
+            {
+              "no": "Hun la fram planen på møtet.",
+              "vi": "Cô ấy đã trình bày kế hoạch tại buổi họp.",
+              "en": "She presented the plan at the meeting."
+            },
+            {
+              "no": "Ikke gi opp nå!",
+              "vi": "Đừng bỏ cuộc lúc này!",
+              "en": "Don't give up now!"
+            }
+          ]
+        },
+        {
+          "h": "Trọng âm rơi vào tiểu từ",
+          "h_en": "The particle is stressed",
+          "body": "Trong động từ có tiểu từ, **tiểu từ mang trọng âm**, còn động từ đọc nhẹ: ta **OPP**, gi **OPP**, finne **UT**.\n\nTrọng âm giúp phân biệt tiểu từ với giới từ thường (giới từ không nhấn):\n\n- Hun tok **PÅ** seg jakka. (tiểu từ: cô ấy mặc áo khoác vào)\n- Ikke **TA** på maleriet! (giới từ: đừng chạm vào bức tranh)\n\nMột động từ có tiểu từ có thể có nhiều nghĩa, nên ngữ cảnh rất quan trọng: Jeg slo **OPP** ordet (tra từ), Han slo **OPP** med kjæresten (chia tay).\n\nKhi nghe người Na Uy nói, hãy chú ý từ được nhấn: đó thường là chìa khóa của nghĩa.",
+          "body_en": "In a particle verb **the particle is stressed** and the verb is said lightly: ta **OPP**, gi **OPP**, finne **UT**. English works the same way: give **UP**, find **OUT**.\n\nStress helps you tell a particle from an ordinary preposition (prepositions are unstressed):\n\n- Hun tok **PÅ** seg jakka. (particle: she put on her jacket)\n- Ikke **TA** på maleriet! (preposition: don't touch the painting)\n\nOne particle verb can have several meanings, so context matters: Jeg slo **OPP** ordet (I looked up the word), Han slo **OPP** med kjæresten (he broke up with his girlfriend).\n\nWhen you listen to Norwegians, notice which word is stressed: it is often the key to the meaning.",
+          "examples": [
+            {
+              "no": "Hun tok på seg jakka og gikk ut.",
+              "vi": "Cô ấy mặc áo khoác vào rồi đi ra ngoài.",
+              "en": "She put on her jacket and went out."
+            },
+            {
+              "no": "Ikke ta på maleriet!",
+              "vi": "Đừng chạm vào bức tranh!",
+              "en": "Don't touch the painting!"
+            },
+            {
+              "no": "Han slo opp med kjæresten sin.",
+              "vi": "Anh ấy đã chia tay bạn gái.",
+              "en": "He broke up with his girlfriend."
+            },
+            {
+              "no": "Jeg står opp klokka seks hver dag.",
+              "vi": "Ngày nào tôi cũng dậy lúc sáu giờ.",
+              "en": "I get up at six every day."
+            }
+          ]
+        },
+        {
+          "h": "Vị trí của tân ngữ và ikke",
+          "h_en": "Where the object and ikke go",
+          "body": "**Tân ngữ là danh từ**: thường đứng **sau** tiểu từ.\n\n- Kan du **slå av lyset**?\n\n**Tân ngữ là đại từ** (det, den, ham, henne): đứng **trước** tiểu từ.\n\n- Kan du **slå det av**? (không nói: slå av det)\n- Jeg **tok det opp** med sjefen min.\n\n**Ikke** trong câu chính đứng **trước tiểu từ**: Han ga **ikke opp**. Trong mệnh đề phụ: ...fordi han **ikke ga opp**.\n\nỞ bị động và tính từ, tiểu từ có thể ghép lên trước động từ: en **nedlagt** fabrikk (một nhà máy đã đóng cửa), et **oppslått** ord.",
+          "body_en": "**A noun object** usually goes **after** the particle.\n\n- Kan du **slå av lyset**?\n\n**A pronoun object** (det, den, ham, henne) goes **before** the particle, just like English “switch it off”.\n\n- Kan du **slå det av**? (not: slå av det)\n- Jeg **tok det opp** med sjefen min.\n\n**Ikke** in a main clause comes **before the particle**: Han ga **ikke opp**. In a subordinate clause: ...fordi han **ikke ga opp**.\n\nIn participles used as adjectives, the particle can be joined to the front of the verb: en **nedlagt** fabrikk (a closed-down factory), et **oppslått** ord.",
+          "examples": [
+            {
+              "no": "Kan du slå av lyset?",
+              "vi": "Anh tắt đèn giúp được không?",
+              "en": "Can you switch off the light?"
+            },
+            {
+              "no": "Lyset er fortsatt på, kan du slå det av?",
+              "vi": "Đèn vẫn còn bật, anh tắt nó đi được không?",
+              "en": "The light is still on, can you switch it off?"
+            },
+            {
+              "no": "Jeg tok det opp med sjefen min.",
+              "vi": "Tôi đã nêu chuyện đó với sếp của tôi.",
+              "en": "I raised it with my boss."
+            },
+            {
+              "no": "Hun ga ikke opp, selv om det var vanskelig.",
+              "vi": "Cô ấy không bỏ cuộc, dù việc đó rất khó.",
+              "en": "She didn't give up, even though it was hard."
+            },
+            {
+              "no": "Den nedlagte fabrikken skal bli kulturhus.",
+              "vi": "Nhà máy đã đóng cửa đó sẽ trở thành nhà văn hóa.",
+              "en": "The closed-down factory is going to become a cultural centre."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Tôi tra từ trong từ điển: Jeg ___ ordet i ordboka.",
+          "q_en": "I looked the word up: Jeg ___ ordet i ordboka.",
+          "options": [
+            "slo av",
+            "slo opp",
+            "ga opp"
+          ],
+          "options_en": [
+            "slo av",
+            "slo opp",
+            "ga opp"
+          ],
+          "answer": 1,
+          "explain": "Slå opp = tra cứu.",
+          "explain_en": "Slå opp = to look up."
+        },
+        {
+          "q": "Trong động từ có tiểu từ, trọng âm thường rơi vào đâu?",
+          "q_en": "In a particle verb, where does the stress usually fall?",
+          "options": [
+            "động từ",
+            "tân ngữ",
+            "tiểu từ"
+          ],
+          "options_en": [
+            "the verb",
+            "the object",
+            "the particle"
+          ],
+          "answer": 2,
+          "explain": "Tiểu từ được nhấn: gi OPP, finne UT.",
+          "explain_en": "The particle is stressed: gi OPP, finne UT."
+        },
+        {
+          "q": "Lyset er på. Kan du slå ___?",
+          "q_en": "Lyset er på. Kan du slå ___?",
+          "options": [
+            "det av",
+            "av det",
+            "av"
+          ],
+          "options_en": [
+            "det av",
+            "av det",
+            "av"
+          ],
+          "answer": 0,
+          "explain": "Đại từ tân ngữ đứng trước tiểu từ: slå det av.",
+          "explain_en": "A pronoun object goes before the particle: slå det av."
+        },
+        {
+          "q": "Finne ut nghĩa là gì?",
+          "q_en": "What does finne ut mean?",
+          "options": [
+            "đi ra ngoài",
+            "tìm ra, phát hiện",
+            "tìm kiếm"
+          ],
+          "options_en": [
+            "to go out",
+            "to find out",
+            "to look for"
+          ],
+          "answer": 1,
+          "explain": "Finne ut = tìm ra, phát hiện.",
+          "explain_en": "Finne ut = to find out."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Han ga opp ikke.",
+            "Han ikke ga opp.",
+            "Han ga ikke opp."
+          ],
+          "options_en": [
+            "Han ga opp ikke.",
+            "Han ikke ga opp.",
+            "Han ga ikke opp."
+          ],
+          "answer": 2,
+          "explain": "Trong câu chính, ikke đứng sau động từ và trước tiểu từ.",
+          "explain_en": "In a main clause ikke comes after the verb and before the particle."
+        },
+        {
+          "q": "Fabrikken ble ___ i fjor. (bị đóng cửa)",
+          "q_en": "Fabrikken ble ___ i fjor. (was shut down)",
+          "options": [
+            "lagt ned",
+            "lagt fram",
+            "tatt opp"
+          ],
+          "options_en": [
+            "lagt ned",
+            "lagt fram",
+            "tatt opp"
+          ],
+          "answer": 0,
+          "explain": "Legge ned = đóng cửa, giải thể; bị động: ble lagt ned.",
+          "explain_en": "Legge ned = to shut down; passive: ble lagt ned."
+        }
+      ]
+    },
+    {
+      "id": "g18",
+      "title": "Mệnh đề quan hệ",
+      "title_no": "Relativsetninger",
+      "title_en": "Relative clauses",
+      "level": "B1",
+      "icon": "🪢",
+      "summary": "Som nối mệnh đề quan hệ cho cả người lẫn vật; som bắt buộc khi làm chủ ngữ và có thể bỏ khi làm tân ngữ. Với nơi chốn có thể dùng der hoặc hvor.",
+      "summary_en": "Som introduces relative clauses for both people and things; som is required as the subject and can be dropped as the object. For places you can use der or hvor.",
+      "sections": [
+        {
+          "h": "Som: người mà, cái mà",
+          "h_en": "Som: who, which, that",
+          "body": "**Som** là đại từ quan hệ chính, tương đương “mà” trong tiếng Việt và who / which / that trong tiếng Anh. Som **không đổi dạng**, dùng cho cả người lẫn vật:\n\n- Kvinnen **som** ringte... (người phụ nữ đã gọi điện)\n- En bok **som** handler om skipsfart (cuốn sách nói về vận tải biển)\n\nMệnh đề quan hệ là mệnh đề phụ, nên **ikke đứng trước động từ**: en kollega som **ikke drikker** kaffe.\n\nNếu mệnh đề quan hệ nằm giữa câu, đặt **dấu phẩy** sau nó: Kvinnen som ringte**,** jobber i et rekrutteringsbyrå.\n\n**Det som** và **alt som** nghĩa là “điều mà, tất cả những gì”: Det som er viktig, er å lære språket.",
+          "body_en": "**Som** is the main relative pronoun, like who / which / that in English. Som **never changes form** and is used for both people and things:\n\n- Kvinnen **som** ringte... (the woman who called)\n- En bok **som** handler om skipsfart (a book that is about shipping)\n\nA relative clause is a subordinate clause, so **ikke comes before the verb**: en kollega som **ikke drikker** kaffe.\n\nIf the relative clause sits in the middle of the sentence, put a **comma** after it: Kvinnen som ringte**,** jobber i et rekrutteringsbyrå.\n\n**Det som** and **alt som** mean “what” and “everything that”: Det som er viktig, er å lære språket (what matters is learning the language).",
+          "examples": [
+            {
+              "no": "Kvinnen som ringte, jobber i et rekrutteringsbyrå.",
+              "vi": "Người phụ nữ đã gọi điện làm việc ở một công ty tuyển dụng.",
+              "en": "The woman who called works at a recruitment agency."
+            },
+            {
+              "no": "Jeg leser en bok som handler om skipsfart.",
+              "vi": "Tôi đang đọc một cuốn sách nói về vận tải biển.",
+              "en": "I'm reading a book about shipping."
+            },
+            {
+              "no": "Jeg har en venn som ikke spiser fisk.",
+              "vi": "Tôi có một người bạn không ăn cá.",
+              "en": "I have a friend who doesn't eat fish."
+            },
+            {
+              "no": "Det som er viktig, er å lære språket.",
+              "vi": "Điều quan trọng là học ngôn ngữ.",
+              "en": "What matters is learning the language."
+            }
+          ]
+        },
+        {
+          "h": "Khi nào bỏ được som?",
+          "h_en": "When can som be dropped?",
+          "body": "Som có hai vai trò trong mệnh đề quan hệ:\n\n| Vai trò | Som | Ví dụ |\n| --- | --- | --- |\n| Chủ ngữ | **bắt buộc** | Mannen **som** bor ved siden av, er fisker. |\n| Tân ngữ | **có thể bỏ** | Filmen (**som**) vi så i går, var lang. |\n\nMẹo kiểm tra: nếu **ngay sau som là một chủ ngữ khác** (jeg, vi, hun, en danh từ), thì som là tân ngữ và có thể bỏ. Nếu sau som là **động từ**, som là chủ ngữ và phải giữ.\n\n- Byen (som) **jeg** kommer fra... → bỏ được\n- Firmaet som **har** kontor i Bergen... → phải giữ\n\nGiới từ thường đứng **cuối mệnh đề**, khác tiếng Việt: Huset (som) vi bor **i**, er gammelt (ngôi nhà *mà chúng tôi ở*).",
+          "body_en": "Som can play two roles in a relative clause:\n\n| Role | Som | Example |\n| --- | --- | --- |\n| Subject | **required** | Mannen **som** bor ved siden av, er fisker. |\n| Object | **can be dropped** | Filmen (**som**) vi så i går, var lang. |\n\nA quick test: if **another subject follows som right away** (jeg, vi, hun, a noun), som is the object and can be dropped. If a **verb** follows som, som is the subject and must stay. English works the same way: “the film (that) we saw” but “the man who lives next door”.\n\n- Byen (som) **jeg** kommer fra... → can be dropped\n- Firmaet som **har** kontor i Bergen... → must stay\n\nThe preposition usually goes at **the end of the clause**, as in informal English: Huset (som) vi bor **i**, er gammelt (the house we live in is old).",
+          "examples": [
+            {
+              "no": "Mannen som bor ved siden av, er fisker.",
+              "vi": "Người đàn ông sống bên cạnh là ngư dân.",
+              "en": "The man who lives next door is a fisherman."
+            },
+            {
+              "no": "Filmen vi så i går, var altfor lang.",
+              "vi": "Bộ phim chúng tôi xem hôm qua dài quá.",
+              "en": "The film we saw yesterday was far too long."
+            },
+            {
+              "no": "Byen jeg kommer fra, ligger ved kysten.",
+              "vi": "Thành phố tôi đến từ nằm ở ven biển.",
+              "en": "The city I come from is on the coast."
+            },
+            {
+              "no": "Det er en jobb jeg virkelig vil ha.",
+              "vi": "Đó là một công việc tôi thật sự muốn có.",
+              "en": "It is a job I really want."
+            },
+            {
+              "no": "Huset vi bor i, er over hundre år gammelt.",
+              "vi": "Ngôi nhà chúng tôi ở đã hơn một trăm năm tuổi.",
+              "en": "The house we live in is over a hundred years old."
+            }
+          ]
+        },
+        {
+          "h": "Der, hvor và da",
+          "h_en": "Der, hvor and da",
+          "body": "Với **nơi chốn**, ngoài som + giới từ, có thể dùng **der** hoặc **hvor** (giống “nơi mà”, where):\n\n- Byen **der** jeg studerte = Byen **hvor** jeg studerte = Byen **som** jeg studerte **i**\n\nDer hơi phổ biến hơn trong văn viết hiện đại; hvor rất hay gặp trong khẩu ngữ.\n\nVới **thời gian**, dùng **da** (cho quá khứ) hoặc **når**: Jeg husker dagen **da** jeg kom til Norge.\n\nLưu ý: **hvem** và **hva** không dùng làm đại từ quan hệ như who và what trong tiếng Anh. Không nói *mannen hvem ringte*, mà nói **mannen som ringte**.",
+          "body_en": "For **places**, besides som + preposition, you can use **der** or **hvor** (where):\n\n- Byen **der** jeg studerte = Byen **hvor** jeg studerte = Byen **som** jeg studerte **i**\n\nDer is slightly more common in modern writing; hvor is very common in speech.\n\nFor **time**, use **da** (for the past) or **når**: Jeg husker dagen **da** jeg kom til Norge (I remember the day I came to Norway).\n\nNote: **hvem** and **hva** are not used as relative pronouns the way English uses who and what. Don't say *mannen hvem ringte*, say **mannen som ringte**.",
+          "examples": [
+            {
+              "no": "Bergen er byen der jeg studerte.",
+              "vi": "Bergen là thành phố nơi tôi đã học đại học.",
+              "en": "Bergen is the city where I studied."
+            },
+            {
+              "no": "Kontoret hvor hun jobber, ligger på Aker Brygge.",
+              "vi": "Văn phòng nơi cô ấy làm việc nằm ở Aker Brygge.",
+              "en": "The office where she works is at Aker Brygge."
+            },
+            {
+              "no": "Kontoret som hun jobber på, ligger på Aker Brygge.",
+              "vi": "Văn phòng mà cô ấy làm việc nằm ở Aker Brygge.",
+              "en": "The office she works at is at Aker Brygge."
+            },
+            {
+              "no": "Jeg husker dagen da jeg kom til Norge.",
+              "vi": "Tôi nhớ ngày tôi đến Na Uy.",
+              "en": "I remember the day I came to Norway."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Kvinnen ___ ringte, jobber i et rekrutteringsbyrå.",
+          "q_en": "Kvinnen ___ ringte, jobber i et rekrutteringsbyrå.",
+          "options": [
+            "som",
+            "der",
+            "hva"
+          ],
+          "options_en": [
+            "som",
+            "der",
+            "hva"
+          ],
+          "answer": 0,
+          "explain": "Som nối mệnh đề quan hệ chỉ người.",
+          "explain_en": "Som introduces the relative clause about a person."
+        },
+        {
+          "q": "Trong câu nào có thể bỏ som?",
+          "q_en": "In which sentence can som be dropped?",
+          "options": [
+            "Mannen som bor her, er lege.",
+            "Filmen som vi så, var lang.",
+            "Firmaet som har kontor i Bergen, vokser."
+          ],
+          "options_en": [
+            "Mannen som bor her, er lege.",
+            "Filmen som vi så, var lang.",
+            "Firmaet som har kontor i Bergen, vokser."
+          ],
+          "answer": 1,
+          "explain": "Sau som là chủ ngữ vi, nên som là tân ngữ và bỏ được.",
+          "explain_en": "The subject vi follows som, so som is the object and can be dropped."
+        },
+        {
+          "q": "Byen ___ jeg bor, ligger ved sjøen.",
+          "q_en": "Byen ___ jeg bor, ligger ved sjøen.",
+          "options": [
+            "som",
+            "hvem",
+            "der"
+          ],
+          "options_en": [
+            "som",
+            "hvem",
+            "der"
+          ],
+          "answer": 2,
+          "explain": "Nơi chốn không có giới từ ở cuối: dùng der (hoặc hvor).",
+          "explain_en": "A place with no preposition at the end: use der (or hvor)."
+        },
+        {
+          "q": "Huset som vi bor ___, er gammelt.",
+          "q_en": "Huset som vi bor ___, er gammelt.",
+          "options": [
+            "i",
+            "der",
+            "som"
+          ],
+          "options_en": [
+            "i",
+            "der",
+            "som"
+          ],
+          "answer": 0,
+          "explain": "Với som, giới từ đứng cuối mệnh đề: som vi bor i.",
+          "explain_en": "With som, the preposition goes at the end of the clause: som vi bor i."
+        },
+        {
+          "q": "Jeg har en venn som ___.",
+          "q_en": "Jeg har en venn som ___.",
+          "options": [
+            "spiser ikke fisk",
+            "ikke spiser fisk",
+            "spiser fisk ikke"
+          ],
+          "options_en": [
+            "spiser ikke fisk",
+            "ikke spiser fisk",
+            "spiser fisk ikke"
+          ],
+          "answer": 1,
+          "explain": "Mệnh đề quan hệ là mệnh đề phụ: ikke đứng trước động từ.",
+          "explain_en": "A relative clause is subordinate: ikke comes before the verb."
+        },
+        {
+          "q": "___ er viktig, er å lære språket. (Điều mà)",
+          "q_en": "___ er viktig, er å lære språket. (What)",
+          "options": [
+            "Hva som",
+            "Som",
+            "Det som"
+          ],
+          "options_en": [
+            "Hva som",
+            "Som",
+            "Det som"
+          ],
+          "answer": 2,
+          "explain": "Det som = điều mà; tiếng Na Uy không dùng hva làm đại từ quan hệ ở đây.",
+          "explain_en": "Det som = what; Norwegian does not use hva as the relative pronoun here."
+        }
+      ]
+    },
+    {
+      "id": "g19",
+      "title": "Quá khứ hoàn thành và trình tự thời gian",
+      "title_no": "Pluskvamperfektum og tidsrekkefølge",
+      "title_en": "The past perfect and sequence of events",
+      "level": "B1",
+      "icon": "⏮️",
+      "summary": "Quá khứ hoàn thành (hadde + phân từ) chỉ việc đã xảy ra trước một mốc trong quá khứ; thường đi với etter at, før, da và allerede.",
+      "summary_en": "The past perfect (hadde + participle) describes something that happened before another point in the past; it often goes with etter at, før, da and allerede.",
+      "sections": [
+        {
+          "h": "Cấu tạo: hadde + phân từ",
+          "h_en": "Form: hadde + participle",
+          "body": "Quá khứ hoàn thành (**pluskvamperfektum**) được tạo bằng **hadde + phân từ quá khứ**. Nó giống hệt thì hiện tại hoàn thành, chỉ đổi **har** thành **hadde**:\n\n| Hiện tại hoàn thành | Quá khứ hoàn thành |\n| --- | --- |\n| har spist | hadde spist |\n| har jobbet | hadde jobbet |\n| har sett | hadde sett |\n| har reist / er reist | hadde reist / var reist |\n\nVới động từ chuyển động (komme, reise, dra, gå), có thể dùng **var** thay cho hadde: Toget **var gått** = Toget **hadde gått**.\n\nTiếng Việt thường diễn đạt bằng “đã... rồi” hoặc “trước đó đã”: Khi tôi về đến nhà, họ **đã ăn rồi**.",
+          "body_en": "The past perfect (**pluskvamperfektum**) is formed with **hadde + past participle**, exactly like English “had eaten”. It is the present perfect with **har** changed to **hadde**:\n\n| Present perfect | Past perfect |\n| --- | --- |\n| har spist | hadde spist |\n| har jobbet | hadde jobbet |\n| har sett | hadde sett |\n| har reist / er reist | hadde reist / var reist |\n\nWith verbs of motion (komme, reise, dra, gå) you can use **var** instead of hadde: Toget **var gått** = Toget **hadde gått** (the train had left).",
+          "examples": [
+            {
+              "no": "Da jeg kom hjem, hadde de allerede spist.",
+              "vi": "Khi tôi về đến nhà, họ đã ăn rồi.",
+              "en": "When I got home, they had already eaten."
+            },
+            {
+              "no": "Jeg hadde aldri sett nordlys før jeg flyttet til Tromsø.",
+              "vi": "Tôi chưa từng thấy cực quang trước khi chuyển đến Tromsø.",
+              "en": "I had never seen the northern lights before I moved to Tromsø."
+            },
+            {
+              "no": "Hun hadde jobbet i departementet i ti år.",
+              "vi": "Cô ấy đã làm việc ở bộ được mười năm.",
+              "en": "She had worked at the ministry for ten years."
+            },
+            {
+              "no": "Toget hadde gått da vi kom til stasjonen.",
+              "vi": "Tàu đã chạy mất khi chúng tôi đến ga.",
+              "en": "The train had left when we got to the station."
+            }
+          ]
+        },
+        {
+          "h": "Etter at, før và da",
+          "h_en": "Etter at, før and da",
+          "body": "Ba liên từ giúp sắp xếp sự việc theo thứ tự:\n\n| Liên từ | Nghĩa | Thì thường dùng |\n| --- | --- | --- |\n| etter at | sau khi | etter at + **hadde + phân từ** |\n| før | trước khi | før + quá khứ đơn, câu chính hadde + phân từ |\n| da | khi (một lần trong quá khứ) | da + quá khứ đơn |\n\n- **Etter at** jeg **hadde levert** søknaden, ringte jeg rekruttereren.\n- **Før** jeg flyttet til Norge, **hadde** jeg **bodd** i London.\n\nNhớ quy tắc V2: khi mệnh đề phụ đứng đầu, câu chính phải đảo ngữ: ..., **ringte jeg** rekruttereren.",
+          "body_en": "Three conjunctions help you put events in order:\n\n| Conjunction | Meaning | Usual tense |\n| --- | --- | --- |\n| etter at | after | etter at + **hadde + participle** |\n| før | before | før + simple past, main clause hadde + participle |\n| da | when (once in the past) | da + simple past |\n\n- **Etter at** jeg **hadde levert** søknaden, ringte jeg rekruttereren.\n- **Før** jeg flyttet til Norge, **hadde** jeg **bodd** i London.\n\nRemember the V2 rule: when the subordinate clause comes first, the main clause inverts: ..., **ringte jeg** rekruttereren.",
+          "examples": [
+            {
+              "no": "Etter at jeg hadde levert søknaden, ringte jeg rekruttereren.",
+              "vi": "Sau khi nộp đơn, tôi đã gọi cho người tuyển dụng.",
+              "en": "After I had submitted the application, I called the recruiter."
+            },
+            {
+              "no": "Før jeg flyttet til Norge, hadde jeg bodd i London.",
+              "vi": "Trước khi chuyển đến Na Uy, tôi đã sống ở London.",
+              "en": "Before I moved to Norway, I had lived in London."
+            },
+            {
+              "no": "Etter at vi hadde spist, gikk vi en tur langs sjøen.",
+              "vi": "Sau khi ăn xong, chúng tôi đi dạo dọc bờ biển.",
+              "en": "After we had eaten, we went for a walk along the sea."
+            },
+            {
+              "no": "Da møtet var slutt, gikk alle hjem.",
+              "vi": "Khi buổi họp kết thúc, mọi người đều về nhà.",
+              "en": "When the meeting was over, everyone went home."
+            }
+          ]
+        },
+        {
+          "h": "So sánh ba thì quá khứ",
+          "h_en": "Comparing the three past tenses",
+          "body": "| Thì | Ví dụ | Dùng khi |\n| --- | --- | --- |\n| Quá khứ đơn | Jeg **mistet** passet i går. | việc đã xong ở một thời điểm rõ ràng |\n| Hiện tại hoàn thành | Jeg **har mistet** passet. | việc trong quá khứ còn liên quan đến hiện tại |\n| Quá khứ hoàn thành | Jeg **hadde mistet** passet. | việc xảy ra trước một việc khác trong quá khứ |\n\nCác trạng từ hay đi kèm: **allerede** (đã... rồi), **nettopp** (vừa mới), **aldri** (chưa bao giờ), **ennå ikke** (vẫn chưa).\n\nTrong lời kể và lời nói gián tiếp, quá khứ hoàn thành rất thường gặp: Han sa at han **hadde mistet** passet.",
+          "body_en": "| Tense | Example | Used for |\n| --- | --- | --- |\n| Simple past | Jeg **mistet** passet i går. | something finished at a clear time |\n| Present perfect | Jeg **har mistet** passet. | a past event still relevant now |\n| Past perfect | Jeg **hadde mistet** passet. | something before another past event |\n\nCommon adverbs with it: **allerede** (already), **nettopp** (just), **aldri** (never), **ennå ikke** (not yet).\n\nIn storytelling and reported speech the past perfect is very common: Han sa at han **hadde mistet** passet.",
+          "examples": [
+            {
+              "no": "Hun hadde nettopp gått da du ringte.",
+              "vi": "Cô ấy vừa mới đi thì anh gọi.",
+              "en": "She had just left when you called."
+            },
+            {
+              "no": "Jeg hadde ikke hørt om firmaet før intervjuet.",
+              "vi": "Trước buổi phỏng vấn tôi chưa từng nghe về công ty đó.",
+              "en": "I hadn't heard of the company before the interview."
+            },
+            {
+              "no": "Han sa at han hadde mistet passet.",
+              "vi": "Anh ấy nói rằng anh ấy đã đánh mất hộ chiếu.",
+              "en": "He said that he had lost his passport."
+            },
+            {
+              "no": "Jeg var trøtt fordi jeg ikke hadde sovet.",
+              "vi": "Tôi mệt vì tôi đã không ngủ.",
+              "en": "I was tired because I hadn't slept."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Da jeg kom hjem, ___ de allerede spist.",
+          "q_en": "Da jeg kom hjem, ___ de allerede spist.",
+          "options": [
+            "har",
+            "ble",
+            "hadde"
+          ],
+          "options_en": [
+            "har",
+            "ble",
+            "hadde"
+          ],
+          "answer": 2,
+          "explain": "Việc ăn xảy ra trước khi tôi về: hadde spist.",
+          "explain_en": "The eating happened before I came home: hadde spist."
+        },
+        {
+          "q": "Etter at jeg ___ søknaden, ringte jeg rekruttereren.",
+          "q_en": "Etter at jeg ___ søknaden, ringte jeg rekruttereren.",
+          "options": [
+            "hadde levert",
+            "leverer",
+            "har levert"
+          ],
+          "options_en": [
+            "hadde levert",
+            "leverer",
+            "har levert"
+          ],
+          "answer": 0,
+          "explain": "Etter at thường đi với quá khứ hoàn thành.",
+          "explain_en": "Etter at usually takes the past perfect."
+        },
+        {
+          "q": "Quá khứ hoàn thành được tạo thế nào?",
+          "q_en": "How is the past perfect formed?",
+          "options": [
+            "har + phân từ",
+            "hadde + phân từ",
+            "ble + phân từ"
+          ],
+          "options_en": [
+            "har + participle",
+            "hadde + participle",
+            "ble + participle"
+          ],
+          "answer": 1,
+          "explain": "Pluskvamperfektum = hadde + phân từ quá khứ.",
+          "explain_en": "Pluskvamperfektum = hadde + past participle."
+        },
+        {
+          "q": "Før jeg flyttet til Norge, ___ jeg i London.",
+          "q_en": "Før jeg flyttet til Norge, ___ jeg i London.",
+          "options": [
+            "bor",
+            "har bodd",
+            "hadde bodd"
+          ],
+          "options_en": [
+            "bor",
+            "har bodd",
+            "hadde bodd"
+          ],
+          "answer": 2,
+          "explain": "Việc sống ở London xảy ra trước việc chuyển nhà trong quá khứ.",
+          "explain_en": "Living in London came before the move, which is itself in the past."
+        },
+        {
+          "q": "«Jeg har mistet passet.» → Han sa at han ___ passet.",
+          "q_en": "«Jeg har mistet passet.» → Han sa at han ___ passet.",
+          "options": [
+            "hadde mistet",
+            "har mistet",
+            "mister"
+          ],
+          "options_en": [
+            "hadde mistet",
+            "har mistet",
+            "mister"
+          ],
+          "answer": 0,
+          "explain": "Trong lời nói gián tiếp ở quá khứ, har mistet đổi thành hadde mistet.",
+          "explain_en": "In past reported speech, har mistet becomes hadde mistet."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Etter at vi hadde spist, vi gikk en tur.",
+            "Etter at vi hadde spist, gikk vi en tur.",
+            "Etter at hadde vi spist, gikk vi en tur."
+          ],
+          "options_en": [
+            "Etter at vi hadde spist, vi gikk en tur.",
+            "Etter at vi hadde spist, gikk vi en tur.",
+            "Etter at hadde vi spist, gikk vi en tur."
+          ],
+          "answer": 1,
+          "explain": "Mệnh đề phụ đứng đầu, nên câu chính đảo ngữ: gikk vi.",
+          "explain_en": "The subordinate clause comes first, so the main clause inverts: gikk vi."
+        }
+      ]
+    },
+    {
+      "id": "g20",
+      "title": "Câu điều kiện và giả định",
+      "title_no": "Betingelser og hypotetiske setninger",
+      "title_en": "Conditionals and hypotheticals",
+      "level": "B1",
+      "icon": "🤔",
+      "summary": "Điều kiện có thật dùng hvis/om + hiện tại; giả định ở hiện tại dùng hvis + quá khứ và ville; giả định ở quá khứ dùng hadde + phân từ. Ước muốn: jeg skulle ønske.",
+      "summary_en": "Real conditions use hvis/om + present; present hypotheticals use hvis + past and ville; past hypotheticals use hadde + participle. Wishes: jeg skulle ønske.",
+      "sections": [
+        {
+          "h": "Điều kiện có thật: hvis và om",
+          "h_en": "Real conditions: hvis and om",
+          "body": "Khi điều kiện **có thể xảy ra**, dùng **hvis** hoặc **om** (cả hai đều là “nếu”) + thì hiện tại:\n\n- **Hvis** det regner i morgen, **blir** vi hjemme.\n- **Om** du har tid, **kan** vi ta en kaffe.\n\nOm trang trọng hơn một chút và cũng có nghĩa “liệu, có... không” trong câu hỏi gián tiếp (xem bài Lời nói gián tiếp).\n\nNhớ V2: mệnh đề hvis đứng đầu thì câu chính đảo ngữ (**blir vi**). Nếu mệnh đề hvis đứng sau thì không cần dấu phẩy: Ring meg **hvis** du trenger hjelp.",
+          "body_en": "When a condition **may really happen**, use **hvis** or **om** (both mean “if”) + the present tense:\n\n- **Hvis** det regner i morgen, **blir** vi hjemme.\n- **Om** du har tid, **kan** vi ta en kaffe.\n\nOm is slightly more formal and also means “whether” in indirect questions (see the lesson on reported speech).\n\nRemember V2: when the hvis clause comes first, the main clause inverts (**blir vi**). When it comes second, no comma is needed: Ring meg **hvis** du trenger hjelp.",
+          "examples": [
+            {
+              "no": "Hvis det regner i morgen, blir vi hjemme.",
+              "vi": "Nếu mai trời mưa, chúng tôi sẽ ở nhà.",
+              "en": "If it rains tomorrow, we'll stay at home."
+            },
+            {
+              "no": "Om du har tid, kan vi ta en kaffe.",
+              "vi": "Nếu anh có thời gian, chúng ta có thể đi uống cà phê.",
+              "en": "If you have time, we can have a coffee."
+            },
+            {
+              "no": "Hvis du får jobben, må du flytte til Stavanger.",
+              "vi": "Nếu anh được nhận việc, anh sẽ phải chuyển đến Stavanger.",
+              "en": "If you get the job, you will have to move to Stavanger."
+            },
+            {
+              "no": "Ring meg hvis du trenger hjelp.",
+              "vi": "Gọi cho tôi nếu anh cần giúp đỡ.",
+              "en": "Call me if you need help."
+            }
+          ]
+        },
+        {
+          "h": "Giả định ở hiện tại",
+          "h_en": "Hypotheticals about now",
+          "body": "Khi nói về điều **không có thật ở hiện tại** (giống “nếu tôi là anh”), dùng **hvis + quá khứ đơn**, câu chính dùng **ville + nguyên mẫu**:\n\n| Mệnh đề hvis | Câu chính |\n| --- | --- |\n| Hvis jeg **var** rik, | **ville** jeg **kjøpe** en båt. |\n| Hvis jeg **hadde** bil, | **ville** jeg **kjøre** til jobben. |\n\nTrong khẩu ngữ, người Na Uy hay nói **ville + phân từ** cho cả hiện tại: Hvis jeg var rik, ville jeg **kjøpt** en båt. Cả hai đều đúng.\n\n**Det hadde vært** = “sẽ thật là”: Det hadde vært fint om du kunne komme.",
+          "body_en": "To talk about something **unreal now** (like “if I were you”), use **hvis + simple past**, and **ville + infinitive** in the main clause, much like English “would buy”:\n\n| hvis clause | Main clause |\n| --- | --- |\n| Hvis jeg **var** rik, | **ville** jeg **kjøpe** en båt. |\n| Hvis jeg **hadde** bil, | **ville** jeg **kjøre** til jobben. |\n\nIn speech, Norwegians often say **ville + participle** for the present too: Hvis jeg var rik, ville jeg **kjøpt** en båt. Both are correct.\n\n**Det hadde vært** = “it would be”: Det hadde vært fint om du kunne komme (it would be nice if you could come).",
+          "examples": [
+            {
+              "no": "Hvis jeg var deg, ville jeg ringe dem i dag.",
+              "vi": "Nếu tôi là anh, tôi sẽ gọi cho họ hôm nay.",
+              "en": "If I were you, I would call them today."
+            },
+            {
+              "no": "Hvis jeg hadde bil, ville jeg kjøre til jobben.",
+              "vi": "Nếu tôi có ô tô, tôi sẽ lái xe đi làm.",
+              "en": "If I had a car, I would drive to work."
+            },
+            {
+              "no": "Hvis jeg hadde mer tid, ville jeg lære meg å seile.",
+              "vi": "Nếu có nhiều thời gian hơn, tôi sẽ học đi thuyền buồm.",
+              "en": "If I had more time, I would learn to sail."
+            },
+            {
+              "no": "Det hadde vært fint om du kunne komme.",
+              "vi": "Sẽ thật tuyệt nếu anh có thể đến.",
+              "en": "It would be nice if you could come."
+            }
+          ]
+        },
+        {
+          "h": "Giả định ở quá khứ",
+          "h_en": "Hypotheticals about the past",
+          "body": "Khi nói về điều **đã không xảy ra** (tiếc nuối, “giá mà lúc đó”), dùng **hvis + hadde + phân từ**, câu chính dùng **ville ha + phân từ** hoặc **hadde + phân từ**:\n\n- Hvis jeg **hadde visst** det, **ville** jeg **ha kommet** tidligere.\n- Hvis vi **hadde tatt** toget, **hadde** vi **rukket** møtet.\n\nCó thể bỏ hvis và **đưa hadde lên đầu câu**, rất phổ biến trong văn nói:\n\n- **Hadde** jeg søkt i fjor, **hadde** jeg kanskje fått jobben.\n\nCấu trúc này giống “Had I known...” trong tiếng Anh.",
+          "body_en": "To talk about something that **did not happen** (regret, “if only I had”), use **hvis + hadde + participle**, and **ville ha + participle** or **hadde + participle** in the main clause:\n\n- Hvis jeg **hadde visst** det, **ville** jeg **ha kommet** tidligere.\n- Hvis vi **hadde tatt** toget, **hadde** vi **rukket** møtet.\n\nYou can drop hvis and **put hadde first**, which is very common in speech:\n\n- **Hadde** jeg søkt i fjor, **hadde** jeg kanskje fått jobben.\n\nThis works just like English “Had I known...”.",
+          "examples": [
+            {
+              "no": "Hvis jeg hadde visst det, ville jeg ha kommet tidligere.",
+              "vi": "Nếu tôi biết chuyện đó, tôi đã đến sớm hơn.",
+              "en": "If I had known, I would have come earlier."
+            },
+            {
+              "no": "Hvis vi hadde tatt toget, hadde vi rukket møtet.",
+              "vi": "Nếu chúng tôi đi tàu, chúng tôi đã kịp buổi họp.",
+              "en": "If we had taken the train, we would have made the meeting."
+            },
+            {
+              "no": "Hadde jeg søkt i fjor, hadde jeg kanskje fått jobben.",
+              "vi": "Giá mà tôi nộp đơn năm ngoái, có lẽ tôi đã được nhận.",
+              "en": "Had I applied last year, I might have got the job."
+            },
+            {
+              "no": "Hvis hun ikke hadde lært norsk, ville hun ikke ha fått stillingen.",
+              "vi": "Nếu cô ấy không học tiếng Na Uy, cô ấy đã không có được vị trí đó.",
+              "en": "If she hadn't learned Norwegian, she wouldn't have got the position."
+            }
+          ]
+        },
+        {
+          "h": "Ước muốn và lời đề nghị lịch sự",
+          "h_en": "Wishes and polite requests",
+          "body": "Để nói **ước gì**, dùng **jeg skulle ønske (at)** + quá khứ (cho hiện tại) hoặc hadde + phân từ (cho quá khứ):\n\n- Jeg skulle ønske at jeg **snakket** flytende norsk. (ước gì bây giờ tôi nói trôi chảy)\n- Jeg skulle ønske jeg **hadde begynt** tidligere. (ước gì tôi đã bắt đầu sớm hơn)\n\nCâu cảm thán: **Hadde jeg bare** hatt mer tid! (giá mà tôi có nhiều thời gian hơn)\n\nDạng quá khứ cũng làm lời nói **lịch sự hơn**:\n\n- **Kunne** du hjelpe meg? (anh có thể giúp tôi được không?)\n- Jeg **skulle gjerne hatt** en kaffe. (tôi muốn một ly cà phê)",
+          "body_en": "To express a **wish**, use **jeg skulle ønske (at)** + simple past (about now) or hadde + participle (about the past), like English “I wish I spoke / I wish I had started”:\n\n- Jeg skulle ønske at jeg **snakket** flytende norsk.\n- Jeg skulle ønske jeg **hadde begynt** tidligere.\n\nAs an exclamation: **Hadde jeg bare** hatt mer tid! (if only I had more time!)\n\nPast forms also make you sound **more polite**, just like English “could” and “would”:\n\n- **Kunne** du hjelpe meg? (could you help me?)\n- Jeg **skulle gjerne hatt** en kaffe. (I'd like a coffee)",
+          "examples": [
+            {
+              "no": "Jeg skulle ønske at jeg snakket flytende norsk.",
+              "vi": "Ước gì tôi nói tiếng Na Uy trôi chảy.",
+              "en": "I wish I spoke fluent Norwegian."
+            },
+            {
+              "no": "Jeg skulle ønske jeg hadde begynt tidligere.",
+              "vi": "Ước gì tôi đã bắt đầu sớm hơn.",
+              "en": "I wish I had started earlier."
+            },
+            {
+              "no": "Hadde jeg bare hatt mer tid!",
+              "vi": "Giá mà tôi có nhiều thời gian hơn!",
+              "en": "If only I had more time!"
+            },
+            {
+              "no": "Kunne du hjelpe meg med søknaden?",
+              "vi": "Anh có thể giúp tôi viết đơn được không?",
+              "en": "Could you help me with the application?"
+            },
+            {
+              "no": "Jeg skulle gjerne hatt en kaffe.",
+              "vi": "Cho tôi một ly cà phê.",
+              "en": "I'd like a coffee, please."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Hvis det ___ i morgen, blir vi hjemme.",
+          "q_en": "Hvis det ___ i morgen, blir vi hjemme.",
+          "options": [
+            "regnet",
+            "regner",
+            "ville regne"
+          ],
+          "options_en": [
+            "regnet",
+            "regner",
+            "ville regne"
+          ],
+          "answer": 1,
+          "explain": "Điều kiện có thể xảy ra: hvis + hiện tại.",
+          "explain_en": "A real condition: hvis + present."
+        },
+        {
+          "q": "Hvis jeg ___ rik, ville jeg kjøpe en båt.",
+          "q_en": "Hvis jeg ___ rik, ville jeg kjøpe en båt.",
+          "options": [
+            "er",
+            "blir",
+            "var"
+          ],
+          "options_en": [
+            "er",
+            "blir",
+            "var"
+          ],
+          "answer": 2,
+          "explain": "Giả định không có thật ở hiện tại: hvis + quá khứ (var).",
+          "explain_en": "An unreal present: hvis + simple past (var)."
+        },
+        {
+          "q": "Hvis jeg hadde visst det, ville jeg ___ tidligere.",
+          "q_en": "Hvis jeg hadde visst det, ville jeg ___ tidligere.",
+          "options": [
+            "ha kommet",
+            "kommet",
+            "komme"
+          ],
+          "options_en": [
+            "ha kommet",
+            "kommet",
+            "komme"
+          ],
+          "answer": 0,
+          "explain": "Giả định ở quá khứ: ville ha + phân từ.",
+          "explain_en": "A past hypothetical: ville ha + participle."
+        },
+        {
+          "q": "Jeg skulle ___ at jeg snakket flytende norsk.",
+          "q_en": "Jeg skulle ___ at jeg snakket flytende norsk.",
+          "options": [
+            "ønsker",
+            "ønske",
+            "ønsket"
+          ],
+          "options_en": [
+            "ønsker",
+            "ønske",
+            "ønsket"
+          ],
+          "answer": 1,
+          "explain": "Sau skulle dùng nguyên mẫu: skulle ønske.",
+          "explain_en": "After skulle use the infinitive: skulle ønske."
+        },
+        {
+          "q": "Câu nào nghĩa là “Giá mà tôi đã nộp đơn năm ngoái...”?",
+          "q_en": "Which one means “Had I applied last year...”?",
+          "options": [
+            "Hvis jeg søker i fjor...",
+            "Søkte jeg i fjor...",
+            "Hadde jeg søkt i fjor..."
+          ],
+          "options_en": [
+            "Hvis jeg søker i fjor...",
+            "Søkte jeg i fjor...",
+            "Hadde jeg søkt i fjor..."
+          ],
+          "answer": 2,
+          "explain": "Đưa hadde lên đầu câu thay cho hvis: Hadde jeg søkt...",
+          "explain_en": "Hadde placed first replaces hvis: Hadde jeg søkt..."
+        },
+        {
+          "q": "___ du har tid, kan vi ta en kaffe.",
+          "q_en": "___ du har tid, kan vi ta en kaffe.",
+          "options": [
+            "Om",
+            "At",
+            "Som"
+          ],
+          "options_en": [
+            "Om",
+            "At",
+            "Som"
+          ],
+          "answer": 0,
+          "explain": "Om ở đây nghĩa là “nếu”, giống hvis.",
+          "explain_en": "Here om means “if”, just like hvis."
+        }
+      ]
+    },
+    {
+      "id": "g21",
+      "title": "Lời nói gián tiếp",
+      "title_no": "Indirekte tale",
+      "title_en": "Reported speech",
+      "level": "B1",
+      "icon": "💬",
+      "summary": "Thuật lại lời nói bằng at (câu kể), om (câu hỏi có/không) hoặc từ để hỏi; trật tự từ như mệnh đề phụ, ikke trước động từ, và thì, đại từ thường thay đổi.",
+      "summary_en": "Report speech with at (statements), om (yes/no questions) or a question word; use subordinate clause word order with ikke before the verb, and shift tenses and pronouns.",
+      "sections": [
+        {
+          "h": "Thuật lại câu kể với at",
+          "h_en": "Reporting statements with at",
+          "body": "Để thuật lại lời ai đó, dùng **si, fortelle, mene, tro** + **at** (rằng). Phần sau at là **mệnh đề phụ**, nên không có V2 và **ikke đứng trước động từ**:\n\n| Lời trực tiếp | Lời gián tiếp |\n| --- | --- |\n| Han sier: «Jeg kan ikke komme.» | Han sier at han **ikke kan** komme. |\n| Hun sier: «Jeg jobber i et rederi.» | Hun sier at hun jobber i et rederi. |\n\nTrong khẩu ngữ, **at có thể bỏ**: Han sier (at) han er trøtt. Nhưng khi viết, nên giữ at.",
+          "body_en": "To report what someone said, use **si, fortelle, mene, tro** (say, tell, think, believe) + **at** (that). What follows at is a **subordinate clause**, so there is no V2 and **ikke comes before the verb**:\n\n| Direct speech | Reported speech |\n| --- | --- |\n| Han sier: «Jeg kan ikke komme.» | Han sier at han **ikke kan** komme. |\n| Hun sier: «Jeg jobber i et rederi.» | Hun sier at hun jobber i et rederi. |\n\nIn speech **at can be dropped**, just like English “that”: Han sier (at) han er trøtt. In writing it is better to keep it.",
+          "examples": [
+            {
+              "no": "Han sier at han ikke kan komme.",
+              "vi": "Anh ấy nói rằng anh ấy không thể đến.",
+              "en": "He says that he can't come."
+            },
+            {
+              "no": "Hun forteller at hun jobber i et rederi.",
+              "vi": "Cô ấy kể rằng cô ấy làm việc ở một công ty vận tải biển.",
+              "en": "She says that she works for a shipping company."
+            },
+            {
+              "no": "De mener at prisen er for høy.",
+              "vi": "Họ cho rằng giá quá cao.",
+              "en": "They think the price is too high."
+            },
+            {
+              "no": "Sjefen sa at møtet var flyttet til fredag.",
+              "vi": "Sếp nói rằng buổi họp đã được dời sang thứ Sáu.",
+              "en": "The boss said the meeting had been moved to Friday."
+            }
+          ]
+        },
+        {
+          "h": "Câu hỏi gián tiếp: om và từ để hỏi",
+          "h_en": "Indirect questions: om and question words",
+          "body": "- Câu hỏi **có/không** → dùng **om** (liệu, có... không): «Snakker du norsk?» → Hun spør **om** jeg snakker norsk.\n- Câu hỏi có **từ để hỏi** → giữ từ đó (hva, hvor, når, hvorfor, hvordan, hvem): «Hvor kommer du fra?» → Han lurer på **hvor** jeg kommer fra.\n\nTrật tự từ là của **mệnh đề phụ**: chủ ngữ đứng trước động từ, **không đảo ngữ**.\n\n- Han spør hvor **jeg bor**. (không nói: hvor bor jeg)\n\nKhi **hvem** hoặc **hva** là **chủ ngữ** của câu hỏi, phải thêm **som**:\n\n- «Hvem har ringt?» → Jeg vet ikke **hvem som** har ringt.\n- «Hva skjedde?» → Hun spurte **hva som** hadde skjedd.",
+          "body_en": "- **Yes/no** questions → use **om** (whether, if): «Snakker du norsk?» → Hun spør **om** jeg snakker norsk.\n- Questions with a **question word** → keep the word (hva, hvor, når, hvorfor, hvordan, hvem): «Hvor kommer du fra?» → Han lurer på **hvor** jeg kommer fra.\n\nThe word order is that of a **subordinate clause**: subject before verb, **no inversion**, just like English “he asks where I live”.\n\n- Han spør hvor **jeg bor**. (not: hvor bor jeg)\n\nWhen **hvem** or **hva** is the **subject** of the question, you must add **som**:\n\n- «Hvem har ringt?» → Jeg vet ikke **hvem som** har ringt.\n- «Hva skjedde?» → Hun spurte **hva som** hadde skjedd.",
+          "examples": [
+            {
+              "no": "Hun spør om jeg snakker norsk.",
+              "vi": "Cô ấy hỏi tôi có nói tiếng Na Uy không.",
+              "en": "She asks if I speak Norwegian."
+            },
+            {
+              "no": "Han lurer på hvor jeg kommer fra.",
+              "vi": "Anh ấy thắc mắc tôi đến từ đâu.",
+              "en": "He wonders where I come from."
+            },
+            {
+              "no": "Kan du si meg når bussen går?",
+              "vi": "Anh có thể cho tôi biết khi nào xe buýt chạy không?",
+              "en": "Can you tell me when the bus leaves?"
+            },
+            {
+              "no": "Jeg vet ikke hvem som har ringt.",
+              "vi": "Tôi không biết ai đã gọi.",
+              "en": "I don't know who called."
+            },
+            {
+              "no": "Hun spurte hva som hadde skjedd.",
+              "vi": "Cô ấy hỏi chuyện gì đã xảy ra.",
+              "en": "She asked what had happened."
+            }
+          ]
+        },
+        {
+          "h": "Đổi thì, đại từ và mệnh lệnh",
+          "h_en": "Shifting tenses, pronouns and commands",
+          "body": "Khi động từ thuật lại ở **quá khứ** (sa, fortalte, spurte), thì trong lời gián tiếp thường **lùi một bậc**, giống tiếng Anh:\n\n| Lời trực tiếp | Lời gián tiếp |\n| --- | --- |\n| er, jobber (hiện tại) | var, jobbet (quá khứ) |\n| har solgt, solgte | hadde solgt |\n| skal, vil, kan | skulle, ville, kunne |\n\n**Đại từ và trạng từ** cũng đổi theo người nói: jeg → han/hun, deg → meg, i morgen → dagen etter, her → der.\n\nMệnh lệnh được thuật lại bằng **be noen (om å)** hoặc **si at... skal**:\n\n- «Kom i morgen!» → Hun ba meg (om å) komme dagen etter.",
+          "body_en": "When the reporting verb is in the **past** (sa, fortalte, spurte), the tense in the reported clause usually **moves one step back**, as in English:\n\n| Direct speech | Reported speech |\n| --- | --- |\n| er, jobber (present) | var, jobbet (past) |\n| har solgt, solgte | hadde solgt |\n| skal, vil, kan | skulle, ville, kunne |\n\n**Pronouns and adverbs** change too: jeg → han/hun, deg → meg, i morgen → dagen etter (the next day), her → der.\n\nCommands are reported with **be noen (om å)** (ask someone to) or **si at... skal** (tell someone to):\n\n- «Kom i morgen!» → Hun ba meg (om å) komme dagen etter.",
+          "examples": [
+            {
+              "no": "Han sa at han var syk.",
+              "vi": "Anh ấy nói rằng anh ấy bị ốm.",
+              "en": "He said he was ill."
+            },
+            {
+              "no": "De fortalte at de hadde solgt huset.",
+              "vi": "Họ kể rằng họ đã bán ngôi nhà.",
+              "en": "They told us they had sold the house."
+            },
+            {
+              "no": "Hun sa at hun skulle ringe meg.",
+              "vi": "Cô ấy nói rằng cô ấy sẽ gọi cho tôi.",
+              "en": "She said she would call me."
+            },
+            {
+              "no": "Hun ba meg komme dagen etter.",
+              "vi": "Cô ấy bảo tôi đến vào hôm sau.",
+              "en": "She asked me to come the next day."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Hun spør ___ jeg snakker norsk.",
+          "q_en": "Hun spør ___ jeg snakker norsk.",
+          "options": [
+            "om",
+            "at",
+            "hva"
+          ],
+          "options_en": [
+            "om",
+            "at",
+            "hva"
+          ],
+          "answer": 0,
+          "explain": "Câu hỏi có/không chuyển sang gián tiếp dùng om.",
+          "explain_en": "A yes/no question becomes indirect with om."
+        },
+        {
+          "q": "Han spør hvor ___.",
+          "q_en": "Han spør hvor ___.",
+          "options": [
+            "bor jeg",
+            "jeg bor",
+            "jeg bo"
+          ],
+          "options_en": [
+            "bor jeg",
+            "jeg bor",
+            "jeg bo"
+          ],
+          "answer": 1,
+          "explain": "Câu hỏi gián tiếp không đảo ngữ: hvor jeg bor.",
+          "explain_en": "Indirect questions do not invert: hvor jeg bor."
+        },
+        {
+          "q": "Jeg vet ikke hvem ___ har ringt.",
+          "q_en": "Jeg vet ikke hvem ___ har ringt.",
+          "options": [
+            "om",
+            "at",
+            "som"
+          ],
+          "options_en": [
+            "om",
+            "at",
+            "som"
+          ],
+          "answer": 2,
+          "explain": "Hvem làm chủ ngữ trong câu hỏi gián tiếp cần thêm som.",
+          "explain_en": "Hvem as the subject of an indirect question needs som."
+        },
+        {
+          "q": "«Jeg er syk.» → Han sa at han ___ syk.",
+          "q_en": "«Jeg er syk.» → Han sa at han ___ syk.",
+          "options": [
+            "var",
+            "er",
+            "har vært"
+          ],
+          "options_en": [
+            "var",
+            "er",
+            "har vært"
+          ],
+          "answer": 0,
+          "explain": "Động từ thuật lại ở quá khứ (sa), nên er lùi thành var.",
+          "explain_en": "The reporting verb is past (sa), so er shifts back to var."
+        },
+        {
+          "q": "«Jeg skal ringe deg.» → Hun sa at hun ___ ringe meg.",
+          "q_en": "«Jeg skal ringe deg.» → Hun sa at hun ___ ringe meg.",
+          "options": [
+            "skal",
+            "skulle",
+            "ville ha"
+          ],
+          "options_en": [
+            "skal",
+            "skulle",
+            "ville ha"
+          ],
+          "answer": 1,
+          "explain": "Skal lùi thành skulle; deg đổi thành meg.",
+          "explain_en": "Skal shifts back to skulle; deg becomes meg."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Han sa at han kunne ikke komme.",
+            "Han sa at ikke han kunne komme.",
+            "Han sa at han ikke kunne komme."
+          ],
+          "options_en": [
+            "Han sa at han kunne ikke komme.",
+            "Han sa at ikke han kunne komme.",
+            "Han sa at han ikke kunne komme."
+          ],
+          "answer": 2,
+          "explain": "Sau at là mệnh đề phụ: ikke đứng trước động từ.",
+          "explain_en": "After at comes a subordinate clause: ikke goes before the verb."
+        }
+      ]
+    },
+    {
+      "id": "g22",
+      "title": "Tiểu từ tình thái và từ hạn định",
+      "title_no": "Modalpartikler og determinativer",
+      "title_en": "Modal particles and determiners",
+      "level": "B1",
+      "icon": "✨",
+      "summary": "Các tiểu từ nhỏ jo, vel, nok, da, altså thêm sắc thái cho câu nói; hver, alle, begge, hele và egen/eget/egne giúp nói về số lượng và sở hữu một cách chính xác.",
+      "summary_en": "The little words jo, vel, nok, da, altså add attitude to what you say; hver, alle, begge, hele and egen/eget/egne help you talk about quantity and ownership precisely.",
+      "sections": [
+        {
+          "h": "Jo, vel, nok, da, altså",
+          "h_en": "Jo, vel, nok, da, altså",
+          "body": "Người Na Uy dùng rất nhiều **tiểu từ tình thái**. Chúng không thay đổi nội dung câu, nhưng thể hiện **thái độ** của người nói, giống “mà, chắc, nhỉ, đấy” trong tiếng Việt:\n\n| Tiểu từ | Sắc thái | Tiếng Việt gần giống |\n| --- | --- | --- |\n| jo | điều cả hai đều biết | mà, đấy thôi |\n| vel | đoán, mong được xác nhận | chắc là, nhỉ, phải không |\n| nok | khá chắc chắn | chắc là, hẳn là |\n| da | làm mềm hoặc nhấn mạnh, phản bác nhẹ | mà, đi, chứ |\n| altså | kết luận, tóm lại | vậy là, tức là |\n\nLưu ý: **nok** còn có nghĩa “đủ” (Jeg har nok penger), và **da** còn là liên từ “khi” (Da jeg kom...). Ngữ cảnh và vị trí cho anh biết nghĩa nào.",
+          "body_en": "Norwegians use a lot of **modal particles**. They don't change the content of a sentence, but they show the speaker's **attitude**. English often uses tone, tag questions or words like “of course, surely, probably” for the same job:\n\n| Particle | Nuance | Rough English |\n| --- | --- | --- |\n| jo | something both people know | you know, after all, of course |\n| vel | a guess, asking for confirmation | I suppose, surely, ..., right? |\n| nok | fairly sure | probably, I'm sure |\n| da | softens or adds emphasis, mild protest | come on, really, though |\n| altså | concluding, summing up | so, that is |\n\nNote: **nok** also means “enough” (Jeg har nok penger), and **da** is also the conjunction “when” (Da jeg kom...). Context and position tell you which one it is.",
+          "examples": [
+            {
+              "no": "Du kjenner jo Erik.",
+              "vi": "Anh biết Erik mà.",
+              "en": "You know Erik, after all."
+            },
+            {
+              "no": "Det blir vel bra til slutt.",
+              "vi": "Chắc rồi cuối cùng sẽ ổn thôi.",
+              "en": "I suppose it'll be fine in the end."
+            },
+            {
+              "no": "Han kommer nok litt for sent.",
+              "vi": "Chắc là anh ấy sẽ đến muộn một chút.",
+              "en": "He'll probably be a bit late."
+            },
+            {
+              "no": "Det er da ikke så farlig!",
+              "vi": "Có gì nghiêm trọng đâu mà!",
+              "en": "Come on, it's not that bad!"
+            },
+            {
+              "no": "Vi møtes altså klokka ti.",
+              "vi": "Vậy là chúng ta gặp nhau lúc mười giờ.",
+              "en": "So we're meeting at ten."
+            }
+          ]
+        },
+        {
+          "h": "Vị trí của tiểu từ tình thái",
+          "h_en": "Where modal particles go",
+          "body": "Tiểu từ tình thái đứng ở **vị trí của trạng từ**, giống ikke: ngay **sau động từ chia** (và sau chủ ngữ nếu câu đảo ngữ). Chúng luôn **đọc nhẹ, không nhấn**.\n\n- Du kommer **vel** på festen? (anh sẽ đến bữa tiệc, phải không?)\n- I morgen er det **jo** fridag.\n\nKhi đi cùng ikke, tiểu từ đứng **trước ikke**:\n\n- Hun har **nok ikke** fått e-posten.\n- Det er **jo ikke** så langt.\n\n**Vel** trong câu hỏi giống đuôi “..., phải không?” hoặc tag question trong tiếng Anh: Du er vel norsk? (anh là người Na Uy, phải không?)",
+          "body_en": "Modal particles sit in the **adverb position**, like ikke: right **after the finite verb** (and after the subject if the sentence inverts). They are always **unstressed**.\n\n- Du kommer **vel** på festen? (you're coming to the party, right?)\n- I morgen er det **jo** fridag.\n\nTogether with ikke, the particle goes **before ikke**:\n\n- Hun har **nok ikke** fått e-posten.\n- Det er **jo ikke** så langt.\n\n**Vel** in a question works like an English tag question: Du er vel norsk? (you're Norwegian, aren't you?)",
+          "examples": [
+            {
+              "no": "Du kommer vel på festen på lørdag?",
+              "vi": "Thứ Bảy anh đến bữa tiệc chứ?",
+              "en": "You're coming to the party on Saturday, right?"
+            },
+            {
+              "no": "Det har jeg jo sagt mange ganger.",
+              "vi": "Tôi đã nói điều đó nhiều lần rồi mà.",
+              "en": "I've said that many times, you know."
+            },
+            {
+              "no": "Hun har nok ikke fått e-posten ennå.",
+              "vi": "Chắc là cô ấy chưa nhận được email.",
+              "en": "She probably hasn't got the email yet."
+            },
+            {
+              "no": "I morgen er det jo fridag.",
+              "vi": "Ngày mai là ngày nghỉ mà.",
+              "en": "Tomorrow is a day off, after all."
+            }
+          ]
+        },
+        {
+          "h": "Hver, alle, begge, hele",
+          "h_en": "Hver, alle, begge, hele",
+          "body": "Các từ hạn định này đi với dạng danh từ khác nhau, cần nhớ kỹ:\n\n| Từ | Nghĩa | Đi với | Ví dụ |\n| --- | --- | --- | --- |\n| hver / hvert | mỗi | số ít **không xác định** | hver dag, hvert år |\n| alle | tất cả | số nhiều | alle mennesker, alle kollegaene |\n| begge | cả hai | số nhiều | begge søknadene, begge to |\n| hele | cả, toàn bộ | số ít **xác định** | hele dagen, hele Norge |\n\n- **Hver** dùng với danh từ giống đực/cái, **hvert** với giống trung: hver uke, hvert land.\n- **Hele** + dạng xác định: hele **dagen** (cả ngày), không nói *hele dag*. So sánh: **alle dagene** (tất cả các ngày) và **hele dagen** (suốt một ngày).",
+          "body_en": "These determiners go with different noun forms, so learn them carefully:\n\n| Word | Meaning | Used with | Example |\n| --- | --- | --- | --- |\n| hver / hvert | each, every | **indefinite** singular | hver dag, hvert år |\n| alle | all | plural | alle mennesker, alle kollegaene |\n| begge | both | plural | begge søknadene, begge to |\n| hele | the whole, all of | **definite** singular | hele dagen, hele Norge |\n\n- **Hver** goes with masculine/feminine nouns, **hvert** with neuter nouns: hver uke, hvert land.\n- **Hele** + definite form: hele **dagen** (all day), not *hele dag*. Compare: **alle dagene** (all the days) and **hele dagen** (the whole day).",
+          "examples": [
+            {
+              "no": "Jeg trener hver dag før jobb.",
+              "vi": "Ngày nào tôi cũng tập thể dục trước khi đi làm.",
+              "en": "I work out every day before work."
+            },
+            {
+              "no": "Hvert år besøker vi familien i Vietnam.",
+              "vi": "Năm nào chúng tôi cũng về thăm gia đình ở Việt Nam.",
+              "en": "Every year we visit the family in Vietnam."
+            },
+            {
+              "no": "Alle kollegaene mine snakker engelsk.",
+              "vi": "Tất cả đồng nghiệp của tôi đều nói tiếng Anh.",
+              "en": "All my colleagues speak English."
+            },
+            {
+              "no": "Begge søknadene ble sendt i går.",
+              "vi": "Cả hai lá đơn đã được gửi hôm qua.",
+              "en": "Both applications were sent yesterday."
+            },
+            {
+              "no": "Jeg har jobbet hele dagen.",
+              "vi": "Tôi đã làm việc cả ngày.",
+              "en": "I've worked all day."
+            }
+          ]
+        },
+        {
+          "h": "Egen, eget, egne",
+          "h_en": "Egen, eget, egne",
+          "body": "**Egen** nghĩa là “riêng, của chính mình” (own). Nó biến đổi theo giống và số của danh từ:\n\n| Giống / số | Dạng | Ví dụ |\n| --- | --- | --- |\n| giống đực, giống cái | egen | min egen bil, sin egen båt |\n| giống trung | eget | mitt eget firma, et eget rom |\n| số nhiều | egne | mine egne barn, våre egne grønnsaker |\n\nEgen thường đứng sau **đại từ sở hữu** (min, din, sin, vår...). Cũng có thể dùng không có mạo từ: Hun har **eget kontor** (cô ấy có văn phòng riêng).\n\nVới ngôi thứ ba, nhớ dùng **sin/sitt/sine** khi chỉ chính chủ ngữ: Hun har **sin egen** båt.",
+          "body_en": "**Egen** means “own”. It changes with the gender and number of the noun:\n\n| Gender / number | Form | Example |\n| --- | --- | --- |\n| masculine, feminine | egen | min egen bil, sin egen båt |\n| neuter | eget | mitt eget firma, et eget rom |\n| plural | egne | mine egne barn, våre egne grønnsaker |\n\nEgen usually comes after a **possessive** (min, din, sin, vår...), just like English “my own”. It can also be used without an article: Hun har **eget kontor** (she has her own office).\n\nIn the third person, remember to use **sin/sitt/sine** when it refers to the subject: Hun har **sin egen** båt.",
+          "examples": [
+            {
+              "no": "Jeg vil starte mitt eget firma.",
+              "vi": "Tôi muốn thành lập công ty riêng của mình.",
+              "en": "I want to start my own company."
+            },
+            {
+              "no": "Hun har sin egen båt.",
+              "vi": "Cô ấy có chiếc thuyền riêng của mình.",
+              "en": "She has her own boat."
+            },
+            {
+              "no": "Barna har egne rom.",
+              "vi": "Bọn trẻ có phòng riêng.",
+              "en": "The children have their own rooms."
+            },
+            {
+              "no": "Vi dyrker våre egne grønnsaker i hagen.",
+              "vi": "Chúng tôi tự trồng rau trong vườn.",
+              "en": "We grow our own vegetables in the garden."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Du kommer ___ på festen? (… phải không?)",
+          "q_en": "Du kommer ___ på festen? (…, right?)",
+          "options": [
+            "jo",
+            "nok",
+            "vel"
+          ],
+          "options_en": [
+            "jo",
+            "nok",
+            "vel"
+          ],
+          "answer": 2,
+          "explain": "Vel trong câu hỏi mong người nghe xác nhận.",
+          "explain_en": "Vel in a question asks the listener to confirm."
+        },
+        {
+          "q": "Jeg trener ___ dag.",
+          "q_en": "Jeg trener ___ dag.",
+          "options": [
+            "hver",
+            "hvert",
+            "alle"
+          ],
+          "options_en": [
+            "hver",
+            "hvert",
+            "alle"
+          ],
+          "answer": 0,
+          "explain": "En dag là giống đực, số ít: hver dag.",
+          "explain_en": "En dag is masculine singular: hver dag."
+        },
+        {
+          "q": "Jeg vil starte mitt ___ firma.",
+          "q_en": "Jeg vil starte mitt ___ firma.",
+          "options": [
+            "egen",
+            "eget",
+            "egne"
+          ],
+          "options_en": [
+            "egen",
+            "eget",
+            "egne"
+          ],
+          "answer": 1,
+          "explain": "Et firma là giống trung: mitt eget firma.",
+          "explain_en": "Et firma is neuter: mitt eget firma."
+        },
+        {
+          "q": "Jeg har jobbet ___ dagen.",
+          "q_en": "Jeg har jobbet ___ dagen.",
+          "options": [
+            "hver",
+            "alle",
+            "hele"
+          ],
+          "options_en": [
+            "hver",
+            "alle",
+            "hele"
+          ],
+          "answer": 2,
+          "explain": "Hele + dạng xác định số ít: hele dagen.",
+          "explain_en": "Hele + definite singular: hele dagen."
+        },
+        {
+          "q": "Han kommer ___ litt for sent. (chắc là)",
+          "q_en": "Han kommer ___ litt for sent. (probably)",
+          "options": [
+            "nok",
+            "jo",
+            "altså"
+          ],
+          "options_en": [
+            "nok",
+            "jo",
+            "altså"
+          ],
+          "answer": 0,
+          "explain": "Nok = chắc là, khá chắc chắn.",
+          "explain_en": "Nok = probably, fairly sure."
+        },
+        {
+          "q": "___ søknadene ble sendt i går. (cả hai)",
+          "q_en": "___ søknadene ble sendt i går. (both)",
+          "options": [
+            "Alle",
+            "Begge",
+            "Hele"
+          ],
+          "options_en": [
+            "Alle",
+            "Begge",
+            "Hele"
+          ],
+          "answer": 1,
+          "explain": "Begge = cả hai, đi với số nhiều.",
+          "explain_en": "Begge = both, used with the plural."
+        }
+      ]
+    },
+    {
+      "id": "g23",
+      "title": "Danh từ hóa và văn phong trang trọng",
+      "title_no": "Nominalisering og formell stil",
+      "title_en": "Nominalisation and formal style",
+      "level": "B2",
+      "icon": "📑",
+      "summary": "Văn viết trang trọng tiếng Na Uy biến động từ và tính từ thành danh từ bằng các đuôi -ing, -else, -het, -sjon. Biết cách chuyển qua lại giữa văn nói (nhiều động từ) và văn viết (nhiều danh từ) giúp anh đọc báo, báo cáo và viết thư xin việc tốt hơn.",
+      "summary_en": "Formal written Norwegian turns verbs and adjectives into nouns with the endings -ing, -else, -het, -sjon. Switching between spoken style (many verbs) and written style (many nouns) helps you read news and reports and write better job applications.",
+      "sections": [
+        {
+          "h": "Các đuôi danh từ hóa",
+          "h_en": "Nominalising suffixes",
+          "body": "| Đuôi | Từ gốc | Danh từ | Nghĩa |\n| --- | --- | --- | --- |\n| -ing | å utvikle, å øke, å forhandle | en utvikling, en økning, en forhandling | sự phát triển, sự gia tăng, cuộc đàm phán |\n| -else | å forstå, å oppleve, å bevege | en forståelse, en opplevelse, en bevegelse | sự hiểu biết, trải nghiệm, chuyển động |\n| -het | sikker, mulig, tilgjengelig | en sikkerhet, en mulighet, en tilgjengelighet | sự an toàn, khả năng, tính sẵn có |\n| -sjon | å produsere, å informere, å organisere | en produksjon, en informasjon, en organisasjon | sản xuất, thông tin, tổ chức |\n\nHầu hết danh từ có các đuôi này là **giống đực (en)**: utviklingen, sikkerheten, produksjonen. Danh từ -ing cũng có thể dùng giống cái trong văn nói: **utviklinga, regjeringa**.\n\nMột số động từ chỉ cần bỏ đuôi -e: **å besøke → et besøk, å kjøpe → et kjøp, å svare → et svar**.",
+          "body_en": "| Suffix | Base word | Noun | Meaning |\n| --- | --- | --- | --- |\n| -ing | å utvikle, å øke, å forhandle | en utvikling, en økning, en forhandling | development, increase, negotiation |\n| -else | å forstå, å oppleve, å bevege | en forståelse, en opplevelse, en bevegelse | understanding, experience, movement |\n| -het | sikker, mulig, tilgjengelig | en sikkerhet, en mulighet, en tilgjengelighet | safety, possibility, availability |\n| -sjon | å produsere, å informere, å organisere | en produksjon, en informasjon, en organisasjon | production, information, organisation |\n\nMost nouns with these endings are **masculine (en)**: utviklingen, sikkerheten, produksjonen. Nouns in -ing can also be feminine in speech: **utviklinga, regjeringa**.\n\nSome verbs simply drop the final -e: **å besøke → et besøk, å kjøpe → et kjøp, å svare → et svar**.",
+          "examples": [
+            {
+              "no": "Utviklingen av havvind i Nordsjøen går raskere enn ventet.",
+              "vi": "Sự phát triển điện gió ngoài khơi ở Biển Bắc diễn ra nhanh hơn dự kiến.",
+              "en": "The development of offshore wind in the North Sea is moving faster than expected."
+            },
+            {
+              "no": "Hun viste stor forståelse for de ansattes situasjon.",
+              "vi": "Cô ấy tỏ ra rất thấu hiểu hoàn cảnh của nhân viên.",
+              "en": "She showed great understanding of the employees’ situation."
+            },
+            {
+              "no": "Sikkerheten om bord har alltid høyeste prioritet.",
+              "vi": "An toàn trên tàu luôn được ưu tiên cao nhất.",
+              "en": "Safety on board always has top priority."
+            },
+            {
+              "no": "Produksjonen av oppdrettslaks økte med åtte prosent i fjor.",
+              "vi": "Sản lượng cá hồi nuôi tăng tám phần trăm vào năm ngoái.",
+              "en": "The production of farmed salmon rose by eight percent last year."
+            }
+          ]
+        },
+        {
+          "h": "Văn nói và văn viết",
+          "h_en": "Spoken versus written style",
+          "body": "**Văn nói (verbal stil)** dùng nhiều động từ và mệnh đề phụ, dễ hiểu và sinh động.\n**Văn viết trang trọng (nominal stil)** gói ý chính vào danh từ, câu ngắn hơn nhưng nặng thông tin hơn. Kiểu này thường gặp trong báo chí, văn bản nhà nước và báo cáo.\n\n| Văn nói | Văn viết |\n| --- | --- |\n| Fordi prisene steg, kjøpte folk mindre. | Prisstigningen førte til lavere etterspørsel. |\n| Vi må undersøke hvorfor kundene klager. | Det er behov for en undersøkelse av kundeklagene. |\n| Regjeringen bestemte at ... | Regjeringens beslutning om ... |\n\nKhi danh từ hóa, chủ ngữ của động từ thường trở thành **sở hữu** (regjeringens beslutning) hoặc biến mất hoàn toàn.",
+          "body_en": "**Spoken style (verbal style)** uses many verbs and subordinate clauses; it is easy to follow and lively.\n**Formal written style (nominal style)** packs the key idea into nouns, giving shorter but denser sentences. You meet it in newspapers, public documents and reports.\n\n| Spoken | Written |\n| --- | --- |\n| Fordi prisene steg, kjøpte folk mindre. | Prisstigningen førte til lavere etterspørsel. |\n| Vi må undersøke hvorfor kundene klager. | Det er behov for en undersøkelse av kundeklagene. |\n| Regjeringen bestemte at ... | Regjeringens beslutning om ... |\n\nWhen you nominalise, the subject of the verb often becomes a **possessive** (regjeringens beslutning) or disappears completely.",
+          "examples": [
+            {
+              "no": "Fordi lakseprisen steg, kjøpte mange familier mindre fisk.",
+              "vi": "Vì giá cá hồi tăng, nhiều gia đình mua ít cá hơn.",
+              "en": "Because the price of salmon went up, many families bought less fish."
+            },
+            {
+              "no": "Økningen i lakseprisen førte til lavere etterspørsel.",
+              "vi": "Việc giá cá hồi tăng đã dẫn đến nhu cầu thấp hơn.",
+              "en": "The rise in the salmon price led to lower demand."
+            },
+            {
+              "no": "Regjeringens beslutning om å satse på havvind fikk bred støtte.",
+              "vi": "Quyết định đầu tư vào điện gió ngoài khơi của chính phủ nhận được sự ủng hộ rộng rãi.",
+              "en": "The government’s decision to invest in offshore wind received broad support."
+            },
+            {
+              "no": "Det er behov for en grundig gjennomgang av budsjettet.",
+              "vi": "Cần có một đợt rà soát kỹ lưỡng ngân sách.",
+              "en": "A thorough review of the budget is needed."
+            }
+          ]
+        },
+        {
+          "h": "Cụm cố định và giới từ đi kèm",
+          "h_en": "Fixed phrases and their prepositions",
+          "body": "Văn viết trang trọng hay dùng **động từ “nhạt” + danh từ**:\n- **foreta en vurdering av** (đánh giá)\n- **gjennomføre en undersøkelse** (tiến hành khảo sát)\n- **legge vekt på** (chú trọng)\n- **føre til en økning i / en nedgang i** (dẫn đến tăng / giảm)\n\nDanh từ thường đi với một giới từ cố định, cần học thuộc: **interesse for, behov for, ansvar for, økning i, nedgang i, forskjell på/mellom, grunn til**.\n\nLưu ý: đừng lạm dụng. Phong trào **klarspråk** (ngôn ngữ rõ ràng) của nhà nước Na Uy khuyên viết “Vi har behandlet søknaden din” thay vì “Behandlingen av søknaden din er gjennomført”.",
+          "body_en": "Formal writing often uses a **“light” verb + noun**:\n- **foreta en vurdering av** (carry out an assessment of)\n- **gjennomføre en undersøkelse** (conduct a survey)\n- **legge vekt på** (put emphasis on)\n- **føre til en økning i / en nedgang i** (lead to an increase / decrease in)\n\nNouns usually take a fixed preposition that you need to learn: **interesse for, behov for, ansvar for, økning i, nedgang i, forskjell på/mellom, grunn til**.\n\nNote: don't overdo it. The Norwegian government's **klarspråk** (plain language) movement recommends “Vi har behandlet søknaden din” rather than “Behandlingen av søknaden din er gjennomført”.",
+          "examples": [
+            {
+              "no": "Selskapet skal gjennomføre en undersøkelse blant alle de ansatte.",
+              "vi": "Công ty sẽ tiến hành một cuộc khảo sát trong toàn bộ nhân viên.",
+              "en": "The company will conduct a survey among all employees."
+            },
+            {
+              "no": "Det har vært en kraftig økning i eksporten av sjømat til Asia.",
+              "vi": "Xuất khẩu hải sản sang châu Á đã tăng mạnh.",
+              "en": "There has been a sharp increase in seafood exports to Asia."
+            },
+            {
+              "no": "Komiteen la stor vekt på bærekraft i vurderingen av prosjektene.",
+              "vi": "Ủy ban rất chú trọng đến tính bền vững khi đánh giá các dự án.",
+              "en": "The committee placed great emphasis on sustainability when assessing the projects."
+            },
+            {
+              "no": "Det er stor interesse for norsk laks i Vietnam.",
+              "vi": "Ở Việt Nam có sự quan tâm lớn đến cá hồi Na Uy.",
+              "en": "There is great interest in Norwegian salmon in Vietnam."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Danh từ của “å utvikle” là gì?",
+          "q_en": "What is the noun from “å utvikle”?",
+          "options": [
+            "utvikelse",
+            "utvikling",
+            "utviklhet"
+          ],
+          "options_en": [
+            "utvikelse",
+            "utvikling",
+            "utviklhet"
+          ],
+          "answer": 1,
+          "explain": "Động từ có đuôi -le thường thành danh từ -ling: utvikle → utvikling.",
+          "explain_en": "Verbs ending in -le usually form nouns in -ling: utvikle → utvikling."
+        },
+        {
+          "q": "Danh từ của tính từ “sikker” là gì?",
+          "q_en": "What is the noun from the adjective “sikker”?",
+          "options": [
+            "sikkerhet",
+            "sikkelse",
+            "sikksjon"
+          ],
+          "options_en": [
+            "sikkerhet",
+            "sikkelse",
+            "sikksjon"
+          ],
+          "answer": 0,
+          "explain": "Tính từ + -het tạo danh từ chỉ tính chất: sikker → sikkerhet.",
+          "explain_en": "Adjective + -het forms a noun for a quality: sikker → sikkerhet."
+        },
+        {
+          "q": "Danh từ của “å forstå” là gì?",
+          "q_en": "What is the noun from “å forstå”?",
+          "options": [
+            "forståhet",
+            "forståsjon",
+            "forståelse"
+          ],
+          "options_en": [
+            "forståhet",
+            "forståsjon",
+            "forståelse"
+          ],
+          "answer": 2,
+          "explain": "å forstå → en forståelse, giống å oppleve → en opplevelse.",
+          "explain_en": "å forstå → en forståelse, like å oppleve → en opplevelse."
+        },
+        {
+          "q": "Câu nào mang văn phong viết trang trọng (nominal stil)?",
+          "q_en": "Which sentence is in formal written (nominal) style?",
+          "options": [
+            "Vi selger mer fisk fordi folk vil kjøpe den.",
+            "Økningen i eksporten skyldes høy etterspørsel.",
+            "Folk kjøper mye fisk, så vi selger mer."
+          ],
+          "options_en": [
+            "Vi selger mer fisk fordi folk vil kjøpe den.",
+            "Økningen i eksporten skyldes høy etterspørsel.",
+            "Folk kjøper mye fisk, så vi selger mer."
+          ],
+          "answer": 1,
+          "explain": "Ý chính được gói trong các danh từ økningen, eksporten, etterspørsel.",
+          "explain_en": "The key idea is packed into the nouns økningen, eksporten, etterspørsel."
+        },
+        {
+          "q": "Hoàn thành: Det er stor interesse ___ norsk sjømat i Asia.",
+          "q_en": "Complete: Det er stor interesse ___ norsk sjømat i Asia.",
+          "options": [
+            "på",
+            "til",
+            "for"
+          ],
+          "options_en": [
+            "på",
+            "til",
+            "for"
+          ],
+          "answer": 2,
+          "explain": "Cụm cố định: interesse for (quan tâm đến).",
+          "explain_en": "Fixed phrase: interesse for (interest in)."
+        },
+        {
+          "q": "Danh từ có đuôi -het và -sjon thường thuộc giống nào?",
+          "q_en": "Which gender do nouns in -het and -sjon usually have?",
+          "options": [
+            "Giống đực (en)",
+            "Giống trung (et)",
+            "Chỉ giống cái (ei)"
+          ],
+          "options_en": [
+            "Masculine (en)",
+            "Neuter (et)",
+            "Feminine only (ei)"
+          ],
+          "answer": 0,
+          "explain": "en sikkerhet, en produksjon: dạng xác định sikkerheten, produksjonen.",
+          "explain_en": "en sikkerhet, en produksjon: definite forms sikkerheten, produksjonen."
+        }
+      ]
+    },
+    {
+      "id": "g24",
+      "title": "Phân từ làm tính từ và rút gọn mệnh đề",
+      "title_no": "Partisipp som adjektiv og forkortede setninger",
+      "title_en": "Participles as adjectives and reduced clauses",
+      "level": "B2",
+      "icon": "🧩",
+      "summary": "Phân từ hiện tại (-ende) và phân từ quá khứ (lukket, brukt, skrevet) có thể dùng như tính từ. Văn viết trang trọng còn rút gọn mệnh đề phụ thành cụm phân từ, cụm giới từ hoặc cụm nguyên mẫu để câu gọn hơn.",
+      "summary_en": "The present participle (-ende) and the past participle (lukket, brukt, skrevet) can work as adjectives. Formal writing also shortens subordinate clauses into participle, prepositional or infinitive phrases to make sentences tighter.",
+      "sections": [
+        {
+          "h": "Phân từ hiện tại -ende",
+          "h_en": "The present participle -ende",
+          "body": "Tạo bằng **gốc động từ + -ende**: å spenne → spennende, å kreve → krevende, å sove → sovende, å vokse → voksende.\n\nPhân từ hiện tại **không biến đổi** theo giống hay số: en krevende jobb, et krevende prosjekt, krevende oppgaver.\n\nCác cách dùng:\n- **Tính từ**: en voksende næring (một ngành đang phát triển)\n- **Sau komme** để chỉ cách di chuyển: Hun kom **løpende**. (Cô ấy chạy đến.)\n- **Sau bli** để chỉ trạng thái kéo dài: Han ble **sittende** hjemme. (Anh ấy cứ ngồi lì ở nhà.)\n- **Danh từ chỉ người**: de reisende (hành khách), en gående (người đi bộ)",
+          "body_en": "Form it with **verb stem + -ende**: å spenne → spennende, å kreve → krevende, å sove → sovende, å vokse → voksende.\n\nThe present participle **never changes** for gender or number: en krevende jobb, et krevende prosjekt, krevende oppgaver.\n\nUses:\n- **Adjective**: en voksende næring (a growing industry)\n- **After komme** to describe how someone moves: Hun kom **løpende**. (She came running.)\n- **After bli** for a lasting state: Han ble **sittende** hjemme. (He stayed sitting at home.)\n- **Noun for people**: de reisende (travellers), en gående (a pedestrian)",
+          "examples": [
+            {
+              "no": "Det har vært en krevende uke med mange lange møter.",
+              "vi": "Đây là một tuần vất vả với nhiều cuộc họp dài.",
+              "en": "It has been a demanding week with lots of long meetings."
+            },
+            {
+              "no": "Havbruk er en voksende næring langs hele kysten.",
+              "vi": "Nuôi trồng thủy sản là một ngành đang phát triển dọc khắp bờ biển.",
+              "en": "Aquaculture is a growing industry along the whole coast."
+            },
+            {
+              "no": "Barna kom løpende mot oss da vi gikk av toget.",
+              "vi": "Bọn trẻ chạy ào về phía chúng tôi khi chúng tôi xuống tàu.",
+              "en": "The children came running towards us when we got off the train."
+            },
+            {
+              "no": "De reisende måtte vente i to timer på grunn av tåke.",
+              "vi": "Hành khách phải chờ hai tiếng vì sương mù.",
+              "en": "The travellers had to wait two hours because of fog."
+            },
+            {
+              "no": "Hun ble sittende på kontoret til sent på kvelden.",
+              "vi": "Cô ấy cứ ngồi lại văn phòng đến tận khuya.",
+              "en": "She stayed sitting in the office until late in the evening."
+            }
+          ]
+        },
+        {
+          "h": "Phân từ quá khứ làm tính từ",
+          "h_en": "The past participle as an adjective",
+          "body": "Phân từ quá khứ biến đổi giống tính từ:\n\n| Động từ | en / ei | et | số nhiều / xác định |\n| --- | --- | --- | --- |\n| å lukke | ei lukket dør | et lukket møte | lukkede dører, den lukkede døra |\n| å bruke | en brukt bil | et brukt hus | brukte biler, det brukte huset |\n| å sende inn | en innsendt søknad | et innsendt forslag | innsendte søknader |\n| å skrive | en skrevet tekst | et skrevet språk | skrevne regler, det skrevne språket |\n\nQuy tắc nhanh: phân từ đuôi **-et** thành **-ede** ở số nhiều/xác định (lukkede); đuôi **-t** hoặc **-d** thêm **-e** (brukte, innsendte); động từ mạnh đuôi -et thường thành **-ne** (skrevne, stjålne).",
+          "body_en": "The past participle inflects like an adjective:\n\n| Verb | en / ei | et | plural / definite |\n| --- | --- | --- | --- |\n| å lukke | ei lukket dør | et lukket møte | lukkede dører, den lukkede døra |\n| å bruke | en brukt bil | et brukt hus | brukte biler, det brukte huset |\n| å sende inn | en innsendt søknad | et innsendt forslag | innsendte søknader |\n| å skrive | en skrevet tekst | et skrevet språk | skrevne regler, det skrevne språket |\n\nQuick rule: participles in **-et** become **-ede** in the plural/definite (lukkede); those in **-t** or **-d** add **-e** (brukte, innsendte); strong verbs in -et often become **-ne** (skrevne, stjålne).",
+          "examples": [
+            {
+              "no": "Vi kjøpte en brukt bil for å spare penger.",
+              "vi": "Chúng tôi mua một chiếc xe cũ để tiết kiệm tiền.",
+              "en": "We bought a used car to save money."
+            },
+            {
+              "no": "Alle de innsendte søknadene blir vurdert innen to uker.",
+              "vi": "Tất cả các hồ sơ đã nộp sẽ được xem xét trong vòng hai tuần.",
+              "en": "All the submitted applications will be assessed within two weeks."
+            },
+            {
+              "no": "Han har en godt betalt stilling i et rederi i Bergen.",
+              "vi": "Anh ấy có một vị trí lương cao ở một công ty vận tải biển tại Bergen.",
+              "en": "He has a well-paid position at a shipping company in Bergen."
+            },
+            {
+              "no": "Det skrevne språket er ofte mer formelt enn det muntlige.",
+              "vi": "Ngôn ngữ viết thường trang trọng hơn ngôn ngữ nói.",
+              "en": "The written language is often more formal than the spoken one."
+            }
+          ]
+        },
+        {
+          "h": "Rút gọn mệnh đề phụ",
+          "h_en": "Reducing subordinate clauses",
+          "body": "Văn viết trang trọng thích câu gọn. Có ba cách rút gọn thường gặp:\n\n**1. Cụm nguyên mẫu** thay cho mệnh đề có cùng chủ ngữ:\nEtter at hun hadde lest rapporten, ringte hun sjefen. → **Etter å ha lest** rapporten ringte hun sjefen.\nTương tự: **uten å, i stedet for å, for å**.\n\n**2. Cụm giới từ** thay cho mệnh đề quan hệ:\nSøkere som har erfaring fra havbruk ... → Søkere **med** erfaring fra havbruk ...\n\n**3. Cụm phân từ** đứng đầu câu, rất phổ biến trong báo cáo:\n**Basert på** tallene ..., **Sammenlignet med** i fjor ..., **Sett fra** et økonomisk perspektiv ...\nVà phân từ đứng trước danh từ: rapporten som nylig ble publisert → **den nylig publiserte** rapporten.",
+          "body_en": "Formal writing likes compact sentences. There are three common ways to shorten clauses:\n\n**1. Infinitive phrase** instead of a clause with the same subject:\nEtter at hun hadde lest rapporten, ringte hun sjefen. → **Etter å ha lest** rapporten ringte hun sjefen.\nLikewise: **uten å, i stedet for å, for å**.\n\n**2. Prepositional phrase** instead of a relative clause:\nSøkere som har erfaring fra havbruk ... → Søkere **med** erfaring fra havbruk ...\n\n**3. Participle phrase** at the start of the sentence, very common in reports:\n**Basert på** tallene ..., **Sammenlignet med** i fjor ..., **Sett fra** et økonomisk perspektiv ...\nAnd the participle before the noun: rapporten som nylig ble publisert → **den nylig publiserte** rapporten.",
+          "examples": [
+            {
+              "no": "Etter å ha lest rapporten ringte hun sjefen sin.",
+              "vi": "Sau khi đọc xong báo cáo, cô ấy gọi cho sếp.",
+              "en": "After reading the report, she called her boss."
+            },
+            {
+              "no": "Søkere med erfaring fra havbruk oppfordres til å søke.",
+              "vi": "Ứng viên có kinh nghiệm về nuôi trồng thủy sản được khuyến khích nộp đơn.",
+              "en": "Applicants with experience in aquaculture are encouraged to apply."
+            },
+            {
+              "no": "Sammenlignet med i fjor er strømprisene mye høyere.",
+              "vi": "So với năm ngoái, giá điện cao hơn nhiều.",
+              "en": "Compared with last year, electricity prices are much higher."
+            },
+            {
+              "no": "Den nylig publiserte rapporten viser store regionale forskjeller.",
+              "vi": "Bản báo cáo vừa công bố cho thấy sự chênh lệch lớn giữa các vùng.",
+              "en": "The recently published report shows large regional differences."
+            },
+            {
+              "no": "Uten å si et ord forlot han møtet.",
+              "vi": "Không nói một lời, anh ấy rời cuộc họp.",
+              "en": "Without saying a word, he left the meeting."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Phân từ hiện tại của “å kreve” là gì?",
+          "q_en": "What is the present participle of “å kreve”?",
+          "options": [
+            "krevet",
+            "krevende",
+            "krevde"
+          ],
+          "options_en": [
+            "krevet",
+            "krevende",
+            "krevde"
+          ],
+          "answer": 1,
+          "explain": "Gốc động từ + -ende: kreve → krevende.",
+          "explain_en": "Verb stem + -ende: kreve → krevende."
+        },
+        {
+          "q": "Hoàn thành: Ikke vekk det ___ barnet! (å sove)",
+          "q_en": "Complete: Ikke vekk det ___ barnet! (å sove)",
+          "options": [
+            "sovet",
+            "sovne",
+            "sovende"
+          ],
+          "options_en": [
+            "sovet",
+            "sovne",
+            "sovende"
+          ],
+          "answer": 2,
+          "explain": "Phân từ hiện tại dùng như tính từ: det sovende barnet (đứa trẻ đang ngủ).",
+          "explain_en": "Present participle as an adjective: det sovende barnet (the sleeping child)."
+        },
+        {
+          "q": "Hoàn thành: Vi kjøpte to ___ sykler. (å bruke)",
+          "q_en": "Complete: Vi kjøpte to ___ sykler. (å bruke)",
+          "options": [
+            "brukte",
+            "brukt",
+            "brukende"
+          ],
+          "options_en": [
+            "brukte",
+            "brukt",
+            "brukende"
+          ],
+          "answer": 0,
+          "explain": "Số nhiều: phân từ đuôi -t thêm -e: brukte sykler.",
+          "explain_en": "Plural: a participle in -t adds -e: brukte sykler."
+        },
+        {
+          "q": "Hoàn thành: Han ble ___ i sofaen hele kvelden.",
+          "q_en": "Complete: Han ble ___ i sofaen hele kvelden.",
+          "options": [
+            "sittet",
+            "sitte",
+            "sittende"
+          ],
+          "options_en": [
+            "sittet",
+            "sitte",
+            "sittende"
+          ],
+          "answer": 2,
+          "explain": "bli + phân từ hiện tại chỉ trạng thái kéo dài: ble sittende.",
+          "explain_en": "bli + present participle shows a lasting state: ble sittende."
+        },
+        {
+          "q": "Rút gọn: Etter at hun hadde lest rapporten, ringte hun sjefen. → Etter ___ rapporten ringte hun sjefen.",
+          "q_en": "Shorten: Etter at hun hadde lest rapporten, ringte hun sjefen. → Etter ___ rapporten ringte hun sjefen.",
+          "options": [
+            "å lese hadde",
+            "å ha lest",
+            "ha lest å"
+          ],
+          "options_en": [
+            "å lese hadde",
+            "å ha lest",
+            "ha lest å"
+          ],
+          "answer": 1,
+          "explain": "Etter + å ha + phân từ quá khứ, dùng khi hai mệnh đề cùng chủ ngữ.",
+          "explain_en": "Etter + å ha + past participle, used when both clauses share the subject."
+        },
+        {
+          "q": "Cách nói trang trọng của “rapporten som nylig ble publisert” là gì?",
+          "q_en": "What is the formal way to say “rapporten som nylig ble publisert”?",
+          "options": [
+            "den nylig publiserte rapporten",
+            "den nylig publisert rapporten",
+            "den publiserende rapporten"
+          ],
+          "options_en": [
+            "den nylig publiserte rapporten",
+            "den nylig publisert rapporten",
+            "den publiserende rapporten"
+          ],
+          "answer": 0,
+          "explain": "Dạng xác định: phân từ đuôi -t thêm -e: den publiserte rapporten.",
+          "explain_en": "Definite form: a participle in -t adds -e: den publiserte rapporten."
+        }
+      ]
+    },
+    {
+      "id": "g25",
+      "title": "Trạng từ câu trong câu phức",
+      "title_no": "Setningsadverbial i helsetninger og leddsetninger",
+      "title_en": "Sentence adverbs in complex sentences",
+      "level": "B2",
+      "icon": "🎯",
+      "summary": "Trạng từ câu như ikke, aldri, alltid, kanskje, nok, likevel, dessverre có vị trí cố định: sau động từ chia trong câu chính, trước động từ trong mệnh đề phụ. Khi đảo ngữ, đại từ chủ ngữ và đại từ tân ngữ không nhấn đứng trước ikke.",
+      "summary_en": "Sentence adverbs such as ikke, aldri, alltid, kanskje, nok, likevel, dessverre have fixed positions: after the finite verb in main clauses, before the verb in subordinate clauses. With inversion, a pronoun subject and an unstressed object pronoun come before ikke.",
+      "sections": [
+        {
+          "h": "Trong câu chính",
+          "h_en": "In main clauses",
+          "body": "Trong câu chính, trạng từ câu đứng **ngay sau động từ chia** (và sau chủ ngữ nếu chủ ngữ đứng sau động từ):\n\n| Vị trí 1 | Động từ | Chủ ngữ | Trạng từ câu | Phần còn lại |\n| --- | --- | --- | --- | --- |\n| Jeg | har | | aldri | vært i Tromsø. |\n| Hun | kommer | | nok ikke | i dag. |\n| I morgen | kan | jeg | dessverre ikke | komme. |\n\nCác trạng từ câu thường gặp: **ikke, aldri, alltid, ofte, sjelden, kanskje, nok** (chắc là), **likevel** (dù vậy), **dessverre, heldigvis, faktisk, egentlig, gjerne, allerede, fortsatt**.\n\nĐại từ tân ngữ không nhấn **nhảy lên trước ikke**: Jeg kjenner **ham ikke**. Nhưng danh từ thì không: Jeg kjenner **ikke sjefen**.",
+          "body_en": "In a main clause, the sentence adverb comes **right after the finite verb** (and after the subject if the subject follows the verb):\n\n| Position 1 | Verb | Subject | Sentence adverb | Rest |\n| --- | --- | --- | --- | --- |\n| Jeg | har | | aldri | vært i Tromsø. |\n| Hun | kommer | | nok ikke | i dag. |\n| I morgen | kan | jeg | dessverre ikke | komme. |\n\nCommon sentence adverbs: **ikke, aldri, alltid, ofte, sjelden, kanskje, nok** (probably), **likevel** (still, nevertheless), **dessverre, heldigvis, faktisk, egentlig, gjerne, allerede, fortsatt**.\n\nAn unstressed object pronoun **moves in front of ikke**: Jeg kjenner **ham ikke**. A noun does not: Jeg kjenner **ikke sjefen**.",
+          "examples": [
+            {
+              "no": "Jeg har aldri vært så langt nord som Tromsø.",
+              "vi": "Tôi chưa bao giờ đi xa về phía bắc như Tromsø.",
+              "en": "I have never been as far north as Tromsø."
+            },
+            {
+              "no": "Hun kommer nok ikke på møtet i dag.",
+              "vi": "Chắc là hôm nay cô ấy không đến cuộc họp.",
+              "en": "She probably won’t come to the meeting today."
+            },
+            {
+              "no": "Jeg kjenner ham ikke så godt ennå.",
+              "vi": "Tôi vẫn chưa quen anh ấy lắm.",
+              "en": "I don’t know him that well yet."
+            },
+            {
+              "no": "Vi har dessverre ikke fått svar fra kommunen.",
+              "vi": "Rất tiếc là chúng tôi chưa nhận được trả lời từ chính quyền địa phương.",
+              "en": "Unfortunately we haven’t received an answer from the municipality."
+            }
+          ]
+        },
+        {
+          "h": "Khi có đảo ngữ",
+          "h_en": "With inversion",
+          "body": "Khi một thành phần khác đứng ở vị trí 1, chủ ngữ đứng sau động từ. Vị trí của trạng từ câu phụ thuộc vào loại chủ ngữ:\n- **Đại từ** chủ ngữ đứng **trước** ikke: I dag kommer **han ikke**.\n- **Danh từ** chủ ngữ thường đứng **sau** ikke: I dag kommer **ikke sjefen**. (Cũng có thể nói: I dag kommer sjefen ikke.)\n\nBản thân **likevel, derfor, dessverre, heldigvis, kanskje** cũng có thể đứng ở vị trí 1 và gây đảo ngữ:\n**Likevel valgte** hun å søke jobben.\n\nRiêng **kanskje** đứng đầu câu thì có hai cách: **Kanskje har** du rett (chuẩn mực) hoặc **Kanskje du har** rett (rất phổ biến trong văn nói).",
+          "body_en": "When another element takes position 1, the subject follows the verb. The position of the sentence adverb depends on the type of subject:\n- A **pronoun** subject comes **before** ikke: I dag kommer **han ikke**.\n- A **noun** subject usually comes **after** ikke: I dag kommer **ikke sjefen**. (I dag kommer sjefen ikke is also possible.)\n\n**likevel, derfor, dessverre, heldigvis, kanskje** can themselves take position 1 and trigger inversion:\n**Likevel valgte** hun å søke jobben.\n\nWith **kanskje** first, there are two options: **Kanskje har** du rett (standard) or **Kanskje du har** rett (very common in speech).",
+          "examples": [
+            {
+              "no": "I dag kommer han ikke, fordi han er på forretningsreise.",
+              "vi": "Hôm nay anh ấy không đến vì đang đi công tác.",
+              "en": "He isn’t coming today because he’s on a business trip."
+            },
+            {
+              "no": "På fredag jobber ikke Kari hjemmefra lenger.",
+              "vi": "Vào thứ Sáu, Kari không còn làm việc ở nhà nữa.",
+              "en": "On Fridays Kari no longer works from home."
+            },
+            {
+              "no": "Lønna var lav, men likevel valgte hun å ta jobben.",
+              "vi": "Lương thấp, nhưng dù vậy cô ấy vẫn chọn nhận công việc.",
+              "en": "The pay was low, but she still chose to take the job."
+            },
+            {
+              "no": "Kanskje har du rett i at vi bør vente litt.",
+              "vi": "Có lẽ anh nói đúng là chúng ta nên chờ thêm một chút.",
+              "en": "Perhaps you’re right that we should wait a bit."
+            }
+          ]
+        },
+        {
+          "h": "Trong mệnh đề phụ",
+          "h_en": "In subordinate clauses",
+          "body": "Trong mệnh đề phụ, **mọi** trạng từ câu đứng **trước động từ chia**, ngay sau chủ ngữ:\n\nliên từ + chủ ngữ + **trạng từ câu** + động từ\n\nHan sa at han **ikke hadde** tid.\nJeg vet at hun **alltid kommer** for sent.\nSelv om vi **kanskje ikke vinner**, skal vi prøve.\n\nĐây là lỗi rất hay gặp ở người học trình độ B2: hãy kiểm tra lại mọi mệnh đề sau **at, som, fordi, selv om, hvis, når, ettersom**.",
+          "body_en": "In a subordinate clause, **every** sentence adverb comes **before the finite verb**, right after the subject:\n\nconjunction + subject + **sentence adverb** + verb\n\nHan sa at han **ikke hadde** tid.\nJeg vet at hun **alltid kommer** for sent.\nSelv om vi **kanskje ikke vinner**, skal vi prøve.\n\nThis is a very common mistake even at B2 level: double-check every clause after **at, som, fordi, selv om, hvis, når, ettersom**.",
+          "examples": [
+            {
+              "no": "Han sa at han ikke hadde tid til å lese rapporten.",
+              "vi": "Anh ấy nói rằng anh ấy không có thời gian đọc báo cáo.",
+              "en": "He said that he didn’t have time to read the report."
+            },
+            {
+              "no": "Jeg vet at hun alltid kommer litt for sent på mandager.",
+              "vi": "Tôi biết rằng cô ấy luôn đến hơi muộn vào thứ Hai.",
+              "en": "I know that she always arrives a bit late on Mondays."
+            },
+            {
+              "no": "Selv om vi kanskje ikke vinner, skal vi gjøre vårt beste.",
+              "vi": "Dù có thể chúng ta không thắng, chúng ta vẫn sẽ cố hết sức.",
+              "en": "Even though we might not win, we will do our best."
+            },
+            {
+              "no": "Det er synd at du aldri har besøkt oss i Oslo.",
+              "vi": "Thật tiếc là anh chưa bao giờ đến thăm chúng tôi ở Oslo.",
+              "en": "It’s a pity that you have never visited us in Oslo."
+            }
+          ]
+        },
+        {
+          "h": "Nhiều trạng từ câu cùng lúc",
+          "h_en": "Several sentence adverbs together",
+          "body": "Khi có nhiều trạng từ câu, thứ tự thường là: **trạng từ thái độ** (nok, kanskje, dessverre, heldigvis, faktisk) → **ikke / aldri** → **trạng từ tần suất** (alltid, ofte).\n\nHan kommer **nok ikke alltid** i tide.\nJeg har **dessverre ikke** fått svar.\n\nChú ý ý nghĩa: **ikke alltid** = không phải lúc nào cũng; **aldri** = không bao giờ. Không nói *alltid ikke*.\n\n**nok** có hai nghĩa: “chắc là” (Han er **nok** syk) và “đủ” khi đứng sau danh từ hoặc làm tân ngữ (Vi har **nok** penger / penger nok).",
+          "body_en": "With several sentence adverbs, the usual order is: **attitude adverbs** (nok, kanskje, dessverre, heldigvis, faktisk) → **ikke / aldri** → **frequency adverbs** (alltid, ofte).\n\nHan kommer **nok ikke alltid** i tide.\nJeg har **dessverre ikke** fått svar.\n\nWatch the meaning: **ikke alltid** = not always; **aldri** = never. You can't say *alltid ikke*.\n\n**nok** has two meanings: “probably” (Han er **nok** syk) and “enough” with a noun (Vi har **nok** penger / penger nok).",
+          "examples": [
+            {
+              "no": "Han kommer nok ikke alltid i tide, men han gjør en god jobb.",
+              "vi": "Anh ấy chắc là không phải lúc nào cũng đúng giờ, nhưng anh ấy làm việc tốt.",
+              "en": "He probably isn’t always on time, but he does a good job."
+            },
+            {
+              "no": "Hun er faktisk ikke norsk, selv om hun snakker uten aksent.",
+              "vi": "Thật ra cô ấy không phải người Na Uy, dù cô ấy nói không có giọng lơ lớ.",
+              "en": "She actually isn’t Norwegian, even though she speaks without an accent."
+            },
+            {
+              "no": "Vi har heldigvis fortsatt god tid før fristen.",
+              "vi": "May là chúng ta vẫn còn nhiều thời gian trước hạn chót.",
+              "en": "Luckily we still have plenty of time before the deadline."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Hoàn thành: Jeg tror at hun ___.",
+          "q_en": "Complete: Jeg tror at hun ___.",
+          "options": [
+            "har nok rett",
+            "nok har rett",
+            "har rett nok"
+          ],
+          "options_en": [
+            "har nok rett",
+            "nok har rett",
+            "har rett nok"
+          ],
+          "answer": 1,
+          "explain": "Trong mệnh đề phụ, trạng từ câu (nok) đứng trước động từ chia.",
+          "explain_en": "In a subordinate clause, the sentence adverb (nok) comes before the finite verb."
+        },
+        {
+          "q": "Hoàn thành: I dag ___.",
+          "q_en": "Complete: I dag ___.",
+          "options": [
+            "han kommer ikke",
+            "kommer ikke han",
+            "kommer han ikke"
+          ],
+          "options_en": [
+            "han kommer ikke",
+            "kommer ikke han",
+            "kommer han ikke"
+          ],
+          "answer": 2,
+          "explain": "Đảo ngữ, và đại từ chủ ngữ đứng trước ikke.",
+          "explain_en": "Inversion, and a pronoun subject comes before ikke."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Jeg kjenner ham ikke.",
+            "Jeg kjenner ikke ham.",
+            "Jeg ikke kjenner ham."
+          ],
+          "options_en": [
+            "Jeg kjenner ham ikke.",
+            "Jeg kjenner ikke ham.",
+            "Jeg ikke kjenner ham."
+          ],
+          "answer": 0,
+          "explain": "Đại từ tân ngữ không nhấn đứng trước ikke: kjenner ham ikke.",
+          "explain_en": "An unstressed object pronoun goes before ikke: kjenner ham ikke."
+        },
+        {
+          "q": "Câu nào có thứ tự trạng từ đúng?",
+          "q_en": "Which sentence has the correct adverb order?",
+          "options": [
+            "Han har ikke nok lest e-posten.",
+            "Han nok har ikke lest e-posten.",
+            "Han har nok ikke lest e-posten."
+          ],
+          "options_en": [
+            "Han har ikke nok lest e-posten.",
+            "Han nok har ikke lest e-posten.",
+            "Han har nok ikke lest e-posten."
+          ],
+          "answer": 2,
+          "explain": "Trạng từ thái độ (nok) đứng trước ikke, cả hai sau động từ chia.",
+          "explain_en": "The attitude adverb (nok) comes before ikke, both after the finite verb."
+        },
+        {
+          "q": "Câu nào đúng?",
+          "q_en": "Which sentence is correct?",
+          "options": [
+            "Likevel hun takket ja til jobben.",
+            "Likevel takket hun ja til jobben.",
+            "Likevel takket ja hun til jobben."
+          ],
+          "options_en": [
+            "Likevel hun takket ja til jobben.",
+            "Likevel takket hun ja til jobben.",
+            "Likevel takket ja hun til jobben."
+          ],
+          "answer": 1,
+          "explain": "Likevel ở vị trí 1 gây đảo ngữ: động từ trước chủ ngữ.",
+          "explain_en": "Likevel in position 1 triggers inversion: verb before subject."
+        },
+        {
+          "q": "“Han er nok syk.” nok ở đây nghĩa là gì?",
+          "q_en": "“Han er nok syk.” What does nok mean here?",
+          "options": [
+            "chắc là",
+            "đủ",
+            "không bao giờ"
+          ],
+          "options_en": [
+            "probably",
+            "enough",
+            "never"
+          ],
+          "answer": 0,
+          "explain": "nok là trạng từ câu nghĩa “chắc là, có lẽ”.",
+          "explain_en": "nok is a sentence adverb meaning “probably”."
+        }
+      ]
+    },
+    {
+      "id": "g26",
+      "title": "Nhấn mạnh và câu chẻ",
+      "title_no": "Utbrytning og fremheving",
+      "title_en": "Emphasis and cleft sentences",
+      "level": "B2",
+      "icon": "🔦",
+      "summary": "Tiếng Na Uy nhấn mạnh bằng câu chẻ Det er/var ... som, bằng cách đưa thành phần cần nhấn lên đầu câu (topikalisering), bằng cấu trúc Det som ... er ..., và bằng trọng âm.",
+      "summary_en": "Norwegian adds emphasis with the cleft Det er/var ... som, by moving the stressed element to the front (topicalisation), with the structure Det som ... er ..., and with sentence stress.",
+      "sections": [
+        {
+          "h": "Câu chẻ: Det er/var ... som",
+          "h_en": "Cleft sentences: Det er/var ... som",
+          "body": "**Utbrytning** tách thành phần cần nhấn mạnh ra khung **Det er / Det var + X + som/at ...**\n\nKari ringte i går. → **Det var Kari som** ringte i går. (Chính Kari là người đã gọi.)\n\n- Dùng **er** khi nói về hiện tại, **var** khi nói về quá khứ.\n- Nhấn **chủ ngữ** hoặc **tân ngữ**: dùng **som**. Khi X là tân ngữ, som có thể bỏ: Det er laks (som) vi eksporterer mest av.\n- Nhấn **trạng ngữ** (thời gian, nơi chốn): dùng **at** hoặc bỏ trống: Det var i 2019 (at) jeg flyttet hit.\n\nCâu chẻ cực kỳ phổ biến trong **câu hỏi** tiếng Na Uy: **Hvem er det som** ringer? **Hva er det som** skjer? **Er det du som** er Phương?",
+          "body_en": "**Utbrytning** (clefting) lifts the stressed element into the frame **Det er / Det var + X + som/at ...**\n\nKari ringte i går. → **Det var Kari som** ringte i går. (It was Kari who called.)\n\n- Use **er** for the present, **var** for the past.\n- To stress the **subject** or **object**, use **som**. When X is the object, som can be dropped: Det er laks (som) vi eksporterer mest av.\n- To stress an **adverbial** (time, place), use **at** or nothing: Det var i 2019 (at) jeg flyttet hit.\n\nClefts are extremely common in Norwegian **questions**: **Hvem er det som** ringer? **Hva er det som** skjer? **Er det du som** er Phương?",
+          "examples": [
+            {
+              "no": "Det var Kari som ringte i går, ikke Ingrid.",
+              "vi": "Chính Kari đã gọi hôm qua, không phải Ingrid.",
+              "en": "It was Kari who called yesterday, not Ingrid."
+            },
+            {
+              "no": "Det er laks vi eksporterer mest av til Asia.",
+              "vi": "Cá hồi chính là mặt hàng chúng ta xuất khẩu nhiều nhất sang châu Á.",
+              "en": "Salmon is what we export most of to Asia."
+            },
+            {
+              "no": "Det var i 2019 at jeg flyttet til Oslo.",
+              "vi": "Chính vào năm 2019 tôi chuyển đến Oslo.",
+              "en": "It was in 2019 that I moved to Oslo."
+            },
+            {
+              "no": "Hvem er det som har skrevet denne rapporten?",
+              "vi": "Ai là người đã viết bản báo cáo này?",
+              "en": "Who is it that wrote this report?"
+            },
+            {
+              "no": "Er det du som er den nye rådgiveren?",
+              "vi": "Có phải anh là cố vấn mới không?",
+              "en": "Are you the new adviser?"
+            }
+          ]
+        },
+        {
+          "h": "Đưa lên đầu câu (topikalisering)",
+          "h_en": "Fronting (topicalisation)",
+          "body": "Vì tiếng Na Uy có quy tắc **V2**, anh có thể đặt hầu như bất kỳ thành phần nào ở vị trí 1 để nhấn mạnh hoặc tạo đối lập. Động từ vẫn đứng thứ hai, chủ ngữ theo sau.\n\nJeg har sett den filmen. → **Den filmen har jeg** sett tre ganger.\n**Laks** liker jeg, men **torsk** spiser jeg sjelden.\n\nTrong văn nói, người ta còn tách thành phần ra trước rồi lặp lại bằng **det** (venstredislokasjon):\n**Oslo, det** er en by jeg er glad i.\n**Penger, det** har vi ikke.",
+          "body_en": "Because Norwegian follows the **V2** rule, you can put almost any element in position 1 to stress it or create contrast. The verb stays second and the subject follows.\n\nJeg har sett den filmen. → **Den filmen har jeg** sett tre ganger.\n**Laks** liker jeg, men **torsk** spiser jeg sjelden.\n\nIn speech, people also put an element out front and pick it up again with **det** (left dislocation):\n**Oslo, det** er en by jeg er glad i.\n**Penger, det** har vi ikke.",
+          "examples": [
+            {
+              "no": "Den filmen har jeg sett minst tre ganger.",
+              "vi": "Bộ phim đó thì tôi đã xem ít nhất ba lần.",
+              "en": "That film I’ve seen at least three times."
+            },
+            {
+              "no": "Laks liker jeg godt, men torsk spiser jeg sjelden.",
+              "vi": "Cá hồi thì tôi rất thích, còn cá tuyết thì tôi hiếm khi ăn.",
+              "en": "Salmon I really like, but cod I rarely eat."
+            },
+            {
+              "no": "Oslo, det er en by jeg har blitt veldig glad i.",
+              "vi": "Oslo, đó là thành phố mà tôi đã rất yêu mến.",
+              "en": "Oslo, that’s a city I’ve grown very fond of."
+            },
+            {
+              "no": "Erfaring har hun nok av, men nettverk mangler hun.",
+              "vi": "Kinh nghiệm thì cô ấy có thừa, nhưng mạng lưới quan hệ thì cô ấy còn thiếu.",
+              "en": "Experience she has plenty of, but a network she lacks."
+            }
+          ]
+        },
+        {
+          "h": "Det som ... er ... và từ nhấn mạnh",
+          "h_en": "Det som ... er ... and emphasising words",
+          "body": "Cấu trúc **Det som / Det (som) ... + er/var + X** đặt thông tin quan trọng ở cuối câu, nơi người nghe chú ý nhất:\n\n**Det som overrasket meg mest, var** prisene.\n**Det jeg savner, er** maten hjemme.\n\nCác từ nhấn mạnh hữu ích:\n- **selv**: Sjefen **selv** kom. (Chính sếp đã đến.) / **Selv** statsministeren var der. (Ngay cả thủ tướng cũng có mặt.)\n- **nettopp, akkurat**: Det er **nettopp** det jeg mener.\n- **faktisk**: Det var **faktisk** hun som fikk jobben.\n\nTrong văn nói, **trọng âm** cũng đủ để nhấn mạnh: **JEG** har ikke sagt det (người khác nói chứ không phải tôi).",
+          "body_en": "The structure **Det som / Det (som) ... + er/var + X** puts the key information at the end of the sentence, where the listener pays most attention:\n\n**Det som overrasket meg mest, var** prisene.\n**Det jeg savner, er** maten hjemme.\n\nUseful emphasising words:\n- **selv**: Sjefen **selv** kom. (The boss himself came.) / **Selv** statsministeren var der. (Even the prime minister was there.)\n- **nettopp, akkurat**: Det er **nettopp** det jeg mener. (That's exactly what I mean.)\n- **faktisk**: Det var **faktisk** hun som fikk jobben.\n\nIn speech, **stress** alone can do the job: **JEG** har ikke sagt det (someone else said it, not me).",
+          "examples": [
+            {
+              "no": "Det som overrasket meg mest i Norge, var de høye prisene.",
+              "vi": "Điều làm tôi ngạc nhiên nhất ở Na Uy là giá cả cao.",
+              "en": "What surprised me most in Norway was the high prices."
+            },
+            {
+              "no": "Det jeg savner aller mest, er maten hjemme i Vietnam.",
+              "vi": "Điều tôi nhớ nhất là món ăn quê nhà ở Việt Nam.",
+              "en": "What I miss most of all is the food back home in Vietnam."
+            },
+            {
+              "no": "Det vi trenger nå, er en klar plan for neste år.",
+              "vi": "Điều chúng ta cần bây giờ là một kế hoạch rõ ràng cho năm tới.",
+              "en": "What we need now is a clear plan for next year."
+            },
+            {
+              "no": "Selv statsministeren var til stede på konferansen.",
+              "vi": "Ngay cả thủ tướng cũng có mặt tại hội nghị.",
+              "en": "Even the prime minister was present at the conference."
+            },
+            {
+              "no": "Det er nettopp det jeg prøver å forklare.",
+              "vi": "Đó chính là điều tôi đang cố giải thích.",
+              "en": "That’s exactly what I’m trying to explain."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Câu chẻ nhấn mạnh chủ ngữ của “Kari ringte i går.” là câu nào?",
+          "q_en": "Which cleft stresses the subject of “Kari ringte i går.”?",
+          "options": [
+            "Det er Kari ringte i går.",
+            "Kari var det ringte i går.",
+            "Det var Kari som ringte i går."
+          ],
+          "options_en": [
+            "Det er Kari ringte i går.",
+            "Kari var det ringte i går.",
+            "Det var Kari som ringte i går."
+          ],
+          "answer": 2,
+          "explain": "Sự việc quá khứ: Det var + X + som.",
+          "explain_en": "Past event: Det var + X + som."
+        },
+        {
+          "q": "Hoàn thành: ___ du som har tatt boka mi?",
+          "q_en": "Complete: ___ du som har tatt boka mi?",
+          "options": [
+            "Er det",
+            "Det er",
+            "Var som"
+          ],
+          "options_en": [
+            "Er det",
+            "Det er",
+            "Var som"
+          ],
+          "answer": 0,
+          "explain": "Câu hỏi có/không với câu chẻ: Er det ... som ...?",
+          "explain_en": "A yes/no question with a cleft: Er det ... som ...?"
+        },
+        {
+          "q": "Hoàn thành: Det var i Bergen ___ vi møttes første gang.",
+          "q_en": "Complete: Det var i Bergen ___ vi møttes første gang.",
+          "options": [
+            "hvis",
+            "at",
+            "hvilket"
+          ],
+          "options_en": [
+            "hvis",
+            "at",
+            "hvilket"
+          ],
+          "answer": 1,
+          "explain": "Khi nhấn trạng ngữ nơi chốn hoặc thời gian, dùng at (hoặc bỏ trống).",
+          "explain_en": "When stressing an adverbial of place or time, use at (or nothing)."
+        },
+        {
+          "q": "Câu nào nhấn mạnh tân ngữ bằng cách đưa lên đầu câu đúng?",
+          "q_en": "Which sentence correctly fronts the object for emphasis?",
+          "options": [
+            "Den boka jeg har lest.",
+            "Den boka har jeg lest.",
+            "Den boka lest har jeg."
+          ],
+          "options_en": [
+            "Den boka jeg har lest.",
+            "Den boka har jeg lest.",
+            "Den boka lest har jeg."
+          ],
+          "answer": 1,
+          "explain": "Quy tắc V2: thành phần ở vị trí 1, động từ chia ở vị trí 2.",
+          "explain_en": "V2 rule: element in position 1, finite verb in position 2."
+        },
+        {
+          "q": "Hoàn thành: Det som overrasket meg, ___ prisene.",
+          "q_en": "Complete: Det som overrasket meg, ___ prisene.",
+          "options": [
+            "det var",
+            "som var",
+            "var"
+          ],
+          "options_en": [
+            "det var",
+            "som var",
+            "var"
+          ],
+          "answer": 2,
+          "explain": "Cấu trúc Det som ..., var X: động từ đứng ngay sau dấu phẩy.",
+          "explain_en": "Structure Det som ..., var X: the verb comes right after the comma."
+        },
+        {
+          "q": "Hoàn thành: Hva er det ___ skjer her?",
+          "q_en": "Complete: Hva er det ___ skjer her?",
+          "options": [
+            "som",
+            "at",
+            "hva"
+          ],
+          "options_en": [
+            "som",
+            "at",
+            "hva"
+          ],
+          "answer": 0,
+          "explain": "Từ để hỏi là chủ ngữ của skjer, nên dùng som.",
+          "explain_en": "The question word is the subject of skjer, so use som."
+        }
+      ]
+    },
+    {
+      "id": "g27",
+      "title": "Liên kết văn bản và lập luận",
+      "title_no": "Tekstbinding og argumentasjon",
+      "title_en": "Cohesion and argumentation",
+      "level": "B2",
+      "icon": "🧵",
+      "summary": "Các từ nối như derimot, dessuten, likevel, ettersom, følgelig, i motsetning til giúp văn bản mạch lạc. Mỗi từ thuộc một loại từ (trạng từ, liên từ phụ thuộc, giới từ) với trật tự từ riêng. Bài học kết thúc bằng khung bài văn nghị luận (drøfting).",
+      "summary_en": "Connectors such as derimot, dessuten, likevel, ettersom, følgelig, i motsetning til make a text coherent. Each belongs to a word class (adverb, subordinating conjunction, preposition) with its own word order. The lesson ends with a template for a discussion essay (drøfting).",
+      "sections": [
+        {
+          "h": "Đối lập và nhượng bộ",
+          "h_en": "Contrast and concession",
+          "body": "| Từ nối | Nghĩa | Loại từ |\n| --- | --- | --- |\n| men | nhưng | liên từ đẳng lập |\n| derimot | ngược lại, trái lại | trạng từ |\n| likevel | dù vậy, vẫn | trạng từ |\n| selv om | mặc dù | liên từ phụ thuộc |\n| til tross for | bất chấp, mặc dù | giới từ (+ danh từ) |\n| i motsetning til | trái với, khác với | giới từ (+ danh từ) |\n\n**derimot** thường đứng sau động từ ở câu thứ hai: Laks er dyrt. Torsk er **derimot** billig.\n**selv om** mở đầu mệnh đề phụ (có động từ), **til tross for** đi với danh từ:\n**Selv om** prisene er høye, ... / **Til tross for** høye priser, ...",
+          "body_en": "| Connector | Meaning | Word class |\n| --- | --- | --- |\n| men | but | coordinating conjunction |\n| derimot | on the other hand, by contrast | adverb |\n| likevel | still, nevertheless | adverb |\n| selv om | even though | subordinating conjunction |\n| til tross for | despite | preposition (+ noun) |\n| i motsetning til | unlike, in contrast to | preposition (+ noun) |\n\n**derimot** usually goes after the verb in the second sentence: Laks er dyrt. Torsk er **derimot** billig.\n**selv om** opens a subordinate clause (with a verb), **til tross for** takes a noun:\n**Selv om** prisene er høye, ... / **Til tross for** høye priser, ...",
+          "examples": [
+            {
+              "no": "Laks er ganske dyrt i butikken. Torsk er derimot billig om vinteren.",
+              "vi": "Cá hồi khá đắt ở cửa hàng. Ngược lại, cá tuyết rẻ vào mùa đông.",
+              "en": "Salmon is quite expensive in the shop. Cod, on the other hand, is cheap in winter."
+            },
+            {
+              "no": "Hun var forkjølet, men hun gikk likevel på jobbintervjuet.",
+              "vi": "Cô ấy bị cảm, nhưng dù vậy vẫn đi phỏng vấn xin việc.",
+              "en": "She had a cold, but she still went to the job interview."
+            },
+            {
+              "no": "Til tross for høye priser kjøper mange norsk sjømat.",
+              "vi": "Bất chấp giá cao, nhiều người vẫn mua hải sản Na Uy.",
+              "en": "Despite high prices, many people buy Norwegian seafood."
+            },
+            {
+              "no": "I motsetning til Vietnam har Norge lange og mørke vintre.",
+              "vi": "Khác với Việt Nam, Na Uy có những mùa đông dài và tối.",
+              "en": "Unlike Vietnam, Norway has long, dark winters."
+            }
+          ]
+        },
+        {
+          "h": "Bổ sung, nguyên nhân và hệ quả",
+          "h_en": "Addition, cause and consequence",
+          "body": "| Chức năng | Trạng từ (đảo ngữ khi đứng đầu) | Liên từ phụ thuộc | Giới từ (+ danh từ) |\n| --- | --- | --- | --- |\n| Bổ sung | dessuten, i tillegg, også | | i tillegg til |\n| Nguyên nhân | | fordi, ettersom, siden | på grunn av, som følge av |\n| Hệ quả | derfor, følgelig, dermed | slik at | |\n\n**ettersom** (vì, bởi lẽ) trang trọng hơn **fordi** và thường đứng đầu câu.\n**følgelig** (do đó, vì vậy) là từ văn viết; trong văn nói người ta dùng **derfor** hoặc **så**.",
+          "body_en": "| Function | Adverb (inversion when first) | Subordinating conjunction | Preposition (+ noun) |\n| --- | --- | --- | --- |\n| Addition | dessuten, i tillegg, også | | i tillegg til |\n| Cause | | fordi, ettersom, siden | på grunn av, som følge av |\n| Consequence | derfor, følgelig, dermed | slik at | |\n\n**ettersom** (since, as) is more formal than **fordi** and often starts the sentence.\n**følgelig** (consequently) is a written word; in speech people use **derfor** or **så**.",
+          "examples": [
+            {
+              "no": "Jobben er godt betalt. Dessuten er arbeidstiden svært fleksibel.",
+              "vi": "Công việc được trả lương tốt. Hơn nữa, giờ làm rất linh hoạt.",
+              "en": "The job is well paid. Moreover, the working hours are very flexible."
+            },
+            {
+              "no": "Ettersom etterspørselen øker, må vi utvide produksjonen.",
+              "vi": "Vì nhu cầu đang tăng, chúng ta phải mở rộng sản xuất.",
+              "en": "As demand is rising, we have to expand production."
+            },
+            {
+              "no": "Kostnadene steg kraftig. Følgelig ble prosjektet utsatt til neste år.",
+              "vi": "Chi phí tăng mạnh. Do đó, dự án bị hoãn sang năm sau.",
+              "en": "Costs rose sharply. Consequently, the project was postponed until next year."
+            },
+            {
+              "no": "På grunn av stormen ble alle fergene innstilt.",
+              "vi": "Do bão, tất cả các chuyến phà đều bị hủy.",
+              "en": "Because of the storm, all the ferries were cancelled."
+            },
+            {
+              "no": "I tillegg til norsk og engelsk snakker hun fransk.",
+              "vi": "Ngoài tiếng Na Uy và tiếng Anh, cô ấy còn nói tiếng Pháp.",
+              "en": "In addition to Norwegian and English, she speaks French."
+            }
+          ]
+        },
+        {
+          "h": "Trật tự từ với từ nối",
+          "h_en": "Word order with connectors",
+          "body": "Loại từ quyết định trật tự từ:\n\n**1. Trạng từ** (derimot, dessuten, likevel, derfor, følgelig) ở vị trí 1 → **đảo ngữ**:\n**Derfor søkte** jeg jobben. (KHÔNG: Derfor jeg søkte ...)\n\n**2. Liên từ phụ thuộc** (ettersom, selv om, fordi) → mệnh đề phụ, trạng từ câu trước động từ; nếu mệnh đề phụ đứng đầu, câu chính đảo ngữ:\n**Ettersom** jeg **ikke har** bil, **tar jeg** bussen.\n\n**3. Giới từ** (til tross for, i motsetning til, på grunn av) → theo sau là **danh từ**, không phải mệnh đề. Muốn dùng mệnh đề thì thêm **at**: på grunn av **at** ..., til tross for **at** ...",
+          "body_en": "The word class decides the word order:\n\n**1. Adverbs** (derimot, dessuten, likevel, derfor, følgelig) in position 1 → **inversion**:\n**Derfor søkte** jeg jobben. (NOT: Derfor jeg søkte ...)\n\n**2. Subordinating conjunctions** (ettersom, selv om, fordi) → subordinate clause, sentence adverb before the verb; if the clause comes first, the main clause inverts:\n**Ettersom** jeg **ikke har** bil, **tar jeg** bussen.\n\n**3. Prepositions** (til tross for, i motsetning til, på grunn av) → followed by a **noun**, not a clause. To use a clause, add **at**: på grunn av **at** ..., til tross for **at** ...",
+          "examples": [
+            {
+              "no": "Jeg har lang erfaring fra diplomatiet. Derfor søkte jeg denne stillingen.",
+              "vi": "Tôi có nhiều năm kinh nghiệm trong ngành ngoại giao. Vì vậy tôi đã ứng tuyển vị trí này.",
+              "en": "I have long experience from the diplomatic service. That’s why I applied for this position."
+            },
+            {
+              "no": "Ettersom jeg ikke har bil, tar jeg bussen til jobben.",
+              "vi": "Vì tôi không có ô tô nên tôi đi xe buýt đi làm.",
+              "en": "Since I don’t have a car, I take the bus to work."
+            },
+            {
+              "no": "Til tross for at det regnet, gikk vi på tur i Nordmarka.",
+              "vi": "Mặc dù trời mưa, chúng tôi vẫn đi dạo ở Nordmarka.",
+              "en": "Even though it was raining, we went hiking in Nordmarka."
+            }
+          ]
+        },
+        {
+          "h": "Cấu trúc bài văn nghị luận",
+          "h_en": "Structure of a discussion essay",
+          "body": "Bài **drøfting** (bài văn thảo luận) trong kỳ thi Norskprøven B2 thường có ba phần:\n\n**Mở bài (innledning)**: giới thiệu vấn đề.\n- Det er delte meninger om ...\n- I denne teksten vil jeg drøfte ...\n\n**Thân bài (hoveddel)**: lập luận hai phía.\n- **For det første** ..., **for det andre** ..., **til slutt** ...\n- **På den ene siden** ..., **på den andre siden** ...\n- Et argument for/mot ... er at ...\n\n**Kết bài (avslutning)**: nêu quan điểm.\n- **Alt i alt** mener jeg at ...\n- **Avslutningsvis** vil jeg understreke at ...\n- Etter min mening veier fordelene tyngre enn ulempene.",
+          "body_en": "A **drøfting** (discussion essay) in the Norskprøven B2 exam usually has three parts:\n\n**Introduction (innledning)**: present the issue.\n- Det er delte meninger om ... (Opinions are divided on ...)\n- I denne teksten vil jeg drøfte ... (In this text I will discuss ...)\n\n**Main part (hoveddel)**: arguments on both sides.\n- **For det første** ..., **for det andre** ..., **til slutt** ... (Firstly, secondly, finally)\n- **På den ene siden** ..., **på den andre siden** ... (On the one hand, on the other hand)\n- Et argument for/mot ... er at ... (One argument for/against ... is that ...)\n\n**Conclusion (avslutning)**: give your view.\n- **Alt i alt** mener jeg at ... (All in all, I believe that ...)\n- **Avslutningsvis** vil jeg understreke at ... (In conclusion, I want to stress that ...)\n- Etter min mening veier fordelene tyngre enn ulempene. (In my view the advantages outweigh the disadvantages.)",
+          "examples": [
+            {
+              "no": "Det er delte meninger om havvind langs norskekysten.",
+              "vi": "Có nhiều ý kiến trái chiều về điện gió ngoài khơi dọc bờ biển Na Uy.",
+              "en": "Opinions are divided on offshore wind along the Norwegian coast."
+            },
+            {
+              "no": "På den ene siden skaper havvind nye arbeidsplasser, på den andre siden kan det skade fiskeriene.",
+              "vi": "Một mặt, điện gió ngoài khơi tạo ra việc làm mới, mặt khác nó có thể gây hại cho nghề cá.",
+              "en": "On the one hand, offshore wind creates new jobs; on the other hand, it can harm the fisheries."
+            },
+            {
+              "no": "For det første er energien fornybar, og for det andre reduserer den utslippene.",
+              "vi": "Thứ nhất, năng lượng này có thể tái tạo, và thứ hai, nó giảm lượng khí thải.",
+              "en": "Firstly, the energy is renewable, and secondly, it reduces emissions."
+            },
+            {
+              "no": "Alt i alt mener jeg at fordelene veier tyngre enn ulempene.",
+              "vi": "Tóm lại, tôi cho rằng ưu điểm nhiều hơn nhược điểm.",
+              "en": "All in all, I believe the advantages outweigh the disadvantages."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Hoàn thành: Laks er dyrt. Torsk ___ billig.",
+          "q_en": "Complete: Laks er dyrt. Torsk ___ billig.",
+          "options": [
+            "derimot er",
+            "er derimot",
+            "er selv om"
+          ],
+          "options_en": [
+            "derimot er",
+            "er derimot",
+            "er selv om"
+          ],
+          "answer": 1,
+          "explain": "derimot là trạng từ câu, đứng sau động từ chia.",
+          "explain_en": "derimot is a sentence adverb and comes after the finite verb."
+        },
+        {
+          "q": "Hoàn thành: ___ høye priser kjøper mange norsk laks.",
+          "q_en": "Complete: ___ høye priser kjøper mange norsk laks.",
+          "options": [
+            "Selv om",
+            "Likevel",
+            "Til tross for"
+          ],
+          "options_en": [
+            "Selv om",
+            "Likevel",
+            "Til tross for"
+          ],
+          "answer": 2,
+          "explain": "Theo sau là cụm danh từ (høye priser), nên dùng giới từ til tross for.",
+          "explain_en": "A noun phrase follows (høye priser), so use the preposition til tross for."
+        },
+        {
+          "q": "Hoàn thành: ___ det regnet, gikk vi på tur.",
+          "q_en": "Complete: ___ det regnet, gikk vi på tur.",
+          "options": [
+            "Selv om",
+            "Til tross for",
+            "Derimot"
+          ],
+          "options_en": [
+            "Selv om",
+            "Til tross for",
+            "Derimot"
+          ],
+          "answer": 0,
+          "explain": "Theo sau là mệnh đề có động từ (det regnet), nên dùng liên từ selv om.",
+          "explain_en": "A clause with a verb follows (det regnet), so use the conjunction selv om."
+        },
+        {
+          "q": "Hoàn thành: Kostnadene steg. Følgelig ___ utsatt.",
+          "q_en": "Complete: Kostnadene steg. Følgelig ___ utsatt.",
+          "options": [
+            "prosjektet ble",
+            "ble prosjektet",
+            "prosjektet ikke"
+          ],
+          "options_en": [
+            "prosjektet ble",
+            "ble prosjektet",
+            "prosjektet ikke"
+          ],
+          "answer": 1,
+          "explain": "Følgelig là trạng từ ở vị trí 1, nên phải đảo ngữ.",
+          "explain_en": "Følgelig is an adverb in position 1, so you must invert."
+        },
+        {
+          "q": "ettersom nghĩa là gì?",
+          "q_en": "What does ettersom mean?",
+          "options": [
+            "mặc dù",
+            "ngược lại",
+            "vì, bởi lẽ"
+          ],
+          "options_en": [
+            "although",
+            "on the contrary",
+            "since, as"
+          ],
+          "answer": 2,
+          "explain": "ettersom là liên từ chỉ nguyên nhân, trang trọng hơn fordi.",
+          "explain_en": "ettersom is a conjunction of cause, more formal than fordi."
+        },
+        {
+          "q": "Cụm nào phù hợp để mở đầu phần kết bài?",
+          "q_en": "Which phrase suits the start of the conclusion?",
+          "options": [
+            "For det første",
+            "Alt i alt",
+            "På den ene siden"
+          ],
+          "options_en": [
+            "For det første",
+            "Alt i alt",
+            "På den ene siden"
+          ],
+          "answer": 1,
+          "explain": "Alt i alt (tóm lại) dùng để kết luận.",
+          "explain_en": "Alt i alt (all in all) is used to conclude."
+        }
+      ]
+    },
+    {
+      "id": "g28",
+      "title": "Cấu tạo từ",
+      "title_no": "Orddannelse",
+      "title_en": "Word formation",
+      "level": "B2",
+      "icon": "🧱",
+      "summary": "Tiếng Na Uy tạo từ mới bằng cách ghép danh từ (viết liền, có thể thêm -s- hoặc -e- ở giữa) và bằng tiền tố (u-, mis-, be-, for-) hoặc hậu tố (-bar, -lig, -som, -messig). Nắm được các quy tắc này giúp anh đoán nghĩa từ mới khi đọc.",
+      "summary_en": "Norwegian builds new words by joining nouns (written as one word, sometimes with a linking -s- or -e-) and with prefixes (u-, mis-, be-, for-) or suffixes (-bar, -lig, -som, -messig). Knowing these patterns helps you guess new words when reading.",
+      "sections": [
+        {
+          "h": "Từ ghép",
+          "h_en": "Compounds",
+          "body": "Từ ghép được **viết liền** thành một từ. **Thành phần cuối** quyết định nghĩa chính và **giống** của cả từ:\n\n| Ghép | Kết quả | Giống |\n| --- | --- | --- |\n| et hav + en vind | en havvind | en (theo vind) |\n| en jobb + et intervju | et jobbintervju | et (theo intervju) |\n| ei bok + ei hylle | ei bokhylle | ei (theo hylle) |\n| en sjø + en mat | sjømat | en |\n\nViết tách là lỗi phổ biến (**særskriving**) và có thể đổi nghĩa: **lammelår** (đùi cừu non) khác hẳn **lamme lår** (đùi bị liệt); **røykfritt** (cấm hút thuốc) khác **røyk fritt** (cứ hút thoải mái).",
+          "body_en": "Compounds are **written as one word**. The **last part** carries the main meaning and decides the **gender** of the whole word:\n\n| Parts | Result | Gender |\n| --- | --- | --- |\n| et hav + en vind | en havvind | en (from vind) |\n| en jobb + et intervju | et jobbintervju | et (from intervju) |\n| ei bok + ei hylle | ei bokhylle | ei (from hylle) |\n| en sjø + en mat | sjømat | en |\n\nWriting compounds apart is a common error (**særskriving**) and can change the meaning: **lammelår** (leg of lamb) is very different from **lamme lår** (paralysed thighs); **røykfritt** (smoke-free) is the opposite of **røyk fritt** (smoke freely).",
+          "examples": [
+            {
+              "no": "Havvind kan bli en viktig næring for Norge i framtida.",
+              "vi": "Điện gió ngoài khơi có thể trở thành một ngành quan trọng của Na Uy trong tương lai.",
+              "en": "Offshore wind could become an important industry for Norway in the future."
+            },
+            {
+              "no": "Jeg har et jobbintervju hos et rederi i morgen.",
+              "vi": "Ngày mai tôi có một buổi phỏng vấn xin việc ở một công ty vận tải biển.",
+              "en": "I have a job interview at a shipping company tomorrow."
+            },
+            {
+              "no": "Vi trenger ei ny bokhylle til stua.",
+              "vi": "Chúng tôi cần một kệ sách mới cho phòng khách.",
+              "en": "We need a new bookshelf for the living room."
+            },
+            {
+              "no": "Restauranten er helt røykfri, også på terrassen.",
+              "vi": "Nhà hàng hoàn toàn cấm hút thuốc, kể cả ở sân hiên.",
+              "en": "The restaurant is completely smoke-free, also on the terrace."
+            }
+          ]
+        },
+        {
+          "h": "Âm nối -s- và -e-",
+          "h_en": "Linking -s- and -e-",
+          "body": "Giữa hai thành phần đôi khi có **âm nối (fuge)**:\n\n**-s-** luôn xuất hiện sau các đuôi **-ing, -het, -sjon, -dom, -else, -skap**:\n- forskning + prosjekt → **forskningsprosjekt**\n- sikkerhet + kontroll → **sikkerhetskontroll**\n- informasjon + møte → **informasjonsmøte**\n\n**-s-** cũng hay gặp sau nhiều từ khác: skip + fart → **skipsfart**, arbeid + plass → **arbeidsplass**.\n\n**-e-** gặp ở một số từ quen thuộc: **barnehage, julegave, sykehus, hundemat**.\n\nNhiều từ ghép không có âm nối: **havvind, sjømat, bokhylle, fotball**. Khi không chắc, hãy tra từ điển (ordbøkene.no).",
+          "body_en": "Sometimes there is a **linking sound (fuge)** between the parts:\n\n**-s-** always appears after the endings **-ing, -het, -sjon, -dom, -else, -skap**:\n- forskning + prosjekt → **forskningsprosjekt**\n- sikkerhet + kontroll → **sikkerhetskontroll**\n- informasjon + møte → **informasjonsmøte**\n\n**-s-** is also common after many other words: skip + fart → **skipsfart**, arbeid + plass → **arbeidsplass**.\n\n**-e-** appears in some familiar words: **barnehage, julegave, sykehus, hundemat**.\n\nMany compounds have no linking sound: **havvind, sjømat, bokhylle, fotball**. When unsure, check the dictionary (ordbøkene.no).",
+          "examples": [
+            {
+              "no": "Skipsfarten har alltid vært viktig for norsk økonomi.",
+              "vi": "Ngành vận tải biển luôn quan trọng đối với kinh tế Na Uy.",
+              "en": "Shipping has always been important for the Norwegian economy."
+            },
+            {
+              "no": "Hun jobber i et forskningsprosjekt om fiskehelse.",
+              "vi": "Cô ấy làm việc trong một dự án nghiên cứu về sức khỏe cá.",
+              "en": "She works on a research project on fish health."
+            },
+            {
+              "no": "Sikkerhetskontrollen på Gardermoen tok nesten en time.",
+              "vi": "Khâu kiểm tra an ninh ở sân bay Gardermoen mất gần một tiếng.",
+              "en": "The security check at Gardermoen took almost an hour."
+            },
+            {
+              "no": "Barnehagen ligger rett ved siden av sykehuset.",
+              "vi": "Nhà trẻ nằm ngay cạnh bệnh viện.",
+              "en": "The kindergarten is right next to the hospital."
+            }
+          ]
+        },
+        {
+          "h": "Tiền tố u-, mis-, be-, for-",
+          "h_en": "Prefixes u-, mis-, be-, for-",
+          "body": "| Tiền tố | Ý nghĩa | Ví dụ |\n| --- | --- | --- |\n| u- | phủ định, ngược lại | lovlig → **ulovlig**, enig → **uenig**, rettferdig → **urettferdig** |\n| mis- | sai, không tốt | forstå → **misforstå**, fornøyd → **misfornøyd**, tillit → **mistillit** |\n| be- | biến thành động từ có tân ngữ, thường trang trọng | svare → **besvare**, arbeide → **bearbeide**, bo → **bebo** |\n| for- | làm cho (hơn), thay đổi trạng thái | bedre → **forbedre**, enkel → **forenkle**, verre → **forverre** |\n\nTiền tố **be-** và **for-** đến từ tiếng Đức và rất thường gặp trong văn bản hành chính: **bekrefte** (xác nhận), **behandle** (xử lý), **forlenge** (gia hạn), **forsterke** (tăng cường).",
+          "body_en": "| Prefix | Meaning | Examples |\n| --- | --- | --- |\n| u- | negation, opposite | lovlig → **ulovlig**, enig → **uenig**, rettferdig → **urettferdig** |\n| mis- | wrong, badly | forstå → **misforstå**, fornøyd → **misfornøyd**, tillit → **mistillit** |\n| be- | makes a transitive verb, often formal | svare → **besvare**, arbeide → **bearbeide**, bo → **bebo** |\n| for- | make (more), change of state | bedre → **forbedre**, enkel → **forenkle**, verre → **forverre** |\n\nThe prefixes **be-** and **for-** come from German and are very common in official texts: **bekrefte** (confirm), **behandle** (process), **forlenge** (extend), **forsterke** (strengthen).",
+          "examples": [
+            {
+              "no": "Det er ulovlig å fiske her uten tillatelse.",
+              "vi": "Câu cá ở đây mà không có giấy phép là bất hợp pháp.",
+              "en": "It is illegal to fish here without a permit."
+            },
+            {
+              "no": "Jeg tror du har misforstått hva jeg mente.",
+              "vi": "Tôi nghĩ anh đã hiểu lầm ý tôi.",
+              "en": "I think you’ve misunderstood what I meant."
+            },
+            {
+              "no": "Kan du bekrefte at du har mottatt dokumentene?",
+              "vi": "Anh có thể xác nhận là đã nhận được tài liệu không?",
+              "en": "Can you confirm that you have received the documents?"
+            },
+            {
+              "no": "Regjeringen vil forenkle reglene for små bedrifter.",
+              "vi": "Chính phủ muốn đơn giản hóa các quy định cho doanh nghiệp nhỏ.",
+              "en": "The government wants to simplify the rules for small businesses."
+            }
+          ]
+        },
+        {
+          "h": "Hậu tố -bar, -lig, -som, -messig",
+          "h_en": "Suffixes -bar, -lig, -som, -messig",
+          "body": "| Hậu tố | Ý nghĩa | Ví dụ |\n| --- | --- | --- |\n| -bar | có thể ... được (giống -able) | drikke → **drikkbar**, fornye → **fornybar**, bruke → **brukbar** |\n| -lig | có tính chất ... | ansvar → **ansvarlig**, menneske → **menneskelig**, dag → **daglig** |\n| -som | có xu hướng, hay ... | hjelpe → **hjelpsom**, arbeide → **arbeidsom**, spare → **sparsom** |\n| -messig | về mặt ..., theo ... | tid → **tidsmessig**, kvalitet → **kvalitetsmessig**, regel → **regelmessig** |\n\n**-messig** rất hay dùng trong văn nói công sở: **Tidsmessig** passer det dårlig (về mặt thời gian thì không tiện). Chú ý **regelmessig** nghĩa là “đều đặn”.",
+          "body_en": "| Suffix | Meaning | Examples |\n| --- | --- | --- |\n| -bar | can be ...ed (like -able) | drikke → **drikkbar**, fornye → **fornybar**, bruke → **brukbar** |\n| -lig | having the quality of ... | ansvar → **ansvarlig**, menneske → **menneskelig**, dag → **daglig** |\n| -som | tending to ... | hjelpe → **hjelpsom**, arbeide → **arbeidsom**, spare → **sparsom** |\n| -messig | in terms of ..., according to ... | tid → **tidsmessig**, kvalitet → **kvalitetsmessig**, regel → **regelmessig** |\n\n**-messig** is very common in office talk: **Tidsmessig** passer det dårlig (time-wise it doesn't suit). Note that **regelmessig** means “regular”.",
+          "examples": [
+            {
+              "no": "Norge satser stort på fornybar energi fra vann og vind.",
+              "vi": "Na Uy đầu tư mạnh vào năng lượng tái tạo từ nước và gió.",
+              "en": "Norway is investing heavily in renewable energy from water and wind."
+            },
+            {
+              "no": "Hun er en hjelpsom kollega som alltid tar seg tid.",
+              "vi": "Cô ấy là một đồng nghiệp hay giúp đỡ, luôn dành thời gian cho người khác.",
+              "en": "She is a helpful colleague who always makes time."
+            },
+            {
+              "no": "Vi har regelmessige møter med kunden hver fjortende dag.",
+              "vi": "Chúng tôi họp đều đặn với khách hàng hai tuần một lần.",
+              "en": "We have regular meetings with the client every two weeks."
+            },
+            {
+              "no": "Tidsmessig passer det dårlig for meg denne uka.",
+              "vi": "Về mặt thời gian thì tuần này không tiện cho tôi.",
+              "en": "Time-wise it doesn’t suit me well this week."
+            },
+            {
+              "no": "Han er ansvarlig for salget i hele Sørøst-Asia.",
+              "vi": "Anh ấy phụ trách bán hàng ở toàn bộ khu vực Đông Nam Á.",
+              "en": "He is responsible for sales in all of Southeast Asia."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Ghép “skip + fart” thành từ nào?",
+          "q_en": "What do you get from “skip + fart”?",
+          "options": [
+            "skipfart",
+            "skipefart",
+            "skipsfart"
+          ],
+          "options_en": [
+            "skipfart",
+            "skipefart",
+            "skipsfart"
+          ],
+          "answer": 2,
+          "explain": "Từ này có âm nối -s-: skipsfart (ngành vận tải biển).",
+          "explain_en": "This word has a linking -s-: skipsfart (shipping)."
+        },
+        {
+          "q": "Ghép “forskning + prosjekt” thành từ nào?",
+          "q_en": "What do you get from “forskning + prosjekt”?",
+          "options": [
+            "forskningsprosjekt",
+            "forskningprosjekt",
+            "forskning prosjekt"
+          ],
+          "options_en": [
+            "forskningsprosjekt",
+            "forskningprosjekt",
+            "forskning prosjekt"
+          ],
+          "answer": 0,
+          "explain": "Sau đuôi -ing luôn có -s-, và từ ghép viết liền.",
+          "explain_en": "After -ing there is always an -s-, and compounds are written as one word."
+        },
+        {
+          "q": "Từ trái nghĩa với “lovlig” là gì?",
+          "q_en": "What is the opposite of “lovlig”?",
+          "options": [
+            "mislovlig",
+            "ulovlig",
+            "forlovlig"
+          ],
+          "options_en": [
+            "mislovlig",
+            "ulovlig",
+            "forlovlig"
+          ],
+          "answer": 1,
+          "explain": "Tiền tố u- chỉ phủ định: lovlig → ulovlig.",
+          "explain_en": "The prefix u- negates: lovlig → ulovlig."
+        },
+        {
+          "q": "“Hiểu sai” trong tiếng Na Uy là gì?",
+          "q_en": "What is “to understand wrongly” in Norwegian?",
+          "options": [
+            "å uforstå",
+            "å forforstå",
+            "å misforstå"
+          ],
+          "options_en": [
+            "å uforstå",
+            "å forforstå",
+            "å misforstå"
+          ],
+          "answer": 2,
+          "explain": "Tiền tố mis- nghĩa là sai, không đúng cách.",
+          "explain_en": "The prefix mis- means wrongly or badly."
+        },
+        {
+          "q": "Năng lượng có thể tái tạo gọi là gì?",
+          "q_en": "What do you call energy that can be renewed?",
+          "options": [
+            "fornybar energi",
+            "fornysom energi",
+            "fornymessig energi"
+          ],
+          "options_en": [
+            "fornybar energi",
+            "fornysom energi",
+            "fornymessig energi"
+          ],
+          "answer": 0,
+          "explain": "-bar nghĩa là “có thể ... được”: fornybar.",
+          "explain_en": "-bar means “can be ...ed”: fornybar."
+        },
+        {
+          "q": "Từ ghép “jobbintervju” (en jobb + et intervju) thuộc giống nào?",
+          "q_en": "What gender is the compound “jobbintervju” (en jobb + et intervju)?",
+          "options": [
+            "en, theo thành phần đầu",
+            "et, theo thành phần cuối",
+            "ei, vì là từ ghép"
+          ],
+          "options_en": [
+            "en, from the first part",
+            "et, from the last part",
+            "ei, because it is a compound"
+          ],
+          "answer": 1,
+          "explain": "Thành phần cuối quyết định giống: et intervju → et jobbintervju.",
+          "explain_en": "The last part decides the gender: et intervju → et jobbintervju."
+        }
+      ]
+    },
+    {
+      "id": "g29",
+      "title": "Văn viết trang trọng: email, thư, báo cáo",
+      "title_no": "Formell skriving: e-post, brev og rapport",
+      "title_en": "Formal writing: emails, letters and reports",
+      "level": "B2",
+      "icon": "✉️",
+      "summary": "Thư từ công việc ở Na Uy vừa lịch sự vừa thân thiện: chào bằng Hei, xưng du, kết thư bằng Med vennlig hilsen. Bài học tổng hợp cụm từ lịch sự và mẫu câu cho thư xin việc, thư khiếu nại và báo cáo.",
+      "summary_en": "Business correspondence in Norway is polite but friendly: open with Hei, use du, close with Med vennlig hilsen. The lesson collects polite phrases and model sentences for job applications, complaints and reports.",
+      "sections": [
+        {
+          "h": "Mở đầu và kết thư",
+          "h_en": "Openings and closings",
+          "body": "Văn hóa thư từ Na Uy **ít khoảng cách** hơn tiếng Anh hay tiếng Việt:\n- Xưng **du** với hầu hết mọi người, kể cả sếp và cơ quan nhà nước. Đại từ trang trọng **De** gần như không còn dùng.\n- Mở đầu: **Hei Kari,** (phổ biến nhất) · **Hei,** (khi không biết tên) · **Kjære kolleger,** (gửi tập thể).\n- Kết thư: **Med vennlig hilsen** (trang trọng) · **Vennlig hilsen** · **Hilsen** (thân mật) · **Mvh** (viết tắt, chỉ dùng khi thân).\n\nDòng tiêu đề (**Emne**) nên ngắn và cụ thể: **Søknad på stilling som rådgiver**, **Spørsmål om faktura nr. 4512**.",
+          "body_en": "Norwegian correspondence has **less distance** than English or Vietnamese:\n- Use **du** with almost everyone, including your boss and public agencies. The formal pronoun **De** is hardly used any more.\n- Opening: **Hei Kari,** (most common) · **Hei,** (when you don't know the name) · **Kjære kolleger,** (to a group).\n- Closing: **Med vennlig hilsen** (formal) · **Vennlig hilsen** · **Hilsen** (informal) · **Mvh** (abbreviation, only when you know each other).\n\nKeep the subject line (**Emne**) short and specific: **Søknad på stilling som rådgiver**, **Spørsmål om faktura nr. 4512**.",
+          "examples": [
+            {
+              "no": "Hei Ingrid, takk for et hyggelig møte i går.",
+              "vi": "Chào Ingrid, cảm ơn chị về cuộc gặp thú vị hôm qua.",
+              "en": "Hi Ingrid, thank you for a pleasant meeting yesterday."
+            },
+            {
+              "no": "Kjære kolleger, her er referatet fra fredagens møte.",
+              "vi": "Các đồng nghiệp thân mến, đây là biên bản cuộc họp hôm thứ Sáu.",
+              "en": "Dear colleagues, here are the minutes from Friday’s meeting."
+            },
+            {
+              "no": "Ta gjerne kontakt hvis noe er uklart.",
+              "vi": "Cứ liên hệ nếu có điều gì chưa rõ.",
+              "en": "Feel free to get in touch if anything is unclear."
+            }
+          ]
+        },
+        {
+          "h": "Cụm từ lịch sự",
+          "h_en": "Polite phrases",
+          "body": "| Cụm từ | Nghĩa |\n| --- | --- |\n| Kunne du ...? | Anh/chị có thể ... không? |\n| Jeg vil gjerne ... | Tôi muốn ... |\n| Jeg hadde satt pris på om ... | Tôi sẽ rất cảm kích nếu ... |\n| dersom | nếu (trang trọng hơn hvis) |\n| vedrørende / angående | về việc |\n| Vedlagt følger ... | Đính kèm là ... |\n| Takk for rask tilbakemelding. | Cảm ơn đã phản hồi nhanh. |\n| Jeg ser fram til å høre fra deg. | Tôi mong nhận được hồi âm. |\n\nDạng quá khứ **kunne, ville, hadde** làm lời đề nghị mềm hơn, giống “could / would” trong tiếng Anh.",
+          "body_en": "| Phrase | Meaning |\n| --- | --- |\n| Kunne du ...? | Could you ...? |\n| Jeg vil gjerne ... | I would like to ... |\n| Jeg hadde satt pris på om ... | I would appreciate it if ... |\n| dersom | if (more formal than hvis) |\n| vedrørende / angående | regarding |\n| Vedlagt følger ... | Please find attached ... |\n| Takk for rask tilbakemelding. | Thank you for your quick reply. |\n| Jeg ser fram til å høre fra deg. | I look forward to hearing from you. |\n\nThe past forms **kunne, ville, hadde** soften a request, just like “could / would” in English.",
+          "examples": [
+            {
+              "no": "Kunne du sende meg den signerte avtalen innen fredag?",
+              "vi": "Anh có thể gửi cho tôi bản hợp đồng đã ký trước thứ Sáu không?",
+              "en": "Could you send me the signed agreement by Friday?"
+            },
+            {
+              "no": "Jeg hadde satt stor pris på en rask tilbakemelding.",
+              "vi": "Tôi sẽ rất cảm kích nếu nhận được phản hồi sớm.",
+              "en": "I would really appreciate a quick reply."
+            },
+            {
+              "no": "Vedlagt følger CV, vitnemål og attester.",
+              "vi": "Đính kèm là sơ yếu lý lịch, bằng cấp và thư giới thiệu.",
+              "en": "Please find attached my CV, diplomas and references."
+            },
+            {
+              "no": "Dersom du har spørsmål, er det bare å ta kontakt.",
+              "vi": "Nếu anh có câu hỏi, cứ liên hệ.",
+              "en": "If you have any questions, just get in touch."
+            }
+          ]
+        },
+        {
+          "h": "Thư xin việc (søknad)",
+          "h_en": "Job applications (søknad)",
+          "body": "Một **søknad** ngắn gọn (khoảng một trang) thường theo thứ tự:\n1. **Lý do viết**: Jeg viser til stillingsannonsen på Finn.no og søker herved stillingen som ...\n2. **Bạn là ai**: Jeg har ... års erfaring fra ...\n3. **Bạn đóng góp được gì**: Med min bakgrunn fra ... mener jeg at jeg kan bidra til ...\n4. **Động lực**: Jeg er særlig motivert for ... fordi ...\n5. **Kết**: Jeg stiller gjerne til intervju og ser fram til å høre fra dere.\n\nNhà tuyển dụng Na Uy đánh giá cao sự **cụ thể và khiêm tốn**: nêu kết quả thực tế thay vì tự khen chung chung.",
+          "body_en": "A short **søknad** (about one page) usually follows this order:\n1. **Why you are writing**: Jeg viser til stillingsannonsen på Finn.no og søker herved stillingen som ...\n2. **Who you are**: Jeg har ... års erfaring fra ...\n3. **What you can contribute**: Med min bakgrunn fra ... mener jeg at jeg kan bidra til ...\n4. **Motivation**: Jeg er særlig motivert for ... fordi ...\n5. **Closing**: Jeg stiller gjerne til intervju og ser fram til å høre fra dere.\n\nNorwegian employers value being **concrete and modest**: give real results rather than general self-praise.",
+          "examples": [
+            {
+              "no": "Jeg viser til stillingsannonsen på Finn.no og søker herved stillingen som rådgiver.",
+              "vi": "Tôi xin tham chiếu thông báo tuyển dụng trên Finn.no và xin ứng tuyển vị trí cố vấn.",
+              "en": "With reference to the job advertisement on Finn.no, I hereby apply for the position of adviser."
+            },
+            {
+              "no": "Jeg har ti års erfaring fra utenrikstjenesten og internasjonale forhandlinger.",
+              "vi": "Tôi có mười năm kinh nghiệm trong ngành ngoại giao và đàm phán quốc tế.",
+              "en": "I have ten years of experience from the foreign service and international negotiations."
+            },
+            {
+              "no": "Med min bakgrunn mener jeg at jeg kan bidra til selskapets satsing i Asia.",
+              "vi": "Với nền tảng của mình, tôi tin rằng tôi có thể đóng góp vào kế hoạch đầu tư của công ty ở châu Á.",
+              "en": "With my background, I believe I can contribute to the company’s push into Asia."
+            },
+            {
+              "no": "Jeg stiller gjerne til intervju og ser fram til å høre fra dere.",
+              "vi": "Tôi sẵn sàng tham gia phỏng vấn và mong nhận được hồi âm từ quý công ty.",
+              "en": "I would be happy to attend an interview and look forward to hearing from you."
+            }
+          ]
+        },
+        {
+          "h": "Thư khiếu nại và báo cáo",
+          "h_en": "Complaints and reports",
+          "body": "**Thư khiếu nại (klage)**: nêu sự việc, yêu cầu, và thời hạn. Giữ giọng điệu khách quan.\n- Jeg ønsker å klage på ...\n- Jeg viser til kjøpet mitt den 3. mars ...\n- Jeg ber om at ... / Jeg forventer at ...\n- ... innen 14 dager.\n\n**Báo cáo (rapport)**: dùng văn phong danh từ hóa và câu khách quan, thường không có “jeg”.\n- Formålet med denne rapporten er å ...\n- Undersøkelsen viser at ...\n- Rapporten konkluderer med at ...\n- Det anbefales at ... (Khuyến nghị rằng ...)",
+          "body_en": "**Complaint (klage)**: state what happened, what you want, and a deadline. Keep the tone objective.\n- Jeg ønsker å klage på ... (I wish to complain about ...)\n- Jeg viser til kjøpet mitt den 3. mars ... (I refer to my purchase on 3 March ...)\n- Jeg ber om at ... / Jeg forventer at ... (I request that ... / I expect that ...)\n- ... innen 14 dager. (... within 14 days.)\n\n**Report (rapport)**: use nominal style and impersonal sentences, usually without “jeg”.\n- Formålet med denne rapporten er å ... (The purpose of this report is to ...)\n- Undersøkelsen viser at ... (The survey shows that ...)\n- Rapporten konkluderer med at ... (The report concludes that ...)\n- Det anbefales at ... (It is recommended that ...)",
+          "examples": [
+            {
+              "no": "Jeg ønsker å klage på en vaskemaskin som jeg kjøpte hos dere 3. mars.",
+              "vi": "Tôi muốn khiếu nại về chiếc máy giặt tôi mua ở cửa hàng ngày 3 tháng 3.",
+              "en": "I wish to complain about a washing machine I bought from you on 3 March."
+            },
+            {
+              "no": "Jeg ber om at saken blir behandlet så raskt som mulig.",
+              "vi": "Tôi đề nghị vụ việc được xử lý càng sớm càng tốt.",
+              "en": "I request that the matter be dealt with as quickly as possible."
+            },
+            {
+              "no": "Formålet med denne rapporten er å kartlegge eksportmulighetene for norsk sjømat.",
+              "vi": "Mục đích của báo cáo này là khảo sát các cơ hội xuất khẩu cho hải sản Na Uy.",
+              "en": "The purpose of this report is to map the export opportunities for Norwegian seafood."
+            },
+            {
+              "no": "Det anbefales at selskapet styrker satsingen på det asiatiske markedet.",
+              "vi": "Khuyến nghị công ty tăng cường đầu tư vào thị trường châu Á.",
+              "en": "It is recommended that the company strengthen its focus on the Asian market."
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Cách kết thúc nào phù hợp cho một email trang trọng?",
+          "q_en": "Which closing suits a formal email?",
+          "options": [
+            "Klem",
+            "Med vennlig hilsen",
+            "Ha det bra"
+          ],
+          "options_en": [
+            "Klem",
+            "Med vennlig hilsen",
+            "Ha det bra"
+          ],
+          "answer": 1,
+          "explain": "Med vennlig hilsen là lời kết trang trọng chuẩn.",
+          "explain_en": "Med vennlig hilsen is the standard formal closing."
+        },
+        {
+          "q": "Từ nào là cách nói trang trọng của “hvis”?",
+          "q_en": "Which word is a formal way of saying “hvis”?",
+          "options": [
+            "når",
+            "da",
+            "dersom"
+          ],
+          "options_en": [
+            "når",
+            "da",
+            "dersom"
+          ],
+          "answer": 2,
+          "explain": "dersom = nếu, thường dùng trong văn bản và thư từ.",
+          "explain_en": "dersom = if, common in documents and letters."
+        },
+        {
+          "q": "Hoàn thành: Vedlagt ___ CV og attester.",
+          "q_en": "Complete: Vedlagt ___ CV og attester.",
+          "options": [
+            "følger",
+            "går",
+            "kommer"
+          ],
+          "options_en": [
+            "følger",
+            "går",
+            "kommer"
+          ],
+          "answer": 0,
+          "explain": "Cụm cố định: Vedlagt følger ... (đính kèm là ...).",
+          "explain_en": "Fixed phrase: Vedlagt følger ... (please find attached ...)."
+        },
+        {
+          "q": "Trong thư công việc hiện nay, người Na Uy thường xưng hô với một người nhận thế nào?",
+          "q_en": "In business letters today, how do Norwegians usually address a single recipient?",
+          "options": [
+            "du",
+            "De",
+            "man"
+          ],
+          "options_en": [
+            "du",
+            "De",
+            "man"
+          ],
+          "answer": 0,
+          "explain": "Người Na Uy xưng du với gần như mọi người; De gần như không còn dùng.",
+          "explain_en": "Norwegians use du with almost everyone; De is hardly used any more."
+        },
+        {
+          "q": "Câu nào phù hợp để mở đầu thư xin việc?",
+          "q_en": "Which sentence suits the opening of a job application?",
+          "options": [
+            "Hei, jeg vil ha jobben deres.",
+            "Jeg viser til stillingsannonsen og søker herved stillingen.",
+            "Jeg er den beste kandidaten dere kan få."
+          ],
+          "options_en": [
+            "Hei, jeg vil ha jobben deres.",
+            "Jeg viser til stillingsannonsen og søker herved stillingen.",
+            "Jeg er den beste kandidaten dere kan få."
+          ],
+          "answer": 1,
+          "explain": "Jeg viser til ... og søker herved ... là cách mở đầu chuẩn mực.",
+          "explain_en": "Jeg viser til ... og søker herved ... is the standard opening."
+        },
+        {
+          "q": "Hoàn thành: Jeg ser fram ___ å høre fra deg.",
+          "q_en": "Complete: Jeg ser fram ___ å høre fra deg.",
+          "options": [
+            "på",
+            "til",
+            "mot"
+          ],
+          "options_en": [
+            "på",
+            "til",
+            "mot"
+          ],
+          "answer": 1,
+          "explain": "Cụm cố định: se fram til (mong chờ).",
+          "explain_en": "Fixed phrase: se fram til (look forward to)."
+        }
+      ]
+    },
+    {
+      "id": "g30",
+      "title": "Nynorsk và phương ngữ: nhận biết",
+      "title_no": "Nynorsk og dialekter",
+      "title_en": "Recognising Nynorsk and dialects",
+      "level": "B2",
+      "icon": "🗺️",
+      "summary": "Na Uy có hai chuẩn viết (bokmål và nynorsk) và rất nhiều phương ngữ. Anh không cần nói chúng, nhưng cần nhận ra các từ khác biệt chính (eg, ikkje, kva, æ, itj) để đọc biển báo, báo chí địa phương và hiểu đồng nghiệp từ Bergen, Trondheim hay Bắc Na Uy.",
+      "summary_en": "Norway has two written standards (Bokmål and Nynorsk) and many dialects. You don’t need to speak them, but you should recognise the key differences (eg, ikkje, kva, æ, itj) to read signs and local news and to understand colleagues from Bergen, Trondheim or Northern Norway.",
+      "sections": [
+        {
+          "h": "Nynorsk: những từ khác biệt",
+          "h_en": "Nynorsk: the words that differ",
+          "body": "**Nynorsk** được khoảng 10 đến 15% người Na Uy dùng làm chuẩn viết, chủ yếu ở miền Tây (Vestlandet). Mọi học sinh đều phải học cả hai chuẩn, và đài NRK dùng cả hai.\n\n| Bokmål | Nynorsk | Nghĩa |\n| --- | --- | --- |\n| jeg | eg | tôi |\n| ikke | ikkje | không |\n| hva / hvem / hvor | kva / kven / kvar | gì / ai / ở đâu |\n| hvordan | korleis | như thế nào |\n| noe / mye | noko / mykje | cái gì đó / nhiều |\n| fra / uten | frå / utan | từ / không có |\n| en / et | ein / eit | mạo từ không xác định |\n| å være | å vere | thì, là |\n| Norge | Noreg | Na Uy |",
+          "body_en": "**Nynorsk** is the written standard of about 10 to 15% of Norwegians, mainly in Western Norway (Vestlandet). All pupils learn both standards, and the broadcaster NRK uses both.\n\n| Bokmål | Nynorsk | Meaning |\n| --- | --- | --- |\n| jeg | eg | I |\n| ikke | ikkje | not |\n| hva / hvem / hvor | kva / kven / kvar | what / who / where |\n| hvordan | korleis | how |\n| noe / mye | noko / mykje | something / a lot |\n| fra / uten | frå / utan | from / without |\n| en / et | ein / eit | indefinite article |\n| å være | å vere | to be |\n| Norge | Noreg | Norway |",
+          "examples": [
+            {
+              "no": "Eg heiter Phương og kjem frå Vietnam.",
+              "vi": "Tôi tên là Phương và đến từ Việt Nam. (Bokmål: Jeg heter Phương og kommer fra Vietnam.)",
+              "en": "My name is Phương and I come from Vietnam. (Bokmål: Jeg heter Phương og kommer fra Vietnam.)"
+            },
+            {
+              "no": "Kva gjer du i morgon?",
+              "vi": "Ngày mai anh làm gì? (Bokmål: Hva gjør du i morgen?)",
+              "en": "What are you doing tomorrow? (Bokmål: Hva gjør du i morgen?)"
+            },
+            {
+              "no": "Eg veit ikkje kvar ho bur.",
+              "vi": "Tôi không biết cô ấy sống ở đâu. (Bokmål: Jeg vet ikke hvor hun bor.)",
+              "en": "I don’t know where she lives. (Bokmål: Jeg vet ikke hvor hun bor.)"
+            },
+            {
+              "no": "Korleis har du det i dag?",
+              "vi": "Hôm nay anh thế nào? (Bokmål: Hvordan har du det i dag?)",
+              "en": "How are you today? (Bokmål: Hvordan har du det i dag?)"
+            }
+          ]
+        },
+        {
+          "h": "Nynorsk: đuôi danh từ và động từ",
+          "h_en": "Nynorsk: noun and verb endings",
+          "body": "**Danh từ giống đực** số nhiều có đuôi **-ar / -ane**:\n\n| | Bokmål | Nynorsk |\n| --- | --- | --- |\n| giống đực | en bil, bilen, biler, bilene | ein bil, bilen, **bilar, bilane** |\n| giống cái | ei jente, jenta, jenter, jentene | ei jente, jenta, jenter, jentene |\n| giống trung | et hus, huset, hus, husa | eit hus, huset, hus, husa |\n\n**Động từ nhóm a** (bokmål -er / -et) dùng đuôi **-ar / -a**:\nå kaste: kaster, kastet (bokmål) → **kastar, kasta** (nynorsk)\nå like: liker → **likar**\n\nNguyên mẫu có thể kết thúc bằng **-e** hoặc **-a**: å vere / å vera.",
+          "body_en": "**Masculine nouns** take **-ar / -ane** in the plural:\n\n| | Bokmål | Nynorsk |\n| --- | --- | --- |\n| masculine | en bil, bilen, biler, bilene | ein bil, bilen, **bilar, bilane** |\n| feminine | ei jente, jenta, jenter, jentene | ei jente, jenta, jenter, jentene |\n| neuter | et hus, huset, hus, husa | eit hus, huset, hus, husa |\n\n**a-verbs** (Bokmål -er / -et) take **-ar / -a**:\nå kaste: kaster, kastet (Bokmål) → **kastar, kasta** (Nynorsk)\nå like: liker → **likar**\n\nThe infinitive can end in **-e** or **-a**: å vere / å vera.",
+          "examples": [
+            {
+              "no": "Bilane står parkerte utanfor huset.",
+              "vi": "Những chiếc ô tô đỗ bên ngoài ngôi nhà. (Bokmål: Bilene står parkert utenfor huset.)",
+              "en": "The cars are parked outside the house. (Bokmål: Bilene står parkert utenfor huset.)"
+            },
+            {
+              "no": "Eg har budd i Noreg i tre år.",
+              "vi": "Tôi đã sống ở Na Uy ba năm. (Bokmål: Jeg har bodd i Norge i tre år.)",
+              "en": "I have lived in Norway for three years. (Bokmål: Jeg har bodd i Norge i tre år.)"
+            },
+            {
+              "no": "Vi likar å gå på tur i fjella.",
+              "vi": "Chúng tôi thích đi dạo trên núi. (Bokmål: Vi liker å gå på tur i fjellet.)",
+              "en": "We like hiking in the mountains. (Bokmål: Vi liker å gå på tur i fjellet.)"
+            }
+          ]
+        },
+        {
+          "h": "Phương ngữ miền Tây: Bergen",
+          "h_en": "Western dialects: Bergen",
+          "body": "Người Na Uy **nói phương ngữ của mình ở mọi nơi**, kể cả trên TV và trong cuộc họp, nên anh sẽ nghe chúng hằng ngày.\n\nĐặc điểm tiếng **Bergen (bergensk)**:\n- **eg** (tôi), **ikkje** (không), **ka** (gì), **kem** (ai), **kor** (đâu, như thế nào)\n- **e** thay cho **er**: Eg **e** fra Bergen.\n- Chỉ có **hai giống**: không có giống cái, nên nói **jenten, boken** thay vì jenta, boka.\n- Âm **r rung ở họng** (skarre-r), giống âm r trong tiếng Pháp hoặc tiếng Đức.",
+          "body_en": "Norwegians **speak their dialect everywhere**, including on TV and in meetings, so you will hear dialects every day.\n\nFeatures of the **Bergen dialect (bergensk)**:\n- **eg** (I), **ikkje** (not), **ka** (what), **kem** (who), **kor** (where, how)\n- **e** instead of **er**: Eg **e** fra Bergen.\n- Only **two genders**: no feminine, so people say **jenten, boken** instead of jenta, boka.\n- A **guttural r** (skarre-r) pronounced at the back of the throat, like the French or German r.",
+          "examples": [
+            {
+              "no": "Eg e fra Bergen, men eg bor i Oslo no.",
+              "vi": "Tôi đến từ Bergen, nhưng giờ tôi sống ở Oslo. (Bokmål: Jeg er fra Bergen, men jeg bor i Oslo nå.)",
+              "en": "I’m from Bergen, but I live in Oslo now. (Bokmål: Jeg er fra Bergen, men jeg bor i Oslo nå.)"
+            },
+            {
+              "no": "Ka sa du? Eg hørte det ikkje.",
+              "vi": "Anh nói gì cơ? Tôi không nghe thấy. (Bokmål: Hva sa du? Jeg hørte det ikke.)",
+              "en": "What did you say? I didn’t hear it. (Bokmål: Hva sa du? Jeg hørte det ikke.)"
+            },
+            {
+              "no": "Kem e det som ringer så seint?",
+              "vi": "Ai gọi điện muộn thế? (Bokmål: Hvem er det som ringer så sent?)",
+              "en": "Who is calling so late? (Bokmål: Hvem er det som ringer så sent?)"
+            }
+          ]
+        },
+        {
+          "h": "Trøndelag và Bắc Na Uy",
+          "h_en": "Trøndelag and Northern Norway",
+          "body": "| Bokmål | Trøndelag | Bắc Na Uy |\n| --- | --- | --- |\n| jeg | æ | æ |\n| ikke | itj | ikkje |\n| meg / deg | mæ / dæ | mæ / dæ |\n| dere | dokker | dokker |\n| er | e | e |\n\nĐặc điểm khác:\n- **Trøndersk** hay **rụng âm cuối**: å kaste → å kast, å være → å vær.\n- **Bắc Na Uy (nordnorsk)** có ngữ điệu lên xuống rõ, nghe vui và thẳng thắn; người miền Bắc nổi tiếng hài hước và dễ gần.\n- Ở **Oslo và miền Đông** (østnorsk) có thể nghe **dem** thay cho de, và **hu / a** thay cho hun.\n\nMẹo: khi nghe không hiểu, cứ hỏi lịch sự: **Kan du si det en gang til?** Người Na Uy quen việc giải thích phương ngữ của mình.",
+          "body_en": "| Bokmål | Trøndelag | Northern Norway |\n| --- | --- | --- |\n| jeg | æ | æ |\n| ikke | itj | ikkje |\n| meg / deg | mæ / dæ | mæ / dæ |\n| dere | dokker | dokker |\n| er | e | e |\n\nOther features:\n- **Trøndersk** often **drops the final vowel**: å kaste → å kast, å være → å vær.\n- **Northern Norwegian (nordnorsk)** has a lively, sing-song melody; northerners are known for being humorous, direct and easy-going.\n- In **Oslo and the east** (østnorsk) you may hear **dem** instead of de, and **hu / a** instead of hun.\n\nTip: if you don't understand, just ask politely: **Kan du si det en gang til?** Norwegians are used to explaining their dialect.",
+          "examples": [
+            {
+              "no": "Æ e itj sikker på om æ rekk bussen.",
+              "vi": "Tôi không chắc là tôi có kịp xe buýt không. (Bokmål: Jeg er ikke sikker på om jeg rekker bussen.)",
+              "en": "I’m not sure if I’ll make the bus. (Bokmål: Jeg er ikke sikker på om jeg rekker bussen.)"
+            },
+            {
+              "no": "Ka dokker skal gjøre i helga?",
+              "vi": "Các bạn định làm gì cuối tuần? (Bokmål: Hva skal dere gjøre i helgen?)",
+              "en": "What are you all doing at the weekend? (Bokmål: Hva skal dere gjøre i helgen?)"
+            },
+            {
+              "no": "Æ e så glad i dæ.",
+              "vi": "Anh thương em lắm. (Bokmål: Jeg er så glad i deg.)",
+              "en": "I love you so much. (Bokmål: Jeg er så glad i deg.)"
+            },
+            {
+              "no": "Kan du si det en gang til, litt saktere?",
+              "vi": "Anh có thể nói lại lần nữa, chậm hơn một chút được không?",
+              "en": "Could you say that once more, a bit more slowly?"
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "“jeg” trong nynorsk là gì?",
+          "q_en": "What is “jeg” in Nynorsk?",
+          "options": [
+            "æ",
+            "eg",
+            "je"
+          ],
+          "options_en": [
+            "æ",
+            "eg",
+            "je"
+          ],
+          "answer": 1,
+          "explain": "Nynorsk viết eg; æ là phương ngữ Trøndelag và Bắc Na Uy.",
+          "explain_en": "Nynorsk writes eg; æ is the Trøndelag and Northern Norwegian dialect form."
+        },
+        {
+          "q": "“ikke” trong nynorsk là gì?",
+          "q_en": "What is “ikke” in Nynorsk?",
+          "options": [
+            "ikkje",
+            "itj",
+            "inte"
+          ],
+          "options_en": [
+            "ikkje",
+            "itj",
+            "inte"
+          ],
+          "answer": 0,
+          "explain": "Nynorsk: ikkje. itj là phương ngữ Trøndelag, inte là tiếng Thụy Điển.",
+          "explain_en": "Nynorsk: ikkje. itj is the Trøndelag dialect, inte is Swedish."
+        },
+        {
+          "q": "“Kva heiter du?” trong bokmål là gì?",
+          "q_en": "What is “Kva heiter du?” in Bokmål?",
+          "options": [
+            "Hvor bor du?",
+            "Hvem er du?",
+            "Hva heter du?"
+          ],
+          "options_en": [
+            "Hvor bor du?",
+            "Hvem er du?",
+            "Hva heter du?"
+          ],
+          "answer": 2,
+          "explain": "kva = hva, heiter = heter.",
+          "explain_en": "kva = hva, heiter = heter."
+        },
+        {
+          "q": "“bilene” trong nynorsk là gì?",
+          "q_en": "What is “bilene” in Nynorsk?",
+          "options": [
+            "bilane",
+            "bilan",
+            "bilarne"
+          ],
+          "options_en": [
+            "bilane",
+            "bilan",
+            "bilarne"
+          ],
+          "answer": 0,
+          "explain": "Danh từ giống đực số nhiều xác định trong nynorsk có đuôi -ane.",
+          "explain_en": "Definite plural masculine nouns in Nynorsk end in -ane."
+        },
+        {
+          "q": "Câu “Æ e itj sikker.” nhiều khả năng là phương ngữ vùng nào?",
+          "q_en": "Which region is “Æ e itj sikker.” most likely from?",
+          "options": [
+            "Bergen",
+            "Oslo",
+            "Trøndelag"
+          ],
+          "options_en": [
+            "Bergen",
+            "Oslo",
+            "Trøndelag"
+          ],
+          "answer": 2,
+          "explain": "æ và itj là đặc trưng của tiếng Trøndelag.",
+          "explain_en": "æ and itj are typical of the Trøndelag dialect."
+        },
+        {
+          "q": "Đặc điểm nào đúng với tiếng Bergen?",
+          "q_en": "Which feature is true of the Bergen dialect?",
+          "options": [
+            "Chỉ có hai giống và âm r rung ở họng",
+            "Dùng æ cho “tôi” và itj cho “không”",
+            "Rụng nguyên âm cuối của mọi động từ"
+          ],
+          "options_en": [
+            "Only two genders and a guttural r",
+            "Uses æ for “I” and itj for “not”",
+            "Drops the final vowel of every verb"
+          ],
+          "answer": 0,
+          "explain": "Tiếng Bergen không có giống cái (jenten, boken) và dùng skarre-r.",
+          "explain_en": "The Bergen dialect has no feminine gender (jenten, boken) and uses the guttural r."
+        }
+      ]
     }
   ]
 }

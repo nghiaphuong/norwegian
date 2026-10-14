@@ -174,6 +174,8 @@ export const store = {
     this.s.mistakes[k] = m;
   },
   clearMistake(no) { delete this.s.mistakes[no]; },
+  // Trao huy hiệu (một lần), hiển thị ở lần showNewBadges tiếp theo.
+  award(id) { if (this.s.badges[id]) return false; this.s.badges[id] = today(); this.newBadges = (this.newBadges || []).concat(id); return true; },
   answer(ok) { this.s.stats.answers++; if (ok) this.s.stats.correct++; },
 
   // ---------- Huy hiệu ----------
@@ -210,4 +212,8 @@ export const BADGES = {
   'story-1': ['📖', 'Người kể chuyện', 'Đọc xong một truyện'],
   'story-all': ['🏆', 'Mọt truyện', 'Đọc xong 10 truyện'],
   'grammar-5': ['🧩', 'Ngữ pháp', 'Hoàn thành 5 bài ngữ pháp'],
+  'level-A1': ['🥉', 'Xong A1', 'Hoàn thành toàn bộ cấp A1'],
+  'level-A2': ['🥈', 'Xong A2', 'Hoàn thành toàn bộ cấp A2'],
+  'level-B1': ['🥇', 'Xong B1', 'Hoàn thành toàn bộ cấp B1'],
+  'level-B2': ['🏅', 'Xong B2', 'Hoàn thành toàn bộ cấp B2'],
 };

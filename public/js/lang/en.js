@@ -70,7 +70,7 @@ export default {
   'Dịch máy:': 'Machine translation:', 'Tra từ này': 'Look up this word', 'Không có kết quả.': 'No results.', 'Nghĩa tiếng Việt để ghi lên thẻ:': 'Meaning to write on the card:',
 
   // ---- Ngữ pháp, truyện ----
-  '{n} bài ngắn, so sánh với tiếng Việt cho dễ hiểu. Mỗi bài có phần kiểm tra.': '{n} short lessons that compare Norwegian with English. Each ends with a quiz.',
+  '{n} bài từ A1 đến B2, giải thích bằng tiếng Việt, mỗi bài có phần kiểm tra.': '{n} lessons from A1 to B2, explained in English, each with a quiz.',
   'Bài {i}/{n}': 'Lesson {i}/{n}', 'Kiểm tra nhanh': 'Quick quiz', '{n} câu': ['{n} question', '{n} questions'], '{s}/{n} câu đúng': '{s}/{n} correct',
   'Làm lại': 'Try again', 'Bài tiếp': 'Next lesson', 'Câu {i}/{n}': 'Question {i}/{n}', 'Đúng!': 'Correct!', 'Chưa đúng.': 'Not quite.', 'Tiếp': 'Next',
   'Đọc và nghe những tình huống đời thường ở Na Uy. Chạm vào từ bất kỳ để xem nghĩa.': 'Read and listen to everyday situations in Norway. Tap any word to see its meaning.',
@@ -244,6 +244,17 @@ export default {
   '<b>Windows:</b> Cài đặt → Thời gian và ngôn ngữ → Giọng nói → thêm “Norsk bokmål”. <b>iPhone:</b> Cài đặt → Trợ năng → Nội dung được đọc → Giọng nói → Norsk. <b>Android:</b> Cài đặt → Chuyển văn bản thành giọng nói → tải tiếng Na Uy.': '<b>Windows:</b> Settings → Time & language → Speech → add “Norsk bokmål”. <b>iPhone:</b> Settings → Accessibility → Spoken Content → Voices → Norwegian. <b>Android:</b> Settings → Text-to-speech → download Norwegian.',
 
   'Tiến độ': 'Progress', '{n} dòng': ['{n} line', '{n} lines'],
+  // ---- Cấp độ ----
+  'Cấp độ': 'Levels', '{d}/{n} bài': '{d}/{n} lessons', '{d}/{n} bài · {u} chương, từ A1 đến {top}': '{d}/{n} lessons · {u} units, from A1 to {top}',
+  'Sơ cấp': 'Beginner', 'Sơ trung cấp': 'Elementary', 'Trung cấp': 'Intermediate', 'Trung cao cấp': 'Upper intermediate',
+  'Chào hỏi, gia đình, số và giờ, đồ ăn, nhà ở, đi lại, mua sắm, thói quen hằng ngày.': 'Greetings, family, numbers and time, food, home, getting around, shopping, daily routine.',
+  'Sức khỏe, công việc, sở thích, văn hóa Na Uy, du lịch, công nghệ, kể chuyện quá khứ.': 'Health, work, hobbies, Norwegian culture, travel, technology, talking about the past.',
+  'Hội nhập, thị trường lao động, nhà ở, y tế, giáo dục, tin tức, nêu ý kiến, môi trường.': 'Integration, the job market, housing, healthcare, education, news, giving opinions, the environment.',
+  'Chính trị, kinh tế, kinh tế biển, ngoại giao, luật, khoa học, văn hóa, lịch sử, giao tiếp chuyên nghiệp.': 'Politics, economy, ocean economy, diplomacy, law, science, culture, history, professional communication.',
+  'Xong A1': 'A1 complete', 'Xong A2': 'A2 complete', 'Xong B1': 'B1 complete', 'Xong B2': 'B2 complete',
+  'Hoàn thành toàn bộ cấp A1': 'Finish every A1 lesson', 'Hoàn thành toàn bộ cấp A2': 'Finish every A2 lesson', 'Hoàn thành toàn bộ cấp B1': 'Finish every B1 lesson', 'Hoàn thành toàn bộ cấp B2': 'Finish every B2 lesson',
+  'Cấp độ hiện tại': 'Current level',
+
   // ---- Cặp âm (nhóm) ----
   'Nguyên âm dài / ngắn': 'Long / short vowel', 'Thanh 1 / thanh 2': 'Tone 1 / tone 2', 'u dài / ngắn': 'long / short u',
 };

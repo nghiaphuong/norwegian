@@ -1,5 +1,5 @@
 // Ngữ pháp: giải thích ngắn gọn + ví dụ có âm thanh + bài kiểm tra nhỏ.
-import { $, $$, esc, ICON, loadData, miniMd, sfx, tapWords } from '../ui.js';
+import { $, $$, esc, ICON, loadData, miniMd, sfx, tapWords, groupByLevel, levelTitle } from '../ui.js';
 import { store } from '../store.js';
 import { go, showNewBadges } from '../app.js';
 import { t, L, mean, isEn } from '../i18n.js';
@@ -8,11 +8,12 @@ export async function render(main, params) {
   const data = await loadData('grammar');
   if (!params[0]) {
     main.innerHTML = `<div class="page">
-      <div class="page-head"><div><h1>${t('Ngữ pháp')}</h1><p>${t('{n} bài ngắn, so sánh với tiếng Việt cho dễ hiểu. Mỗi bài có phần kiểm tra.', { n: data.lessons.length })}</p></div></div>
-      <div class="list">${data.lessons.map((l, i) => {
+      <div class="page-head"><div><h1>${t('Ngữ pháp')}</h1><p>${t('{n} bài từ A1 đến B2, giải thích bằng tiếng Việt, mỗi bài có phần kiểm tra.', { n: data.lessons.length })}</p></div></div>
+      ${groupByLevel(data.lessons).map(([lv, ls]) => `${levelTitle(lv, ls.length, ls.filter(l => store.s.grammar[l.id]).length)}<div class="list">${ls.map(l => {
+        const i = data.lessons.indexOf(l);
         const d = store.s.grammar[l.id];
         return `<a class="row" href="#/grammar/${l.id}" style="text-decoration:none"><span class="emo" style="font-size:1.6rem;width:44px;text-align:center">${l.icon || '🧩'}</span><div class="grow"><b>${i + 1}. ${esc(L(l, 'title'))}</b><div class="vi"><span lang="nb">${esc(l.title_no || '')}</span> · ${esc(l.level)}</div></div>${d ? `<span class="tag" style="background:var(--ok-soft);color:var(--ok)">✓ ${d.score}</span>` : ''}${ICON.next}</a>`;
-      }).join('')}</div></div>`;
+      }).join('')}</div>`).join('')}</div>`;
     return;
   }
   const idx = data.lessons.findIndex(l => l.id === params[0]);

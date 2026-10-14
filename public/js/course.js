@@ -36,3 +36,19 @@ export function progress(course) {
   const real = course.flat.filter(l => !l.checkpoint);
   return { done: real.filter(l => isDone(l.id)).length, total: real.length };
 }
+
+// ---------- Cấp độ CEFR ----------
+export const LEVELS = ['A1', 'A2', 'B1', 'B2'];
+
+export function levelProgress(course, level) {
+  const real = course.flat.filter(l => !l.checkpoint && l.unit.level === level);
+  return { done: real.filter(l => isDone(l.id)).length, total: real.length };
+}
+
+// Cấp đang học: cấp của bài tiếp theo chưa hoàn thành.
+export const currentLevel = course => nextLesson(course).unit.level;
+
+// Các cấp đã hoàn thành trọn vẹn (dùng cho huy hiệu).
+export function completedLevels(course) {
+  return LEVELS.filter(lv => { const p = levelProgress(course, lv); return p.total > 0 && p.done === p.total; });
+}

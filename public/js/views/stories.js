@@ -1,5 +1,5 @@
 // Truyện hội thoại kiểu Duolingo Stories: từng dòng xuất hiện, có câu hỏi hiểu bài xen giữa.
-import { $, $$, esc, ICON, loadData, sfx, tapWords } from '../ui.js';
+import { $, $$, esc, ICON, loadData, sfx, tapWords, groupByLevel, levelTitle } from '../ui.js';
 import { store } from '../store.js';
 import { tts } from '../speech.js';
 import { go, showNewBadges } from '../app.js';
@@ -12,10 +12,10 @@ export async function render(main, params) {
   if (!params[0]) {
     main.innerHTML = `<div class="page">
       <div class="page-head"><div><h1>${t('Truyện')}</h1><p>${t('Đọc và nghe những tình huống đời thường ở Na Uy. Chạm vào từ bất kỳ để xem nghĩa.')}</p></div></div>
-      <div class="grid two">${data.stories.map(s => {
+      ${groupByLevel(data.stories).map(([lv, ss]) => `${levelTitle(lv, ss.length, ss.filter(s => store.s.stories[s.id]).length)}<div class="grid two">${ss.map(s => {
         const done = store.s.stories[s.id];
         return `<a class="topic-tile" href="#/stories/${s.id}"><span class="emo">${s.icon || '📖'}</span><div class="grow"><b lang="nb">${esc(s.title)}</b><br><small>${esc(subtitle(s))} · ${esc(s.level)}</small></div>${done ? `<span class="tag" style="background:var(--ok-soft);color:var(--ok)">✓ ${done.score}</span>` : ''}</a>`;
-      }).join('')}</div></div>`;
+      }).join('')}</div>`).join('')}</div>`;
     return;
   }
 

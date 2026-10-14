@@ -997,6 +997,699 @@
       ],
       "title_en": "Socialising and dugnad",
       "note_en": "Invitations, parties and the dugnad spirit."
+    },
+    {
+      "id": "moete",
+      "level": "B1",
+      "title": "Họp hành ở cơ quan",
+      "title_en": "Meetings at work",
+      "icon": "🗂️",
+      "note": "Mở đầu, xin phát biểu, đồng ý hay phản đối lịch sự, tóm tắt và chốt việc.",
+      "note_en": "Opening, taking the floor, agreeing or disagreeing politely, summing up and assigning tasks.",
+      "items": [
+        {
+          "no": "La oss sette i gang, så vi rekker gjennom hele agendaen.",
+          "vi": "Hãy bắt đầu thôi để chúng ta kịp đi hết chương trình họp.",
+          "en": "Let's get started so we can get through the whole agenda.",
+          "tip": "å rekke nghĩa là “kịp”: Jeg rakk bussen = tôi kịp xe buýt.",
+          "tip_en": "å rekke means 'to make it in time': Jeg rakk bussen = I caught the bus."
+        },
+        {
+          "no": "Hvem tar referat i dag?",
+          "vi": "Hôm nay ai ghi biên bản?",
+          "en": "Who's taking the minutes today?"
+        },
+        {
+          "no": "Kan jeg få ordet et øyeblikk?",
+          "vi": "Tôi xin phát biểu một chút được không?",
+          "en": "May I have the floor for a moment?"
+        },
+        {
+          "no": "Jeg vil gjerne komme med et innspill her.",
+          "vi": "Tôi muốn góp một ý ở đây.",
+          "en": "I'd like to add something here.",
+          "tip": "et innspill là “ý kiến đóng góp”, từ rất hay gặp ở công sở Na Uy.",
+          "tip_en": "et innspill means 'input' or 'a suggestion' and is very common in Norwegian offices."
+        },
+        {
+          "no": "Jeg er helt enig med deg i det.",
+          "vi": "Tôi hoàn toàn đồng ý với bạn về điểm đó.",
+          "en": "I completely agree with you on that."
+        },
+        {
+          "no": "Jeg forstår poenget ditt, men jeg ser det litt annerledes.",
+          "vi": "Tôi hiểu ý bạn, nhưng tôi nhìn nhận hơi khác một chút.",
+          "en": "I see your point, but I see it a little differently.",
+          "tip": "Người Na Uy phản đối nhẹ nhàng: ghi nhận ý người kia trước rồi mới nêu ý mình.",
+          "tip_en": "Norwegians disagree gently: acknowledge the other person's view first, then give yours."
+        },
+        {
+          "no": "Kan du utdype det litt?",
+          "vi": "Bạn có thể nói rõ hơn một chút không?",
+          "en": "Could you elaborate on that a bit?"
+        },
+        {
+          "no": "Jeg er ikke sikker på at det lar seg gjøre innen fristen.",
+          "vi": "Tôi không chắc việc đó có làm kịp hạn không.",
+          "en": "I'm not sure that can be done by the deadline.",
+          "tip": "det lar seg gjøre = “việc đó khả thi”, cách nói lịch sự hơn det er mulig.",
+          "tip_en": "det lar seg gjøre means 'it can be done', a softer alternative to det er mulig."
+        },
+        {
+          "no": "Skal vi gå videre til neste punkt?",
+          "vi": "Chúng ta chuyển sang mục tiếp theo nhé?",
+          "en": "Shall we move on to the next item?"
+        },
+        {
+          "no": "Hvis jeg skal oppsummere, er vi enige om tre ting.",
+          "vi": "Nếu tóm tắt lại thì chúng ta đã thống nhất ba điều.",
+          "en": "To sum up, we agree on three things.",
+          "tip": "Mệnh đề phụ đứng đầu câu nên động từ er đứng trước chủ ngữ vi (luật V2).",
+          "tip_en": "The subordinate clause comes first, so the verb er comes before the subject vi (the V2 rule)."
+        },
+        {
+          "no": "Hvem tar ansvar for å følge opp dette?",
+          "vi": "Ai chịu trách nhiệm theo dõi việc này?",
+          "en": "Who will take responsibility for following this up?"
+        },
+        {
+          "no": "Jeg sender ut referatet i løpet av dagen.",
+          "vi": "Tôi sẽ gửi biên bản trong hôm nay.",
+          "en": "I'll send out the minutes during the day."
+        },
+        {
+          "no": "Takk for et godt møte, vi ses neste uke.",
+          "vi": "Cảm ơn mọi người vì buổi họp tốt, hẹn gặp tuần sau.",
+          "en": "Thanks for a good meeting, see you next week."
+        }
+      ]
+    },
+    {
+      "id": "forhandling",
+      "level": "B2",
+      "title": "Đàm phán",
+      "title_en": "Negotiating",
+      "icon": "🤝",
+      "note": "Bàn lương và điều kiện, đưa đề xuất, nhượng bộ và đi đến thỏa thuận.",
+      "note_en": "Discussing salary and terms, making proposals, conceding and reaching an agreement.",
+      "items": [
+        {
+          "no": "Før vi diskuterer lønn, vil jeg gjerne vite mer om ansvarsområdene.",
+          "vi": "Trước khi bàn về lương, tôi muốn biết thêm về phạm vi trách nhiệm.",
+          "en": "Before we discuss salary, I'd like to know more about the responsibilities."
+        },
+        {
+          "no": "Med tanke på erfaringen min hadde jeg sett for meg en lønn rundt 650 000 kroner.",
+          "vi": "Xét đến kinh nghiệm của tôi, tôi hình dung mức lương khoảng 650 000 kroner.",
+          "en": "Given my experience, I had a salary of around 650,000 kroner in mind.",
+          "tip": "hadde sett for meg nghe mềm mỏng hơn nhiều so với jeg vil ha.",
+          "tip_en": "hadde sett for meg ('I had envisaged') sounds much softer than jeg vil ha ('I want')."
+        },
+        {
+          "no": "Jeg har undersøkt hva tilsvarende stillinger i bransjen betaler.",
+          "vi": "Tôi đã tìm hiểu các vị trí tương đương trong ngành được trả bao nhiêu.",
+          "en": "I've looked into what similar positions in the industry pay."
+        },
+        {
+          "no": "Er det rom for fleksibilitet når det gjelder lønnen?",
+          "vi": "Về lương thì có chỗ nào linh hoạt không?",
+          "en": "Is there any room for flexibility on the salary?"
+        },
+        {
+          "no": "Hvordan ser resten av betingelsene ut, for eksempel pensjon og forsikring?",
+          "vi": "Các điều kiện còn lại thì thế nào, ví dụ lương hưu và bảo hiểm?",
+          "en": "What do the rest of the terms look like, such as pension and insurance?",
+          "tip": "betingelser là các điều kiện trong hợp đồng; lønns- og arbeidsbetingelser = lương và điều kiện làm việc.",
+          "tip_en": "betingelser are contract terms; lønns- og arbeidsbetingelser = pay and working conditions."
+        },
+        {
+          "no": "Hvis dere ikke kan strekke dere på lønn, kan vi kanskje se på andre goder.",
+          "vi": "Nếu bên anh chị không thể nâng thêm lương, có lẽ chúng ta xem xét các phúc lợi khác.",
+          "en": "If you can't stretch on salary, perhaps we can look at other benefits.",
+          "tip": "å strekke seg = “cố gắng thêm, nhượng bộ thêm”.",
+          "tip_en": "å strekke seg literally means 'to stretch oneself', i.e. to go a bit further."
+        },
+        {
+          "no": "Jeg kan gå med på det, forutsatt at vi evaluerer lønnen etter seks måneder.",
+          "vi": "Tôi có thể đồng ý, với điều kiện chúng ta đánh giá lại lương sau sáu tháng.",
+          "en": "I can agree to that, provided we review the salary after six months.",
+          "tip": "forutsatt at = “với điều kiện là”, rất hữu ích khi nhượng bộ có điều kiện.",
+          "tip_en": "forutsatt at means 'provided that', ideal for a conditional concession."
+        },
+        {
+          "no": "Det er et godt utgangspunkt, men vi er ikke helt i mål ennå.",
+          "vi": "Đó là điểm xuất phát tốt, nhưng chúng ta chưa hoàn toàn đi đến đích.",
+          "en": "That's a good starting point, but we're not quite there yet."
+        },
+        {
+          "no": "Hva om vi møtes på midten?",
+          "vi": "Hay là mỗi bên nhường một nửa?",
+          "en": "What if we meet in the middle?"
+        },
+        {
+          "no": "Jeg trenger litt tid til å tenke over tilbudet.",
+          "vi": "Tôi cần chút thời gian để suy nghĩ về lời đề nghị.",
+          "en": "I need some time to think the offer over."
+        },
+        {
+          "no": "Kan dere sende meg tilbudet skriftlig, slik at jeg kan gå gjennom detaljene?",
+          "vi": "Bên anh chị có thể gửi lời đề nghị bằng văn bản để tôi xem kỹ chi tiết không?",
+          "en": "Could you send me the offer in writing so I can go through the details?"
+        },
+        {
+          "no": "Fleksibel arbeidstid og mulighet for hjemmekontor er viktig for meg.",
+          "vi": "Giờ làm linh hoạt và khả năng làm việc tại nhà là điều quan trọng với tôi.",
+          "en": "Flexible hours and the option to work from home matter to me."
+        },
+        {
+          "no": "Da tror jeg vi har kommet fram til en løsning begge parter kan leve med.",
+          "vi": "Vậy tôi nghĩ chúng ta đã đi đến một giải pháp mà cả hai bên đều chấp nhận được.",
+          "en": "Then I think we've reached a solution both sides can live with."
+        }
+      ]
+    },
+    {
+      "id": "presentasjon",
+      "level": "B2",
+      "title": "Thuyết trình",
+      "title_en": "Giving presentations",
+      "icon": "📊",
+      "note": "Mở đầu, chuyển ý, dẫn số liệu, trả lời câu hỏi và kết thúc bài nói.",
+      "note_en": "Opening, moving between points, citing figures, handling questions and closing.",
+      "items": [
+        {
+          "no": "God morgen, og takk for at dere tok dere tid til å komme.",
+          "vi": "Chào buổi sáng, cảm ơn mọi người đã dành thời gian đến đây.",
+          "en": "Good morning, and thank you for taking the time to come.",
+          "tip": "å ta seg tid = “dành thời gian”; với dere thì đại từ phản thân cũng là dere.",
+          "tip_en": "å ta seg tid means 'to take the time'; with dere the reflexive pronoun is also dere."
+        },
+        {
+          "no": "I dag skal jeg snakke om mulighetene innen norsk havbruk.",
+          "vi": "Hôm nay tôi sẽ nói về các cơ hội trong ngành nuôi trồng thủy sản Na Uy.",
+          "en": "Today I'm going to talk about the opportunities in Norwegian aquaculture."
+        },
+        {
+          "no": "Presentasjonen er delt inn i tre deler.",
+          "vi": "Bài thuyết trình được chia thành ba phần.",
+          "en": "The presentation is divided into three parts."
+        },
+        {
+          "no": "Spørsmål tar vi gjerne til slutt, men avbryt meg hvis noe er uklart.",
+          "vi": "Câu hỏi xin để đến cuối, nhưng cứ ngắt lời tôi nếu có gì chưa rõ.",
+          "en": "I'm happy to take questions at the end, but interrupt me if anything is unclear."
+        },
+        {
+          "no": "Dette bringer meg over til neste punkt.",
+          "vi": "Điều này đưa tôi sang ý tiếp theo.",
+          "en": "This brings me to my next point."
+        },
+        {
+          "no": "Som dere ser av grafen, har eksporten økt jevnt de siste ti årene.",
+          "vi": "Như mọi người thấy trên biểu đồ, xuất khẩu đã tăng đều trong mười năm qua.",
+          "en": "As you can see from the graph, exports have risen steadily over the last ten years.",
+          "tip": "Mệnh đề Som dere ser... chiếm vị trí đầu, nên động từ har đứng ngay sau dấu phẩy.",
+          "tip_en": "The clause Som dere ser... fills the first slot, so the verb har comes right after the comma."
+        },
+        {
+          "no": "Ifølge Sjømatrådet utgjorde sjømateksporten over 170 milliarder kroner i fjor.",
+          "vi": "Theo Hội đồng Thủy sản Na Uy, xuất khẩu thủy sản năm ngoái đạt hơn 170 tỷ kroner.",
+          "en": "According to the Seafood Council, seafood exports totalled over 170 billion kroner last year.",
+          "tip": "Cẩn thận: en milliard = một tỷ, còn en billion trong tiếng Na Uy là một nghìn tỷ.",
+          "tip_en": "Careful: en milliard is a (short-scale) billion, while en billion in Norwegian is a trillion."
+        },
+        {
+          "no": "La meg understreke at disse tallene er foreløpige.",
+          "vi": "Tôi xin nhấn mạnh rằng các con số này chỉ là sơ bộ.",
+          "en": "Let me stress that these figures are preliminary."
+        },
+        {
+          "no": "Det fører oss til spørsmålet om bærekraft.",
+          "vi": "Điều đó dẫn chúng ta đến câu hỏi về tính bền vững.",
+          "en": "That leads us to the question of sustainability."
+        },
+        {
+          "no": "Det var et godt spørsmål, takk.",
+          "vi": "Đó là một câu hỏi hay, cảm ơn.",
+          "en": "That's a good question, thank you.",
+          "tip": "Người Na Uy hay dùng thì quá khứ det var cho việc vừa xảy ra, nghe tự nhiên hơn det er.",
+          "tip_en": "Norwegians often use the past det var about something that just happened; it sounds more natural than det er."
+        },
+        {
+          "no": "Det har jeg dessverre ikke tall på, men jeg kan sende det til deg i etterkant.",
+          "vi": "Tiếc là tôi không có số liệu về việc đó, nhưng tôi có thể gửi cho bạn sau.",
+          "en": "Unfortunately I don't have figures on that, but I can send them to you afterwards."
+        },
+        {
+          "no": "For å oppsummere: Markedet vokser, men konkurransen blir hardere.",
+          "vi": "Tóm lại: thị trường đang tăng trưởng, nhưng cạnh tranh ngày càng gay gắt.",
+          "en": "To sum up: the market is growing, but competition is getting tougher."
+        },
+        {
+          "no": "Takk for oppmerksomheten.",
+          "vi": "Cảm ơn mọi người đã chú ý lắng nghe.",
+          "en": "Thank you for your attention."
+        }
+      ]
+    },
+    {
+      "id": "klage",
+      "level": "B1",
+      "title": "Khiếu nại và đòi quyền lợi",
+      "title_en": "Complaints and your rights",
+      "icon": "📝",
+      "note": "Hàng lỗi, dịch vụ kém, chủ nhà không sửa chữa và yêu cầu hoàn tiền.",
+      "note_en": "Faulty goods, poor service, landlords who won't fix things and asking for a refund.",
+      "items": [
+        {
+          "no": "Jeg ringer for å klage på en vare jeg kjøpte hos dere forrige uke.",
+          "vi": "Tôi gọi để khiếu nại về một món hàng tôi mua ở chỗ anh chị tuần trước.",
+          "en": "I'm calling to complain about an item I bought from you last week.",
+          "tip": "Nói klage på noe (khiếu nại về cái gì), không dùng klage om.",
+          "tip_en": "Say klage på noe ('complain about something'), not klage om."
+        },
+        {
+          "no": "Vaskemaskinen sluttet å virke etter bare to uker.",
+          "vi": "Máy giặt ngừng hoạt động chỉ sau hai tuần.",
+          "en": "The washing machine stopped working after only two weeks."
+        },
+        {
+          "no": "Jeg har kvitteringen her.",
+          "vi": "Tôi có hóa đơn ở đây.",
+          "en": "I have the receipt here."
+        },
+        {
+          "no": "Ifølge forbrukerkjøpsloven har jeg krav på reparasjon eller ny vare.",
+          "vi": "Theo luật mua bán tiêu dùng, tôi có quyền được sửa chữa hoặc đổi hàng mới.",
+          "en": "Under the Consumer Purchases Act, I'm entitled to a repair or a replacement.",
+          "tip": "Thời hạn khiếu nại hàng lỗi là 2 năm, với đồ dùng lâu bền như máy giặt là 5 năm.",
+          "tip_en": "You can complain about faults for 2 years, or 5 years for durable goods like a washing machine."
+        },
+        {
+          "no": "Jeg ønsker å heve kjøpet og få pengene tilbake.",
+          "vi": "Tôi muốn hủy giao dịch mua và được hoàn tiền.",
+          "en": "I want to cancel the purchase and get my money back.",
+          "tip": "å heve kjøpet là thuật ngữ pháp lý: hủy hợp đồng mua, trả hàng và lấy lại tiền.",
+          "tip_en": "å heve kjøpet is the legal term for cancelling a purchase: you return the item and get a refund."
+        },
+        {
+          "no": "Pakken kom aldri fram, selv om det står at den er levert.",
+          "vi": "Gói hàng không bao giờ đến, mặc dù trên hệ thống ghi là đã giao.",
+          "en": "The parcel never arrived, even though it says it's been delivered."
+        },
+        {
+          "no": "Jeg er ikke fornøyd med servicen jeg fikk.",
+          "vi": "Tôi không hài lòng với dịch vụ tôi nhận được.",
+          "en": "I'm not happy with the service I received."
+        },
+        {
+          "no": "Jeg har ventet i over en time uten å få noen hjelp.",
+          "vi": "Tôi đã đợi hơn một tiếng mà không được ai giúp.",
+          "en": "I've waited over an hour without getting any help."
+        },
+        {
+          "no": "Jeg har meldt fra om fuktskaden flere ganger, men ingenting har skjedd.",
+          "vi": "Tôi đã báo về chỗ ẩm mốc nhiều lần nhưng chẳng có gì thay đổi.",
+          "en": "I've reported the damp damage several times, but nothing has happened."
+        },
+        {
+          "no": "Som utleier er du ansvarlig for at leiligheten er i forsvarlig stand.",
+          "vi": "Là chủ nhà, anh chị có trách nhiệm đảm bảo căn hộ ở tình trạng đạt chuẩn.",
+          "en": "As the landlord, you're responsible for keeping the flat in a proper condition."
+        },
+        {
+          "no": "Jeg vil gjerne få bekreftet dette skriftlig.",
+          "vi": "Tôi muốn được xác nhận việc này bằng văn bản.",
+          "en": "I'd like to have this confirmed in writing."
+        },
+        {
+          "no": "Hvis vi ikke finner en løsning, kommer jeg til å kontakte Forbrukerrådet.",
+          "vi": "Nếu chúng ta không tìm được giải pháp, tôi sẽ liên hệ Hội đồng Người tiêu dùng.",
+          "en": "If we can't find a solution, I'll contact the Consumer Council.",
+          "tip": "Forbrukerrådet hòa giải miễn phí các tranh chấp giữa người mua và cửa hàng.",
+          "tip_en": "Forbrukerrådet offers free mediation in disputes between consumers and shops."
+        },
+        {
+          "no": "Kan jeg få snakke med en som har ansvar?",
+          "vi": "Tôi có thể nói chuyện với người phụ trách không?",
+          "en": "Could I speak to someone in charge?"
+        },
+        {
+          "no": "Jeg forventer svar innen fjorten dager.",
+          "vi": "Tôi mong nhận được trả lời trong vòng mười bốn ngày.",
+          "en": "I expect a reply within fourteen days."
+        }
+      ]
+    },
+    {
+      "id": "meninger",
+      "level": "B1",
+      "title": "Nêu ý kiến và tranh luận",
+      "title_en": "Opinions and debate",
+      "icon": "💬",
+      "note": "Nói ý mình, đồng ý một phần, phản biện, đưa ví dụ và kết luận.",
+      "note_en": "Giving your view, partly agreeing, pushing back, giving examples and concluding.",
+      "items": [
+        {
+          "no": "Etter min mening burde vi satse mer på kollektivtransport.",
+          "vi": "Theo ý tôi, chúng ta nên đầu tư nhiều hơn vào giao thông công cộng.",
+          "en": "In my opinion, we should invest more in public transport.",
+          "tip": "Sau Etter min mening là động từ burde rồi mới đến chủ ngữ vi (luật V2).",
+          "tip_en": "After Etter min mening comes the verb burde, then the subject vi (the V2 rule)."
+        },
+        {
+          "no": "Jeg synes det er et viktig spørsmål.",
+          "vi": "Tôi thấy đó là một vấn đề quan trọng.",
+          "en": "I think it's an important issue.",
+          "tip": "synes dùng cho cảm nhận, đánh giá; tror dùng khi phỏng đoán điều mình không chắc.",
+          "tip_en": "Use synes for opinions and impressions, tror for things you believe but aren't sure of."
+        },
+        {
+          "no": "Jeg tror ikke det løser problemet.",
+          "vi": "Tôi không nghĩ việc đó giải quyết được vấn đề.",
+          "en": "I don't believe that solves the problem."
+        },
+        {
+          "no": "Der er jeg delvis enig med deg.",
+          "vi": "Về điểm đó tôi đồng ý một phần với bạn.",
+          "en": "I partly agree with you there."
+        },
+        {
+          "no": "Du har et poeng, men du glemmer én ting.",
+          "vi": "Bạn có lý, nhưng bạn quên mất một điều.",
+          "en": "You have a point, but you're forgetting one thing.",
+          "tip": "Viết én có dấu để nhấn mạnh con số “một”, phân biệt với mạo từ en.",
+          "tip_en": "The accent in én marks the number 'one', distinguishing it from the article en."
+        },
+        {
+          "no": "Det kommer an på hvordan man ser det.",
+          "vi": "Điều đó tùy vào cách nhìn.",
+          "en": "It depends on how you look at it."
+        },
+        {
+          "no": "Ta for eksempel København, der nesten alle sykler til jobben.",
+          "vi": "Lấy ví dụ Copenhagen, nơi gần như ai cũng đạp xe đi làm.",
+          "en": "Take Copenhagen, for example, where almost everyone cycles to work."
+        },
+        {
+          "no": "På den ene siden er det dyrt, på den andre siden sparer vi penger på sikt.",
+          "vi": "Một mặt thì tốn kém, mặt khác về lâu dài chúng ta lại tiết kiệm được tiền.",
+          "en": "On the one hand it's expensive, on the other hand we save money in the long run.",
+          "tip": "på sikt = “về lâu dài”; på kort sikt = trước mắt.",
+          "tip_en": "på sikt means 'in the long run'; på kort sikt means 'in the short term'."
+        },
+        {
+          "no": "Jeg er ikke overbevist om at det stemmer.",
+          "vi": "Tôi không tin chắc điều đó đúng.",
+          "en": "I'm not convinced that's true."
+        },
+        {
+          "no": "Hva bygger du det på?",
+          "vi": "Bạn dựa vào đâu để nói vậy?",
+          "en": "What are you basing that on?"
+        },
+        {
+          "no": "Det er nettopp det jeg mener.",
+          "vi": "Đó chính là điều tôi muốn nói.",
+          "en": "That's exactly what I mean."
+        },
+        {
+          "no": "Jeg har endret mening etter å ha hørt argumentene dine.",
+          "vi": "Tôi đã đổi ý sau khi nghe lập luận của bạn.",
+          "en": "I've changed my mind after hearing your arguments."
+        },
+        {
+          "no": "Alt i alt mener jeg at fordelene veier tyngre enn ulempene.",
+          "vi": "Nhìn chung, tôi cho rằng lợi ích lớn hơn bất lợi.",
+          "en": "All in all, I think the advantages outweigh the disadvantages.",
+          "tip": "veie tyngre enn = “nặng ký hơn”, cách nói chuẩn khi cân nhắc ưu nhược điểm.",
+          "tip_en": "veie tyngre enn ('weigh heavier than') is the standard way to say 'outweigh'."
+        }
+      ]
+    },
+    {
+      "id": "intervju2",
+      "level": "B2",
+      "title": "Phỏng vấn tuyển dụng nâng cao",
+      "title_en": "Advanced job interviews",
+      "icon": "🎯",
+      "note": "Nói về điểm mạnh, thất bại, động lực, xử lý câu hỏi tình huống và hỏi lại nhà tuyển dụng.",
+      "note_en": "Strengths, failures, motivation, situational questions and questions for the employer.",
+      "items": [
+        {
+          "no": "Min største styrke er at jeg klarer å bygge tillit på tvers av kulturer.",
+          "vi": "Điểm mạnh lớn nhất của tôi là tôi có thể xây dựng lòng tin giữa các nền văn hóa khác nhau.",
+          "en": "My greatest strength is that I can build trust across cultures.",
+          "tip": "på tvers av = “xuyên qua, giữa các”: på tvers av avdelinger = giữa các phòng ban.",
+          "tip_en": "på tvers av means 'across': på tvers av avdelinger = across departments."
+        },
+        {
+          "no": "Fra årene som diplomat har jeg lang erfaring med forhandlinger og krevende samtaler.",
+          "vi": "Từ những năm làm nhà ngoại giao, tôi có nhiều kinh nghiệm đàm phán và xử lý những cuộc trao đổi khó khăn.",
+          "en": "From my years as a diplomat, I have extensive experience with negotiations and difficult conversations."
+        },
+        {
+          "no": "En svakhet jeg jobber med, er at jeg av og til tar på meg for mye.",
+          "vi": "Một điểm yếu tôi đang khắc phục là đôi khi tôi nhận quá nhiều việc.",
+          "en": "A weakness I'm working on is that I sometimes take on too much."
+        },
+        {
+          "no": "Et prosjekt jeg ledet, ble ikke ferdig i tide, og jeg lærte mye av det.",
+          "vi": "Một dự án tôi phụ trách đã không xong đúng hạn, và tôi học được nhiều điều từ đó.",
+          "en": "A project I led wasn't finished on time, and I learned a lot from it."
+        },
+        {
+          "no": "I etterkant innså jeg at jeg burde ha delegert mer.",
+          "vi": "Sau đó tôi nhận ra lẽ ra mình nên giao bớt việc cho người khác.",
+          "en": "Looking back, I realised I should have delegated more.",
+          "tip": "burde ha + quá khứ phân từ = “lẽ ra nên”: burde ha spurt = lẽ ra nên hỏi.",
+          "tip_en": "burde ha + past participle means 'should have': burde ha spurt = should have asked."
+        },
+        {
+          "no": "Det som motiverer meg mest, er å se konkrete resultater av arbeidet.",
+          "vi": "Điều thúc đẩy tôi nhất là thấy kết quả cụ thể của công việc.",
+          "en": "What motivates me most is seeing concrete results from my work.",
+          "tip": "Cấu trúc Det som ..., er ... giúp nhấn mạnh; dấu phẩy đặt trước động từ chính.",
+          "tip_en": "The pattern Det som ..., er ... adds emphasis; the comma goes before the main verb."
+        },
+        {
+          "no": "Jeg søkte på denne stillingen fordi jeg ønsker å bidra til en bærekraftig havnæring.",
+          "vi": "Tôi ứng tuyển vị trí này vì tôi muốn góp phần vào một ngành kinh tế biển bền vững.",
+          "en": "I applied for this position because I want to contribute to a sustainable ocean industry."
+        },
+        {
+          "no": "I en slik situasjon ville jeg først kartlegge hva de ulike partene faktisk ønsker.",
+          "vi": "Trong tình huống như vậy, trước tiên tôi sẽ tìm hiểu xem các bên thực sự muốn gì.",
+          "en": "In a situation like that, I would first map out what the different parties actually want."
+        },
+        {
+          "no": "Hvis en kollega ikke leverte, ville jeg tatt en prat med vedkommende først.",
+          "vi": "Nếu một đồng nghiệp không hoàn thành phần việc, trước tiên tôi sẽ nói chuyện riêng với người đó.",
+          "en": "If a colleague didn't deliver, I'd have a word with them first.",
+          "tip": "vedkommende = “người đó”, trung tính về giới, hay dùng trong văn phong công việc.",
+          "tip_en": "vedkommende means 'the person concerned', a gender-neutral word common in work language."
+        },
+        {
+          "no": "Jeg trives best i team der det er rom for å komme med egne ideer.",
+          "vi": "Tôi làm việc tốt nhất trong nhóm có chỗ cho ý tưởng riêng.",
+          "en": "I thrive in teams where there's room to put forward my own ideas."
+        },
+        {
+          "no": "Hvordan ser en typisk arbeidsdag ut i denne stillingen?",
+          "vi": "Một ngày làm việc điển hình ở vị trí này diễn ra như thế nào?",
+          "en": "What does a typical working day look like in this role?"
+        },
+        {
+          "no": "Hva vil være de viktigste oppgavene de første seks månedene?",
+          "vi": "Những nhiệm vụ quan trọng nhất trong sáu tháng đầu sẽ là gì?",
+          "en": "What would be the most important tasks in the first six months?"
+        },
+        {
+          "no": "Hvordan vil dere beskrive arbeidsmiljøet her?",
+          "vi": "Anh chị mô tả môi trường làm việc ở đây như thế nào?",
+          "en": "How would you describe the working environment here?"
+        },
+        {
+          "no": "Hva er den videre prosessen, og når kan jeg forvente å høre fra dere?",
+          "vi": "Quy trình tiếp theo là gì, và khi nào tôi có thể nhận được tin từ anh chị?",
+          "en": "What's the next step in the process, and when can I expect to hear from you?"
+        }
+      ]
+    },
+    {
+      "id": "nettverk",
+      "level": "B1",
+      "title": "Giao lưu chuyên nghiệp",
+      "title_en": "Professional networking",
+      "icon": "🍷",
+      "note": "Tự giới thiệu, hỏi về công việc, trao đổi liên hệ và hẹn gặp lại.",
+      "note_en": "Introducing yourself, asking about work, swapping contacts and arranging to meet again.",
+      "items": [
+        {
+          "no": "Hei, jeg tror ikke vi har hilst. Jeg heter Phuong.",
+          "vi": "Chào, hình như chúng ta chưa chào hỏi nhau. Tôi tên là Phương.",
+          "en": "Hi, I don't think we've met. I'm Phuong.",
+          "tip": "å hilse på noen = chào hỏi, làm quen với ai đó lần đầu.",
+          "tip_en": "å hilse på noen means to greet someone or be introduced for the first time."
+        },
+        {
+          "no": "Hva går jobben din ut på?",
+          "vi": "Công việc của bạn cụ thể là làm gì?",
+          "en": "What does your job involve?",
+          "tip": "å gå ut på = “bao gồm, nội dung là”, hỏi sâu hơn Hva jobber du med?",
+          "tip_en": "å gå ut på means 'to consist of'; it asks for more detail than Hva jobber du med?"
+        },
+        {
+          "no": "Jeg har bakgrunn fra utenrikstjenesten og har en MBA fra Storbritannia.",
+          "vi": "Tôi xuất thân từ ngành ngoại giao và có bằng MBA ở Anh.",
+          "en": "I have a background in the foreign service and an MBA from the UK."
+        },
+        {
+          "no": "Akkurat nå ser jeg etter nye muligheter innen havnæringen.",
+          "vi": "Hiện giờ tôi đang tìm cơ hội mới trong ngành kinh tế biển.",
+          "en": "Right now I'm looking for new opportunities in the ocean industries."
+        },
+        {
+          "no": "Så spennende! Hvordan havnet du i den bransjen?",
+          "vi": "Thú vị quá! Sao bạn lại vào ngành đó?",
+          "en": "How exciting! How did you end up in that industry?",
+          "tip": "å havne = “tình cờ đến, rốt cuộc ở”, nghe thân mật và tự nhiên.",
+          "tip_en": "å havne means 'to end up somewhere', a relaxed, natural word."
+        },
+        {
+          "no": "Hvordan kjenner du arrangøren?",
+          "vi": "Bạn quen người tổ chức thế nào?",
+          "en": "How do you know the host?"
+        },
+        {
+          "no": "Det var et interessant innlegg om havvind i stad.",
+          "vi": "Bài trình bày về điện gió ngoài khơi lúc nãy thú vị thật.",
+          "en": "That was an interesting talk on offshore wind earlier.",
+          "tip": "i stad = “lúc nãy”, cách nói rất phổ biến ở Oslo.",
+          "tip_en": "i stad means 'a little while ago', very common in Oslo speech."
+        },
+        {
+          "no": "Er det greit om jeg legger deg til på LinkedIn?",
+          "vi": "Tôi kết nối với bạn trên LinkedIn được không?",
+          "en": "Is it OK if I add you on LinkedIn?"
+        },
+        {
+          "no": "Har du et visittkort?",
+          "vi": "Bạn có danh thiếp không?",
+          "en": "Do you have a business card?"
+        },
+        {
+          "no": "Kjenner du noen som jobber med sjømateksport?",
+          "vi": "Bạn có quen ai làm trong lĩnh vực xuất khẩu thủy sản không?",
+          "en": "Do you know anyone who works in seafood exports?"
+        },
+        {
+          "no": "Kunne du tenke deg å ta en kaffe en dag?",
+          "vi": "Bạn có muốn hôm nào đi uống cà phê không?",
+          "en": "Would you like to grab a coffee some day?"
+        },
+        {
+          "no": "Jeg sender deg en e-post i neste uke, så finner vi et tidspunkt.",
+          "vi": "Tuần sau tôi sẽ gửi email cho bạn, rồi chúng ta tìm thời gian.",
+          "en": "I'll email you next week, and we'll find a time."
+        },
+        {
+          "no": "Hyggelig å snakke med deg, men jeg må dessverre videre.",
+          "vi": "Rất vui được nói chuyện với bạn, nhưng tiếc là tôi phải đi chào người khác.",
+          "en": "Nice talking to you, but I'm afraid I have to move on."
+        }
+      ]
+    },
+    {
+      "id": "myndighet",
+      "level": "B1",
+      "title": "Làm việc với cơ quan nhà nước",
+      "title_en": "Dealing with public authorities",
+      "icon": "🏛️",
+      "note": "UDI, Skatteetaten, NAV và kommune: hỏi giấy tờ, thời hạn và khiếu nại quyết định.",
+      "note_en": "UDI, the Tax Administration, NAV and the municipality: documents, deadlines and appeals.",
+      "items": [
+        {
+          "no": "Jeg har fått et brev fra UDI og forstår ikke helt hva jeg må gjøre.",
+          "vi": "Tôi nhận được thư của UDI và không hiểu rõ mình phải làm gì.",
+          "en": "I've received a letter from UDI and don't quite understand what I need to do.",
+          "tip": "UDI là Utlendingsdirektoratet (Cục Di trú), đọc từng chữ cái: u-đê-i.",
+          "tip_en": "UDI stands for Utlendingsdirektoratet (the Directorate of Immigration); say each letter: 'oo-deh-ee'."
+        },
+        {
+          "no": "Hvilke dokumenter må jeg ta med til timen?",
+          "vi": "Tôi phải mang những giấy tờ gì đến buổi hẹn?",
+          "en": "Which documents do I need to bring to the appointment?"
+        },
+        {
+          "no": "Hvor lang er saksbehandlingstiden nå?",
+          "vi": "Thời gian xử lý hồ sơ hiện nay là bao lâu?",
+          "en": "How long is the processing time at the moment?"
+        },
+        {
+          "no": "Jeg søkte om fornyelse av oppholdstillatelsen for tre måneder siden.",
+          "vi": "Tôi đã nộp đơn gia hạn giấy phép cư trú ba tháng trước.",
+          "en": "I applied to renew my residence permit three months ago."
+        },
+        {
+          "no": "Kan jeg bli i Norge mens søknaden behandles?",
+          "vi": "Tôi có được ở lại Na Uy trong khi hồ sơ đang được xét không?",
+          "en": "Can I stay in Norway while the application is being processed?",
+          "tip": "behandles là bị động với đuôi -s: søknaden behandles = hồ sơ được xử lý.",
+          "tip_en": "behandles is the -s passive: søknaden behandles = the application is processed."
+        },
+        {
+          "no": "Jeg må endre skattekortet mitt fordi inntekten min har gått ned.",
+          "vi": "Tôi cần thay đổi thẻ thuế vì thu nhập của tôi đã giảm.",
+          "en": "I need to change my tax card because my income has gone down."
+        },
+        {
+          "no": "Jeg tror det er en feil i skattemeldingen.",
+          "vi": "Tôi nghĩ có sai sót trong tờ khai thuế.",
+          "en": "I think there's a mistake in my tax return.",
+          "tip": "Kiểm tra skattemeldingen trên skatteetaten.no, hạn sửa thông thường là 30 tháng 4.",
+          "tip_en": "Check your skattemelding at skatteetaten.no; the usual deadline for changes is 30 April."
+        },
+        {
+          "no": "Har jeg rett på dagpenger mens jeg søker jobb?",
+          "vi": "Tôi có quyền nhận trợ cấp thất nghiệp trong khi tìm việc không?",
+          "en": "Am I entitled to unemployment benefit while I look for work?"
+        },
+        {
+          "no": "Jeg har sendt meldekortet til NAV, men har ikke fått noen utbetaling.",
+          "vi": "Tôi đã gửi phiếu khai báo cho NAV nhưng chưa nhận được khoản chi trả nào.",
+          "en": "I've sent my employment status form to NAV but haven't received any payment.",
+          "tip": "Người nhận dagpenger phải gửi meldekort cho NAV mỗi 14 ngày.",
+          "tip_en": "If you receive dagpenger, you must send a meldekort to NAV every 14 days."
+        },
+        {
+          "no": "Hvor søker jeg om barnehageplass i kommunen?",
+          "vi": "Tôi nộp đơn xin chỗ học mẫu giáo của kommune ở đâu?",
+          "en": "Where do I apply for a kindergarten place in the municipality?"
+        },
+        {
+          "no": "Når er fristen for å klage på vedtaket?",
+          "vi": "Hạn chót để khiếu nại quyết định là khi nào?",
+          "en": "What's the deadline for appealing the decision?",
+          "tip": "et vedtak là quyết định hành chính; thời hạn khiếu nại thường là ba tuần.",
+          "tip_en": "et vedtak is an official decision; the appeal deadline is usually three weeks."
+        },
+        {
+          "no": "Jeg ønsker å klage på vedtaket, og jeg legger ved ny dokumentasjon.",
+          "vi": "Tôi muốn khiếu nại quyết định, và tôi xin đính kèm tài liệu mới.",
+          "en": "I wish to appeal the decision, and I'm attaching new documentation."
+        },
+        {
+          "no": "Kan jeg få snakke med saksbehandleren som har saken min?",
+          "vi": "Tôi có thể nói chuyện với cán bộ đang xử lý hồ sơ của tôi không?",
+          "en": "Could I speak to the caseworker handling my case?"
+        },
+        {
+          "no": "Kan jeg få innsyn i saken min?",
+          "vi": "Tôi có thể xem hồ sơ vụ việc của mình không?",
+          "en": "Can I get access to my case file?"
+        }
+      ]
     }
   ]
 }

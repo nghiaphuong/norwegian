@@ -2,7 +2,7 @@
 import { esc, sample, shuffle, loadData, today } from '../ui.js';
 import { store } from '../store.js';
 import { leavePlayer, showNewBadges } from '../app.js';
-import { getCourse, isDone, vocabPool } from '../course.js';
+import { getCourse, isDone, vocabPool, completedLevels } from '../course.js';
 import { buildExercises, runPlayer } from '../engine.js';
 import { stt } from '../speech.js';
 import { t, L } from '../i18n.js';
@@ -51,7 +51,8 @@ export async function render(main, params) {
       exercises = buildExercises({ vocab: sample(lesson.vocab, 8), sentences: sample(lesson.sentences, 8), pool: vocabPool(course, idx), count: 16 });
       xpBase = 20;
     } else {
-      exercises = buildExercises({ vocab: lesson.vocab, sentences: lesson.sentences, pool: vocabPool(course, idx + 6), count: 14, isNew });
+      const count = /^B/.test(lesson.unit.level) ? 16 : 14;
+      exercises = buildExercises({ vocab: lesson.vocab, sentences: lesson.sentences, pool: vocabPool(course, idx + 6), count, isNew });
     }
     title = `${L(lesson.unit, 'title')} · ${lesson.checkpoint ? t('Kiểm tra chương') : L(lesson, 'title')}`;
     after = res => {
@@ -63,6 +64,7 @@ export async function render(main, params) {
         course.flat.filter(l => l.ui === lesson.ui && !l.checkpoint && !isDone(l.id)).forEach(l => { store.s.lessons[l.id] = { n: 1, best: res.acc, at: Date.now() }; });
       }
       lesson.vocab.forEach(v => store.addCard(v, lesson.id));
+      completedLevels(course).forEach(lv => store.award(`level-${lv}`));
     };
   }
 
